@@ -2,7 +2,6 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel';
-import { devEdit } from './src/integrations/devEdit.ts';
 
 export default defineConfig({
   site: 'https://ammas-kitchen.local',
@@ -12,7 +11,7 @@ export default defineConfig({
   // every other page stays statically prerendered.
   output: 'static',
   adapter: vercel(),
-  integrations: [tailwind({ applyBaseStyles: false }), sitemap(), devEdit()],
+  integrations: [tailwind({ applyBaseStyles: false }), sitemap()],
   vite: {
     server: { fs: { allow: ['..'] } },
     build: {

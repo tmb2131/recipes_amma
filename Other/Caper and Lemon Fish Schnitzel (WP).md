@@ -1,12 +1,0 @@
- Caper and Lemon Fish Schnitzel (WP)  
-  
-  
-## Ingredients  
-  
-measuring cup  
-Servings: 4  
-Four (6-ounce) white-fleshed fish fillets, such as snapper, catfish or tilapia 1/2 teaspoon fine salt 1/2 teaspoon freshly cracked black pepper 1 1/2 cups (4 ounces) panko or fresh sourdough breadcrumbs 1/4 cup (1/2 ounce) fresh dill fronds, minced 2 tablespoons capers, drained, rinsed and chopped 2 tablespoons finely grated lemon zest 1 large egg 1 tablespoon water Extra-virgin olive oil, for drizzling Lemon wedges, for serving  
-##   
- Position a rack in the middle of the oven and preheat to 475 degrees. Line a large, rimmed baking sheet with parchment. Pat the fish dry and season both sides with the salt and pepper.  
- In a medium shallow bowl, stir together the breadcrumbs, dill, capers and lemon zest until combined. In another medium shallow bowl, whisk the egg with water until well blended. Dip a fish fillet in the egg wash and lift, allowing the excess to drip off. Place the fish on the prepared baking sheet and cover generously with the breadcrumb mixture, pressing firmly to coat one side. Drizzle generously with oil and repeat with the remaining fillets.  
- Roast for about 10 minutes, or until the fish flakes easily with a fork and the crumbs are golden and crisp. (The cooking time will depend on the thickness of your fish.) Remove from the oven and, using a thin spatula, transfer the fillets to plates. Serve warm, with lemon wedges for squeezing.  
