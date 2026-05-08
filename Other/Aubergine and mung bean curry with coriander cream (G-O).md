@@ -11,16 +11,21 @@
 - 60g coconut cream, plus 100g extra for the coriander cream
 
 \
-For the aubergines 
+For the aubergines
 
-9 baby aubergines, or two regular aubergines (560g), cut lengthways into quarters from the base and leaving the stems attached  4½ tbsp olive oil 
+
+9 baby aubergines, or two regular aubergines (560g), cut lengthways into quarters from the base and leaving the stems attached 
+4½ tbsp olive oil
+
 
 Fine sea salt
 
 \
-For the coriander cream 
+For the coriander cream
 
-30g bunch coriander, 1 tbsp leaves picked and reserved 
+
+30g bunch coriander, 1 tbsp leaves picked and reserved
+
 
 2 limes, juiced, to get 2½ tbsp
 
