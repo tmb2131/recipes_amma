@@ -11,7 +11,7 @@ Potential duplicate recipes
        * One handler installs once per session and:
        *   1. Fetches `GET /api/favorites` on every page load (incl. Astro
        *      view-transitions) and reconciles each `[data-favorite-toggle]`
-       *      heart and `[data-favorite-badge]` against the canonical set.
+       *      heart against the canonical set.
        *   2. Captures clicks on hearts before the parent <a> activates,
        *      optimistically flips the icon, and POSTs `/api/favorites/toggle`.
        *   3. Reverts the optimistic state if the network call fails.
@@ -41,18 +41,7 @@ Potential duplicate recipes
         function reconcileBadgesFor(slug, isFav) {
           var hearts = document.querySelectorAll('[data-favorite-toggle][data-slug="' + cssEscape(slug) + '"]');
           for (var i = 0; i < hearts.length; i++) {
-            var heart = hearts[i];
-            applyHeartState(heart, isFav);
-            // The "Favorite" badge sits inside the same recipe card / detail
-            // header. Toggle its visibility to match the heart so the chrome
-            // doesn't lie when the live state diverges from the build seed.
-            var scope = heart.closest('.recipe-card, .recipe-head, .result-card, .dup-row__main');
-            if (scope) {
-              var badges = scope.querySelectorAll('[data-favorite-badge]');
-              for (var b = 0; b < badges.length; b++) {
-                badges[b].hidden = !isFav;
-              }
-            }
+            applyHeartState(hearts[i], isFav);
           }
         }
 
@@ -65,19 +54,6 @@ Potential duplicate recipes
             if (pending.has(slug)) continue; // don't clobber an in-flight optimistic update
             var shouldBe = liveSet.has(slug);
             applyHeartState(heart, shouldBe);
-          }
-          // Reconcile any badges that aren't paired with a heart in scope
-          // (e.g. search-result cards that render badges client-side without
-          // an adjacent heart).
-          var badges = document.querySelectorAll('[data-favorite-badge]');
-          for (var j = 0; j < badges.length; j++) {
-            var badge = badges[j];
-            var scope2 = badge.closest('.recipe-card, .recipe-head, .result-card, .dup-row__main');
-            if (!scope2) continue;
-            var nearbyHeart = scope2.querySelector('[data-favorite-toggle]');
-            if (!nearbyHeart) continue;
-            var slug2 = nearbyHeart.getAttribute('data-slug') || '';
-            badge.hidden = !liveSet.has(slug2);
           }
           updateDerivedFavoritesUI();
         }
@@ -135,12 +111,6 @@ Potential duplicate recipes
           link.appendChild(row);
           var metaRow = document.createElement('div');
           metaRow.className = 'mt-1 flex flex-wrap items-center gap-2';
-          var badgeEl = document.createElement('span');
-          badgeEl.className = 'badge badge-family';
-          badgeEl.setAttribute('data-favorite-badge', '');
-          badgeEl.hidden = !isFav;
-          badgeEl.textContent = 'Favorite';
-          metaRow.appendChild(badgeEl);
           if (brief.source) {
             var srcEl = document.createElement('span');
             srcEl.className = 'badge badge-source';
@@ -153,7 +123,7 @@ Potential duplicate recipes
             ing.textContent = brief.ingredientsLen + ' ingredients';
             metaRow.appendChild(ing);
           }
-          link.appendChild(metaRow);
+          if (metaRow.childElementCount > 0) link.appendChild(metaRow);
           if (brief.preview) {
             var p = document.createElement('p');
             p.className = 'mt-2 text-sm leading-snug text-[color:var(--ink-soft)] line-clamp-2';
@@ -330,8 +300,8 @@ Potential duplicate recipes
               for (var j = 0; j < added.length; j++) {
                 var n = added[j];
                 if (!(n instanceof Element)) continue;
-                if (n.matches && (n.matches('[data-favorite-toggle], [data-favorite-badge]')
-                  || n.querySelector && n.querySelector('[data-favorite-toggle], [data-favorite-badge]'))) {
+                if (n.matches && (n.matches('[data-favorite-toggle]')
+                  || n.querySelector && n.querySelector('[data-favorite-toggle]'))) {
                   if (moTimer) cancelAnimationFrame(moTimer);
                   moTimer = requestAnimationFrame(function () {
                     moTimer = 0;
@@ -349,27 +319,26 @@ Potential duplicate recipes
         reconcileAll();
         void refreshLiveState(true);
       })();
-    </script> </body> </html>  <script type="module">const v=["Indian","Asian","Fish","Soup","Salad","Dressing","Desserts","Sylvestre","Other"],w=document.getElementById("recipe-lookup-data");let h={};try{h=w?.textContent?JSON.parse(w.textContent):{}}catch(t){console.warn("Failed to parse recipe lookup",t)}let d=null;function L(){if(!d){const t=new URL("/pagefind/pagefind.js",window.location.href).href;d=(async()=>{const e=await import(t);return await e.options({excerptLength:24}),e})().catch(e=>{throw console.warn("Pagefind not available yet",e),d=null,e})}return d}const l=document.getElementById("search-results"),u=document.querySelector('[data-search-box] input[name="q"]');function $(t){const e=t.match(/^\/?([^/]+)\//);if(!e)return"Other";const n=e[1].toLowerCase();return v.find(a=>a.toLowerCase()===n)??"Other"}let y="",f=null;async function b(t){if(t.trim().length<2){l.innerHTML='<p class="search-hint">Type at least two letters.</p>';return}if(t===y)return;y=t,l.setAttribute("aria-busy","true");let e=null;try{const r=await(await L()).search(t);if(r&&r.results&&r.results.length>0){const i=r.results.slice(0,60);e=await Promise.all(i.map(c=>c.data()))}else e=[]}catch{e=_(t)}if(!e||e.length===0){l.setAttribute("aria-busy","false"),l.innerHTML=`<p class="empty">No recipes match "${p(t)}". Try a simpler word.</p>`;return}const n=new Map;for(const s of e){const r=$(s.url);n.has(r)||n.set(r,[]),n.get(r).push(s)}const a=v.map(s=>[s,n.get(s)??[]]).filter(([,s])=>s.length>0).map(([s,r])=>`
+    </script> </body> </html>  <script type="module">const $=["Indian","Asian","Fish","Soup","Salad","Dressing","Desserts","Sylvestre","Other"],g=document.getElementById("recipe-lookup-data");let h={};try{h=g?.textContent?JSON.parse(g.textContent):{}}catch(t){console.warn("Failed to parse recipe lookup",t)}let d=null;function _(){if(!d){const t=new URL("/pagefind/pagefind.js",window.location.href).href;d=(async()=>{const e=await import(t);return await e.options({excerptLength:24}),e})().catch(e=>{throw console.warn("Pagefind not available yet",e),d=null,e})}return d}const l=document.getElementById("search-results"),u=document.querySelector('[data-search-box] input[name="q"]');function v(t){const e=t.match(/^\/?([^/]+)\//);if(!e)return"Other";const n=e[1].toLowerCase();return $.find(a=>a.toLowerCase()===n)??"Other"}let y="",f=null;async function L(t){if(t.trim().length<2){l.innerHTML='<p class="search-hint">Type at least two letters.</p>';return}if(t===y)return;y=t,l.setAttribute("aria-busy","true");let e=null;try{const r=await(await _()).search(t);if(r&&r.results&&r.results.length>0){const c=r.results.slice(0,60);e=await Promise.all(c.map(i=>i.data()))}else e=[]}catch{e=b(t)}if(!e||e.length===0){l.setAttribute("aria-busy","false"),l.innerHTML=`<p class="empty">No recipes match "${p(t)}". Try a simpler word.</p>`;return}const n=new Map;for(const s of e){const r=v(s.url);n.has(r)||n.set(r,[]),n.get(r).push(s)}const a=$.map(s=>[s,n.get(s)??[]]).filter(([,s])=>s.length>0).map(([s,r])=>`
       <section class="result-group">
         <h2 class="result-group__title">
           <span>${s}</span>
           <span class="result-group__count">${r.length} ${r.length===1?"match":"matches"}</span>
         </h2>
-        ${r.map(i=>`
-          <a class="result-card" href="${i.url}">
-            ${C(i)}
+        ${r.map(c=>`
+          <a class="result-card" href="${c.url}">
+            ${C(c)}
           </a>
         `).join("")}
       </section>
-    `).join("");l.innerHTML=a,l.setAttribute("aria-busy","false")}function _(t){const e=t.trim().toLowerCase();if(!e)return[];const n=e.split(/\s+/).filter(Boolean),o=[];for(const[a,s]of Object.entries(h)){const r=(s.text??`${s.title} ${s.preview}`).toLowerCase(),i=s.title.toLowerCase();let c=0,m=!0;for(const g of n)if(i.includes(g))c+=5;else if(r.includes(g))c+=1;else{m=!1;break}m&&(i.startsWith(e)&&(c+=10),o.push({result:{url:`${a}/`,excerpt:s.preview,meta:{title:s.title}},score:c}))}return o.sort((a,s)=>s.score-a.score||a.result.meta.title.localeCompare(s.result.meta.title)),o.slice(0,60).map(a=>a.result)}function p(t){return t.replace(/[&<>"']/g,e=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[e])}function C(t){const e=S(t.url),n=h[e],o=p(n?.title??t.meta?.title??t.url),a=p(n?.section??$(t.url)),s=n?.source?`<span class="badge badge-source">${p(n.source)}</span>`:"",r=n?.family?'<span class="badge badge-family" data-favorite-badge>Favorite</span>':"",i=n?.ingredientsCount?`<span class="result-card__ingredients">${n.ingredientsCount} ingredients</span>`:"",c=t.excerpt||n?.preview?`<p class="result-card__excerpt">${t.excerpt||p(n?.preview??"")}</p>`:"";return`
+    `).join("");l.innerHTML=a,l.setAttribute("aria-busy","false")}function b(t){const e=t.trim().toLowerCase();if(!e)return[];const n=e.split(/\s+/).filter(Boolean),o=[];for(const[a,s]of Object.entries(h)){const r=(s.text??`${s.title} ${s.preview}`).toLowerCase(),c=s.title.toLowerCase();let i=0,m=!0;for(const w of n)if(c.includes(w))i+=5;else if(r.includes(w))i+=1;else{m=!1;break}m&&(c.startsWith(e)&&(i+=10),o.push({result:{url:`${a}/`,excerpt:s.preview,meta:{title:s.title}},score:i}))}return o.sort((a,s)=>s.score-a.score||a.result.meta.title.localeCompare(s.result.meta.title)),o.slice(0,60).map(a=>a.result)}function p(t){return t.replace(/[&<>"']/g,e=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[e])}function C(t){const e=S(t.url),n=h[e],o=p(n?.title??t.meta?.title??t.url),a=p(n?.section??v(t.url)),s=n?.source?`<span class="badge badge-source">${p(n.source)}</span>`:"",r=n?.ingredientsCount?`<span class="result-card__ingredients">${n.ingredientsCount} ingredients</span>`:"",c=t.excerpt||n?.preview?`<p class="result-card__excerpt">${t.excerpt||p(n?.preview??"")}</p>`:"";return`
       <div class="result-card__head">
         <div class="result-card__title">${o}</div>
         <span class="result-card__section">${a}</span>
       </div>
       <div class="result-card__meta">
-        ${r}
         ${s}
-        ${i}
+        ${r}
       </div>
       ${c}
-    `}function S(t){const e=t.startsWith("/")?t:`/${t}`;return e.endsWith("/")?e.slice(0,-1):e}function x(t){const e=t.target.value;f&&window.clearTimeout(f),f=window.setTimeout(()=>b(e),140)}if(u){u.addEventListener("input",x);const e=new URL(window.location.href).searchParams.get("q")??"";e&&(u.value=e,b(e)),u.form?.addEventListener("submit",n=>{n.preventDefault();const o=new URL(window.location.href);o.searchParams.set("q",u.value),window.history.replaceState(null,"",o)})}</script>
+    `}function S(t){const e=t.startsWith("/")?t:`/${t}`;return e.endsWith("/")?e.slice(0,-1):e}function x(t){const e=t.target.value;f&&window.clearTimeout(f),f=window.setTimeout(()=>L(e),140)}if(u){u.addEventListener("input",x);const e=new URL(window.location.href).searchParams.get("q")??"";e&&(u.value=e,L(e)),u.form?.addEventListener("submit",n=>{n.preventDefault();const o=new URL(window.location.href);o.searchParams.set("q",u.value),window.history.replaceState(null,"",o)})}</script>
