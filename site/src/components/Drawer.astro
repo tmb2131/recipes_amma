@@ -5,8 +5,7 @@ import { SECTION_META } from '../lib/loadRecipes';
 const recipes = getRecipes();
 const groups = groupBySection(recipes);
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
-const isDev = import.meta.env.DEV;
-const dupCount = isDev ? findDuplicateGroups(recipes).length : 0;
+const dupCount = findDuplicateGroups(recipes).length;
 ---
 <aside id="drawer" class="drawer" aria-label="Sections" data-drawer hidden>
   <div class="drawer-backdrop" data-drawer-close></div>
@@ -26,17 +25,15 @@ const dupCount = isDev ? findDuplicateGroups(recipes).length : 0;
           <span class="text-[color:var(--ink-faint)] text-xs">{recipes.length}</span>
         </a>
       </li>
-      {isDev && (
-        <li>
-          <a href="/review/" class:list={['drawer-link', currentPath === '/review' && 'drawer-link-active']}>
-            <span>Review</span>
-            <span class="text-[color:var(--ink-faint)] text-xs">{dupCount}</span>
-          </a>
-          <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]">
-            Potential duplicate recipes
-          </p>
-        </li>
-      )}
+      <li>
+        <a href="/review/" class:list={['drawer-link', currentPath === '/review' && 'drawer-link-active']}>
+          <span>Review</span>
+          <span class="text-[color:var(--ink-faint)] text-xs">{dupCount}</span>
+        </a>
+        <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]">
+          Potential duplicate recipes
+        </p>
+      </li>
       {groups.map((g) => (
         <li>
           <a href={`/${g.slug}/`} class:list={['drawer-link', currentPath.startsWith(`/${g.slug}`) && 'drawer-link-active']}>

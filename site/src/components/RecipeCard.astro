@@ -26,7 +26,6 @@ const preview = previewSource
       {showSection && <span class="recipe-card__section">{recipe.section}</span>}
     </div>
     <div class="mt-1 flex flex-wrap items-center gap-2">
-      <span class="badge badge-family" data-favorite-badge hidden={!recipe.family}>Favorite</span>
       {recipe.source && <span class="badge badge-source">{recipe.source}</span>}
       {recipe.ingredients && (
         <span class="text-xs text-[color:var(--ink-faint)] font-sans">
@@ -40,14 +39,26 @@ const preview = previewSource
   </a>
 </article>
 
-<style>
+<style is:global>
+  /* TOC favorites rebuild cards in JS; they have no Astro scope hash, so layout
+     rules must be global for absolute hearts (FavoriteHeart--card) to sit on-card. */
   .recipe-card {
     position: relative;
     display: block;
   }
+  /* Reserve room on the left for the absolute-positioned favorite heart so the
+     heart never sits on top of the title / badges. The heart occupies roughly
+     0.45rem + 26px ≈ 2.1rem from the card edge; 2.5rem leaves a small gap. */
+  .recipe-card .recipe-card__link {
+    padding-left: 2.5rem;
+  }
+</style>
+
+<style>
   .recipe-card__link {
     display: block;
-    padding: 0.85rem 1rem;
+    /* Left padding clears the favorite heart (see global rule above). */
+    padding: 0.85rem 1rem 0.85rem 2.5rem;
     border-radius: 10px;
     border: 1px solid transparent;
     transition: all 160ms ease;

@@ -116,7 +116,7 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
        * One handler installs once per session and:
        *   1. Fetches `GET /api/favorites` on every page load (incl. Astro
        *      view-transitions) and reconciles each `[data-favorite-toggle]`
-       *      heart and `[data-favorite-badge]` against the canonical set.
+       *      heart against the canonical set.
        *   2. Captures clicks on hearts before the parent <a> activates,
        *      optimistically flips the icon, and POSTs `/api/favorites/toggle`.
        *   3. Reverts the optimistic state if the network call fails.
@@ -146,18 +146,7 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
         function reconcileBadgesFor(slug, isFav) {
           var hearts = document.querySelectorAll('[data-favorite-toggle][data-slug="' + cssEscape(slug) + '"]');
           for (var i = 0; i < hearts.length; i++) {
-            var heart = hearts[i];
-            applyHeartState(heart, isFav);
-            // The "Favorite" badge sits inside the same recipe card / detail
-            // header. Toggle its visibility to match the heart so the chrome
-            // doesn't lie when the live state diverges from the build seed.
-            var scope = heart.closest('.recipe-card, .recipe-head, .result-card, .dup-row__main');
-            if (scope) {
-              var badges = scope.querySelectorAll('[data-favorite-badge]');
-              for (var b = 0; b < badges.length; b++) {
-                badges[b].hidden = !isFav;
-              }
-            }
+            applyHeartState(hearts[i], isFav);
           }
         }
 
@@ -170,19 +159,6 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
             if (pending.has(slug)) continue; // don't clobber an in-flight optimistic update
             var shouldBe = liveSet.has(slug);
             applyHeartState(heart, shouldBe);
-          }
-          // Reconcile any badges that aren't paired with a heart in scope
-          // (e.g. search-result cards that render badges client-side without
-          // an adjacent heart).
-          var badges = document.querySelectorAll('[data-favorite-badge]');
-          for (var j = 0; j < badges.length; j++) {
-            var badge = badges[j];
-            var scope2 = badge.closest('.recipe-card, .recipe-head, .result-card, .dup-row__main');
-            if (!scope2) continue;
-            var nearbyHeart = scope2.querySelector('[data-favorite-toggle]');
-            if (!nearbyHeart) continue;
-            var slug2 = nearbyHeart.getAttribute('data-slug') || '';
-            badge.hidden = !liveSet.has(slug2);
           }
           updateDerivedFavoritesUI();
         }
@@ -240,12 +216,6 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
           link.appendChild(row);
           var metaRow = document.createElement('div');
           metaRow.className = 'mt-1 flex flex-wrap items-center gap-2';
-          var badgeEl = document.createElement('span');
-          badgeEl.className = 'badge badge-family';
-          badgeEl.setAttribute('data-favorite-badge', '');
-          badgeEl.hidden = !isFav;
-          badgeEl.textContent = 'Favorite';
-          metaRow.appendChild(badgeEl);
           if (brief.source) {
             var srcEl = document.createElement('span');
             srcEl.className = 'badge badge-source';
@@ -258,7 +228,7 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
             ing.textContent = brief.ingredientsLen + ' ingredients';
             metaRow.appendChild(ing);
           }
-          link.appendChild(metaRow);
+          if (metaRow.childElementCount > 0) link.appendChild(metaRow);
           if (brief.preview) {
             var p = document.createElement('p');
             p.className = 'mt-2 text-sm leading-snug text-[color:var(--ink-soft)] line-clamp-2';
@@ -435,8 +405,8 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
               for (var j = 0; j < added.length; j++) {
                 var n = added[j];
                 if (!(n instanceof Element)) continue;
-                if (n.matches && (n.matches('[data-favorite-toggle], [data-favorite-badge]')
-                  || n.querySelector && n.querySelector('[data-favorite-toggle], [data-favorite-badge]'))) {
+                if (n.matches && (n.matches('[data-favorite-toggle]')
+                  || n.querySelector && n.querySelector('[data-favorite-toggle]'))) {
                   if (moTimer) cancelAnimationFrame(moTimer);
                   moTimer = requestAnimationFrame(function () {
                     moTimer = 0;

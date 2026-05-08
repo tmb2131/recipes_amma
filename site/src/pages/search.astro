@@ -300,7 +300,6 @@ const recipeLookup = Object.fromEntries(
     const title = escapeHtml(recipe?.title ?? result.meta?.title ?? result.url);
     const section = escapeHtml(recipe?.section ?? getSection(result.url));
     const source = recipe?.source ? `<span class="badge badge-source">${escapeHtml(recipe.source)}</span>` : '';
-    const family = recipe?.family ? '<span class="badge badge-family" data-favorite-badge>Favorite</span>' : '';
     const ingredients = recipe?.ingredientsCount
       ? `<span class="result-card__ingredients">${recipe.ingredientsCount} ingredients</span>`
       : '';
@@ -314,7 +313,6 @@ const recipeLookup = Object.fromEntries(
         <span class="result-card__section">${section}</span>
       </div>
       <div class="result-card__meta">
-        ${family}
         ${source}
         ${ingredients}
       </div>

@@ -6,8 +6,7 @@ import { findDuplicateGroups, getRecipes } from '../lib/loadRecipes';
 
 export const prerender = true;
 
-const isDev = import.meta.env.DEV;
-const groups = isDev ? findDuplicateGroups(getRecipes()) : [];
+const groups = findDuplicateGroups(getRecipes());
 const totalDupes = groups.reduce((n, g) => n + g.recipes.length, 0);
 ---
 <BookLayout title="Review — Amma's Kitchen">
@@ -16,22 +15,13 @@ const totalDupes = groups.reduce((n, g) => n + g.recipes.length, 0);
     <h1 class="review-title">Review</h1>
     <Floral variant="divider" class="review-divider" width={220} />
     <p class="review-sub">
-      {isDev
-        ? groups.length === 0
-          ? 'No duplicate titles detected.'
-          : `${groups.length} cluster${groups.length === 1 ? '' : 's'} · ${totalDupes} candidates`
-        : 'Review tools only run during astro dev.'}
+      {groups.length === 0
+        ? 'No duplicate titles detected.'
+        : `${groups.length} cluster${groups.length === 1 ? '' : 's'} · ${totalDupes} candidates`}
     </p>
   </section>
 
-  {!isDev && (
-    <p class="review-note">
-      Run <code>npm run dev</code> in <code>site/</code> to surface duplicate
-      recipes here.
-    </p>
-  )}
-
-  {isDev && groups.length > 0 && (
+  {groups.length > 0 && (
     <div class="review-list" data-pagefind-ignore>
       {groups.map((g) => (
         <section class="dup-group">
@@ -48,7 +38,6 @@ const totalDupes = groups.reduce((n, g) => n + g.recipes.length, 0);
                   <a href={r.href} class="dup-row__link">{r.title}</a>
                   <div class="dup-row__meta">
                     <span class="dup-row__section">{r.section}</span>
-                    {r.family && <span class="badge badge-family" data-favorite-badge>Favorite</span>}
                     {r.source && (
                       <span class="badge badge-source">{r.source}</span>
                     )}
@@ -91,21 +80,6 @@ const totalDupes = groups.reduce((n, g) => n + g.recipes.length, 0);
     font-size: 1.25rem;
     color: var(--sage-deep);
     margin: 0;
-  }
-  .review-note {
-    max-width: 36rem;
-    margin: 0 auto;
-    text-align: center;
-    font-family: var(--serif);
-    font-style: italic;
-    color: var(--ink-soft);
-  }
-  .review-note code {
-    font-family: var(--mono, ui-monospace, monospace);
-    font-size: 0.9em;
-    background: var(--paper-deep);
-    padding: 0.05rem 0.35rem;
-    border-radius: 4px;
   }
   .review-list {
     max-width: 56rem;

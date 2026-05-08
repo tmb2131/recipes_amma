@@ -48,7 +48,8 @@ const initial = recipe.family;
   </svg>
 </button>
 
-<style>
+<style is:global>
+  /* Global so client-built TOC favorites hearts (BookLayout) match RecipeCard hearts. */
   .favorite-heart {
     display: inline-flex;
     align-items: center;
@@ -116,8 +117,8 @@ const initial = recipe.family;
     pointer-events: auto;
   }
   .favorite-heart--card[data-favorite="1"] { opacity: 1; transform: translateY(0); }
-  :global(.recipe-card:hover) .favorite-heart--card,
-  :global(.recipe-card:focus-within) .favorite-heart--card,
+  .recipe-card:hover .favorite-heart--card,
+  .recipe-card:focus-within .favorite-heart--card,
   .favorite-heart--card:focus-visible {
     opacity: 1;
     transform: translateY(0);

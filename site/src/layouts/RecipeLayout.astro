@@ -47,7 +47,6 @@ function escapeHtml(s: string) {
       <h1 class="recipe-title">{recipe.title}</h1>
       <div class="recipe-tags">
         <FavoriteHeart recipe={recipe} variant="detail" />
-        <span class="badge badge-family" data-favorite-badge hidden={!recipe.family}>Favorite</span>
         {recipe.source && <span class="badge badge-source">{recipe.source}</span>}
       </div>
       <RecipeActions recipe={recipe} variant="detail" />
