@@ -5,6 +5,7 @@ import { getRecipeRepoRoot } from './loadRecipes';
 import {
   getFileContentFromMain,
   getFileShaOnMain,
+  getGithubBranchRef,
   isGitHubRecipeSyncEnabled,
   parseGitHubRepo,
   shouldSkipLocalRecipeWrites,
@@ -233,6 +234,7 @@ export async function handleEditSave(
       renamed,
       relativePath: relativeRecipePath(repoRoot, targetPath),
       baseName: path.basename(targetPath),
+      githubBranch: await getGithubBranchRef(),
     });
   }
 
@@ -268,11 +270,13 @@ export async function handleEditSave(
     }
   }
 
+  const githubBranch = isGitHubRecipeSyncEnabled() ? await getGithubBranchRef() : undefined;
   return json(200, {
     ok: true,
     renamed,
     relativePath: relativeRecipePath(repoRoot, targetPath),
     baseName: path.basename(targetPath),
+    ...(githubBranch !== undefined ? { githubBranch } : {}),
   });
 }
 

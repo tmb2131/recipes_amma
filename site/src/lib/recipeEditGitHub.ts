@@ -1,10 +1,18 @@
 /**
- * Push recipe markdown changes to GitHub `main` via the Contents API.
+ * Push recipe markdown changes to GitHub via the Contents API.
  *
  * Env (optional — when unset, saves stay local-only):
  * - `GITHUB_TOKEN` — classic PAT with `repo`, or fine-grained token with
  *   Contents read/write on the target repo.
  * - `GITHUB_REPO` — `owner/name` (e.g. `acme/recipes`).
+ * - `GITHUB_BRANCH` — optional branch to read/write (default: see `getGithubBranchRef`).
+ *
+ * Branch resolution (first match wins):
+ * 1. `GITHUB_BRANCH`
+ * 2. `VERCEL_GIT_COMMIT_REF` (Vercel: the branch this deployment was built from — keeps saves on the same branch the site uses)
+ * 3. `GITHUB_REF` with `refs/heads/…` stripped
+ * 4. GitHub API `default_branch` for `GITHUB_REPO`
+ * 5. `main`
  */
 
 import path from 'node:path';
@@ -24,19 +32,28 @@ export function isGitHubRecipeSyncEnabled(): boolean {
   return !!(t && r);
 }
 
-/** `VERCEL` is set on Vercel builds; bundled files under `/var/task` are not writable. */
+/**
+ * True on Vercel's hosted runtime (preview or production).
+ * `vercel dev` also sets `VERCEL=1`, but sets `VERCEL_ENV=development` — there the
+ * real recipe tree on disk is writable, so we must not force GitHub-only mode.
+ */
+export function isVercelCloudRuntime(): boolean {
+  return Boolean(process.env.VERCEL) && process.env.VERCEL_ENV !== 'development';
+}
+
+/** @deprecated Use `isVercelCloudRuntime()` for edit/save gating. */
 export function isVercelDeployment(): boolean {
   return Boolean(process.env.VERCEL);
 }
 
-/** Skip `fs` writes for recipes: use GitHub API only (required on Vercel when sync is on). */
+/** Skip `fs` writes for recipes: use GitHub API only (required on Vercel cloud when sync is on). */
 export function shouldSkipLocalRecipeWrites(): boolean {
-  return isVercelDeployment() && isGitHubRecipeSyncEnabled();
+  return isVercelCloudRuntime() && isGitHubRecipeSyncEnabled();
 }
 
-/** On Vercel without GitHub env, recipe files cannot be edited via this API. */
+/** On Vercel cloud without GitHub env, recipe files cannot be edited via this API. */
 export function vercelRecipeEditRequiresGitHub(): boolean {
-  return isVercelDeployment() && !isGitHubRecipeSyncEnabled();
+  return isVercelCloudRuntime() && !isGitHubRecipeSyncEnabled();
 }
 
 export function parseGitHubRepo(): { owner: string; repo: string } | null {
@@ -71,16 +88,63 @@ async function ghFetch(repoPath: string, init: RequestInit): Promise<Response> {
   });
 }
 
-/** Latest blob SHA for a file on `main`, or `null` if missing / is a directory listing. */
+let githubBranchRefCache: string | null = null;
+
+function githubBranchFromEnv(): string | null {
+  const explicit = process.env.GITHUB_BRANCH?.trim();
+  if (explicit) return explicit;
+  const vercelRef = process.env.VERCEL_GIT_COMMIT_REF?.trim();
+  if (vercelRef) return vercelRef;
+  const ghRef = process.env.GITHUB_REF?.trim();
+  if (ghRef) return ghRef.replace(/^refs\/heads\//i, '');
+  return null;
+}
+
+/**
+ * Git branch used for Contents API reads/writes. Cached per serverless instance.
+ */
+export async function getGithubBranchRef(): Promise<string> {
+  if (githubBranchRefCache) return githubBranchRefCache;
+  const fromEnv = githubBranchFromEnv();
+  if (fromEnv) {
+    githubBranchRefCache = fromEnv;
+    return fromEnv;
+  }
+  const gh = parseGitHubRepo();
+  if (!gh) {
+    githubBranchRefCache = 'main';
+    return 'main';
+  }
+  try {
+    const res = await ghFetch(`/repos/${gh.owner}/${gh.repo}`, { method: 'GET' });
+    if (res.ok) {
+      const data = (await res.json()) as { default_branch?: string };
+      if (data.default_branch && typeof data.default_branch === 'string') {
+        githubBranchRefCache = data.default_branch;
+        return githubBranchRefCache;
+      }
+    }
+  } catch {
+    /* use fallback */
+  }
+  githubBranchRefCache = 'main';
+  return githubBranchRefCache;
+}
+
+/** Latest blob SHA for a file on the resolved GitHub branch, or `null` if missing / is a directory listing. */
 export async function getFileShaOnMain(
   owner: string,
   repo: string,
   filePath: string,
 ): Promise<string | null> {
+  const ref = await getGithubBranchRef();
   const enc = encodePathForUrl(filePath);
-  const res = await ghFetch(`/repos/${owner}/${repo}/contents/${enc}?ref=main`, {
-    method: 'GET',
-  });
+  const res = await ghFetch(
+    `/repos/${owner}/${repo}/contents/${enc}?ref=${encodeURIComponent(ref)}`,
+    {
+      method: 'GET',
+    },
+  );
   if (res.status === 404) return null;
   const text = await res.text();
   if (!res.ok) {
@@ -99,16 +163,20 @@ export async function getFileShaOnMain(
   return o.sha;
 }
 
-/** UTF-8 file body from `main`, or `null` if missing. */
+/** UTF-8 file body from the resolved GitHub branch, or `null` if missing. */
 export async function getFileContentFromMain(
   owner: string,
   repo: string,
   filePath: string,
 ): Promise<string | null> {
+  const ref = await getGithubBranchRef();
   const enc = encodePathForUrl(filePath);
-  const res = await ghFetch(`/repos/${owner}/${repo}/contents/${enc}?ref=main`, {
-    method: 'GET',
-  });
+  const res = await ghFetch(
+    `/repos/${owner}/${repo}/contents/${enc}?ref=${encodeURIComponent(ref)}`,
+    {
+      method: 'GET',
+    },
+  );
   if (res.status === 404) return null;
   const text = await res.text();
   if (!res.ok) {
@@ -144,6 +212,7 @@ export async function putFileOnMain(
   contentUtf8: string,
   message: string,
 ): Promise<void> {
+  const ref = await getGithubBranchRef();
   const enc = encodePathForUrl(filePath);
   const b64 = Buffer.from(contentUtf8, 'utf8').toString('base64');
 
@@ -152,7 +221,7 @@ export async function putFileOnMain(
     const body: Record<string, string> = {
       message,
       content: b64,
-      branch: 'main',
+      branch: ref,
     };
     if (sha) body.sha = sha;
 
@@ -174,6 +243,7 @@ export async function deleteFileOnMain(
   filePath: string,
   message: string,
 ): Promise<void> {
+  const ref = await getGithubBranchRef();
   const sha = await getFileShaOnMain(owner, repo, filePath);
   if (!sha) return;
 
@@ -181,7 +251,7 @@ export async function deleteFileOnMain(
   const res = await ghFetch(`/repos/${owner}/${repo}/contents/${enc}`, {
     method: 'DELETE',
     headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ message, sha, branch: 'main' }),
+    body: JSON.stringify({ message, sha, branch: ref }),
   });
   if (!res.ok) {
     const t = await res.text();
