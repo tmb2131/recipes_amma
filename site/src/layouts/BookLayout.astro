@@ -118,29 +118,16 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
        *      view-transitions) and reconciles each `[data-favorite-toggle]`
        *      heart and `[data-favorite-badge]` against the canonical set.
        *   2. Captures clicks on hearts before the parent <a> activates,
-       *      optimistically flips the icon, and POSTs `/api/favorites/toggle`
-       *      with the bearer token cached in `localStorage`. On 401 it
-       *      prompts for the token, stores it, and retries once.
+       *      optimistically flips the icon, and POSTs `/api/favorites/toggle`.
        *   3. Reverts the optimistic state if the network call fails.
        */
       (function () {
         if (window.__ammasFavoritesInit) return;
         window.__ammasFavoritesInit = true;
 
-        var TOKEN_KEY = 'ammas-favorites:token';
         var liveSet = null; // Set<string> of favourite slugs, or null until first fetch
         var inflight = null; // de-dupe fetches across rapid navigations
         var pending = new Set(); // slugs whose toggle request is in flight
-
-        function getToken() {
-          try { return localStorage.getItem(TOKEN_KEY) || ''; } catch (_) { return ''; }
-        }
-        function setToken(value) {
-          try {
-            if (value) localStorage.setItem(TOKEN_KEY, value);
-            else localStorage.removeItem(TOKEN_KEY);
-          } catch (_) { /* ignore */ }
-        }
 
         function applyHeartState(btn, isFav) {
           btn.setAttribute('data-favorite', isFav ? '1' : '0');
@@ -217,12 +204,11 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
           return inflight;
         }
 
-        async function postToggle(slug, token) {
+        async function postToggle(slug) {
           return await fetch('/api/favorites/toggle', {
             method: 'POST',
             headers: {
               'content-type': 'application/json',
-              authorization: 'Bearer ' + token,
             },
             body: JSON.stringify({ slug: slug }),
           });
@@ -240,33 +226,8 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
           applyHeartState(btn, optimistic);
           reconcileBadgesFor(slug, optimistic);
 
-          var token = getToken();
-          if (!token) {
-            token = window.prompt(
-              "Enter the editor token to update Amma's Favorites.\n(Set FAVORITES_TOKEN in your environment.)"
-            ) || '';
-            if (token) setToken(token);
-          }
-          if (!token) {
-            applyHeartState(btn, current);
-            reconcileBadgesFor(slug, current);
-            pending.delete(slug);
-            btn.removeAttribute('data-pending');
-            return;
-          }
-
           try {
-            var res = await postToggle(slug, token);
-            if (res.status === 401) {
-              setToken('');
-              var retry = window.prompt(
-                'That token was rejected. Try again, or cancel to leave the heart unchanged.'
-              ) || '';
-              if (retry) {
-                setToken(retry);
-                res = await postToggle(slug, retry);
-              }
-            }
+            var res = await postToggle(slug);
             if (!res.ok) {
               var msg = '';
               try { msg = (await res.json()).error || ''; } catch (_) { msg = await res.text(); }
