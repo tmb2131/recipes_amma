@@ -3,8 +3,8 @@ import { handleEditLoad, resolvedRecipeRepoRoot } from '../../../lib/recipeEditS
 
 export const prerender = false;
 
-export const GET: APIRoute = ({ url }) => {
+export const GET: APIRoute = async ({ url }) => {
   const relativePath = url.searchParams.get('relativePath');
   const repoRoot = resolvedRecipeRepoRoot();
-  return handleEditLoad(repoRoot, relativePath);
+  return await handleEditLoad(repoRoot, relativePath);
 };

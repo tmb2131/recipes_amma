@@ -3,10 +3,15 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { getRecipeRepoRoot } from './loadRecipes';
 import {
+  getFileContentFromMain,
+  getFileShaOnMain,
   isGitHubRecipeSyncEnabled,
   parseGitHubRepo,
+  shouldSkipLocalRecipeWrites,
   syncDeleteToGitHubMain,
   syncSaveToGitHubMain,
+  toGitHubPath,
+  vercelRecipeEditRequiresGitHub,
 } from './recipeEditGitHub';
 
 /**
@@ -38,9 +43,34 @@ export function resolveSafeMdPath(repoRoot: string, relativePath: unknown): stri
   return resolved;
 }
 
-export function handleEditLoad(repoRoot: string, relativePath: string | null): Response {
+export async function handleEditLoad(
+  repoRoot: string,
+  relativePath: string | null,
+): Promise<Response> {
   const resolved = resolveSafeMdPath(repoRoot, relativePath);
   if (!resolved) return text(400, 'invalid path');
+
+  if (shouldSkipLocalRecipeWrites()) {
+    const gh = parseGitHubRepo();
+    if (!gh) {
+      return text(
+        500,
+        'GITHUB_REPO must be owner/repo (e.g. tmb2131/recipes_amma) or a github.com URL when GITHUB_TOKEN is set',
+      );
+    }
+    const rel = toGitHubPath(repoRoot, resolved);
+    try {
+      const content = await getFileContentFromMain(gh.owner, gh.repo, rel);
+      if (content === null) return text(404, 'file not found');
+      return new Response(content, {
+        status: 200,
+        headers: { 'content-type': 'text/markdown; charset=utf-8' },
+      });
+    } catch (err) {
+      return text(502, `GitHub: ${err instanceof Error ? err.message : String(err)}`);
+    }
+  }
+
   if (!fs.existsSync(resolved)) return text(404, 'file not found');
   const content = fs.readFileSync(resolved, 'utf8');
   return new Response(content, {
@@ -55,11 +85,42 @@ export async function handleEditDelete(
 ): Promise<Response> {
   const resolved = resolveSafeMdPath(repoRoot, relativePath);
   if (!resolved) return text(400, 'invalid path');
+
+  if (vercelRecipeEditRequiresGitHub()) {
+    return text(
+      503,
+      'On Vercel the recipe tree is read-only. Set GITHUB_TOKEN and GITHUB_REPO to delete via GitHub.',
+    );
+  }
+
+  if (shouldSkipLocalRecipeWrites()) {
+    const gh = parseGitHubRepo();
+    if (!gh) {
+      return text(
+        500,
+        'GITHUB_REPO must be owner/repo (e.g. tmb2131/recipes_amma) or a github.com URL when GITHUB_TOKEN is set',
+      );
+    }
+    const rel = toGitHubPath(repoRoot, resolved);
+    if (!(await getFileShaOnMain(gh.owner, gh.repo, rel))) {
+      return text(404, 'file not found');
+    }
+    try {
+      await syncDeleteToGitHubMain(repoRoot, resolved);
+    } catch (err) {
+      return text(502, `GitHub sync failed: ${err instanceof Error ? err.message : String(err)}`);
+    }
+    return json(200, { ok: true, trashed: '(GitHub only)' });
+  }
+
   if (!fs.existsSync(resolved)) return text(404, 'file not found');
 
   if (isGitHubRecipeSyncEnabled()) {
     if (!parseGitHubRepo()) {
-      return text(500, 'GITHUB_REPO must be owner/name when GITHUB_TOKEN is set');
+      return text(
+        500,
+        'GITHUB_REPO must be owner/repo (e.g. tmb2131/recipes_amma) or a github.com URL when GITHUB_TOKEN is set',
+      );
     }
     try {
       await syncDeleteToGitHubMain(repoRoot, resolved);
@@ -81,6 +142,10 @@ export async function handleEditDelete(
   return json(200, { ok: true, trashed: trashName });
 }
 
+function relativeRecipePath(repoRoot: string, absolutePath: string): string {
+  return path.relative(repoRoot, absolutePath).split(path.sep).join('/');
+}
+
 export async function handleEditSave(
   repoRoot: string,
   bodyText: string,
@@ -93,9 +158,31 @@ export async function handleEditSave(
   }
   if (typeof payload.content !== 'string') return text(400, 'missing content');
 
+  if (vercelRecipeEditRequiresGitHub()) {
+    return text(
+      503,
+      'On Vercel the recipe tree is read-only. Set GITHUB_TOKEN and GITHUB_REPO to save edits to GitHub.',
+    );
+  }
+
   const sourcePath = resolveSafeMdPath(repoRoot, payload.relativePath);
   if (!sourcePath) return text(400, 'invalid path');
-  if (!fs.existsSync(sourcePath)) return text(404, 'file not found');
+
+  if (shouldSkipLocalRecipeWrites()) {
+    const gh = parseGitHubRepo();
+    if (!gh) {
+      return text(
+        500,
+        'GITHUB_REPO must be owner/repo (e.g. tmb2131/recipes_amma) or a github.com URL when GITHUB_TOKEN is set',
+      );
+    }
+    const oldRel = toGitHubPath(repoRoot, sourcePath);
+    if (!(await getFileShaOnMain(gh.owner, gh.repo, oldRel))) {
+      return text(404, 'file not found on GitHub');
+    }
+  } else if (!fs.existsSync(sourcePath)) {
+    return text(404, 'file not found');
+  }
 
   let targetPath = sourcePath;
   let renamed = false;
@@ -116,11 +203,37 @@ export async function handleEditSave(
     if (path.dirname(proposed) !== sectionDir) {
       return text(400, 'newBaseName escapes section dir');
     }
-    if (fs.existsSync(proposed)) {
+    if (shouldSkipLocalRecipeWrites()) {
+      const gh = parseGitHubRepo()!;
+      const newRel = toGitHubPath(repoRoot, proposed);
+      if (await getFileShaOnMain(gh.owner, gh.repo, newRel)) {
+        return text(409, 'a recipe with that filename already exists');
+      }
+    } else if (fs.existsSync(proposed)) {
       return text(409, 'a recipe with that filename already exists');
     }
     targetPath = proposed;
     renamed = true;
+  }
+
+  if (shouldSkipLocalRecipeWrites()) {
+    try {
+      await syncSaveToGitHubMain({
+        repoRoot,
+        sourceAbsolutePath: sourcePath,
+        targetAbsolutePath: targetPath,
+        content: payload.content,
+        renamed,
+      });
+    } catch (err) {
+      return text(502, `GitHub sync failed: ${err instanceof Error ? err.message : String(err)}`);
+    }
+    return json(200, {
+      ok: true,
+      renamed,
+      relativePath: relativeRecipePath(repoRoot, targetPath),
+      baseName: path.basename(targetPath),
+    });
   }
 
   try {
@@ -155,11 +268,10 @@ export async function handleEditSave(
     }
   }
 
-  const newRelativePath = path.relative(repoRoot, targetPath);
   return json(200, {
     ok: true,
     renamed,
-    relativePath: newRelativePath,
+    relativePath: relativeRecipePath(repoRoot, targetPath),
     baseName: path.basename(targetPath),
   });
 }

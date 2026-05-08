@@ -24,6 +24,21 @@ export function isGitHubRecipeSyncEnabled(): boolean {
   return !!(t && r);
 }
 
+/** `VERCEL` is set on Vercel builds; bundled files under `/var/task` are not writable. */
+export function isVercelDeployment(): boolean {
+  return Boolean(process.env.VERCEL);
+}
+
+/** Skip `fs` writes for recipes: use GitHub API only (required on Vercel when sync is on). */
+export function shouldSkipLocalRecipeWrites(): boolean {
+  return isVercelDeployment() && isGitHubRecipeSyncEnabled();
+}
+
+/** On Vercel without GitHub env, recipe files cannot be edited via this API. */
+export function vercelRecipeEditRequiresGitHub(): boolean {
+  return isVercelDeployment() && !isGitHubRecipeSyncEnabled();
+}
+
 export function parseGitHubRepo(): { owner: string; repo: string } | null {
   let raw = process.env.GITHUB_REPO?.trim();
   if (!raw) return null;
@@ -82,6 +97,44 @@ export async function getFileShaOnMain(
   const o = data as { sha?: string; type?: string };
   if (o.type !== 'file' || !o.sha) return null;
   return o.sha;
+}
+
+/** UTF-8 file body from `main`, or `null` if missing. */
+export async function getFileContentFromMain(
+  owner: string,
+  repo: string,
+  filePath: string,
+): Promise<string | null> {
+  const enc = encodePathForUrl(filePath);
+  const res = await ghFetch(`/repos/${owner}/${repo}/contents/${enc}?ref=main`, {
+    method: 'GET',
+  });
+  if (res.status === 404) return null;
+  const text = await res.text();
+  if (!res.ok) {
+    throw new Error(`GitHub GET content ${filePath}: ${res.status} ${text.slice(0, 500)}`);
+  }
+  let data: unknown;
+  try {
+    data = JSON.parse(text) as unknown;
+  } catch {
+    throw new Error(`GitHub GET content ${filePath}: non-JSON (${text.slice(0, 200)})`);
+  }
+  if (Array.isArray(data)) return null;
+  if (!data || typeof data !== 'object') return null;
+  const o = data as { type?: string; encoding?: string; content?: string };
+  if (o.type !== 'file' || typeof o.content !== 'string') {
+    return null;
+  }
+  if (o.encoding && o.encoding !== 'base64') {
+    return null;
+  }
+  const b64 = o.content.replace(/\s/g, '');
+  try {
+    return Buffer.from(b64, 'base64').toString('utf8');
+  } catch {
+    return null;
+  }
 }
 
 export async function putFileOnMain(
