@@ -2,6 +2,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { getRecipeRepoRoot } from './loadRecipes';
+import {
+  isGitHubRecipeSyncEnabled,
+  parseGitHubRepo,
+  syncDeleteToGitHubMain,
+  syncSaveToGitHubMain,
+} from './recipeEditGitHub';
 
 /**
  * Optional absolute path to the repo that holds section folders (Indian/, …).
@@ -43,10 +49,24 @@ export function handleEditLoad(repoRoot: string, relativePath: string | null): R
   });
 }
 
-export function handleEditDelete(repoRoot: string, relativePath: string | undefined): Response {
+export async function handleEditDelete(
+  repoRoot: string,
+  relativePath: string | undefined,
+): Promise<Response> {
   const resolved = resolveSafeMdPath(repoRoot, relativePath);
   if (!resolved) return text(400, 'invalid path');
   if (!fs.existsSync(resolved)) return text(404, 'file not found');
+
+  if (isGitHubRecipeSyncEnabled()) {
+    if (!parseGitHubRepo()) {
+      return text(500, 'GITHUB_REPO must be owner/name when GITHUB_TOKEN is set');
+    }
+    try {
+      await syncDeleteToGitHubMain(repoRoot, resolved);
+    } catch (err) {
+      return text(502, `GitHub sync failed: ${err instanceof Error ? err.message : String(err)}`);
+    }
+  }
 
   const siteRoot = resolvedSiteRoot();
   const trashDir = path.join(siteRoot, '.trash');
@@ -61,10 +81,10 @@ export function handleEditDelete(repoRoot: string, relativePath: string | undefi
   return json(200, { ok: true, trashed: trashName });
 }
 
-export function handleEditSave(
+export async function handleEditSave(
   repoRoot: string,
   bodyText: string,
-): Response {
+): Promise<Response> {
   let payload: { relativePath?: string; content?: string; newBaseName?: string };
   try {
     payload = JSON.parse(bodyText) as typeof payload;
@@ -99,11 +119,30 @@ export function handleEditSave(
     if (fs.existsSync(proposed)) {
       return text(409, 'a recipe with that filename already exists');
     }
-    fs.renameSync(sourcePath, proposed);
     targetPath = proposed;
     renamed = true;
   }
 
+  if (isGitHubRecipeSyncEnabled()) {
+    if (!parseGitHubRepo()) {
+      return text(500, 'GITHUB_REPO must be owner/name when GITHUB_TOKEN is set');
+    }
+    try {
+      await syncSaveToGitHubMain({
+        repoRoot,
+        sourceAbsolutePath: sourcePath,
+        targetAbsolutePath: targetPath,
+        content: payload.content,
+        renamed,
+      });
+    } catch (err) {
+      return text(502, `GitHub sync failed: ${err instanceof Error ? err.message : String(err)}`);
+    }
+  }
+
+  if (renamed) {
+    fs.renameSync(sourcePath, targetPath);
+  }
   fs.writeFileSync(targetPath, payload.content, 'utf8');
   const newRelativePath = path.relative(repoRoot, targetPath);
   return json(200, {

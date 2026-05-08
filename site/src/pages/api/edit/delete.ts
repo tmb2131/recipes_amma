@@ -15,5 +15,5 @@ export const POST: APIRoute = async ({ request }) => {
       ? String((payload as Record<string, unknown>).relativePath ?? '')
       : '';
   const repoRoot = resolvedRecipeRepoRoot();
-  return handleEditDelete(repoRoot, relativePath || undefined);
+  return await handleEditDelete(repoRoot, relativePath || undefined);
 };

@@ -11,5 +11,5 @@ export const POST: APIRoute = async ({ request }) => {
     return new Response('body too large', { status: 413 });
   }
   const repoRoot = resolvedRecipeRepoRoot();
-  return handleEditSave(repoRoot, bodyText);
+  return await handleEditSave(repoRoot, bodyText);
 };
