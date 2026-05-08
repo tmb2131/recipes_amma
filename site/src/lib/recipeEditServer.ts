@@ -123,9 +123,24 @@ export async function handleEditSave(
     renamed = true;
   }
 
+  try {
+    if (renamed) {
+      fs.renameSync(sourcePath, targetPath);
+    }
+    fs.writeFileSync(targetPath, payload.content, 'utf8');
+  } catch (err) {
+    return text(
+      500,
+      `Local save failed: ${err instanceof Error ? err.message : String(err)}`,
+    );
+  }
+
   if (isGitHubRecipeSyncEnabled()) {
     if (!parseGitHubRepo()) {
-      return text(500, 'GITHUB_REPO must be owner/name when GITHUB_TOKEN is set');
+      return text(
+        500,
+        'GITHUB_REPO must be owner/repo (e.g. tmb2131/recipes_amma) or a github.com URL when GITHUB_TOKEN is set',
+      );
     }
     try {
       await syncSaveToGitHubMain({
@@ -140,10 +155,6 @@ export async function handleEditSave(
     }
   }
 
-  if (renamed) {
-    fs.renameSync(sourcePath, targetPath);
-  }
-  fs.writeFileSync(targetPath, payload.content, 'utf8');
   const newRelativePath = path.relative(repoRoot, targetPath);
   return json(200, {
     ok: true,

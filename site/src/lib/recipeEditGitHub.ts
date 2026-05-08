@@ -25,8 +25,16 @@ export function isGitHubRecipeSyncEnabled(): boolean {
 }
 
 export function parseGitHubRepo(): { owner: string; repo: string } | null {
-  const raw = process.env.GITHUB_REPO?.trim();
+  let raw = process.env.GITHUB_REPO?.trim();
   if (!raw) return null;
+  raw = raw.replace(/\.git$/i, '').replace(/\/+$/, '');
+
+  // Accept "https://github.com/owner/repo" or "github.com/owner/repo"
+  const fromUrl = raw.match(/github\.com[/:]([^/]+)\/([^/]+)$/i);
+  if (fromUrl) {
+    return { owner: fromUrl[1], repo: fromUrl[2] };
+  }
+
   const i = raw.indexOf('/');
   if (i <= 0 || i === raw.length - 1) return null;
   return { owner: raw.slice(0, i), repo: raw.slice(i + 1) };
@@ -63,10 +71,17 @@ export async function getFileShaOnMain(
   if (!res.ok) {
     throw new Error(`GitHub GET ${filePath}: ${res.status} ${text.slice(0, 500)}`);
   }
-  const data = JSON.parse(text) as { sha?: string; type?: string } | unknown[];
+  let data: unknown;
+  try {
+    data = JSON.parse(text) as unknown;
+  } catch {
+    throw new Error(`GitHub GET ${filePath}: non-JSON response (${text.slice(0, 200)})`);
+  }
   if (Array.isArray(data)) return null;
-  if (data.type !== 'file' || !data.sha) return null;
-  return data.sha;
+  if (!data || typeof data !== 'object') return null;
+  const o = data as { sha?: string; type?: string };
+  if (o.type !== 'file' || !o.sha) return null;
+  return o.sha;
 }
 
 export async function putFileOnMain(
