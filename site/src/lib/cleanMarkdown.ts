@@ -149,7 +149,7 @@ export function cleanBody(rawBody: string, displayTitle?: string): CleanedBody {
         .replace(/^#+\s*/, '')
         .replace(/^\*+|\*+$/g, '')
         .trim();
-      if (simplify(first) === titleSlug) {
+      if (titleMatchesDisplay(first, titleSlug)) {
         lines.shift();
         while (lines.length && lines[0].trim() === '') lines.shift();
       }
@@ -179,6 +179,13 @@ function simplify(s: string): string {
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '');
+}
+
+function titleMatchesDisplay(titleLine: string, displayTitleSlug: string): boolean {
+  if (simplify(titleLine) === displayTitleSlug) return true;
+  // Structured saves include the source in the H1 (`Title (Source)`) while the
+  // display title passed to the cleaner is source-free.
+  return simplify(titleLine.replace(/\s*\([^()]+\)\s*$/, '')) === displayTitleSlug;
 }
 
 function dedupeConsecutiveLines(input: string): string {
@@ -357,16 +364,18 @@ function isIngredientSectionHeading(line: string): boolean {
 /** Imperative prose that belongs in method — not multipart ingredients */
 function looksLikeMethodStepStart(line: string): boolean {
   const trimmed = stripEmphasis(line.trim());
+  const withoutHeading = trimmed.replace(/^#{1,6}\s+/, '').trim();
+  if (/^step\s+\d+\b/i.test(withoutHeading)) return true;
   if (looksLikeInstruction(trimmed)) return true;
   if (trimmed.length < 8) return false;
   const firstWord =
-    trimmed
+    withoutHeading
       .normalize('NFKC')
       .replace(/^[^A-Za-z0-9'*]+/, '')
       .match(/^[A-Za-z]+/)
       ?.[0]?.toLowerCase() ?? '';
   if (METHOD_STEP_VERBS.has(firstWord)) return true;
-  return METHOD_LINE_HEAD_RE.test(trimmed.slice(0, 56));
+  return METHOD_LINE_HEAD_RE.test(withoutHeading.slice(0, 56));
 }
 
 /** Verbs/phrases missed when commas split the obvious first-token match. */
