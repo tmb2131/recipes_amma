@@ -79,18 +79,27 @@ function repoRoot(): string {
   // Vite SSR-bundles this module for the Vercel adapter (the bundle's URL
   // and the source URL are different distances from the repo root). Walking
   // up makes this work in both dev and adapter builds, and at any cwd.
+  // Enough markers to distinguish the monorepo root; omit sections that might
+  // have zero files (and thus no folder in a serverless copy).
   const SECTION_MARKERS = ['Indian', 'Asian', 'Fish', 'Soup', 'Salad', 'Desserts', 'Other'];
   function looksLikeRepoRoot(dir: string): boolean {
     return SECTION_MARKERS.every((s) => fs.existsSync(path.join(dir, s)));
   }
 
-  const candidates = [
-    path.dirname(fileURLToPath(import.meta.url)),
-    process.cwd(),
-  ];
+  // Vercel: recipe `.md` trees are copied into the serverless function folder.
+  // `cwd` is that folder — it always has at least Indian/ and Other/.
+  const cwd = path.resolve(process.cwd());
+  if (
+    fs.existsSync(path.join(cwd, 'Indian')) &&
+    fs.existsSync(path.join(cwd, 'Other'))
+  ) {
+    return cwd;
+  }
+
+  const candidates = [path.dirname(fileURLToPath(import.meta.url)), cwd];
   for (const start of candidates) {
     let cur = path.resolve(start);
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 16; i++) {
       if (looksLikeRepoRoot(cur)) return cur;
       const parent = path.dirname(cur);
       if (parent === cur) break;

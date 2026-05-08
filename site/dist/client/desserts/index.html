@@ -14,32 +14,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -76,7 +50,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -106,32 +84,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -168,7 +120,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -198,32 +154,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -260,7 +190,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -290,32 +224,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -352,7 +260,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -382,32 +294,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -444,7 +330,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -474,32 +364,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -536,7 +400,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -565,32 +433,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -627,7 +469,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -657,32 +503,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -719,7 +539,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -749,32 +573,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -811,7 +609,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -841,32 +643,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -903,7 +679,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -932,32 +712,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -994,7 +748,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1023,32 +781,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -1085,7 +817,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1115,32 +851,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -1177,7 +887,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1207,32 +921,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -1269,7 +957,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1299,32 +991,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -1361,7 +1027,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1391,32 +1061,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -1453,7 +1097,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1483,32 +1131,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -1545,7 +1167,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1575,32 +1201,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -1637,7 +1237,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1667,32 +1271,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -1729,7 +1307,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1759,32 +1341,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -1821,7 +1377,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1851,32 +1411,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -1913,7 +1447,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -1943,32 +1481,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2005,7 +1517,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2035,32 +1551,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2097,7 +1587,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2126,32 +1620,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2188,7 +1656,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2218,32 +1690,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2280,7 +1726,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2310,32 +1760,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2372,7 +1796,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2402,32 +1830,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2464,7 +1866,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2494,32 +1900,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2556,7 +1936,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2585,32 +1969,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2647,7 +2005,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2677,32 +2039,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2739,7 +2075,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2769,32 +2109,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2831,7 +2145,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2861,32 +2179,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -2923,7 +2215,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -2953,32 +2249,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3015,7 +2285,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3045,32 +2319,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3107,7 +2355,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3137,32 +2389,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3199,7 +2425,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3229,32 +2459,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3291,7 +2495,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3320,32 +2528,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3382,7 +2564,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3411,32 +2597,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3473,7 +2633,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3503,32 +2667,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3565,7 +2703,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3595,32 +2737,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3657,7 +2773,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3686,32 +2806,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3748,7 +2842,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3778,32 +2876,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3840,7 +2912,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3870,32 +2946,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -3932,7 +2982,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -3962,32 +3016,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4024,7 +3052,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4054,32 +3086,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4116,7 +3122,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4146,32 +3156,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4208,7 +3192,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4238,32 +3226,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4300,7 +3262,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4330,32 +3296,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4392,7 +3332,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4422,32 +3366,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4484,7 +3402,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4514,32 +3436,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4576,7 +3472,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4605,32 +3505,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4667,7 +3541,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4697,32 +3575,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4759,7 +3611,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4789,32 +3645,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4851,7 +3681,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4881,32 +3715,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -4943,7 +3751,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -4973,32 +3785,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5035,7 +3821,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5065,32 +3855,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5127,7 +3891,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5157,32 +3925,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5219,7 +3961,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5249,32 +3995,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5311,7 +4031,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5341,32 +4065,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5403,7 +4101,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5433,32 +4135,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5495,7 +4171,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5525,32 +4205,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5587,7 +4241,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5617,32 +4275,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5679,7 +4311,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5709,32 +4345,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5771,7 +4381,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5801,32 +4415,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5863,7 +4451,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5892,32 +4484,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -5954,7 +4520,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -5983,32 +4553,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6045,7 +4589,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6075,32 +4623,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6137,7 +4659,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6167,32 +4693,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6229,7 +4729,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6259,32 +4763,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6321,7 +4799,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6350,32 +4832,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6412,7 +4868,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6442,32 +4902,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6504,7 +4938,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6534,32 +4972,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6596,7 +5008,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6626,32 +5042,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6688,7 +5078,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6718,32 +5112,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6780,7 +5148,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6810,32 +5182,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6872,7 +5218,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6902,32 +5252,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -6964,7 +5288,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -6994,32 +5322,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7056,7 +5358,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -7086,32 +5392,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7148,7 +5428,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -7178,32 +5462,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7240,7 +5498,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -7269,32 +5531,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7331,7 +5567,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -7361,32 +5601,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7423,7 +5637,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -7453,32 +5671,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7515,7 +5707,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -7545,32 +5741,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7607,7 +5777,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -7637,32 +5811,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7699,7 +5847,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -7729,32 +5881,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7791,7 +5917,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -7821,32 +5951,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7883,7 +5987,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -7913,32 +6021,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -7975,7 +6057,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -8005,32 +6091,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -8067,7 +6127,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -8097,32 +6161,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -8159,7 +6197,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -8189,32 +6231,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -8251,7 +6267,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -8281,32 +6301,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -8343,7 +6337,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -8373,32 +6371,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -8435,7 +6407,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -8465,32 +6441,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -8527,7 +6477,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -8557,32 +6511,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -8619,7 +6547,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -8648,32 +6580,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -8710,7 +6616,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -8740,32 +6650,6 @@ Amma's Kitchen
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -8802,7 +6686,11 @@ Amma's Kitchen
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);
@@ -8827,7 +6715,7 @@ Amma's Kitchen
   </script> <a href="/desserts/walnut-cake/" class="recipe-card__link" data-astro-cid-esnuq5xt> <div class="flex items-baseline justify-between gap-3" data-astro-cid-esnuq5xt> <h3 class="recipe-card__title" data-astro-cid-esnuq5xt>Walnut Cake</h3>  </div> <div class="mt-1 flex flex-wrap items-center gap-2" data-astro-cid-esnuq5xt> <span class="badge badge-source" data-astro-cid-esnuq5xt>Guardian</span> <span class="text-xs text-[color:var(--ink-faint)] font-sans" data-astro-cid-esnuq5xt> 39 ingredients
 </span> </div> <p class="mt-2 text-sm leading-snug text-[color:var(--ink-soft)] line-clamp-2" data-astro-cid-esnuq5xt>Toast the walnut halves in a dry pan until they smell nutty, then set aside a quarter of the most handsome-looking ones to use as …</p> </a> </article>   </div> </section> </div>  </main> <aside id="drawer" class="drawer" aria-label="Sections" data-drawer hidden data-astro-cid-hxtyo74s> <div class="drawer-backdrop" data-drawer-close data-astro-cid-hxtyo74s></div> <nav class="drawer-panel" aria-label="Recipe sections" data-astro-cid-hxtyo74s> <div class="flex items-center justify-between border-b border-[color:var(--paper-edge)] px-6 py-5" data-astro-cid-hxtyo74s> <a href="/" class="font-display text-2xl text-[color:var(--ink)]" data-astro-cid-hxtyo74s>Amma's Kitchen</a> <button type="button" class="text-[color:var(--ink-faint)] hover:text-[color:var(--ink)]" data-drawer-close aria-label="Close menu" data-astro-cid-hxtyo74s> <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" data-astro-cid-hxtyo74s> <path d="M5 5l10 10M15 5L5 15" stroke-linecap="round" data-astro-cid-hxtyo74s></path> </svg> </button> </div> <ul class="flex flex-col gap-1 px-4 py-4" data-astro-cid-hxtyo74s> <li data-astro-cid-hxtyo74s> <a href="/contents/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Table of contents</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>963</span> </a> </li> <li data-astro-cid-hxtyo74s> <a href="/review/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Review</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>37</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>
 Potential duplicate recipes
-</p> </li> <li data-astro-cid-hxtyo74s> <a href="/indian/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Indian</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>223</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Amma&#39;s home — dal, curries, and the spice of every meal</p> </li><li data-astro-cid-hxtyo74s> <a href="/asian/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Asian</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>23</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Tofu, noodles, and stir-fries from across the East</p> </li><li data-astro-cid-hxtyo74s> <a href="/fish/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Fish</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>67</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Fish from the sea, the river, and the kitchen</p> </li><li data-astro-cid-hxtyo74s> <a href="/soup/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Soup</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>41</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Slow simmers and weeknight bowls</p> </li><li data-astro-cid-hxtyo74s> <a href="/salad/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Salad</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>71</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Crisp, bright, and leafy</p> </li><li data-astro-cid-hxtyo74s> <a href="/dressing/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Dressing</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>10</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>The little jars that lift everything</p> </li><li data-astro-cid-hxtyo74s> <a href="/desserts/" class="drawer-link drawer-link-active" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Desserts</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>96</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Cakes, cookies, and the sweet of the meal</p> </li><li data-astro-cid-hxtyo74s> <a href="/sylvestre/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Sylvestre</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>2</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Sylvestre&#39;s pages</p> </li><li data-astro-cid-hxtyo74s> <a href="/other/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Other</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>430</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Everything else, the everyday and the unusual</p> </li> </ul> </nav> </aside>  <script type="module">if(!window.__drawerInit){window.__drawerInit=!0;const n=()=>document.querySelector("[data-drawer]"),r=()=>n()?.removeAttribute("hidden"),a=()=>n()?.setAttribute("hidden","");document.addEventListener("click",e=>{const t=e.target;t instanceof Element&&(t.closest("[data-drawer-open]")&&r(),t.closest("[data-drawer-close]")&&a())}),document.addEventListener("keydown",e=>{if(e.key==="Escape"&&a(),e.key==="g"&&!e.metaKey&&!e.ctrlKey){const t=document.activeElement?.tagName;if(t==="INPUT"||t==="TEXTAREA")return;e.preventDefault(),r()}})}</script> <dialog data-recipe-edit-modal class="recipe-edit-modal" data-astro-transition-persist="astro-457oaokf-2"><form method="dialog" class="rem-form" data-rem-form><header class="rem-header"><div class="rem-titlebar"><strong class="rem-eyebrow" data-rem-eyebrow>Edit recipe</strong><button type="button" class="rem-close" data-rem-close aria-label="Close">×</button></div><div class="rem-fields"><label class="rem-field rem-field--wide"><span class="rem-label">Title</span><input type="text" class="rem-input" data-rem-title autocomplete="off" spellcheck="true"></label><label class="rem-field"><span class="rem-label">Source <span class="rem-hint">(optional)</span></span><input type="text" class="rem-input" data-rem-source autocomplete="off" placeholder="NYT, Guardian…"></label></div><div class="rem-modes"><label class="rem-toggle"><input type="checkbox" data-rem-mode-toggle><span>Edit raw markdown</span></label><span class="rem-mode-note" data-rem-mode-note></span></div></header><div class="rem-body"><section class="rem-pane" data-rem-pane="structured"><div class="rem-pane-section"><div class="rem-section-head"><h3 class="rem-h3">Ingredients</h3><button type="button" class="rem-btn rem-btn--ghost" data-rem-add-ingredient>+ Add</button></div><ol class="rem-ingredients" data-rem-ingredients></ol></div><div class="rem-pane-section"><h3 class="rem-h3">Method</h3><div class="rem-editor" data-rem-method-mount></div></div></section><section class="rem-pane" data-rem-pane="raw" hidden><div class="rem-pane-section"><h3 class="rem-h3">Raw markdown</h3><p class="rem-help">Lossless. Saves the whole file verbatim.</p><div class="rem-editor rem-editor--raw" data-rem-raw-mount></div></div></section></div><footer class="rem-footer"><span class="rem-status" data-rem-status></span><div class="rem-actions"><button type="button" class="rem-btn" data-rem-cancel>Cancel</button><button type="button" class="rem-btn rem-btn--primary" data-rem-save>Save</button></div></footer></form><template data-rem-ingredient-row><li class="rem-ing-row"><input type="text" class="rem-input rem-ing-input"><button type="button" class="rem-icon-btn" data-rem-ing-up aria-label="Move up">↑</button><button type="button" class="rem-icon-btn" data-rem-ing-down aria-label="Move down">↓</button><button type="button" class="rem-icon-btn rem-icon-btn--danger" data-rem-ing-remove aria-label="Remove">×</button></li></template></dialog><script type="module" src="/_astro/RecipeEditModal.astro_astro_type_script_index_0_lang.D-OfC7sk.js"></script>  <script type="module">document.addEventListener("keydown",e=>{if(e.key!=="/")return;const t=document.activeElement?.tagName;if(t==="INPUT"||t==="TEXTAREA")return;const n=document.querySelector('[data-search-box] input[name="q"]');n&&(e.preventDefault(),n.focus())});</script> <script>
+</p> </li> <li data-astro-cid-hxtyo74s> <a href="/indian/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Indian</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>223</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Amma&#39;s home — dal, curries, and the spice of every meal</p> </li><li data-astro-cid-hxtyo74s> <a href="/asian/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Asian</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>23</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Tofu, noodles, and stir-fries from across the East</p> </li><li data-astro-cid-hxtyo74s> <a href="/fish/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Fish</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>67</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Fish from the sea, the river, and the kitchen</p> </li><li data-astro-cid-hxtyo74s> <a href="/soup/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Soup</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>41</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Slow simmers and weeknight bowls</p> </li><li data-astro-cid-hxtyo74s> <a href="/salad/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Salad</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>71</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Crisp, bright, and leafy</p> </li><li data-astro-cid-hxtyo74s> <a href="/dressing/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Dressing</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>10</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>The little jars that lift everything</p> </li><li data-astro-cid-hxtyo74s> <a href="/desserts/" class="drawer-link drawer-link-active" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Desserts</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>96</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Cakes, cookies, and the sweet of the meal</p> </li><li data-astro-cid-hxtyo74s> <a href="/sylvestre/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Sylvestre</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>2</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Sylvestre&#39;s pages</p> </li><li data-astro-cid-hxtyo74s> <a href="/other/" class="drawer-link" data-astro-cid-hxtyo74s> <span data-astro-cid-hxtyo74s>Other</span> <span class="text-[color:var(--ink-faint)] text-xs" data-astro-cid-hxtyo74s>430</span> </a> <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]" data-astro-cid-hxtyo74s>Everything else, the everyday and the unusual</p> </li> </ul> </nav> </aside>  <script type="module">if(!window.__drawerInit){window.__drawerInit=!0;const n=()=>document.querySelector("[data-drawer]"),r=()=>n()?.removeAttribute("hidden"),a=()=>n()?.setAttribute("hidden","");document.addEventListener("click",e=>{const t=e.target;t instanceof Element&&(t.closest("[data-drawer-open]")&&r(),t.closest("[data-drawer-close]")&&a())}),document.addEventListener("keydown",e=>{if(e.key==="Escape"&&a(),e.key==="g"&&!e.metaKey&&!e.ctrlKey){const t=document.activeElement?.tagName;if(t==="INPUT"||t==="TEXTAREA")return;e.preventDefault(),r()}})}</script> <dialog data-recipe-edit-modal class="recipe-edit-modal" data-astro-transition-persist="astro-457oaokf-2"><form method="dialog" class="rem-form" data-rem-form><header class="rem-header"><div class="rem-titlebar"><strong class="rem-eyebrow" data-rem-eyebrow>Edit recipe</strong><button type="button" class="rem-close" data-rem-close aria-label="Close">×</button></div><div class="rem-fields"><label class="rem-field rem-field--wide"><span class="rem-label">Title</span><input type="text" class="rem-input" data-rem-title autocomplete="off" spellcheck="true"></label><label class="rem-field"><span class="rem-label">Source <span class="rem-hint">(optional)</span></span><input type="text" class="rem-input" data-rem-source autocomplete="off" placeholder="NYT, Guardian…"></label></div><div class="rem-modes"><label class="rem-toggle"><input type="checkbox" data-rem-mode-toggle><span>Edit raw markdown</span></label><span class="rem-mode-note" data-rem-mode-note></span></div></header><div class="rem-body"><section class="rem-pane" data-rem-pane="structured"><div class="rem-pane-section"><div class="rem-section-head"><h3 class="rem-h3">Ingredients</h3><button type="button" class="rem-btn rem-btn--ghost" data-rem-add-ingredient>+ Add</button></div><ol class="rem-ingredients" data-rem-ingredients></ol></div><div class="rem-pane-section"><h3 class="rem-h3">Method</h3><div class="rem-editor" data-rem-method-mount></div></div></section><section class="rem-pane" data-rem-pane="raw" hidden><div class="rem-pane-section"><h3 class="rem-h3">Raw markdown</h3><p class="rem-help">Lossless. Saves the whole file verbatim.</p><div class="rem-editor rem-editor--raw" data-rem-raw-mount></div></div></section></div><footer class="rem-footer"><span class="rem-status" data-rem-status></span><div class="rem-actions"><button type="button" class="rem-btn" data-rem-cancel>Cancel</button><button type="button" class="rem-btn rem-btn--primary" data-rem-save>Save</button></div></footer></form><template data-rem-ingredient-row><li class="rem-ing-row"><input type="text" class="rem-input rem-ing-input"><button type="button" class="rem-icon-btn" data-rem-ing-up aria-label="Move up">↑</button><button type="button" class="rem-icon-btn" data-rem-ing-down aria-label="Move down">↓</button><button type="button" class="rem-icon-btn rem-icon-btn--danger" data-rem-ing-remove aria-label="Remove">×</button></li></template></dialog><script type="module" src="/_astro/RecipeEditModal.astro_astro_type_script_index_0_lang.6AYlrvaw.js"></script>  <script type="module">document.addEventListener("keydown",e=>{if(e.key!=="/")return;const t=document.activeElement?.tagName;if(t==="INPUT"||t==="TEXTAREA")return;const n=document.querySelector('[data-search-box] input[name="q"]');n&&(e.preventDefault(),n.focus())});</script> <script>
       /**
        * Amma's Favorites — global heart toggle controller.
        *

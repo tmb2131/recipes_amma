@@ -14,6 +14,20 @@ export default defineConfig({
   integrations: [tailwind({ applyBaseStyles: false }), sitemap()],
   vite: {
     server: { fs: { allow: ['..'] } },
+    // Ship all recipe `.md` files into the Vercel serverless bundle so
+    // `/api/edit/*` can load/save against real paths (`@astrojs/vercel` picks
+    // these up via `mergeGlobbedIncludes` when a server bundle exists).
+    assetsInclude: [
+      '../Indian/**/*.md',
+      '../Asian/**/*.md',
+      '../Fish/**/*.md',
+      '../Soup/**/*.md',
+      '../Salad/**/*.md',
+      '../Dressing/**/*.md',
+      '../Desserts/**/*.md',
+      '../Sylvestre/**/*.md',
+      '../Other/**/*.md',
+    ],
     build: {
       rollupOptions: {
         external: [/^\/pagefind\//],

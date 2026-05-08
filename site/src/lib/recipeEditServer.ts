@@ -15,8 +15,13 @@ export function resolvedRecipeRepoRoot(): string {
   return getRecipeRepoRoot();
 }
 
+/** `site/` directory (for `.trash`), when present next to the recipe repo. */
 export function resolvedSiteRoot(): string {
-  return path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
+  const repo = resolvedRecipeRepoRoot();
+  const atRepo = path.join(repo, 'site');
+  if (fs.existsSync(atRepo)) return atRepo;
+  // Bundled serverless layout: no sibling `site/` — use repo root for `.trash`.
+  return repo;
 }
 
 export function resolveSafeMdPath(repoRoot: string, relativePath: unknown): string | null {
