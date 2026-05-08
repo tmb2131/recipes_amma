@@ -26,7 +26,7 @@ const preview = previewSource
       {showSection && <span class="recipe-card__section">{recipe.section}</span>}
     </div>
     <div class="mt-1 flex flex-wrap items-center gap-2">
-      {recipe.family && <span class="badge badge-family" data-favorite-badge>Favorite</span>}
+      <span class="badge badge-family" data-favorite-badge hidden={!recipe.family}>Favorite</span>
       {recipe.source && <span class="badge badge-source">{recipe.source}</span>}
       {recipe.ingredients && (
         <span class="text-xs text-[color:var(--ink-faint)] font-sans">

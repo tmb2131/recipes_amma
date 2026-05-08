@@ -125,6 +125,10 @@
   border: 1px solid currentColor;
   white-space: nowrap;
 }
+/* Author `display: inline-flex` can override default [hidden] hiding in some UA defaults. */
+.badge[hidden] {
+  display: none !important;
+}
 
 .badge-source { color: var(--sage-deep); }
 .badge-family { color: var(--terracotta); background: rgba(232, 176, 74, 0.12); }
