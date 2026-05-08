@@ -4,6 +4,8 @@
 
 * <br />
 
+* <br />
+
   ## Ingredients
 
 * Four (6 — ounce) white — fleshed fish fillets, such as snapper, catfish or tilapia
@@ -30,9 +32,11 @@
 
 * <br />
 
-## Step 1
+* <br />
 
-Position a rack in the middle of the oven and preheat to 475 degrees. Line a large, rimmed baking sheet with parchment. Pat the fish dry and season both sides with the salt and pepper.
+  ## Step 1
+
+Paosition a rack in the middle of the oven and preheat to 475 degrees. Line a large, rimmed baking sheet with parchment. Pat the fish dry and season both sides with the salt and pepper.
 
 ## Step 2
 
