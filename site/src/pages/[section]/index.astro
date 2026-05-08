@@ -5,6 +5,8 @@ import RecipeCard from '../../components/RecipeCard.astro';
 import { getRecipes, groupBySection, SECTION_META, type Section } from '../../lib/loadRecipes';
 import { slugify } from '../../lib/slug';
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   const groups = groupBySection(getRecipes());
   return groups.map((g) => ({
@@ -35,8 +37,8 @@ const familyCount = recipes.filter((r) => r.family).length;
 
   {familyCount > 0 && (
     <p class="section-family-note">
-      <span class="badge badge-family">Family</span>
-      <span>{familyCount} {familyCount === 1 ? 'recipe is' : 'recipes are'} from Amma's own hand.</span>
+      <span class="badge badge-family">Favorite</span>
+      <span>{familyCount} {familyCount === 1 ? 'recipe is one of' : 'recipes are'} Amma's Favorites.</span>
     </p>
   )}
 

@@ -4,6 +4,8 @@ import SearchBox from '../components/SearchBox.astro';
 import Floral from '../components/Floral.astro';
 import { getRecipes } from '../lib/loadRecipes';
 
+export const prerender = true;
+
 const normalizeHref = (url: string) => {
   const clean = url.startsWith('/') ? url : `/${url}`;
   return clean.endsWith('/') ? clean.slice(0, -1) : clean;
@@ -298,7 +300,7 @@ const recipeLookup = Object.fromEntries(
     const title = escapeHtml(recipe?.title ?? result.meta?.title ?? result.url);
     const section = escapeHtml(recipe?.section ?? getSection(result.url));
     const source = recipe?.source ? `<span class="badge badge-source">${escapeHtml(recipe.source)}</span>` : '';
-    const family = recipe?.family ? '<span class="badge badge-family">Family</span>' : '';
+    const family = recipe?.family ? '<span class="badge badge-family" data-favorite-badge>Favorite</span>' : '';
     const ingredients = recipe?.ingredientsCount
       ? `<span class="result-card__ingredients">${recipe.ingredientsCount} ingredients</span>`
       : '';

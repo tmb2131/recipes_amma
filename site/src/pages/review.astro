@@ -4,6 +4,8 @@ import Floral from '../components/Floral.astro';
 import RecipeActions from '../components/RecipeActions.astro';
 import { findDuplicateGroups, getRecipes } from '../lib/loadRecipes';
 
+export const prerender = true;
+
 const isDev = import.meta.env.DEV;
 const groups = isDev ? findDuplicateGroups(getRecipes()) : [];
 const totalDupes = groups.reduce((n, g) => n + g.recipes.length, 0);
@@ -46,7 +48,7 @@ const totalDupes = groups.reduce((n, g) => n + g.recipes.length, 0);
                   <a href={r.href} class="dup-row__link">{r.title}</a>
                   <div class="dup-row__meta">
                     <span class="dup-row__section">{r.section}</span>
-                    {r.family && <span class="badge badge-family">Family</span>}
+                    {r.family && <span class="badge badge-family" data-favorite-badge>Favorite</span>}
                     {r.source && (
                       <span class="badge badge-source">{r.source}</span>
                     )}

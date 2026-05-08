@@ -3,6 +3,7 @@ import BookLayout from './BookLayout.astro';
 import PageFlip from '../components/PageFlip.astro';
 import Floral from '../components/Floral.astro';
 import RecipeActions from '../components/RecipeActions.astro';
+import FavoriteHeart from '../components/FavoriteHeart.astro';
 import { renderMarkdown } from '../lib/render';
 import { slugify } from '../lib/slug';
 import { SECTION_META, type Recipe } from '../lib/loadRecipes';
@@ -45,7 +46,8 @@ function escapeHtml(s: string) {
       <Floral variant={motif as any} class="recipe-motif" width={48} height={48} />
       <h1 class="recipe-title">{recipe.title}</h1>
       <div class="recipe-tags">
-        {recipe.family && <span class="badge badge-family">Family</span>}
+        <FavoriteHeart recipe={recipe} variant="detail" />
+        {recipe.family && <span class="badge badge-family" data-favorite-badge>Favorite</span>}
         {recipe.source && <span class="badge badge-source">{recipe.source}</span>}
       </div>
       <RecipeActions recipe={recipe} variant="detail" />

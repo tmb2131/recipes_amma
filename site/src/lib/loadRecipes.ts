@@ -69,9 +69,32 @@ const FOLDER_SECTIONS: Section[] = [
 ];
 
 function repoRoot(): string {
-  // src/lib/loadRecipes.ts -> .. -> .. -> .. (workspace root)
-  const here = path.dirname(fileURLToPath(import.meta.url));
-  return path.resolve(here, '..', '..', '..');
+  // Find the repo root by walking up from a known anchor until we see one of
+  // the section folders. Using `import.meta.url` alone is unreliable once
+  // Vite SSR-bundles this module for the Vercel adapter (the bundle's URL
+  // and the source URL are different distances from the repo root). Walking
+  // up makes this work in both dev and adapter builds, and at any cwd.
+  const SECTION_MARKERS = ['Indian', 'Asian', 'Fish', 'Soup', 'Salad', 'Desserts', 'Other'];
+  function looksLikeRepoRoot(dir: string): boolean {
+    return SECTION_MARKERS.every((s) => fs.existsSync(path.join(dir, s)));
+  }
+
+  const candidates = [
+    path.dirname(fileURLToPath(import.meta.url)),
+    process.cwd(),
+  ];
+  for (const start of candidates) {
+    let cur = path.resolve(start);
+    for (let i = 0; i < 10; i++) {
+      if (looksLikeRepoRoot(cur)) return cur;
+      const parent = path.dirname(cur);
+      if (parent === cur) break;
+      cur = parent;
+    }
+  }
+  // Last-resort fallback: original heuristic of three levels up from the
+  // source file. Keeps offline dev / IDE tooling working.
+  return path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..', '..');
 }
 
 export function loadAllRecipes(): Recipe[] {

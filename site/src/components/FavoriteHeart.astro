@@ -1,0 +1,134 @@
+---
+/**
+ * Heart-shaped toggle for "Amma's Favorites".
+ *
+ * Renders a button with two SVGs (filled and outline) and CSS that picks
+ * which one is visible based on `data-favorite="1"`. The actual toggle
+ * behaviour is wired up by the global delegated handler installed by
+ * `BookLayout.astro` — this file is just markup + presentation.
+ *
+ * The initial `data-favorite` is the build-time seed (today's
+ * title-prefix `family` flag). The client overlay re-syncs every heart
+ * with the live state from `GET /api/favorites` on each page load, so the
+ * UI converges to the canonical store within a tick of paint.
+ *
+ * `variant`:
+ *   - `card`   — small heart, top-right of a `RecipeCard`. Hidden on
+ *                non-favourites until the card is hovered/focused (so
+ *                rows don't look noisy), always visible when filled.
+ *   - `detail` — bigger heart inline with the recipe title's tag row.
+ */
+import type { Recipe } from '../lib/loadRecipes';
+
+interface Props {
+  recipe: Recipe;
+  variant?: 'card' | 'detail';
+}
+
+const { recipe, variant = 'card' } = Astro.props;
+const initial = recipe.family;
+---
+<button
+  type="button"
+  class:list={['favorite-heart', `favorite-heart--${variant}`]}
+  data-favorite-toggle
+  data-slug={recipe.slug}
+  data-title={recipe.title}
+  data-favorite={initial ? '1' : '0'}
+  aria-pressed={initial ? 'true' : 'false'}
+  aria-label={initial
+    ? `Remove ${recipe.title} from Amma's Favorites`
+    : `Add ${recipe.title} to Amma's Favorites`}
+>
+  <svg class="favorite-heart__icon favorite-heart__icon--outline" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+    <path d="M10 16.5s-5.5-3.4-7-6.5C1.7 7.6 3.2 4.5 6 4.5c1.6 0 3 .9 4 2.3 1-1.4 2.4-2.3 4-2.3 2.8 0 4.3 3.1 3 5.5-1.5 3.1-7 6.5-7 6.5z" stroke-linejoin="round" stroke-linecap="round"/>
+  </svg>
+  <svg class="favorite-heart__icon favorite-heart__icon--filled" width="16" height="16" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+    <path d="M10 17s-6-3.7-7.5-7C1.2 7.4 3 4 6 4c1.6 0 3 .9 4 2.4C11 4.9 12.4 4 14 4c3 0 4.8 3.4 3.5 6-1.5 3.3-7.5 7-7.5 7z"/>
+  </svg>
+</button>
+
+<style>
+  .favorite-heart {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 999px;
+    color: var(--ink-faint);
+    background: rgba(250, 246, 238, 0.85);
+    border: 1px solid var(--paper-edge);
+    cursor: pointer;
+    transition: color 160ms ease, background 160ms ease, border-color 160ms ease, transform 140ms ease;
+    backdrop-filter: blur(4px);
+    line-height: 0;
+    padding: 0;
+  }
+  .favorite-heart:hover {
+    color: var(--terracotta);
+    border-color: var(--gold-soft);
+    background: var(--paper-deep);
+  }
+  .favorite-heart:active {
+    transform: scale(0.92);
+  }
+  .favorite-heart:focus-visible {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
+  }
+  .favorite-heart[data-favorite="1"] {
+    color: var(--terracotta-deep);
+    background: rgba(204, 90, 60, 0.1);
+    border-color: rgba(204, 90, 60, 0.4);
+  }
+  .favorite-heart[data-favorite="1"]:hover {
+    background: rgba(204, 90, 60, 0.18);
+    border-color: rgba(204, 90, 60, 0.6);
+  }
+  .favorite-heart[data-pending="1"] {
+    opacity: 0.6;
+    cursor: progress;
+  }
+  .favorite-heart__icon {
+    width: 16px;
+    height: 16px;
+    transition: transform 140ms ease;
+  }
+  .favorite-heart__icon--filled { display: none; }
+  .favorite-heart[data-favorite="1"] .favorite-heart__icon--outline { display: none; }
+  .favorite-heart[data-favorite="1"] .favorite-heart__icon--filled { display: block; }
+
+  /* Card variant: tucked at the top-left so it doesn't collide with the
+     dev pencil/trash actions (which sit top-right). Hidden until hover/
+     focus or a "filled" state, mirroring the existing dev-action UX. */
+  .favorite-heart--card {
+    position: absolute;
+    top: 0.45rem;
+    left: 0.45rem;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    opacity: 0;
+    transform: translateY(-2px);
+    transition: opacity 160ms ease, transform 160ms ease, color 160ms ease,
+      background 160ms ease, border-color 160ms ease;
+    pointer-events: auto;
+  }
+  .favorite-heart--card[data-favorite="1"] { opacity: 1; transform: translateY(0); }
+  :global(.recipe-card:hover) .favorite-heart--card,
+  :global(.recipe-card:focus-within) .favorite-heart--card,
+  .favorite-heart--card:focus-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .favorite-heart--detail {
+    width: 36px;
+    height: 36px;
+  }
+  .favorite-heart--detail .favorite-heart__icon {
+    width: 20px;
+    height: 20px;
+  }
+</style>

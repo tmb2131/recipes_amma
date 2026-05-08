@@ -5,13 +5,16 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "npx astro build && npx pagefind --site dist",
-    "preview": "astro preview",
-    "astro": "astro"
+    "build": "npx astro build && npx pagefind --site .vercel/output/static",
+    "preview": "echo 'astro preview is not supported with the Vercel adapter. Use npm run dev (full stack) or `vercel dev` (Vercel CLI) instead.' && exit 1",
+    "astro": "astro",
+    "seed-favorites": "tsx scripts/seed-favorites.ts"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.2.0",
     "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^9.0.5",
+    "@upstash/redis": "^1.38.0",
     "astro": "^5.0.0",
     "marked": "^14.1.0",
     "tailwindcss": "^3.4.0"
@@ -22,6 +25,7 @@
     "@milkdown/preset-gfm": "^7.20.0",
     "@milkdown/theme-nord": "^7.20.0",
     "@types/node": "^20.0.0",
-    "pagefind": "^1.1.0"
+    "pagefind": "^1.1.0",
+    "tsx": "^4.21.0"
   }
 }

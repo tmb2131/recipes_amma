@@ -9,22 +9,50 @@ The book reads from your existing markdown — `Indian.md` is split into individ
 ```bash
 cd site
 npm install
-npm run dev      # live preview at http://localhost:4321
-npm run build    # produces site/dist/ (the entire site)
-npm run preview  # serves the built site for QA
+npm run dev      # live preview at http://localhost:4321 (full stack, incl. /api/favorites)
+npm run build    # prerenders every page + bundles the API as a Vercel function
 ```
 
-`npm run build` runs Astro to produce static HTML, then runs Pagefind to generate the search index inside `dist/pagefind/`.
+`npm run build` runs Astro to prerender every static route, the `@astrojs/vercel` adapter packs the API endpoints into a serverless function, and Pagefind indexes the static HTML for search. The full output is `site/.vercel/output/`, ready for Vercel deployment via the Build Output API. There's no separate `preview` step — the dev server runs the same code paths as production.
 
 ## Deploy
 
-The `dist/` folder is the entire site — no server, no build step, just static files.
+Almost the whole site is statically prerendered, with a single pair of serverless API routes (`/api/favorites`, `/api/favorites/toggle`) that read and write the "Amma's Favorites" set.
 
-- **Netlify**: drag `dist/` onto <https://app.netlify.com/drop>. Custom domain in two minutes.
-- **Vercel**: `npx vercel deploy dist --prod` (or import the repo and set the build command to `npm run build` and the output directory to `site/dist`).
-- **GitHub Pages**: push `dist/` to a `gh-pages` branch (or use [actions/deploy-pages](https://github.com/actions/deploy-pages)).
-- **Cloudflare Pages**: `npx wrangler pages deploy dist`.
-- **Locally / on a USB stick**: open `dist/index.html` in any browser. Search and navigation work entirely offline once Pagefind has loaded its index.
+- **Vercel** (recommended): the repo's `vercel.json` already wires this up. The Astro Vercel adapter emits both the static pages and the API functions automatically. See [Amma's Favorites — heart toggle](#ammas-favorites--heart-toggle) below for the env vars to set.
+- **Netlify / Cloudflare Pages / GitHub Pages**: still possible for a read-only mirror — point them at the static output. The heart icon will degrade gracefully (it shows the build-time seed and silently fails to toggle).
+
+## Amma's Favorites — heart toggle
+
+Every recipe card and detail page has a heart icon. Clicking it adds or removes the recipe from "Amma's Favorites", a shared editorial set rendered on the contents page and called out on each section page.
+
+### Storage
+
+Favorites are stored as a Redis Set keyed `ammas-favorites:v1`.
+
+| Environment            | Backend                                                                 |
+| ---------------------- | ----------------------------------------------------------------------- |
+| Local dev (no env)     | `site/.favorites-dev.json` (gitignored)                                 |
+| Vercel + Upstash Redis | `UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN`                   |
+| Vercel marketplace KV  | `KV_REST_API_URL` + `KV_REST_API_TOKEN` (auto-injected by integrations) |
+
+The store transparently uses whichever pair is set; the API code is identical.
+
+### Auth
+
+Toggle requests must include `Authorization: Bearer <FAVORITES_TOKEN>`. Set `FAVORITES_TOKEN` in your environment to a strong shared secret.
+
+- In `astro dev`, the token defaults to `dev` so editing works immediately. The browser prompts for it on first toggle and caches it in `localStorage` (`ammas-favorites:token`).
+- In production, set `FAVORITES_TOKEN` on the Vercel project. Anyone with the token can edit; everyone else can only read.
+
+### One-time seed
+
+To prefill the store with the recipes whose titles already start with "Amma's …" / "Selvi's …" / "Sylvestre's …":
+
+```bash
+npm run seed-favorites -- --dry      # preview
+npm run seed-favorites -- --apply    # write
+```
 
 ## What's where
 

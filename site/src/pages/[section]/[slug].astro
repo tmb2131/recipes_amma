@@ -6,6 +6,8 @@ import {
 } from '../../lib/loadRecipes';
 import { slugify } from '../../lib/slug';
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   const recipes = getRecipes();
   const order = buildBookOrder(recipes);

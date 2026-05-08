@@ -2,6 +2,7 @@
 import BookLayout from '../layouts/BookLayout.astro';
 import Floral from '../components/Floral.astro';
 import { getRecipes } from '../lib/loadRecipes';
+export const prerender = true;
 const total = getRecipes().length;
 ---
 <BookLayout title="Amma's Kitchen" showCover bare>

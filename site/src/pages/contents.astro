@@ -5,6 +5,8 @@ import RecipeCard from '../components/RecipeCard.astro';
 import SearchBox from '../components/SearchBox.astro';
 import { getRecipes, groupBySection, SECTION_META } from '../lib/loadRecipes';
 
+export const prerender = true;
+
 const recipes = getRecipes();
 const groups = groupBySection(recipes);
 const familyHighlights = recipes.filter((r) => r.family).slice(0, 6);
@@ -22,7 +24,7 @@ const familyHighlights = recipes.filter((r) => r.family).slice(0, 6);
 
   {familyHighlights.length > 0 && (
     <section class="contents-section">
-      <h2 class="contents-section-title">From Amma's hands</h2>
+      <h2 class="contents-section-title">Amma's Favorites</h2>
       <div class="contents-grid">
         {familyHighlights.map((r) => (
           <RecipeCard recipe={r} showSection />
