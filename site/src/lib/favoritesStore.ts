@@ -29,7 +29,7 @@ const KEY = 'ammas-favorites:v1';
 export class FavoritesStorageUnavailableError extends Error {
   constructor() {
     super(
-      'Favorites storage is not configured. On Vercel, add Upstash Redis or Vercel KV and set UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN (or KV_REST_API_URL + KV_REST_API_TOKEN).',
+      'Favorites storage is not configured. Set Upstash/Vercel env vars: UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN, or KV_REST_API_URL + KV_REST_API_TOKEN, or the Vercel Storage quickstart names (e.g. UPSTASH_REDIS_REST_REDIS_URL + UPSTASH_REDIS_REST_KV_REST_API_TOKEN).',
     );
     this.name = 'FavoritesStorageUnavailableError';
   }
@@ -53,13 +53,31 @@ type RedisLike = {
 
 let cachedRedis: RedisLike | null | undefined;
 
+function firstEnv(...keys: string[]): string {
+  for (const k of keys) {
+    const v = process.env[k];
+    if (v && v.trim()) return v.trim();
+  }
+  return '';
+}
+
 function readCreds(): { url: string; token: string } | null {
-  // Vercel's marketplace Redis integration injects KV_*; Upstash's direct
-  // Vercel integration injects UPSTASH_REDIS_REST_*. We accept either.
-  const url =
-    process.env.UPSTASH_REDIS_REST_URL ?? process.env.KV_REST_API_URL ?? '';
-  const token =
-    process.env.UPSTASH_REDIS_REST_TOKEN ?? process.env.KV_REST_API_TOKEN ?? '';
+  // Standard Upstash: UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN.
+  // Vercel KV marketplace: KV_REST_API_*.
+  // Vercel "Storage" linked Upstash DB often injects longer names (see Upstash quickstart in dashboard).
+  const url = firstEnv(
+    'UPSTASH_REDIS_REST_URL',
+    'KV_REST_API_URL',
+    'UPSTASH_REDIS_REST_REDIS_URL',
+    'UPSTASH_REDIS_REST_KV_REST_API_URL',
+    'UPSTASH_REDIS_REST_KV_URL',
+  );
+  // Use a read-write token only (not *READ_ONLY*).
+  const token = firstEnv(
+    'UPSTASH_REDIS_REST_TOKEN',
+    'KV_REST_API_TOKEN',
+    'UPSTASH_REDIS_REST_KV_REST_API_TOKEN',
+  );
   if (!url || !token) return null;
   return { url, token };
 }
