@@ -101,6 +101,8 @@ const MEASURE_WORDS = [
   'pinch', 'clove', 'cloves', 'can', 'cans', 'inch', 'inches', 'piece',
   'pieces', 'sprig', 'sprigs', 'slice', 'slices', 'handful', 'bunch',
   'bunches', 'stick', 'sticks',
+  // Bare quantities e.g. "Fine sea salt", "black pepper"
+  'salt', 'pepper',
 ];
 
 const MEASURE_RE = new RegExp(
@@ -115,6 +117,10 @@ export function cleanBody(rawBody: string, displayTitle?: string): CleanedBody {
 
   // Normalize line endings.
   body = body.replace(/\r\n?/g, '\n');
+
+  // PDF/browser copy-paste often uses LINE/PARAGRAPH SEPARATOR instead of LF;
+  // markdown treats those as intra-paragraph whitespace, which collapses layout.
+  body = body.replace(/\u2028|\u2029/g, '\n');
 
   // Unescape backslashes.
   body = unescapeBackslashes(body);
@@ -157,7 +163,7 @@ export function cleanBody(rawBody: string, displayTitle?: string): CleanedBody {
   // the heuristic below would classify them as "short prose" and drop them
   // into instructions when they're the last bullets before method.
   const split =
-    splitLeadingBulletIngredientBlock(body) ??
+    splitLeadingIngredientBlock(body) ??
     splitIngredientsAndInstructions(body);
 
   return {
@@ -197,7 +203,7 @@ function stripEmphasis(line: string): string {
 function looksLikeIngredient(line: string): boolean {
   const trimmed = stripEmphasis(stripMarkdownListPrefix(line).trim());
   if (!trimmed) return false;
-  if (trimmed.length > 100) return false;
+  if (trimmed.length > 220) return false;
   // Starts with a digit or fraction (most common ingredient pattern).
   if (/^[\d½¼¾⅓⅔⅛⅜⅝⅞]/.test(trimmed)) return true;
   // Contains a measure word as its own token.
@@ -224,12 +230,15 @@ function isMarkdownIngredientLine(line: string): boolean {
 }
 
 /**
- * If the body opens with a markdown bullet run, consume list items separated
- * by single newlines. A blank paragraph (one or more empty lines) ends the
- * list only when followed by prose or EOF — continuing `-` bullets after a gap
- * are still ingredients. Any non-bullet line ends the list and begins method.
+ * Opens with markdown bullets (`-`), then keeps absorbing ingredient-shaped
+ * content: subsection headings ("For the ..."), headings, `\` separators from
+ * exports, `<br />` break before method, and bare quantities — until narrative
+ * method steps (`First, ...`) or standalone `<br />` (often before method HTML).
+ *
+ * Mirrors the structured editor (`- ingredient` bullets first, then multipart
+ * blocks on some scraped recipes).
  */
-function splitLeadingBulletIngredientBlock(body: string):
+function splitLeadingIngredientBlock(body: string):
   | { ingredients: string[]; instructions: string }
   | null {
   const rawLines = body.split('\n');
@@ -263,11 +272,151 @@ function splitLeadingBulletIngredientBlock(body: string):
     cleanIngredientLine(rawLines[idx]),
   );
 
+  // Continuation: Ottolenghi / Guardian-style multipart ingredients after `\`
+  // or blank gaps (subsection titles and non-bulleted lines).
+  while (i < rawLines.length) {
+    const ln = rawLines[i];
+    const t = ln.trim();
+
+    if (looksLikeMethodStepStart(ln)) break;
+
+    const brOnly = /^<br\s*\/?>$/i.test(t);
+    if (brOnly) {
+      i++;
+      while (i < rawLines.length && rawLines[i].trim() === '') i++;
+      break;
+    }
+
+    if (t === '' || t === '\\') {
+      let j = i + 1;
+      while (j < rawLines.length) {
+        const u = rawLines[j].trim();
+        if (u === '' || u === '\\') {
+          j++;
+          continue;
+        }
+        break;
+      }
+      if (j >= rawLines.length || looksLikeMethodStepStart(rawLines[j])) break;
+      i = j;
+      continue;
+    }
+
+    if (isMarkdownIngredientLine(ln)) {
+      ingredients.push(cleanIngredientLine(ln));
+      i++;
+      continue;
+    }
+    if (isIngredientSectionHeading(ln)) {
+      ingredients.push(cleanSectionHeading(ln));
+      i++;
+      continue;
+    }
+    if (looksLikeIngredient(ln)) {
+      ingredients.push(cleanIngredientLine(ln));
+      i++;
+      continue;
+    }
+
+    const bare = stripEmphasis(stripMarkdownListPrefix(ln).trim());
+    if (
+      bare &&
+      bare.length <= 110 &&
+      !/[.!?]/.test(bare) &&
+      bare.split(/\s+/).length <= 16
+    ) {
+      ingredients.push(
+        bare.replace(/[ \t]{2,}/g, ' ').replace(/\s*[-—–]\s*/g, ' — '),
+      );
+      i++;
+      continue;
+    }
+
+    break;
+  }
+
   while (i < rawLines.length && rawLines[i].trim() === '') i++;
   const instructions = rawLines.slice(i).join('\n').trim();
 
   return { ingredients, instructions };
 }
+
+function cleanSectionHeading(line: string): string {
+  let t = line.trim().replace(/^#{1,6}\s*/, '');
+  return stripEmphasis(t);
+}
+
+/** Subsection title before more ingredients (exported recipe layout). */
+function isIngredientSectionHeading(line: string): boolean {
+  const t = stripEmphasis(line.trim());
+  if (!t) return false;
+  if (/^#{1,6}\s+\S/.test(line.trim())) return true;
+  return /^for the\b/i.test(t) && t.length <= 80;
+}
+
+/** Imperative prose that belongs in method — not multipart ingredients */
+function looksLikeMethodStepStart(line: string): boolean {
+  const trimmed = stripEmphasis(line.trim());
+  if (looksLikeInstruction(trimmed)) return true;
+  if (trimmed.length < 8) return false;
+  const firstWord =
+    trimmed
+      .normalize('NFKC')
+      .replace(/^[^A-Za-z0-9'*]+/, '')
+      .match(/^[A-Za-z]+/)
+      ?.[0]?.toLowerCase() ?? '';
+  if (METHOD_STEP_VERBS.has(firstWord)) return true;
+  return METHOD_LINE_HEAD_RE.test(trimmed.slice(0, 56));
+}
+
+/** Verbs/phrases missed when commas split the obvious first-token match. */
+const METHOD_LINE_HEAD_RE =
+  /^next,\s|^pre-heat|^preheat|^heat\b|^bring\b|^put\b|^pour\b|^stir\b|^combine\b|^mix\b|^add\b|^scatter\b|^drizzle\b|^drain\b|^tip\b|^spoon\b|^transfer\b|^return\b|^toast\b|^bake|^roast\b|^simmer\b|^boil\b|^whisk\b|^beat\b|^fold\b|^uncover|^cover\b|^line\b|^fry\b|^grill\b|^serve\b|^set\b|^rub\b|^soak,/i;
+
+const METHOD_STEP_VERBS = new Set([
+  'first',
+  'second',
+  'third',
+  'fourth',
+  'fifth',
+  'meanwhile',
+  'next',
+  'heat',
+  'preheat',
+  'put',
+  'pour',
+  'stir',
+  'combine',
+  'add',
+  'transfer',
+  'return',
+  'remove',
+  'discard',
+  'drain',
+  'line',
+  'toast',
+  'bake',
+  'roasted',
+  'roast',
+  'simmer',
+  'boil',
+  'whisk',
+  'mix',
+  'beat',
+  'fold',
+  'scatter',
+  'drizzle',
+  'cover',
+  'uncover',
+  'set',
+  'rub',
+  'fry',
+  'grill',
+  'serve',
+  'spoon',
+  'tip',
+  'soak',
+]);
 
 function looksLikeInstruction(line: string): boolean {
   const trimmed = stripEmphasis(line);
