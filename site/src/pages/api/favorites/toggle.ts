@@ -6,7 +6,10 @@
  * Returns `{ "slug": string, "favorite": boolean }` on success.
  */
 import type { APIRoute } from 'astro';
-import { toggleFavorite } from '../../../lib/favoritesStore';
+import {
+  FavoritesStorageUnavailableError,
+  toggleFavorite,
+} from '../../../lib/favoritesStore';
 
 export const prerender = false;
 
@@ -31,6 +34,9 @@ export const POST: APIRoute = async ({ request }) => {
     const favorite = await toggleFavorite(slug);
     return json(200, { slug, favorite });
   } catch (err) {
+    if (err instanceof FavoritesStorageUnavailableError) {
+      return json(503, { error: err.message });
+    }
     return json(500, { error: err instanceof Error ? err.message : String(err) });
   }
 };

@@ -11,9 +11,11 @@
  *   from a Vercel marketplace Redis integration) we use Upstash Redis as
  *   the source of truth. Slugs are held in a single Redis Set under
  *   `KEY`.
- * - When neither set is configured (e.g. `astro dev` on a fresh clone) we
- *   transparently fall back to a JSON file at `site/.favorites-dev.json`.
- *   The file is gitignored; restarting the dev server preserves the state.
+ * - When neither set is configured **and** we're on a writable local dev
+ *   machine, we fall back to a JSON file at `site/.favorites-dev.json`
+ *   (gitignored). This is never used on Vercel (read-only filesystem) or in
+ *   `NODE_ENV=production` unless `FAVORITES_USE_LOCAL_FILE=1` (e.g. local
+ *   `astro preview` without Redis).
  *
  * The store is intentionally tiny and dependency-light: only `@upstash/redis`
  * (which uses fetch) is imported, and only when cloud creds are present.
@@ -23,6 +25,24 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const KEY = 'ammas-favorites:v1';
+
+export class FavoritesStorageUnavailableError extends Error {
+  constructor() {
+    super(
+      'Favorites storage is not configured. On Vercel, add Upstash Redis or Vercel KV and set UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN (or KV_REST_API_URL + KV_REST_API_TOKEN).',
+    );
+    this.name = 'FavoritesStorageUnavailableError';
+  }
+}
+
+/** Writable JSON file fallback — never on Vercel or production except when opted in. */
+function allowLocalFileStore(): boolean {
+  if (process.env.VERCEL) return false;
+  if (process.env.NODE_ENV === 'production') {
+    return process.env.FAVORITES_USE_LOCAL_FILE === '1';
+  }
+  return true;
+}
 
 type RedisLike = {
   smembers: (key: string) => Promise<string[]>;
@@ -78,10 +98,12 @@ function writeDevFile(set: Set<string>): void {
   fs.writeFileSync(devFilePath(), data, 'utf8');
 }
 
-export type StorageBackend = 'redis' | 'file';
+export type StorageBackend = 'redis' | 'file' | 'none';
 
 export async function getBackend(): Promise<StorageBackend> {
-  return (await getRedis()) ? 'redis' : 'file';
+  if (await getRedis()) return 'redis';
+  if (allowLocalFileStore()) return 'file';
+  return 'none';
 }
 
 export async function listFavorites(): Promise<string[]> {
@@ -90,6 +112,7 @@ export async function listFavorites(): Promise<string[]> {
     const slugs = await redis.smembers(KEY);
     return slugs.sort();
   }
+  if (!allowLocalFileStore()) return [];
   return [...readDevFile()].sort();
 }
 
@@ -98,6 +121,7 @@ export async function isFavorite(slug: string): Promise<boolean> {
   if (redis) {
     return (await redis.sismember(KEY, slug)) === 1;
   }
+  if (!allowLocalFileStore()) return false;
   return readDevFile().has(slug);
 }
 
@@ -111,6 +135,9 @@ export async function toggleFavorite(slug: string): Promise<boolean> {
     }
     await redis.sadd(KEY, slug);
     return true;
+  }
+  if (!allowLocalFileStore()) {
+    throw new FavoritesStorageUnavailableError();
   }
   const set = readDevFile();
   if (set.has(slug)) {
@@ -129,6 +156,9 @@ export async function addFavorites(slugs: string[]): Promise<number> {
   const redis = await getRedis();
   if (redis) {
     return await redis.sadd(KEY, ...slugs);
+  }
+  if (!allowLocalFileStore()) {
+    throw new FavoritesStorageUnavailableError();
   }
   const set = readDevFile();
   let added = 0;
