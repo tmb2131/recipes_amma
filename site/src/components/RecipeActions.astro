@@ -8,7 +8,8 @@ interface Props {
 }
 
 const { recipe, variant = 'card' } = Astro.props;
-const isDev = import.meta.env.DEV;
+const recipeEditEnabled =
+  import.meta.env.DEV || import.meta.env.PUBLIC_RECIPE_EDIT === 'true';
 
 // Where to send the user if they delete the recipe they're currently viewing.
 const sectionHref = recipe.href.split('/').slice(0, 2).join('/') + '/';
@@ -16,7 +17,7 @@ const sectionHref = recipe.href.split('/').slice(0, 2).join('/') + '/';
 // Pencil now opens the in-browser modal editor. We embed everything the
 // modal needs to load and save the file (path, title, current basename,
 // section slug for navigation after a rename).
-const editPayload = isDev
+const editPayload = recipeEditEnabled
   ? JSON.stringify({
       relativePath: recipe.sourceFile,
       sectionSlug: slugify(recipe.section),
@@ -28,7 +29,7 @@ const editPayload = isDev
     })
   : '';
 
-const deletePayload = isDev
+const deletePayload = recipeEditEnabled
   ? JSON.stringify({
       relativePath: recipe.sourceFile,
       title: recipe.title,
@@ -37,7 +38,7 @@ const deletePayload = isDev
     })
   : '';
 ---
-{isDev && (
+{recipeEditEnabled && (
   <span
     class:list={['recipe-actions', `recipe-actions--${variant}`]}
     data-recipe-actions
@@ -67,11 +68,39 @@ const deletePayload = isDev
   </span>
 )}
 
-{isDev && (
+{recipeEditEnabled && (
   <script is:inline>
     (function () {
       if (window.__recipeActionsInit) return;
       window.__recipeActionsInit = true;
+
+      var EDIT_DELETE = '/api/edit/delete';
+
+      async function fetchRecipeDelete(bodyObj) {
+        async function withAuth() {
+          var h = new Headers({ 'content-type': 'application/json' });
+          try {
+            var t = localStorage.getItem('ammas-recipe-edit:token');
+            if (t) h.set('authorization', 'Bearer ' + t);
+          } catch (e) {}
+          return fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: h,
+            body: JSON.stringify(bodyObj),
+          });
+        }
+        var res = await withAuth();
+        if (res.status === 401) {
+          var p = window.prompt('Recipe edit token:');
+          if (p && p.trim()) {
+            try {
+              localStorage.setItem('ammas-recipe-edit:token', p.trim());
+            } catch (e) {}
+            res = await withAuth();
+          }
+        }
+        return res;
+      }
 
       async function handleClick(e) {
         var target = e.target;
@@ -109,11 +138,7 @@ const deletePayload = isDev
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetch('/__edit/delete', {
-            method: 'POST',
-            headers: { 'content-type': 'application/json' },
-            body: JSON.stringify({ relativePath: payload.relativePath }),
-          });
+          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);

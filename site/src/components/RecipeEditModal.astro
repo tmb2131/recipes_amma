@@ -1,22 +1,25 @@
 ---
 /**
- * Dev-only WYSIWYG recipe editor.
+ * WYSIWYG recipe editor (dev always; production when `PUBLIC_RECIPE_EDIT=true`).
  *
  * Mounted once in `BookLayout.astro`. Listens for the `recipe-edit-open`
  * CustomEvent dispatched by `RecipeActions.astro` when the pencil button is
- * clicked, fetches the source `.md` via `GET /__edit/load`, picks structured
+ * clicked, fetches the source `.md` via `GET /api/edit/load`, picks structured
  * vs raw mode based on whether `cleanBody()` confidently splits the file,
- * and saves back via `POST /__edit/save` (with optional file rename when
+ * and saves back via `POST /api/edit/save` (with optional file rename when
  * the title changes).
  *
- * The whole component (markup + script) is gated on `import.meta.env.DEV`,
- * so production builds see nothing. Milkdown is imported dynamically and
- * the dynamic imports live inside a `DEV`-gated branch, so Vite's dead-code
- * elimination drops Milkdown chunks from the build entirely.
+ * Outside dev, API routes require `Authorization: Bearer <RECIPE_EDIT_TOKEN>`
+ * (or `FAVORITES_TOKEN`). The browser prompts once after a 401 and caches
+ * the token in localStorage (`ammas-recipe-edit:token`).
+ *
+ * When `PUBLIC_RECIPE_EDIT` is unset/false at build time, this component is
+ * omitted so Milkdown is not bundled.
  */
-const isDev = import.meta.env.DEV;
+const recipeEditEnabled =
+  import.meta.env.DEV || import.meta.env.PUBLIC_RECIPE_EDIT === 'true';
 ---
-{isDev && (
+{recipeEditEnabled && (
   <dialog data-recipe-edit-modal class="recipe-edit-modal" transition:persist>
     <form method="dialog" class="rem-form" data-rem-form>
       <header class="rem-header">
@@ -87,7 +90,7 @@ const isDev = import.meta.env.DEV;
   </dialog>
 )}
 
-{isDev && (
+{recipeEditEnabled && (
   <script>
     import { cleanBody, cleanTitle } from '../lib/cleanMarkdown';
     import { slugify } from '../lib/slug';
@@ -109,11 +112,39 @@ const isDev = import.meta.env.DEV;
       getMarkdown: () => string;
     };
 
-    if (import.meta.env.DEV && !(window as any).__recipeEditModalInit) {
+    if (!(window as any).__recipeEditModalInit) {
       (window as any).__recipeEditModalInit = true;
 
-      // Lazy-load modal CSS. Importing here keeps the rule-set out of the
-      // production CSS bundle (the dynamic import is dead code in prod).
+      const EDIT_API = '/api/edit';
+
+      async function fetchRecipeEdit(input: string, init?: RequestInit): Promise<Response> {
+        const withAuth = async () => {
+          const h = new Headers(init?.headers);
+          try {
+            const t = localStorage.getItem('ammas-recipe-edit:token');
+            if (t) h.set('authorization', `Bearer ${t}`);
+          } catch {
+            /* private mode */
+          }
+          return fetch(input, { ...init, headers: h });
+        };
+        let res = await withAuth();
+        if (res.status === 401) {
+          const t =
+            typeof window !== 'undefined' ? window.prompt('Recipe edit token:') : null;
+          if (t?.trim()) {
+            try {
+              localStorage.setItem('ammas-recipe-edit:token', t.trim());
+            } catch {
+              /* ignore */
+            }
+            res = await withAuth();
+          }
+        }
+        return res;
+      }
+
+      // Lazy-load modal CSS.
       void import('./recipeEditModal.css');
 
       const $ = <T extends Element = HTMLElement>(sel: string, root: ParentNode = document) =>
@@ -281,8 +312,8 @@ const isDev = import.meta.env.DEV;
         setStatus('Loading…');
 
         try {
-          const res = await fetch(
-            `/__edit/load?relativePath=${encodeURIComponent(p.relativePath)}`,
+          const res = await fetchRecipeEdit(
+            `${EDIT_API}/load?relativePath=${encodeURIComponent(p.relativePath)}`,
           );
           if (!res.ok) throw new Error(`load failed: ${res.status} ${await res.text()}`);
           originalRaw = await res.text();
@@ -430,7 +461,7 @@ const isDev = import.meta.env.DEV;
         if (saveBtn) saveBtn.disabled = true;
 
         try {
-          const res = await fetch('/__edit/save', {
+          const res = await fetchRecipeEdit(`${EDIT_API}/save`, {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({

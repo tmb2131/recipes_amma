@@ -68,6 +68,11 @@ const FOLDER_SECTIONS: Section[] = [
   'Other',
 ];
 
+/** Repo root (parent of `site/`), for recipe edit API and loaders. */
+export function getRecipeRepoRoot(): string {
+  return repoRoot();
+}
+
 function repoRoot(): string {
   // Find the repo root by walking up from a known anchor until we see one of
   // the section folders. Using `import.meta.url` alone is unreliable once
