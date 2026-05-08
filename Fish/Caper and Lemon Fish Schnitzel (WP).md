@@ -13,10 +13,7 @@
 - 1 tablespoon water
 - Extra — virgin olive oil, for drizzling
 - Lemon wedges, for serving
-
-<br />
-
-## Step 1
+- Step 1
 
 Position a rack in the middle of the oven and preheat to 475 degrees. Line a large, rimmed baking sheet with parchment. Pat the fish dry and season both sides with the salt and pepper.
 
