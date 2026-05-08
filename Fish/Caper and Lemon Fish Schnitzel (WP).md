@@ -22,8 +22,6 @@ Position a rack in the middle of the oven and preheat to 475 degrees. Line a lar
 
 In a medium shallow bowl, stir together the breadcrumbs, dill, capers and lemon zest until combined. In another medium shallow bowl, whisk the egg with water until well blended. Dip a fish fillet\*\* \*\*in the egg wash and lift, allowing the excess to drip off. Place the fish on the prepared baking sheet and cover generously with the breadcrumb mixture, pressing firmly to coat one side. Drizzle generously with oil and repeat with the remaining fillets.
 
-Advertisement
-
 ## Step 3
 
 Roast for about 10 minutes, or until the fish flakes easily with a fork and the crumbs are golden and crisp. (The cooking time will depend on the thickness of your fish.) Remove from the oven and, using a thin spatula, transfer the fish to plates. Serve warm, with lemon wedges for squeezing.
