@@ -10,6 +10,26 @@ export const prerender = true;
 const recipes = getRecipes();
 const groups = groupBySection(recipes);
 const familyHighlights = recipes.filter((r) => r.family).slice(0, 6);
+
+/** Client-side TOC favorites grid (matches RecipeCard previews). */
+const contentsRecipeBriefs = recipes.map((r) => {
+  const previewSource = r.instructions ?? r.body;
+  const preview = previewSource
+    .replace(/[#*`>_\[\]\\]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 130);
+  return {
+    slug: r.slug,
+    title: r.title,
+    href: r.href,
+    section: r.section,
+    source: r.source ?? null,
+    ingredientsLen: r.ingredients ? r.ingredients.length : null,
+    preview,
+  };
+});
+const contentsRecipeJson = JSON.stringify(contentsRecipeBriefs).replace(/</g, '\\u003c');
 ---
 <BookLayout title="Table of contents — Amma's Kitchen">
   <section class="contents-head">
@@ -22,16 +42,19 @@ const familyHighlights = recipes.filter((r) => r.family).slice(0, 6);
     </div>
   </section>
 
-  {familyHighlights.length > 0 && (
-    <section class="contents-section">
-      <h2 class="contents-section-title">Amma's Favorites</h2>
-      <div class="contents-grid">
-        {familyHighlights.map((r) => (
+  <script type="application/json" id="contents-recipe-index" set:html={contentsRecipeJson} />
+
+  <!-- Live grid syncs from /api/favorites; hidden until Redis has favourites or SSR had seed. -->
+  <section class="contents-section" data-contents-favorites-root hidden={familyHighlights.length === 0}>
+    <h2 class="contents-section-title">Amma's Favorites</h2>
+    <div class="contents-grid" data-contents-favorites-grid>
+      {
+        familyHighlights.map((r) => (
           <RecipeCard recipe={r} showSection />
-        ))}
-      </div>
-    </section>
-  )}
+        ))
+      }
+    </div>
+  </section>
 
   <section class="contents-section">
     <h2 class="contents-section-title">Sections</h2>

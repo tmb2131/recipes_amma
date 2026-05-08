@@ -20,9 +20,9 @@ export const GET: APIRoute = async () => {
       status: 200,
       headers: {
         'content-type': 'application/json; charset=utf-8',
-        // Short cache so the CDN absorbs the read load but new toggles
-        // surface within a few seconds for the next visitor.
-        'cache-control': 'public, max-age=0, s-maxage=10, stale-while-revalidate=60',
+        // Never cache at shared edges: a stale list overwrites liveSet on
+        // the client after a toggle and hides new picks on the TOC.
+        'cache-control': 'private, no-store',
       },
     });
   } catch (err) {

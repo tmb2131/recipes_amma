@@ -35,12 +35,13 @@ const familyCount = recipes.filter((r) => r.family).length;
 <BookLayout title={`${sectionName} — Amma's Kitchen`}>
   <SectionHeader section={sectionName} count={recipes.length} />
 
-  {familyCount > 0 && (
-    <p class="section-family-note">
-      <span class="badge badge-family">Favorite</span>
-      <span>{familyCount} {familyCount === 1 ? 'recipe is one of' : 'recipes are'} Amma's Favorites.</span>
-    </p>
-  )}
+  <!-- Live count overlays Redis favorites; SSR uses build-time family counts. -->
+  <p class="section-family-note" data-section-family-note hidden={familyCount === 0}>
+    <span class="badge badge-family">Favorite</span>
+    <span data-section-family-msg>
+      {familyCount} {familyCount === 1 ? 'recipe is one of' : 'recipes are'} Amma's Favorites.
+    </span>
+  </p>
 
   {letters.length > 4 && (
     <nav class="atoz" aria-label="Jump to letter">
