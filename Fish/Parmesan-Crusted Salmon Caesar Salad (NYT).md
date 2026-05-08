@@ -1,0 +1,81 @@
+  
+Parmesan-Crusted Salmon Caesar Salad (NYT)  
+Parmesan-Crusted Salmon Caesar Salad (NYT)  
+Parmesan-Crusted Salmon Caesar Salad (NYT)  
+Parmesan-Crusted Salmon Caesar Salad (NYT)  
+Parmesan-Crusted Salmon Caesar Salad (NYT)  
+Parmesan-Crusted Salmon Caesar Salad (NYT)  
+  
+INGREDIENTS  
+Yield: 4 servings  
+Yield: 4 servings  
+Yield: 4 servings  
+1 small baguette  
+1 small baguette  
+1 small baguette  
+2 teaspoons garlic powder  
+2 teaspoons garlic powder  
+2 teaspoons garlic powder  
+Salt and freshly cracked black pepper  
+2 tablespoons olive oil or melted butter  
+2 tablespoons olive oil or melted butter  
+2 tablespoons olive oil or melted butter  
+¾ cup mayonnaise  
+¾ cup mayonnaise  
+¾ cup mayonnaise  
+2 tablespoons lemon juice  
+2 tablespoons lemon juice  
+2 tablespoons lemon juice  
+2 teaspoons coarse-ground Dijon mustard  
+2 teaspoons coarse-ground Dijon mustard  
+2 teaspoons coarse-ground Dijon mustard  
+2 teaspoons Worcestershire sauce  
+2 teaspoons Worcestershire sauce  
+2 teaspoons Worcestershire sauce  
+2 teaspoons fish sauce  
+2 teaspoons fish sauce  
+2 teaspoons fish sauce  
+½ cup finely grated Parmesan, plus more as needed  
+½ cup finely grated Parmesan, plus more as needed  
+½ cup finely grated Parmesan, plus more as needed  
+4 (3- to 4-ounce) skinless salmon fillets  
+4 (3- to 4-ounce) skinless salmon fillets  
+4 (3- to 4-ounce) skinless salmon fillets  
+1 large head romaine lettuce (about 1 pound), quartered through the center and chopped into bite-size pieces  
+1 large head romaine lettuce (about 1 pound), quartered through the center and chopped into bite-size pieces  
+1 large head romaine lettuce (about 1 pound), quartered through the center and chopped into bite-size pieces  
+½ small red onion, halved and thinly sliced  
+½ small red onion, halved and thinly sliced  
+½ small red onion, halved and thinly sliced  
+  
+PREPARATION  
+ Heat oven to 350 degrees and arrange a rack 8 inches from the top broiler.  
+ Heat oven to 350 degrees and arrange a rack 8 inches from the top broiler.  
+ Tear the bread into rough 1-inch chunks and add them to a large baking sheet. Sprinkle with 1 teaspoon garlic powder, season with salt and a good amount of pepper, and drizzle with the olive oil. Toss everything to coat, then spread bread evenly on the pan. Bake for 10 to 12 minutes, tossing halfway through, or until bread is golden brown on the outside but still slightly chewy in the center. Remove the croutons from the oven, dump them into a large bowl, and wipe the crumbs from the sheet pan.  
+ Turn on the broiler. To a medium bowl, add the mayonnaise, lemon juice, Dijon mustard, Worcestershire, fish sauce, the remaining 1 teaspoon garlic powder, and 1 teaspoon pepper, and whisk to combine, adjusting the seasoning, if desired. Remove ¼ cup dressing, and place it in a small mixing bowl along with ¼ cup grated Parmesan. Mix to combine.  
+ Pat the salmon dry with a paper towel, and season lightly with salt and pepper. Using a pastry brush, liberally coat the fillets all over with the reserved Parmesan dressing. Place on the baking sheet, top fillets with the remaining ¼ cup Parmesan, and place under the broiler for 3 to 5 minutes, or until the salmon is browned on the surface and cooked through. If it starts to smoke, move the pan to a lower rack to finish cooking.  
+ Remove the salmon from the oven, and allow a few minutes to cool slightly.  
+ To a large bowl, add the lettuce, croutons and sliced onion. Drizzle in some of the dressing, and using tongs, toss to evenly coat the leaves. Divide across salad bowls and sprinkle with more Parmesan. Top each salad with a fillet and serve.  
+ To a large bowl, add the lettuce, croutons and sliced onion. Drizzle in some of the dressing, and using tongs, toss to evenly coat the leaves. Divide across salad bowls and sprinkle with more Parmesan. Top each salad with a fillet and serve.  
+Parmesan-Crusted Salmon Caesar Salad (NYT)  
+  
+INGREDIENTS  
+Yield: 4 servings  
+1 small baguette  
+2 teaspoons garlic powder  
+Salt and freshly cracked black pepper  
+2 tablespoons olive oil or melted butter  
+¾ cup mayonnaise  
+2 tablespoons lemon juice  
+2 teaspoons coarse-ground Dijon mustard  
+2 teaspoons Worcestershire sauce  
+2 teaspoons fish sauce  
+½ cup finely grated Parmesan, plus more as needed  
+  
+PREPARATION  
+ Heat oven to 350 degrees and arrange a rack 8 inches from the top broiler.  
+ Tear the bread into rough 1-inch chunks and add them to a large baking sheet. Sprinkle with 1 teaspoon garlic powder, season with salt and a good amount of pepper, and drizzle with the olive oil. Toss everything to coat, then spread bread evenly on the pan. Bake for 10 to 12 minutes, tossing halfway through, or until bread is golden brown on the outside but still slightly chewy in the center. Remove the croutons from the oven, dump them into a large bowl, and wipe the crumbs from the sheet pan.  
+ Turn on the broiler. To a medium bowl, add the mayonnaise, lemon juice, Dijon mustard, Worcestershire, fish sauce, the remaining 1 teaspoon garlic powder, and 1 teaspoon pepper, and whisk to combine, adjusting the seasoning, if desired. Remove ¼ cup dressing, and place it in a small mixing bowl along with ¼ cup grated Parmesan. Mix to combine.  
+ Pat the salmon dry with a paper towel, and season lightly with salt and pepper. Using a pastry brush, liberally coat the fillets all over with the reserved Parmesan dressing. Place on the baking sheet, top fillets with the remaining ¼ cup Parmesan, and place under the broiler for 3 to 5 minutes, or until the salmon is browned on the surface and cooked through. If it starts to smoke, move the pan to a lower rack to finish cooking.  
+ Remove the salmon from the oven, and allow a few minutes to cool slightly.  
+ To a large bowl, add the lettuce, croutons and sliced onion. Drizzle in some of the dressing, and using tongs, toss to evenly coat the leaves. Divide across salad bowls and sprinkle with more Parmesan. Top each salad with a fillet and serve.  

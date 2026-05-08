@@ -1,0 +1,122 @@
+---
+import BookLayout from '../../layouts/BookLayout.astro';
+import SectionHeader from '../../components/SectionHeader.astro';
+import RecipeCard from '../../components/RecipeCard.astro';
+import { getRecipes, groupBySection, SECTION_META, type Section } from '../../lib/loadRecipes';
+import { slugify } from '../../lib/slug';
+
+export async function getStaticPaths() {
+  const groups = groupBySection(getRecipes());
+  return groups.map((g) => ({
+    params: { section: g.slug },
+    props: { sectionName: g.section, recipes: g.recipes },
+  }));
+}
+
+interface Props {
+  sectionName: Section;
+  recipes: ReturnType<typeof getRecipes>;
+}
+const { sectionName, recipes } = Astro.props as Props;
+
+// Group by leading letter for the A–Z anchor strip.
+const buckets = new Map<string, typeof recipes>();
+for (const r of recipes) {
+  const ch = r.title[0]?.toUpperCase() ?? '#';
+  const key = /[A-Z]/.test(ch) ? ch : '#';
+  if (!buckets.has(key)) buckets.set(key, []);
+  buckets.get(key)!.push(r);
+}
+const letters = [...buckets.keys()].sort();
+const familyCount = recipes.filter((r) => r.family).length;
+---
+<BookLayout title={`${sectionName} — Amma's Kitchen`}>
+  <SectionHeader section={sectionName} count={recipes.length} />
+
+  {familyCount > 0 && (
+    <p class="section-family-note">
+      <span class="badge badge-family">Family</span>
+      <span>{familyCount} {familyCount === 1 ? 'recipe is' : 'recipes are'} from Amma's own hand.</span>
+    </p>
+  )}
+
+  {letters.length > 4 && (
+    <nav class="atoz" aria-label="Jump to letter">
+      {letters.map((l) => (
+        <a href={`#letter-${l}`}>{l}</a>
+      ))}
+    </nav>
+  )}
+
+  <div class="section-list" data-pagefind-ignore>
+    {letters.map((letter) => (
+      <section class="letter-group" id={`letter-${letter}`}>
+        <h2 class="letter-heading">
+          <span>{letter}</span>
+        </h2>
+        <div class="letter-grid">
+          {buckets.get(letter)!.map((r) => (
+            <RecipeCard recipe={r} />
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</BookLayout>
+
+<style>
+  .section-family-note {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--serif);
+    font-style: italic;
+    color: var(--ink-soft);
+    background: rgba(232, 176, 74, 0.1);
+    border: 1px dashed var(--gold-soft);
+    border-radius: 999px;
+    padding: 0.4rem 0.9rem;
+    margin: 0 auto 2rem;
+    display: flex;
+    width: fit-content;
+  }
+  .atoz {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.6rem;
+    justify-content: center;
+    margin: 0 auto 2.5rem;
+    max-width: 50rem;
+    padding: 0.6rem 1rem;
+    border-top: 1px solid var(--paper-edge);
+    border-bottom: 1px solid var(--paper-edge);
+  }
+  .atoz a {
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    color: var(--ink-soft);
+    padding: 0.3rem 0.55rem;
+    border-radius: 6px;
+    transition: all 140ms;
+  }
+  .atoz a:hover { background: rgba(195, 157, 78, 0.18); color: var(--terracotta-deep); }
+  .section-list { max-width: 64rem; margin: 0 auto; }
+  .letter-group { margin-bottom: 2.5rem; scroll-margin-top: 5rem; }
+  .letter-heading {
+    font-family: var(--display);
+    font-size: 1.6rem;
+    color: var(--terracotta);
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--paper-edge);
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+  }
+  .letter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.25rem 1rem;
+  }
+</style>

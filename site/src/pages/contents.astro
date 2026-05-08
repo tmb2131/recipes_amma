@@ -1,0 +1,102 @@
+---
+import BookLayout from '../layouts/BookLayout.astro';
+import Floral from '../components/Floral.astro';
+import RecipeCard from '../components/RecipeCard.astro';
+import SearchBox from '../components/SearchBox.astro';
+import { getRecipes, groupBySection, SECTION_META } from '../lib/loadRecipes';
+
+const recipes = getRecipes();
+const groups = groupBySection(recipes);
+const familyHighlights = recipes.filter((r) => r.family).slice(0, 6);
+---
+<BookLayout title="Table of contents — Amma's Kitchen">
+  <section class="contents-head">
+    <Floral variant="marigold" class="contents-motif" width={64} height={64} />
+    <h1 class="contents-title">Table of Contents</h1>
+    <Floral variant="divider" class="contents-divider" width={260} />
+    <p class="contents-sub">{recipes.length} recipes</p>
+    <div class="contents-search">
+      <SearchBox />
+    </div>
+  </section>
+
+  {familyHighlights.length > 0 && (
+    <section class="contents-section">
+      <h2 class="contents-section-title">From Amma's hands</h2>
+      <div class="contents-grid">
+        {familyHighlights.map((r) => (
+          <RecipeCard recipe={r} showSection />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="contents-section">
+    <h2 class="contents-section-title">Sections</h2>
+    <div class="contents-sections-grid">
+      {groups.map((g) => (
+        <a href={`/${g.slug}/`} class="section-card">
+          <div class="section-card__motif">
+            <Floral variant={SECTION_META[g.section].motif as any} width={44} height={44} />
+          </div>
+          <div>
+            <h3 class="section-card__title">{g.section}</h3>
+            <p class="section-card__tagline">{SECTION_META[g.section].tagline}</p>
+            <p class="section-card__count">{g.count} {g.count === 1 ? 'recipe' : 'recipes'}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</BookLayout>
+
+<style>
+  .contents-head { display: flex; flex-direction: column; align-items: center; text-align: center; margin: 0 auto 3rem; max-width: 36rem; }
+  .contents-head .contents-search { width: 100%; }
+  .contents-motif { color: var(--gold); margin: 0 auto 0.5rem; display: block; }
+  .contents-title { font-family: var(--display); font-size: clamp(2.4rem, 5vw, 3.6rem); margin: 0; }
+  .contents-divider { color: var(--gold); margin: 1rem auto; display: block; }
+  .contents-sub { font-family: var(--script); font-size: 1.4rem; color: var(--sage-deep); margin: 0; }
+  .contents-search { margin: 1.8rem auto 0; max-width: 26rem; }
+  .contents-section { margin: 0 auto 3rem; max-width: 64rem; }
+  .contents-section-title {
+    font-family: var(--display);
+    font-size: 1.75rem;
+    color: var(--ink);
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--paper-edge);
+  }
+  .contents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 0.5rem 1rem;
+  }
+  .contents-sections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+  .section-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--paper-edge);
+    border-radius: 12px;
+    background: rgba(243, 236, 217, 0.35);
+    transition: all 200ms ease;
+    align-items: flex-start;
+  }
+  .section-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--gold-soft);
+    background: rgba(232, 176, 74, 0.12);
+  }
+  .section-card__motif { color: var(--gold); flex-shrink: 0; line-height: 0; }
+  .section-card__title { font-family: var(--display); font-size: 1.5rem; margin: 0; color: var(--ink); }
+  .section-card__tagline { font-family: var(--serif); font-style: italic; color: var(--ink-soft); margin: 0.25rem 0 0; font-size: 0.95rem; line-height: 1.35; }
+  .section-card__count {
+    font-family: var(--sans); font-size: 0.7rem; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--ink-faint); margin: 0.6rem 0 0;
+  }
+</style>

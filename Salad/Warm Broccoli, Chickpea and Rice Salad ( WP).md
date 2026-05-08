@@ -1,0 +1,9 @@
+**Warm Broccoli, Chickpea and Rice Salad** ( WP)  
+  
+1 cup short-grain brown rice 4 cups water, plus more if needed One (15-ounce) can no-salt-added chickpeas, drained and rinsed 1 broccoli crown (12 ounces to 1 pound), trimmed and cut into florets 1/4 cup extra-virgin olive oil  
+3 tablespoons fresh lemon juice 2 teaspoons Dijon mustard 2 teaspoons agave 3 garlic cloves, pressed or finely grated 1/2 teaspoon fine salt, plus more to taste 1/4 teaspoon freshly ground black pepper, plus more to taste 1/2 cup walnut halves, chopped 1/2 cup dried cherries 1/2 cup lightly packed fresh flat-leaf parsley, chopped 1/2 cup pitted green olives, drained and chopped  
+  
+ In a medium saucepan over medium-high heat, combine the rice and water and bring to a boil. Reduce the heat slightly to achieve a gentle boil and cook the rice until almost tender, about 20 minutes. Add the chickpeas. If you have a steamer insert that fits on the saucepan, attach it, add the broccoli, cover and cook until the broccoli is crisp-tender and the rice is tender, 3 to 4 minutes. (If you don’t have a steamer insert, continue cooking the rice and the chickpeas in the uncovered saucepan. In a large microwave-safe bowl, combine the broccoli with 1/4 cup of water and cook on HIGH until crisp-tender, 3 to 4 minutes.)  
+ While the rice is cooking, make the vinaigrette. In a large bowl (big enough to fit the entire salad), whisk together the oil, lemon juice, mustard, agave, garlic, salt and pepper until emulsified.  
+ When the rice and broccoli are cooked, transfer the broccoli while it’s hot to the vinaigrette and gently toss to coat. Drain the rice and chickpeas, and transfer them while they’re hot to the bowl with the broccoli and vinaigrette. Gently toss to coat, and let sit for 5 minutes.  
+ Stir in the walnuts, cherries, parsley and olives. Taste, and season with more salt and pepper, if needed. Serve warm.  

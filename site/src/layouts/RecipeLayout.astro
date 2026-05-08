@@ -1,0 +1,130 @@
+---
+import BookLayout from './BookLayout.astro';
+import PageFlip from '../components/PageFlip.astro';
+import Floral from '../components/Floral.astro';
+import RecipeActions from '../components/RecipeActions.astro';
+import { renderMarkdown } from '../lib/render';
+import { slugify } from '../lib/slug';
+import { SECTION_META, type Recipe } from '../lib/loadRecipes';
+
+interface Props {
+  recipe: Recipe;
+  prev?: Recipe;
+  next?: Recipe;
+}
+const { recipe, prev, next } = Astro.props;
+
+const sectionSlug = slugify(recipe.section);
+const motif = SECTION_META[recipe.section].motif;
+
+const ingredientsHtml = recipe.ingredients?.length
+  ? recipe.ingredients.map((line) => `<li>${escapeHtml(line)}</li>`).join('')
+  : null;
+
+const bodyMarkdown = recipe.instructions ?? recipe.body;
+const bodyHtml = renderMarkdown(bodyMarkdown);
+
+function escapeHtml(s: string) {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+---
+<BookLayout title={`${recipe.title} — Amma's Kitchen`}>
+  <article class="recipe-spread" data-pagefind-body>
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Cover</a>
+      <span aria-hidden="true">›</span>
+      <a href={`/${sectionSlug}/`}>{recipe.section}</a>
+      <span aria-hidden="true">›</span>
+      <span class="breadcrumbs-current">{recipe.title}</span>
+    </nav>
+
+    <header class="recipe-head">
+      <Floral variant={motif as any} class="recipe-motif" width={48} height={48} />
+      <h1 class="recipe-title">{recipe.title}</h1>
+      <div class="recipe-tags">
+        {recipe.family && <span class="badge badge-family">Family</span>}
+        {recipe.source && <span class="badge badge-source">{recipe.source}</span>}
+      </div>
+      <RecipeActions recipe={recipe} variant="detail" />
+    </header>
+
+    <div class="recipe-body" style={{ ['view-transition-name' as any]: 'recipe-content' }}>
+      {ingredientsHtml && (
+        <aside class="ingredients-col" aria-labelledby="ingredients-heading">
+          <h2 id="ingredients-heading" class="ingredients-heading">Ingredients</h2>
+          <ul class="ingredients-list" set:html={ingredientsHtml} />
+        </aside>
+      )}
+      <div class:list={['instructions-col', !ingredientsHtml && 'instructions-col--full']}>
+        {ingredientsHtml && <h2 class="instructions-heading">Method</h2>}
+        <div class="prose-recipe" set:html={bodyHtml} />
+      </div>
+    </div>
+
+    <PageFlip prev={prev} next={next} />
+  </article>
+</BookLayout>
+
+<style>
+  .recipe-spread {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 0.5rem 0 0;
+  }
+  .breadcrumbs {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.6rem;
+  }
+  .breadcrumbs a { color: var(--ink-faint); transition: color 140ms; }
+  .breadcrumbs a:hover { color: var(--terracotta-deep); }
+  .breadcrumbs-current { color: var(--ink); }
+
+  .recipe-head { display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 2rem; }
+  .recipe-motif { color: var(--gold); margin: 0 auto 0.6rem; display: block; }
+  .recipe-title {
+    font-family: var(--display);
+    font-size: clamp(2rem, 4.4vw, 3rem);
+    line-height: 1.05;
+    color: var(--ink);
+    margin: 0;
+  }
+  .recipe-tags {
+    display: flex; gap: 0.5rem; justify-content: center;
+    margin-top: 1rem; flex-wrap: wrap;
+  }
+
+  .recipe-body { display: grid; gap: 2.4rem; grid-template-columns: 1fr; }
+  @media (min-width: 860px) {
+    .recipe-body { grid-template-columns: minmax(220px, 280px) 1fr; gap: 3rem; }
+  }
+  .ingredients-col {
+    background: rgba(243, 236, 217, 0.5);
+    border-radius: 12px;
+    padding: 1.2rem 1.3rem;
+    border: 1px solid var(--paper-edge);
+    align-self: start;
+  }
+  .ingredients-heading,
+  .instructions-heading {
+    font-family: var(--display);
+    font-size: 1.4rem;
+    color: var(--terracotta-deep);
+    margin: 0 0 0.6rem;
+  }
+  .ingredients-list { margin: 0; padding: 0; }
+  .instructions-col--full { grid-column: 1 / -1; }
+  @media (min-width: 860px) {
+    .ingredients-col { position: sticky; top: 5rem; }
+  }
+</style>

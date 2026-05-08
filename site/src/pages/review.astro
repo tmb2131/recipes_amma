@@ -1,0 +1,195 @@
+---
+import BookLayout from '../layouts/BookLayout.astro';
+import Floral from '../components/Floral.astro';
+import RecipeActions from '../components/RecipeActions.astro';
+import { findDuplicateGroups, getRecipes } from '../lib/loadRecipes';
+
+const isDev = import.meta.env.DEV;
+const groups = isDev ? findDuplicateGroups(getRecipes()) : [];
+const totalDupes = groups.reduce((n, g) => n + g.recipes.length, 0);
+---
+<BookLayout title="Review — Amma's Kitchen">
+  <section class="review-head">
+    <Floral variant="marigold" class="review-motif" width={56} height={56} />
+    <h1 class="review-title">Review</h1>
+    <Floral variant="divider" class="review-divider" width={220} />
+    <p class="review-sub">
+      {isDev
+        ? groups.length === 0
+          ? 'No duplicate titles detected.'
+          : `${groups.length} cluster${groups.length === 1 ? '' : 's'} · ${totalDupes} candidates`
+        : 'Review tools only run during astro dev.'}
+    </p>
+  </section>
+
+  {!isDev && (
+    <p class="review-note">
+      Run <code>npm run dev</code> in <code>site/</code> to surface duplicate
+      recipes here.
+    </p>
+  )}
+
+  {isDev && groups.length > 0 && (
+    <div class="review-list" data-pagefind-ignore>
+      {groups.map((g) => (
+        <section class="dup-group">
+          <header class="dup-group__head">
+            <h2 class="dup-group__title">{g.key}</h2>
+            <span class="dup-group__count">
+              {g.recipes.length} candidates
+            </span>
+          </header>
+          <ul class="dup-rows">
+            {g.recipes.map((r) => (
+              <li class="dup-row">
+                <div class="dup-row__main">
+                  <a href={r.href} class="dup-row__link">{r.title}</a>
+                  <div class="dup-row__meta">
+                    <span class="dup-row__section">{r.section}</span>
+                    {r.family && <span class="badge badge-family">Family</span>}
+                    {r.source && (
+                      <span class="badge badge-source">{r.source}</span>
+                    )}
+                    {r.ingredients && (
+                      <span class="dup-row__count">
+                        {r.ingredients.length} ingredients
+                      </span>
+                    )}
+                  </div>
+                  <code class="dup-row__path">{r.sourceFile}</code>
+                </div>
+                <RecipeActions recipe={r} variant="detail" />
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  )}
+</BookLayout>
+
+<style>
+  .review-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto 2.5rem;
+    max-width: 36rem;
+  }
+  .review-motif { color: var(--gold); margin: 0 auto 0.5rem; display: block; }
+  .review-title {
+    font-family: var(--display);
+    font-size: clamp(2.2rem, 4.5vw, 3.2rem);
+    margin: 0;
+  }
+  .review-divider { color: var(--gold); margin: 1rem auto; display: block; }
+  .review-sub {
+    font-family: var(--script);
+    font-size: 1.25rem;
+    color: var(--sage-deep);
+    margin: 0;
+  }
+  .review-note {
+    max-width: 36rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--serif);
+    font-style: italic;
+    color: var(--ink-soft);
+  }
+  .review-note code {
+    font-family: var(--mono, ui-monospace, monospace);
+    font-size: 0.9em;
+    background: var(--paper-deep);
+    padding: 0.05rem 0.35rem;
+    border-radius: 4px;
+  }
+  .review-list {
+    max-width: 56rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .dup-group {
+    border: 1px solid var(--paper-edge);
+    border-radius: 12px;
+    background: rgba(243, 236, 217, 0.35);
+    padding: 1.1rem 1.2rem;
+  }
+  .dup-group__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--paper-edge);
+    margin-bottom: 0.6rem;
+  }
+  .dup-group__title {
+    font-family: var(--display);
+    font-size: 1.4rem;
+    color: var(--terracotta-deep);
+    margin: 0;
+    text-transform: capitalize;
+  }
+  .dup-group__count {
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .dup-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .dup-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.6rem 0.75rem;
+    border-radius: 8px;
+    transition: background 140ms ease;
+  }
+  .dup-row:hover { background: rgba(195, 157, 78, 0.1); }
+  .dup-row__main { flex: 1; min-width: 0; }
+  .dup-row__link {
+    font-family: var(--display);
+    font-size: 1.1rem;
+    color: var(--ink);
+  }
+  .dup-row__link:hover { color: var(--terracotta-deep); }
+  .dup-row__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.6rem;
+    align-items: center;
+    margin-top: 0.2rem;
+  }
+  .dup-row__section {
+    font-family: var(--sans);
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .dup-row__count {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+  }
+  .dup-row__path {
+    display: block;
+    margin-top: 0.3rem;
+    font-family: var(--mono, ui-monospace, monospace);
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+    word-break: break-all;
+  }
+</style>

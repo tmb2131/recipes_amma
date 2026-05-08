@@ -1,0 +1,28 @@
+---
+import RecipeLayout from '../../layouts/RecipeLayout.astro';
+import {
+  getRecipes,
+  buildBookOrder,
+} from '../../lib/loadRecipes';
+import { slugify } from '../../lib/slug';
+
+export async function getStaticPaths() {
+  const recipes = getRecipes();
+  const order = buildBookOrder(recipes);
+  return recipes.map((recipe) => {
+    const sectionSlug = slugify(recipe.section);
+    const neighbours = order.get(recipe.href) ?? {};
+    return {
+      params: { section: sectionSlug, slug: recipe.slug },
+      props: { recipe, prev: neighbours.prev, next: neighbours.next },
+    };
+  });
+}
+
+const { recipe, prev, next } = Astro.props as {
+  recipe: ReturnType<typeof getRecipes>[number];
+  prev?: ReturnType<typeof getRecipes>[number];
+  next?: ReturnType<typeof getRecipes>[number];
+};
+---
+<RecipeLayout recipe={recipe} prev={prev} next={next} />

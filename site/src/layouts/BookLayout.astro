@@ -1,0 +1,112 @@
+---
+import '../styles/tailwind.css';
+import '../styles/tokens.css';
+import '../styles/paper.css';
+import { ClientRouter } from 'astro:transitions';
+import Drawer from '../components/Drawer.astro';
+import SearchBox from '../components/SearchBox.astro';
+import RecipeEditModal from '../components/RecipeEditModal.astro';
+
+interface Props {
+  title?: string;
+  showCover?: boolean;
+  bare?: boolean;
+}
+const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#faf6ee" />
+    <meta name="description" content="A digital book of family recipes — Amma's Kitchen." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{title}</title>
+    <ClientRouter />
+  </head>
+  <body class="paper-bg min-h-screen">
+    {!bare && (
+      <header class="book-header">
+        <div class="mx-auto flex max-w-spread items-center gap-3 px-4 py-3 sm:px-6">
+          <button type="button" class="header-btn" data-drawer-open aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <path d="M3 6h14M3 10h14M3 14h14" stroke-linecap="round"/>
+            </svg>
+          </button>
+          <a href="/" class="font-display text-xl tracking-wide text-[color:var(--ink)] hover:text-[color:var(--terracotta-deep)] transition" transition:persist>
+            Amma's Kitchen
+          </a>
+          <div class="ml-auto hidden flex-1 max-w-sm md:block">
+            <SearchBox compact />
+          </div>
+          <a href="/search/" class="header-btn md:hidden" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <circle cx="9" cy="9" r="6"/>
+              <path d="m17 17-3.5-3.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </header>
+    )}
+
+    <main class:list={['main-area', showCover && 'main-area--cover']}>
+      <slot />
+    </main>
+
+    {!bare && <Drawer />}
+    <RecipeEditModal />
+
+    <style>
+      .book-header {
+        position: sticky;
+        top: 0;
+        z-index: 30;
+        backdrop-filter: blur(8px);
+        background: rgba(250, 246, 238, 0.82);
+        border-bottom: 1px solid var(--paper-edge);
+      }
+      .header-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 999px;
+        color: var(--ink-soft);
+        background: transparent;
+        border: 1px solid transparent;
+        transition: all 140ms ease;
+      }
+      .header-btn:hover {
+        color: var(--ink);
+        background: var(--paper-deep);
+      }
+      .main-area {
+        margin: 0 auto;
+        padding: 2rem 1rem 6rem;
+        max-width: 70rem;
+      }
+      .main-area--cover { padding: 0; max-width: none; }
+      @media (min-width: 768px) {
+        .main-area { padding: 3rem 2rem 7rem; }
+      }
+    </style>
+
+    <script>
+      // Press "/" to focus the search box.
+      document.addEventListener('keydown', (e) => {
+        if (e.key !== '/') return;
+        const tag = (document.activeElement as HTMLElement | null)?.tagName;
+        if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+        const input = document.querySelector(
+          '[data-search-box] input[name="q"]'
+        ) as HTMLInputElement | null;
+        if (input) {
+          e.preventDefault();
+          input.focus();
+        }
+      });
+    </script>
+  </body>
+</html>

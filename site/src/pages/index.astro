@@ -1,0 +1,121 @@
+---
+import BookLayout from '../layouts/BookLayout.astro';
+import Floral from '../components/Floral.astro';
+import { getRecipes } from '../lib/loadRecipes';
+const total = getRecipes().length;
+---
+<BookLayout title="Amma's Kitchen" showCover bare>
+  <section class="cover">
+    <img src="/cover.jpeg" alt="" class="cover-photo" loading="eager" decoding="async" />
+    <div class="cover-veil" aria-hidden="true"></div>
+
+    <div class="cover-content">
+      <Floral variant="marigold" class="cover-motif cover-motif--top" width={56} height={56} />
+
+      <p class="cover-eyebrow">A book of recipes</p>
+      <h1 class="cover-title">Amma's Kitchen</h1>
+      <Floral variant="divider" class="cover-divider" width={240} />
+
+      <p class="cover-meta">{total} recipes · with love</p>
+
+      <div class="cover-actions">
+        <a href="/contents/" class="cover-cta">
+          <span>Open the book</span>
+          <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <path d="M8 4l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</BookLayout>
+
+<style>
+  .cover {
+    position: relative;
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: #1a120b;
+    color: var(--paper);
+    isolation: isolate;
+  }
+  .cover-photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 35%;
+    filter: saturate(1.05) contrast(1.02);
+    z-index: -2;
+  }
+  .cover-veil {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at center, rgba(0, 0, 0, 0.05) 0%, rgba(20, 12, 6, 0.55) 70%, rgba(20, 12, 6, 0.85) 100%),
+      linear-gradient(180deg, rgba(20, 12, 6, 0.25) 0%, rgba(20, 12, 6, 0.1) 30%, rgba(20, 12, 6, 0.55) 100%);
+    z-index: -1;
+  }
+  .cover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 1.5rem;
+    max-width: 36rem;
+  }
+  .cover-eyebrow {
+    font-family: var(--script);
+    font-size: 1.5rem;
+    color: var(--marigold);
+    margin: 0 0 0.5rem;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+  }
+  .cover-title {
+    font-family: var(--display);
+    color: var(--paper);
+    font-size: clamp(3rem, 9vw, 5.5rem);
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 0.02em;
+    text-shadow: 0 4px 32px rgba(0,0,0,0.55);
+  }
+  .cover-divider { color: var(--gold-soft); margin: 1.6rem auto 0; display: block; opacity: 0.85; }
+  .cover-motif { color: var(--marigold); margin: 0 auto 1.2rem; display: block; opacity: 0.85; }
+  .cover-meta {
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(250, 246, 238, 0.72);
+    margin: 1.5rem 0 0;
+  }
+  .cover-actions { margin-top: 2.5rem; }
+  .cover-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.6rem;
+    border: 1px solid var(--gold-soft);
+    border-radius: 999px;
+    color: var(--paper);
+    background: rgba(250, 246, 238, 0.06);
+    backdrop-filter: blur(4px);
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: all 240ms ease;
+  }
+  .cover-cta:hover {
+    background: var(--marigold);
+    color: var(--ink);
+    border-color: var(--marigold);
+    transform: translateY(-1px);
+  }
+  .cover-cta svg { transition: transform 240ms ease; }
+  .cover-cta:hover svg { transform: translateX(3px); }
+</style>

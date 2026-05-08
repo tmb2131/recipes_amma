@@ -1,0 +1,556 @@
+---
+/**
+ * Dev-only WYSIWYG recipe editor.
+ *
+ * Mounted once in `BookLayout.astro`. Listens for the `recipe-edit-open`
+ * CustomEvent dispatched by `RecipeActions.astro` when the pencil button is
+ * clicked, fetches the source `.md` via `GET /__edit/load`, picks structured
+ * vs raw mode based on whether `cleanBody()` confidently splits the file,
+ * and saves back via `POST /__edit/save` (with optional file rename when
+ * the title changes).
+ *
+ * The whole component (markup + script) is gated on `import.meta.env.DEV`,
+ * so production builds see nothing. Milkdown is imported dynamically and
+ * the dynamic imports live inside a `DEV`-gated branch, so Vite's dead-code
+ * elimination drops Milkdown chunks from the build entirely.
+ */
+const isDev = import.meta.env.DEV;
+---
+{isDev && (
+  <dialog data-recipe-edit-modal class="recipe-edit-modal" transition:persist>
+    <form method="dialog" class="rem-form" data-rem-form>
+      <header class="rem-header">
+        <div class="rem-titlebar">
+          <strong class="rem-eyebrow" data-rem-eyebrow>Edit recipe</strong>
+          <button type="button" class="rem-close" data-rem-close aria-label="Close">×</button>
+        </div>
+        <div class="rem-fields">
+          <label class="rem-field rem-field--wide">
+            <span class="rem-label">Title</span>
+            <input type="text" class="rem-input" data-rem-title autocomplete="off" spellcheck="true" />
+          </label>
+          <label class="rem-field">
+            <span class="rem-label">Source <span class="rem-hint">(optional)</span></span>
+            <input type="text" class="rem-input" data-rem-source autocomplete="off" placeholder="NYT, Guardian…" />
+          </label>
+        </div>
+        <div class="rem-modes">
+          <label class="rem-toggle">
+            <input type="checkbox" data-rem-mode-toggle />
+            <span>Edit raw markdown</span>
+          </label>
+          <span class="rem-mode-note" data-rem-mode-note></span>
+        </div>
+      </header>
+
+      <div class="rem-body">
+        <section class="rem-pane" data-rem-pane="structured">
+          <div class="rem-pane-section">
+            <div class="rem-section-head">
+              <h3 class="rem-h3">Ingredients</h3>
+              <button type="button" class="rem-btn rem-btn--ghost" data-rem-add-ingredient>+ Add</button>
+            </div>
+            <ol class="rem-ingredients" data-rem-ingredients></ol>
+          </div>
+          <div class="rem-pane-section">
+            <h3 class="rem-h3">Method</h3>
+            <div class="rem-editor" data-rem-method-mount></div>
+          </div>
+        </section>
+
+        <section class="rem-pane" data-rem-pane="raw" hidden>
+          <div class="rem-pane-section">
+            <h3 class="rem-h3">Raw markdown</h3>
+            <p class="rem-help">Lossless. Saves the whole file verbatim.</p>
+            <div class="rem-editor rem-editor--raw" data-rem-raw-mount></div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="rem-footer">
+        <span class="rem-status" data-rem-status></span>
+        <div class="rem-actions">
+          <button type="button" class="rem-btn" data-rem-cancel>Cancel</button>
+          <button type="button" class="rem-btn rem-btn--primary" data-rem-save>Save</button>
+        </div>
+      </footer>
+    </form>
+
+    <template data-rem-ingredient-row>
+      <li class="rem-ing-row">
+        <input type="text" class="rem-input rem-ing-input" />
+        <button type="button" class="rem-icon-btn" data-rem-ing-up aria-label="Move up">↑</button>
+        <button type="button" class="rem-icon-btn" data-rem-ing-down aria-label="Move down">↓</button>
+        <button type="button" class="rem-icon-btn rem-icon-btn--danger" data-rem-ing-remove aria-label="Remove">×</button>
+      </li>
+    </template>
+  </dialog>
+)}
+
+{isDev && (
+  <script>
+    import { cleanBody, cleanTitle } from '../lib/cleanMarkdown';
+    import { slugify } from '../lib/slug';
+
+    type EditPayload = {
+      relativePath: string;
+      sectionSlug: string;
+      currentBaseName: string;
+      recipeHref: string;
+      title: string;
+      source?: string;
+      family: boolean;
+    };
+
+    type Mode = 'structured' | 'raw';
+
+    type EditorHandle = {
+      destroy: () => Promise<void>;
+      getMarkdown: () => string;
+    };
+
+    if (import.meta.env.DEV && !(window as any).__recipeEditModalInit) {
+      (window as any).__recipeEditModalInit = true;
+
+      // Lazy-load modal CSS. Importing here keeps the rule-set out of the
+      // production CSS bundle (the dynamic import is dead code in prod).
+      void import('./recipeEditModal.css');
+
+      const $ = <T extends Element = HTMLElement>(sel: string, root: ParentNode = document) =>
+        root.querySelector(sel) as T | null;
+
+      let payload: EditPayload | null = null;
+      let originalRaw = '';
+      let mode: Mode = 'structured';
+      let editor: EditorHandle | null = null;
+      let dirty = false;
+      let saving = false;
+
+      function getDialog(): HTMLDialogElement | null {
+        return $('[data-recipe-edit-modal]') as HTMLDialogElement | null;
+      }
+
+      function setStatus(msg: string, kind: 'info' | 'error' = 'info') {
+        const el = $('[data-rem-status]');
+        if (!el) return;
+        el.textContent = msg;
+        el.dataset.kind = kind;
+      }
+
+      function setDirty(v: boolean) {
+        dirty = v;
+      }
+
+      async function loadMilkdown() {
+        const [coreMod, cmkMod, gfmMod, utilsMod] = await Promise.all([
+          import('@milkdown/kit/core'),
+          import('@milkdown/kit/preset/commonmark'),
+          import('@milkdown/kit/preset/gfm'),
+          import('@milkdown/kit/utils'),
+        ]);
+        return {
+          Editor: coreMod.Editor,
+          rootCtx: coreMod.rootCtx,
+          defaultValueCtx: coreMod.defaultValueCtx,
+          editorViewOptionsCtx: coreMod.editorViewOptionsCtx,
+          listenerPlugin: null as any,
+          commonmark: cmkMod.commonmark,
+          gfm: gfmMod.gfm,
+          getMarkdown: utilsMod.getMarkdown,
+        };
+      }
+
+      async function mountEditor(container: HTMLElement, initial: string): Promise<EditorHandle> {
+        const m = await loadMilkdown();
+        container.replaceChildren();
+        const editorInstance = await m.Editor.make()
+          .config((ctx: any) => {
+            ctx.set(m.rootCtx, container);
+            ctx.set(m.defaultValueCtx, initial);
+            ctx.set(m.editorViewOptionsCtx, {
+              attributes: { class: 'milkdown-surface', spellcheck: 'true' },
+            });
+          })
+          .use(m.commonmark)
+          .use(m.gfm)
+          .create();
+
+        // Track dirty: ProseMirror dispatches input events on the contenteditable.
+        container.addEventListener('input', () => setDirty(true));
+        container.addEventListener('keydown', () => setDirty(true));
+
+        return {
+          destroy: async () => {
+            try {
+              await editorInstance.destroy(true);
+            } catch {
+              /* ignore */
+            }
+          },
+          getMarkdown: () => editorInstance.action(m.getMarkdown()),
+        };
+      }
+
+      function renderIngredients(items: string[]) {
+        const list = $('[data-rem-ingredients]') as HTMLOListElement | null;
+        const tpl = $('[data-rem-ingredient-row]') as HTMLTemplateElement | null;
+        if (!list || !tpl) return;
+        list.replaceChildren();
+        for (const item of items) addIngredientRow(item);
+      }
+
+      function addIngredientRow(value = '') {
+        const list = $('[data-rem-ingredients]') as HTMLOListElement | null;
+        const tpl = $('[data-rem-ingredient-row]') as HTMLTemplateElement | null;
+        if (!list || !tpl) return;
+        const frag = tpl.content.cloneNode(true) as DocumentFragment;
+        const row = frag.querySelector('.rem-ing-row') as HTMLLIElement;
+        const input = row.querySelector('.rem-ing-input') as HTMLInputElement;
+        input.value = value;
+        list.appendChild(frag);
+      }
+
+      function readIngredients(): string[] {
+        const inputs = document.querySelectorAll<HTMLInputElement>('.rem-ing-input');
+        return Array.from(inputs)
+          .map((i) => i.value.trim())
+          .filter((v) => v.length > 0);
+      }
+
+      function moveRow(row: HTMLElement, dir: -1 | 1) {
+        const sibling = dir === -1 ? row.previousElementSibling : row.nextElementSibling;
+        if (!sibling) return;
+        if (dir === -1) row.parentElement?.insertBefore(row, sibling);
+        else row.parentElement?.insertBefore(sibling, row);
+      }
+
+      function setMode(next: Mode) {
+        const structured = $('[data-rem-pane="structured"]');
+        const raw = $('[data-rem-pane="raw"]');
+        if (!structured || !raw) return;
+        structured.toggleAttribute('hidden', next !== 'structured');
+        raw.toggleAttribute('hidden', next !== 'raw');
+        mode = next;
+        const toggle = $('[data-rem-mode-toggle]') as HTMLInputElement | null;
+        if (toggle) toggle.checked = next === 'raw';
+      }
+
+      function note(msg: string) {
+        const el = $('[data-rem-mode-note]');
+        if (el) el.textContent = msg;
+      }
+
+      function reassembleStructured(args: {
+        title: string;
+        source?: string;
+        ingredients: string[];
+        methodMd: string;
+      }): string {
+        const { title, source, ingredients, methodMd } = args;
+        const heading = `# ${title}${source ? ` (${source})` : ''}`;
+        const ingredientsBlock = ingredients.length
+          ? ingredients.map((i) => `- ${i}`).join('\n')
+          : '';
+        const parts = [heading.trim()];
+        if (ingredientsBlock) parts.push(ingredientsBlock);
+        if (methodMd.trim()) parts.push(methodMd.trim());
+        return parts.join('\n\n') + '\n';
+      }
+
+      function sanitizeForFilename(s: string): string {
+        return s
+          .replace(/[\\/]/g, '-')
+          .replace(/[\u0000-\u001f\u007f]/g, '')
+          .replace(/[<>:"|?*]/g, '')
+          .replace(/\s+/g, ' ')
+          .trim();
+      }
+
+      function computeNewBaseName(title: string, source: string | undefined): string {
+        const base = sanitizeForFilename(title);
+        if (!base) return '';
+        const tag = source ? ` (${sanitizeForFilename(source)})` : '';
+        return `${base}${tag}.md`;
+      }
+
+      async function openModal(p: EditPayload) {
+        const dlg = getDialog();
+        if (!dlg) return;
+        payload = p;
+        setDirty(false);
+        setStatus('Loading…');
+
+        try {
+          const res = await fetch(
+            `/__edit/load?relativePath=${encodeURIComponent(p.relativePath)}`,
+          );
+          if (!res.ok) throw new Error(`load failed: ${res.status} ${await res.text()}`);
+          originalRaw = await res.text();
+        } catch (err) {
+          setStatus(`Load failed: ${(err as Error).message}`, 'error');
+          dlg.showModal();
+          return;
+        }
+
+        const titleInput = $('[data-rem-title]') as HTMLInputElement | null;
+        const sourceInput = $('[data-rem-source]') as HTMLInputElement | null;
+        if (titleInput) titleInput.value = p.title;
+        if (sourceInput) sourceInput.value = p.source ?? '';
+
+        const cleaned = cleanBody(originalRaw, p.title);
+        const hasStructured =
+          !!cleaned.ingredients && cleaned.ingredients.length > 0 && !!cleaned.instructions;
+
+        if (editor) {
+          await editor.destroy();
+          editor = null;
+        }
+
+        if (hasStructured) {
+          setMode('structured');
+          renderIngredients(cleaned.ingredients!);
+          const methodMount = $('[data-rem-method-mount]') as HTMLElement | null;
+          if (methodMount) editor = await mountEditor(methodMount, cleaned.instructions!);
+          note('Structured fields detected. Toggle to edit raw markdown.');
+        } else {
+          setMode('raw');
+          renderIngredients([]);
+          const rawMount = $('[data-rem-raw-mount]') as HTMLElement | null;
+          if (rawMount) editor = await mountEditor(rawMount, originalRaw);
+          note('No clean ingredient block detected — editing raw markdown.');
+        }
+
+        setStatus('');
+        dlg.showModal();
+        // Mark not-dirty after initial mount even though `input` events may have fired.
+        queueMicrotask(() => setDirty(false));
+      }
+
+      async function switchMode(target: Mode) {
+        if (target === mode) return;
+        if (dirty) {
+          const ok = window.confirm(
+            'You have unsaved changes. Switching modes will rebuild the editor from your current values. Continue?',
+          );
+          if (!ok) {
+            const toggle = $('[data-rem-mode-toggle]') as HTMLInputElement | null;
+            if (toggle) toggle.checked = mode === 'raw';
+            return;
+          }
+        }
+
+        const titleInput = $('[data-rem-title]') as HTMLInputElement | null;
+        const sourceInput = $('[data-rem-source]') as HTMLInputElement | null;
+        const title = titleInput?.value.trim() ?? payload?.title ?? '';
+        const source = sourceInput?.value.trim() || undefined;
+
+        if (target === 'raw') {
+          // structured -> raw: rebuild raw md from current structured values.
+          const ingredients = readIngredients();
+          const methodMd = editor ? editor.getMarkdown() : '';
+          const reassembled = reassembleStructured({ title, source, ingredients, methodMd });
+          if (editor) {
+            await editor.destroy();
+            editor = null;
+          }
+          setMode('raw');
+          const rawMount = $('[data-rem-raw-mount]') as HTMLElement | null;
+          if (rawMount) editor = await mountEditor(rawMount, reassembled);
+          note('Editing raw markdown. Saves verbatim.');
+        } else {
+          // raw -> structured: try to split current raw md.
+          const currentRaw = editor ? editor.getMarkdown() : originalRaw;
+          const cleaned = cleanBody(currentRaw, title);
+          if (!cleaned.ingredients || !cleaned.ingredients.length || !cleaned.instructions) {
+            const ok = window.confirm(
+              "The current markdown doesn't split cleanly into ingredients and method. " +
+                'Switch anyway? (Ingredients will be empty; the body becomes the method.)',
+            );
+            if (!ok) {
+              const toggle = $('[data-rem-mode-toggle]') as HTMLInputElement | null;
+              if (toggle) toggle.checked = true;
+              return;
+            }
+          }
+          if (editor) {
+            await editor.destroy();
+            editor = null;
+          }
+          setMode('structured');
+          renderIngredients(cleaned.ingredients ?? []);
+          const methodMount = $('[data-rem-method-mount]') as HTMLElement | null;
+          const methodMd = cleaned.instructions ?? cleaned.body ?? currentRaw;
+          if (methodMount) editor = await mountEditor(methodMount, methodMd);
+          note('Switched to structured fields.');
+        }
+        setDirty(true);
+      }
+
+      async function save() {
+        if (!payload || saving) return;
+        const titleInput = $('[data-rem-title]') as HTMLInputElement | null;
+        const sourceInput = $('[data-rem-source]') as HTMLInputElement | null;
+        const title = titleInput?.value.trim() ?? '';
+        const source = sourceInput?.value.trim() || undefined;
+        if (!title) {
+          setStatus('Title cannot be empty.', 'error');
+          return;
+        }
+
+        let content: string;
+        if (mode === 'structured') {
+          const methodMd = editor ? editor.getMarkdown() : '';
+          content = reassembleStructured({
+            title,
+            source,
+            ingredients: readIngredients(),
+            methodMd,
+          });
+        } else {
+          content = editor ? editor.getMarkdown() : originalRaw;
+          if (!content.endsWith('\n')) content += '\n';
+        }
+
+        // Compute newBaseName if title or source changed.
+        const currentInfo = cleanTitle(payload.currentBaseName.replace(/\.md$/i, ''));
+        const titleChanged = currentInfo.title !== title;
+        const sourceChanged = (currentInfo.source ?? undefined) !== source;
+        let newBaseName: string | undefined;
+        if (titleChanged || sourceChanged) {
+          newBaseName = computeNewBaseName(title, source);
+          if (!newBaseName) {
+            setStatus('Title produced an empty filename.', 'error');
+            return;
+          }
+        }
+
+        saving = true;
+        setStatus('Saving…');
+        const saveBtn = $('[data-rem-save]') as HTMLButtonElement | null;
+        if (saveBtn) saveBtn.disabled = true;
+
+        try {
+          const res = await fetch('/__edit/save', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({
+              relativePath: payload.relativePath,
+              content,
+              newBaseName,
+            }),
+          });
+          if (!res.ok) {
+            const text = await res.text();
+            setStatus(`Save failed: ${res.status} ${text}`, 'error');
+            return;
+          }
+          const result = (await res.json()) as {
+            ok: boolean;
+            renamed: boolean;
+            relativePath: string;
+            baseName: string;
+          };
+
+          setDirty(false);
+          getDialog()?.close();
+
+          if (result.renamed) {
+            const newSlug = slugify(cleanTitle(result.baseName.replace(/\.md$/i, '')).title);
+            const newHref = `/${payload.sectionSlug}/${newSlug}/`;
+            // If we're on the recipe detail page, navigate to the new URL.
+            // Otherwise reload to refresh card titles/links.
+            if (location.pathname === payload.recipeHref) {
+              location.href = newHref;
+            } else {
+              location.reload();
+            }
+          } else {
+            location.reload();
+          }
+        } catch (err) {
+          setStatus(`Save failed: ${(err as Error).message}`, 'error');
+        } finally {
+          saving = false;
+          if (saveBtn) saveBtn.disabled = false;
+        }
+      }
+
+      function tryClose() {
+        if (saving) return;
+        if (dirty) {
+          const ok = window.confirm('Discard unsaved changes?');
+          if (!ok) return;
+        }
+        getDialog()?.close();
+      }
+
+      function bind() {
+        const dlg = getDialog();
+        if (!dlg) return;
+        if ((dlg as any).__remBound) return;
+        (dlg as any).__remBound = true;
+
+        // The native ESC keypress fires the dialog's `cancel` event; intercept
+        // so we can prompt on unsaved changes.
+        dlg.addEventListener('cancel', (e) => {
+          if (saving || dirty) {
+            e.preventDefault();
+            tryClose();
+          }
+        });
+        // Backdrop click closes.
+        dlg.addEventListener('click', (e) => {
+          if (e.target === dlg) tryClose();
+        });
+
+        $('[data-rem-close]')?.addEventListener('click', tryClose);
+        $('[data-rem-cancel]')?.addEventListener('click', tryClose);
+        $('[data-rem-save]')?.addEventListener('click', () => void save());
+        $('[data-rem-add-ingredient]')?.addEventListener('click', () => {
+          addIngredientRow('');
+          setDirty(true);
+        });
+        $('[data-rem-mode-toggle]')?.addEventListener('change', (e) => {
+          const checked = (e.target as HTMLInputElement).checked;
+          void switchMode(checked ? 'raw' : 'structured');
+        });
+        // Ingredient row delegation: up/down/remove.
+        $('[data-rem-ingredients]')?.addEventListener('click', (e) => {
+          const target = e.target as HTMLElement;
+          const row = target.closest('.rem-ing-row') as HTMLElement | null;
+          if (!row) return;
+          if (target.matches('[data-rem-ing-up]')) {
+            moveRow(row, -1);
+            setDirty(true);
+          } else if (target.matches('[data-rem-ing-down]')) {
+            moveRow(row, 1);
+            setDirty(true);
+          } else if (target.matches('[data-rem-ing-remove]')) {
+            row.remove();
+            setDirty(true);
+          }
+        });
+        $('[data-rem-ingredients]')?.addEventListener('input', () => setDirty(true));
+        $('[data-rem-title]')?.addEventListener('input', () => setDirty(true));
+        $('[data-rem-source]')?.addEventListener('input', () => setDirty(true));
+      }
+
+      function init() {
+        bind();
+      }
+
+      window.addEventListener('recipe-edit-open', (e: Event) => {
+        const detail = (e as CustomEvent<EditPayload>).detail;
+        if (!detail) return;
+        bind();
+        void openModal(detail);
+      });
+
+      // Astro's ClientRouter swaps the body but the dialog has
+      // `transition:persist`, so it survives. Re-bind defensively after
+      // navigation in case the listener was lost.
+      document.addEventListener('astro:page-load', init);
+      init();
+    }
+  </script>
+)}

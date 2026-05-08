@@ -1,0 +1,1 @@
+To make this Dry Roast **1 tbsp** each of **Jeera** (Cumin Seeds), **Dhania** (Corriander seeds), **Saunf** (Fennel Seeds), **6/7 Laung** (cloves) , **6/7 Elaichi** (Cardamom), **3/4 TejPata**(Bay leaves), an **inch & half of cinnamon stick** and **peppercorns** according to desired hotness.Then just dry grind it to a powder.

@@ -1,0 +1,127 @@
+---
+type Variant = 'paisley' | 'leaf' | 'wave' | 'steam' | 'sprig' | 'drop' | 'marigold' | 'lotus' | 'star' | 'divider' | 'corner';
+
+interface Props {
+  variant?: Variant;
+  class?: string;
+  width?: number | string;
+  height?: number | string;
+}
+
+const { variant = 'divider', class: className, width, height } = Astro.props;
+---
+{variant === 'divider' && (
+  <svg class={className} width={width ?? 220} height={height ?? 28} viewBox="0 0 220 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M2 14 H80" stroke="currentColor" stroke-width="0.8" stroke-linecap="round"/>
+    <path d="M140 14 H218" stroke="currentColor" stroke-width="0.8" stroke-linecap="round"/>
+    <g transform="translate(110 14)">
+      <circle r="2.2" fill="currentColor"/>
+      <circle r="6.5" fill="none" stroke="currentColor" stroke-width="0.7"/>
+      <path d="M-12 0 q6 -8 12 0 q6 8 12 0" stroke="currentColor" stroke-width="0.7" fill="none"/>
+      <path d="M-12 0 q6 8 12 0 q6 -8 12 0" stroke="currentColor" stroke-width="0.7" fill="none"/>
+    </g>
+    <circle cx="92" cy="14" r="1.2" fill="currentColor"/>
+    <circle cx="128" cy="14" r="1.2" fill="currentColor"/>
+  </svg>
+)}
+
+{variant === 'paisley' && (
+  <svg class={className} width={width ?? 64} height={height ?? 64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M14 50 C 8 38, 18 18, 36 14 C 50 12, 56 22, 50 32 C 46 38, 38 38, 36 32 C 34 26, 40 22, 44 26" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <circle cx="22" cy="42" r="1.6" fill="currentColor"/>
+    <circle cx="32" cy="48" r="1.2" fill="currentColor"/>
+    <path d="M16 46 q4 -2 8 0" stroke="currentColor" stroke-width="0.8" fill="none"/>
+  </svg>
+)}
+
+{variant === 'leaf' && (
+  <svg class={className} width={width ?? 64} height={height ?? 64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M10 50 C 14 26, 30 14, 54 12 C 50 36, 36 50, 12 54 Z" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
+    <path d="M14 50 C 22 36, 36 22, 50 16" stroke="currentColor" stroke-width="0.7" fill="none"/>
+    <path d="M22 44 q2 -4 6 -6" stroke="currentColor" stroke-width="0.6" fill="none"/>
+    <path d="M30 38 q2 -4 6 -6" stroke="currentColor" stroke-width="0.6" fill="none"/>
+  </svg>
+)}
+
+{variant === 'wave' && (
+  <svg class={className} width={width ?? 64} height={height ?? 64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M6 22 q8 -8 16 0 q8 8 16 0 q8 -8 16 0" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round"/>
+    <path d="M6 32 q8 -8 16 0 q8 8 16 0 q8 -8 16 0" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round"/>
+    <path d="M6 42 q8 -8 16 0 q8 8 16 0 q8 -8 16 0" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round"/>
+  </svg>
+)}
+
+{variant === 'steam' && (
+  <svg class={className} width={width ?? 64} height={height ?? 64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M22 50 q-4 -8 0 -14 q4 -6 0 -12 q-4 -6 0 -12" stroke="currentColor" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    <path d="M32 50 q-4 -8 0 -14 q4 -6 0 -12 q-4 -6 0 -12" stroke="currentColor" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    <path d="M42 50 q-4 -8 0 -14 q4 -6 0 -12 q-4 -6 0 -12" stroke="currentColor" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+  </svg>
+)}
+
+{variant === 'sprig' && (
+  <svg class={className} width={width ?? 64} height={height ?? 64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M32 56 L 32 8" stroke="currentColor" stroke-width="1" fill="none"/>
+    <path d="M32 46 q-10 -2 -14 -10 q8 0 14 6" fill="currentColor" opacity="0.7"/>
+    <path d="M32 38 q10 -2 14 -10 q-8 0 -14 6" fill="currentColor" opacity="0.7"/>
+    <path d="M32 30 q-8 -2 -12 -10 q8 0 12 6" fill="currentColor" opacity="0.7"/>
+    <path d="M32 22 q8 -2 12 -10 q-8 0 -12 6" fill="currentColor" opacity="0.7"/>
+  </svg>
+)}
+
+{variant === 'drop' && (
+  <svg class={className} width={width ?? 64} height={height ?? 64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M32 8 C 20 24, 16 36, 32 52 C 48 36, 44 24, 32 8 Z" stroke="currentColor" stroke-width="1.1" fill="none" stroke-linejoin="round"/>
+    <path d="M32 22 C 26 30, 24 36, 32 44" stroke="currentColor" stroke-width="0.7" fill="none"/>
+  </svg>
+)}
+
+{variant === 'marigold' && (
+  <svg class={className} width={width ?? 64} height={height ?? 64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g transform="translate(32 32)">
+      <circle r="4" fill="currentColor"/>
+      {Array.from({ length: 12 }).map((_, i) => {
+        const angle = (i * 30 * Math.PI) / 180;
+        const x = Math.cos(angle) * 14;
+        const y = Math.sin(angle) * 14;
+        return <ellipse cx={x} cy={y} rx="6" ry="3" transform={`rotate(${i * 30} ${x} ${y})`} fill="currentColor" opacity="0.45"/>;
+      })}
+      {Array.from({ length: 12 }).map((_, i) => {
+        const angle = ((i * 30 + 15) * Math.PI) / 180;
+        const x = Math.cos(angle) * 22;
+        const y = Math.sin(angle) * 22;
+        return <ellipse cx={x} cy={y} rx="7" ry="3.4" transform={`rotate(${i * 30 + 15} ${x} ${y})`} fill="currentColor" opacity="0.3"/>;
+      })}
+    </g>
+  </svg>
+)}
+
+{variant === 'lotus' && (
+  <svg class={className} width={width ?? 64} height={height ?? 64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M32 50 C 16 44, 14 28, 22 18 C 26 26, 30 32, 32 36 C 34 32, 38 26, 42 18 C 50 28, 48 44, 32 50 Z" stroke="currentColor" stroke-width="1" fill="none" stroke-linejoin="round"/>
+    <path d="M32 50 C 22 48, 14 38, 12 30 C 18 32, 26 38, 32 42" stroke="currentColor" stroke-width="0.8" fill="none"/>
+    <path d="M32 50 C 42 48, 50 38, 52 30 C 46 32, 38 38, 32 42" stroke="currentColor" stroke-width="0.8" fill="none"/>
+  </svg>
+)}
+
+{variant === 'star' && (
+  <svg class={className} width={width ?? 64} height={height ?? 64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <g transform="translate(32 32)">
+      {Array.from({ length: 8 }).map((_, i) => (
+        <line x1="0" y1="0" x2="0" y2="-22" stroke="currentColor" stroke-width="0.9" transform={`rotate(${i * 45})`}/>
+      ))}
+      <circle r="3" fill="currentColor"/>
+      <circle r="14" fill="none" stroke="currentColor" stroke-width="0.6" stroke-dasharray="2 3"/>
+    </g>
+  </svg>
+)}
+
+{variant === 'corner' && (
+  <svg class={className} width={width ?? 120} height={height ?? 120} viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M0 0 L 0 60 C 6 38, 28 14, 60 8 C 38 2, 16 0, 0 0 Z" fill="currentColor" opacity="0.18"/>
+    <path d="M8 8 C 30 12, 52 22, 64 40" stroke="currentColor" stroke-width="0.8" fill="none"/>
+    <circle cx="14" cy="14" r="1.4" fill="currentColor"/>
+    <circle cx="22" cy="20" r="1.2" fill="currentColor"/>
+    <path d="M30 30 q4 4 4 10" stroke="currentColor" stroke-width="0.6" fill="none"/>
+  </svg>
+)}

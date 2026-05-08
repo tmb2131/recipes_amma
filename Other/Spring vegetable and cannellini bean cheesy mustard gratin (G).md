@@ -1,0 +1,9 @@
+**Spring vegetable and cannellini bean cheesy mustard gratin** (G)  
+  
+Serves **6**  
+For the cheesy mustard sauce **40g unsalted butter 40g plain flour 500ml whole milk 100g extra-mature cheddar**, grated **1 heaped tbsp wholegrain mustard 100ml dry sherry**, or white wine **Sea salt and black pepper ** For the gratin **4 tbsp extra-virgin olive oil** **2 leeks**, cleaned, then white and green parts sliced into 1cm rounds **2 large garlic cloves**, peeled and finely chopped **100g spinach 100g frozen broad beans 50g frozen peas 250g jarred artichoke hearts **(drained weight), cut into quarters **600g jar cannellini beans**, drained **1 small bunch fresh mint**, leaves picked and chopped **75g soft white breadcrumbs** **30g almonds**, roughly chopped  
+First make the sauce. Melt the butter in a medium saucepan on a medium-low heat. Once it’s bubbling, stir in the flour and cook, stirring, for a couple of minutes. Gradually whisk in the milk, then cook, stirring regularly, for five to seven minutes, until the mixture thickens and coats the back of the spoon. Stir in the cheese, mustard and sherry, and season to taste.  
+Heat the oven to 200C (180C fan)/390F/gas 6. Put half the oil in a large, shallow casserole or 30cm ovenproof frying pan on a medium-high heat, then add the leeks and a half-teaspoon of salt, and cook, stirring often, for five to seven minutes, until softened and just starting to colour in places. Stir in the garlic and saute for a minute, until fragrant.  
+  
+Add the spinach, broad beans and peas, cover the pot and leave to cook for two minutes, until the spinach wilts. Add the artichokes, cannellini beans, cheesy sauce and mint, stir to combine, then take off the heat.  
+In a small bowl, stir the breadcrumbs and almonds with the remaining oil. Scatter this all over the top of the cheesy vegetable mix, then cover and slide on to the middle shelf of the hot oven and bake for 25 minutes. Lift off the  

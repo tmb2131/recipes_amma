@@ -1,0 +1,107 @@
+---
+import { findDuplicateGroups, groupBySection, getRecipes } from '../lib/loadRecipes';
+import { SECTION_META } from '../lib/loadRecipes';
+
+const recipes = getRecipes();
+const groups = groupBySection(recipes);
+const currentPath = Astro.url.pathname.replace(/\/$/, '');
+const isDev = import.meta.env.DEV;
+const dupCount = isDev ? findDuplicateGroups(recipes).length : 0;
+---
+<aside id="drawer" class="drawer" aria-label="Sections" data-drawer hidden>
+  <div class="drawer-backdrop" data-drawer-close></div>
+  <nav class="drawer-panel" aria-label="Recipe sections">
+    <div class="flex items-center justify-between border-b border-[color:var(--paper-edge)] px-6 py-5">
+      <a href="/" class="font-display text-2xl text-[color:var(--ink)]">Amma's Kitchen</a>
+      <button type="button" class="text-[color:var(--ink-faint)] hover:text-[color:var(--ink)]" data-drawer-close aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M5 5l10 10M15 5L5 15" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="flex flex-col gap-1 px-4 py-4">
+      <li>
+        <a href="/contents/" class:list={['drawer-link', currentPath === '/contents' && 'drawer-link-active']}>
+          <span>Table of contents</span>
+          <span class="text-[color:var(--ink-faint)] text-xs">{recipes.length}</span>
+        </a>
+      </li>
+      {isDev && (
+        <li>
+          <a href="/review/" class:list={['drawer-link', currentPath === '/review' && 'drawer-link-active']}>
+            <span>Review</span>
+            <span class="text-[color:var(--ink-faint)] text-xs">{dupCount}</span>
+          </a>
+          <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]">
+            Potential duplicate recipes
+          </p>
+        </li>
+      )}
+      {groups.map((g) => (
+        <li>
+          <a href={`/${g.slug}/`} class:list={['drawer-link', currentPath.startsWith(`/${g.slug}`) && 'drawer-link-active']}>
+            <span>{g.section}</span>
+            <span class="text-[color:var(--ink-faint)] text-xs">{g.count}</span>
+          </a>
+          <p class="px-3 pb-2 pt-1 font-serif italic text-xs text-[color:var(--ink-faint)]">{SECTION_META[g.section].tagline}</p>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</aside>
+
+<style>
+  .drawer { position: fixed; inset: 0; z-index: 50; display: block; }
+  .drawer[hidden] { display: none; }
+  .drawer-backdrop { position: absolute; inset: 0; background: rgba(20, 12, 6, 0.4); animation: fade 200ms ease; }
+  .drawer-panel {
+    position: absolute; left: 0; top: 0; bottom: 0;
+    width: min(360px, 88vw); background: var(--paper);
+    box-shadow: 8px 0 30px -10px rgba(20, 10, 5, 0.3);
+    overflow-y: auto;
+    animation: slide 240ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .drawer-link {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.6rem 0.85rem;
+    border-radius: 8px;
+    font-family: var(--display);
+    font-size: 1.25rem;
+    color: var(--ink);
+    transition: background 140ms ease;
+  }
+  .drawer-link:hover { background: var(--paper-deep); }
+  .drawer-link-active { background: rgba(195, 157, 78, 0.18); color: var(--terracotta-deep); }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes slide { from { transform: translateX(-12px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+</style>
+
+<script>
+  // Keep handlers stable across Astro ClientRouter page swaps.
+  if (!(window as any).__drawerInit) {
+    (window as any).__drawerInit = true;
+
+    const getDrawer = () =>
+      document.querySelector('[data-drawer]') as HTMLElement | null;
+
+    const open = () => getDrawer()?.removeAttribute('hidden');
+    const close = () => getDrawer()?.setAttribute('hidden', '');
+
+    document.addEventListener('click', (e) => {
+      const target = e.target;
+      if (!(target instanceof Element)) return;
+      if (target.closest('[data-drawer-open]')) open();
+      if (target.closest('[data-drawer-close]')) close();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') close();
+      if (e.key === 'g' && !e.metaKey && !e.ctrlKey) {
+        const tag = (document.activeElement as HTMLElement | null)?.tagName;
+        if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+        e.preventDefault();
+        open();
+      }
+    });
+  }
+</script>

@@ -1,0 +1,32 @@
+Lentil Soup  
+Serves 4 to 6  
+  
+INGREDIENTS  
+* **6 **tablespoons extra-virgin olive oil, plus more as needed  
+* **6 **tablespoons extra-virgin olive oil, plus more as needed  
+* **1 **large onion, diced  
+* **1 **large onion, diced  
+* **1 ½ **teaspoons kosher salt, plus more as needed  
+* **1 ½ **teaspoons kosher salt, plus more as needed  
+* **1 **quart chicken, beef or vegetable stock, preferably homemade  
+* **1 **quart chicken, beef or vegetable stock, preferably homemade  
+* **1 **cup brown or green lentils, rinsed  
+* **1 **cup brown or green lentils, rinsed  
+* **2 **thyme or rosemary sprigs  
+* **2 **thyme or rosemary sprigs  
+* **1 to 2 **garlic cloves, finely grated or pushed through a garlic press  
+* **1 to 2 **garlic cloves, finely grated or pushed through a garlic press  
+* **1 **teaspoon white-wine, sherry or cider vinegar, or lemon or lime juice, plus more to taste  
+* **1 **teaspoon white-wine, sherry or cider vinegar, or lemon or lime juice, plus more to taste  
+* **½ **cup thinly sliced radicchio, or red or green cabbage (optional)  
+* **½ **cup thinly sliced radicchio, or red or green cabbage (optional)  
+* **½ **cup parsley leaves, chopped  
+* **½ **cup parsley leaves, chopped  
+* Toppings (See note)  
+  
+1. Heat 1/4 cup oil in a medium pot over medium-high heat. Stir in onions and 1/2 teaspoon salt, and cook until onions start to brown at the edges, stirring frequently, 6 to 9 minutes.  
+2. Stir in stock, lentils, thyme and remaining 1 teaspoon salt. Bring to a simmer, cover, and cook until lentils are tender, about 30 to 40 minutes. Discard thyme sprigs.  
+3. Stir in garlic, and remaining 2 tablespoons oil, and use an immersion blender to purée the soup to the desired consistency, keeping it chunky or making it smooth. (Alternatively, ladle it into a blender and blend in batches.) Stir in vinegar, then taste and add more salt and vinegar if needed.  
+4. In a small bowl, toss radicchio (if using) and parsley with a drizzle of oil and a sprinkle of salt. To serve, ladle soup into bowls and top with a small mound of radicchio and parsley, and/or any other garnishes you like.  
+## Tip  
+* Dairy (yogurt or sour cream, crumbled feta or goat cheese, or grated Parmesan); spices (toasted cumin seeds, chile flakes, or garam masala); savory vegetables and tart fruit (cubed avocado, browned leeks or onions, grated citrus zest, diced tomatoes, diced orange or grapefruit segments, diced roasted red peppers or pickled jalapeños); or salty finishes (croutons, chopped cooked bacon, sliced olives, crumbled nori or dried seaweed snacks, sesame seeds and sesame oil) are all worthy toppings.  

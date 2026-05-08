@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Caveat:wght@400;600&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --paper: #faf6ee;
+  --paper-deep: #f3ecd9;
+  --paper-edge: #ece2c4;
+  --ink: #2a1f1a;
+  --ink-soft: #5b4a3f;
+  --ink-faint: #8a7a6c;
+  --terracotta: #b04a2f;
+  --terracotta-deep: #8a3520;
+  --sage: #6b8369;
+  --sage-deep: #4d6149;
+  --gold: #c39d4e;
+  --gold-soft: #d9bd7e;
+  --marigold: #e8b04a;
+
+  --display: 'Italiana', serif;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --script: 'Caveat', cursive;
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --radius-soft: 6px;
+  --radius-page: 2px;
+  --shadow-page: 0 12px 30px -18px rgba(60, 40, 25, 0.35),
+    0 2px 8px -4px rgba(60, 40, 25, 0.15);
+  --shadow-cover: 0 30px 80px -30px rgba(20, 10, 5, 0.6);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--marigold); color: var(--ink); }
+
+h1, h2, h3, h4 { font-family: var(--display); color: var(--ink); font-weight: 400; letter-spacing: 0.01em; }
+
+a { color: var(--terracotta); text-decoration: none; transition: color 160ms ease; }
+a:hover { color: var(--terracotta-deep); }
+
+button { font-family: inherit; cursor: pointer; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--paper-edge);
+  margin: 2rem auto;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--paper-edge); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold-soft); }

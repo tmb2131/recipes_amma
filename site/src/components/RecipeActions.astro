@@ -1,0 +1,201 @@
+---
+import type { Recipe } from '../lib/loadRecipes';
+import { slugify } from '../lib/slug';
+
+interface Props {
+  recipe: Recipe;
+  variant?: 'card' | 'detail';
+}
+
+const { recipe, variant = 'card' } = Astro.props;
+const isDev = import.meta.env.DEV;
+
+// Where to send the user if they delete the recipe they're currently viewing.
+const sectionHref = recipe.href.split('/').slice(0, 2).join('/') + '/';
+
+// Pencil now opens the in-browser modal editor. We embed everything the
+// modal needs to load and save the file (path, title, current basename,
+// section slug for navigation after a rename).
+const editPayload = isDev
+  ? JSON.stringify({
+      relativePath: recipe.sourceFile,
+      sectionSlug: slugify(recipe.section),
+      currentBaseName: recipe.sourceFile.split('/').slice(-1)[0],
+      recipeHref: recipe.href,
+      title: recipe.title,
+      source: recipe.source,
+      family: recipe.family,
+    })
+  : '';
+
+const deletePayload = isDev
+  ? JSON.stringify({
+      relativePath: recipe.sourceFile,
+      title: recipe.title,
+      recipeHref: recipe.href,
+      fallbackHref: sectionHref,
+    })
+  : '';
+---
+{isDev && (
+  <span
+    class:list={['recipe-actions', `recipe-actions--${variant}`]}
+    data-recipe-actions
+  >
+    <button
+      type="button"
+      class="recipe-actions__btn"
+      data-edit-payload={editPayload}
+      title={`Edit ${recipe.sourceFile}`}
+      aria-label={`Edit ${recipe.title}`}
+    >
+      <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <path d="M14.5 3.5l2 2L7 15l-3 1 1-3 9.5-9.5z" stroke-linejoin="round" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <button
+      type="button"
+      class="recipe-actions__btn recipe-actions__btn--danger"
+      data-delete-payload={deletePayload}
+      title={`Delete ${recipe.title}`}
+      aria-label={`Delete ${recipe.title}`}
+    >
+      <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <path d="M4 6h12M8 6V4h4v2M6 6l1 10h6l1-10" stroke-linejoin="round" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </span>
+)}
+
+{isDev && (
+  <script is:inline>
+    (function () {
+      if (window.__recipeActionsInit) return;
+      window.__recipeActionsInit = true;
+
+      async function handleClick(e) {
+        var target = e.target;
+        if (!target || !(target instanceof Element)) return;
+        var btn = target.closest('[data-edit-payload], [data-delete-payload]');
+        if (!btn) return;
+
+        // Capture phase — preempt Astro's ClientRouter and the parent <a>
+        // activation. Both preventDefault and stopImmediatePropagation are
+        // required when running before other capture-phase handlers.
+        e.preventDefault();
+        e.stopPropagation();
+        if (typeof e.stopImmediatePropagation === 'function') {
+          e.stopImmediatePropagation();
+        }
+
+        var editPayloadRaw = btn.getAttribute('data-edit-payload');
+        if (editPayloadRaw) {
+          var editPayload;
+          try { editPayload = JSON.parse(editPayloadRaw); } catch (_) { return; }
+          window.dispatchEvent(
+            new CustomEvent('recipe-edit-open', { detail: editPayload })
+          );
+          return;
+        }
+
+        var payloadRaw = btn.getAttribute('data-delete-payload');
+        if (!payloadRaw) return;
+        var payload;
+        try { payload = JSON.parse(payloadRaw); } catch (_) { return; }
+
+        var ok = window.confirm(
+          'Delete "' + payload.title + '"?\n\nThe file will be moved to site/.trash/ and can be restored.'
+        );
+        if (!ok) return;
+        btn.disabled = true;
+        try {
+          var res = await fetch('/__edit/delete', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
+          if (!res.ok) {
+            var text = await res.text();
+            alert('Delete failed: ' + res.status + ' ' + text);
+            btn.disabled = false;
+            return;
+          }
+          if (location.pathname === payload.recipeHref) {
+            location.href = payload.fallbackHref;
+          } else {
+            location.reload();
+          }
+        } catch (err) {
+          alert('Delete failed: ' + (err && err.message ? err.message : err));
+          btn.disabled = false;
+        }
+      }
+
+      // `true` = capture phase, so we run before Astro's ClientRouter and
+      // before the parent <a> activates.
+      document.addEventListener('click', handleClick, true);
+    })();
+  </script>
+)}
+
+<style>
+  .recipe-actions {
+    display: inline-flex;
+    gap: 0.25rem;
+    align-items: center;
+    line-height: 0;
+  }
+  .recipe-actions--card {
+    position: absolute;
+    top: 0.45rem;
+    right: 0.45rem;
+    opacity: 0;
+    transform: translateY(-2px);
+    transition: opacity 140ms ease, transform 140ms ease;
+    pointer-events: auto;
+    z-index: 2;
+  }
+  :global(.recipe-card:hover) .recipe-actions--card,
+  :global(.recipe-card:focus-within) .recipe-actions--card,
+  .recipe-actions--card:focus-within {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .recipe-actions--detail {
+    margin-top: 0.6rem;
+    justify-content: center;
+  }
+  .recipe-actions__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    color: var(--ink-soft);
+    background: rgba(250, 246, 238, 0.85);
+    border: 1px solid var(--paper-edge);
+    cursor: pointer;
+    transition: all 140ms ease;
+    backdrop-filter: blur(4px);
+  }
+  .recipe-actions--detail .recipe-actions__btn {
+    width: 32px;
+    height: 32px;
+  }
+  .recipe-actions--detail .recipe-actions__btn svg {
+    width: 16px;
+    height: 16px;
+  }
+  .recipe-actions__btn:hover {
+    color: var(--ink);
+    background: var(--paper-deep);
+    border-color: var(--gold-soft);
+  }
+  .recipe-actions__btn--danger:hover {
+    color: var(--terracotta-deep);
+    background: rgba(204, 90, 60, 0.1);
+    border-color: rgba(204, 90, 60, 0.4);
+  }
+</style>
+

@@ -1,0 +1,67 @@
+---
+import Floral from './Floral.astro';
+import type { Section } from '../lib/loadRecipes';
+import { SECTION_META } from '../lib/loadRecipes';
+
+interface Props {
+  section: Section;
+  count?: number;
+  small?: boolean;
+}
+const { section, count, small = false } = Astro.props;
+const meta = SECTION_META[section];
+---
+<header class:list={['section-header', small && 'section-header--small']}>
+  <Floral variant={meta.motif as any} class="section-motif" width={small ? 44 : 72} height={small ? 44 : 72} />
+  <h1 class="section-title">{section}</h1>
+  {!small && <p class="section-tagline">{meta.tagline}</p>}
+  {typeof count === 'number' && (
+    <p class="section-count">{count} {count === 1 ? 'recipe' : 'recipes'}</p>
+  )}
+  {!small && <Floral variant="divider" class="section-divider" />}
+</header>
+
+<style>
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto 2.5rem;
+    color: var(--terracotta-deep);
+  }
+  .section-header--small { margin-bottom: 1rem; }
+  .section-motif {
+    color: var(--gold);
+    margin: 0 auto 0.6rem;
+    display: block;
+  }
+  .section-title {
+    font-family: var(--display);
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    color: var(--ink);
+    line-height: 1;
+    margin: 0;
+  }
+  .section-header--small .section-title { font-size: 1.6rem; }
+  .section-tagline {
+    font-family: var(--script);
+    color: var(--sage-deep);
+    font-size: 1.35rem;
+    margin: 0.6rem auto 0;
+    max-width: 32rem;
+  }
+  .section-count {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--ink-faint);
+    margin: 0.5rem 0 0;
+  }
+  .section-divider {
+    color: var(--gold);
+    margin: 1.4rem auto 0;
+    display: block;
+  }
+</style>
