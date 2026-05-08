@@ -89,6 +89,7 @@ const recipeEditEnabled =
 {recipeEditEnabled && (
   <script>
     import { cleanBody, cleanTitle } from '../lib/cleanMarkdown';
+    import { renderMarkdown } from '../lib/render';
     import { slugify } from '../lib/slug';
 
     type EditPayload = {
@@ -108,10 +109,24 @@ const recipeEditEnabled =
       getMarkdown: () => string;
     };
 
+    type PendingRecipeSave = {
+      relativePath: string;
+      oldRelativePath: string;
+      href: string;
+      oldHref: string;
+      title: string;
+      source?: string;
+      content: string;
+      baseName: string;
+      savedAt: number;
+    };
+
     if (!(window as any).__recipeEditModalInit) {
       (window as any).__recipeEditModalInit = true;
 
       const EDIT_API = '/api/edit';
+      const PENDING_SAVE_KEY = 'ammas-kitchen:pending-recipe-saves:v1';
+      const PENDING_SAVE_TTL_MS = 2 * 60 * 60 * 1000;
 
       // Lazy-load modal CSS.
       void import('./recipeEditModal.css');
@@ -271,6 +286,169 @@ const recipeEditEnabled =
         if (!base) return '';
         const tag = source ? ` (${sanitizeForFilename(source)})` : '';
         return `${base}${tag}.md`;
+      }
+
+      function normalizeHref(href: string): string {
+        if (!href) return '/';
+        const url = new URL(href, location.origin);
+        return url.pathname.endsWith('/') ? url.pathname : `${url.pathname}/`;
+      }
+
+      function readPendingSaves(): Record<string, PendingRecipeSave> {
+        let parsed: Record<string, PendingRecipeSave> = {};
+        try {
+          parsed = JSON.parse(localStorage.getItem(PENDING_SAVE_KEY) || '{}') as typeof parsed;
+        } catch {
+          parsed = {};
+        }
+        const now = Date.now();
+        let changed = false;
+        for (const [key, value] of Object.entries(parsed)) {
+          if (!value || now - value.savedAt > PENDING_SAVE_TTL_MS) {
+            delete parsed[key];
+            changed = true;
+          }
+        }
+        if (changed) {
+          try {
+            localStorage.setItem(PENDING_SAVE_KEY, JSON.stringify(parsed));
+          } catch {
+            /* ignore unavailable localStorage */
+          }
+        }
+        return parsed;
+      }
+
+      function storePendingSave(save: PendingRecipeSave) {
+        const pending = readPendingSaves();
+        pending[save.oldRelativePath] = save;
+        pending[save.relativePath] = save;
+        try {
+          localStorage.setItem(PENDING_SAVE_KEY, JSON.stringify(pending));
+        } catch {
+          /* ignore unavailable localStorage */
+        }
+      }
+
+      function updateSourceBadge(article: HTMLElement, source: string | undefined) {
+        const tags = $('[data-recipe-tags]', article);
+        if (!tags) return;
+        let badge = $('[data-recipe-source]', tags) as HTMLElement | null;
+        if (!source) {
+          badge?.remove();
+          return;
+        }
+        if (!badge) {
+          badge = document.createElement('span');
+          badge.className = 'badge badge-source';
+          badge.dataset.recipeSource = '';
+          const actions = tags.querySelector('.recipe-actions');
+          tags.insertBefore(badge, actions);
+        }
+        badge.textContent = source;
+      }
+
+      function updateRecipeActions(article: HTMLElement, save: PendingRecipeSave) {
+        const btn = $('[data-edit-payload]', article) as HTMLElement | null;
+        if (!btn) return;
+        try {
+          const next = JSON.parse(btn.getAttribute('data-edit-payload') || '{}') as EditPayload;
+          next.relativePath = save.relativePath;
+          next.currentBaseName = save.baseName;
+          next.title = save.title;
+          next.source = save.source;
+          next.recipeHref = normalizeHref(location.pathname);
+          btn.setAttribute('data-edit-payload', JSON.stringify(next));
+          btn.setAttribute('aria-label', `Edit ${save.title}`);
+        } catch {
+          /* ignore malformed existing payload */
+        }
+      }
+
+      function applyRecipeToCurrentPage(save: PendingRecipeSave): boolean {
+        const article = $('[data-recipe-detail]') as HTMLElement | null;
+        if (!article) return false;
+
+        const cleaned = cleanBody(save.content, save.title);
+        const ingredients = cleaned.ingredients ?? [];
+        const methodMd = cleaned.instructions ?? cleaned.body;
+
+        const titleEl = $('[data-recipe-title]', article);
+        const crumbEl = $('[data-recipe-breadcrumb-title]', article);
+        if (titleEl) titleEl.textContent = save.title;
+        if (crumbEl) crumbEl.textContent = save.title;
+        document.title = `${save.title} — Amma's Kitchen`;
+        updateSourceBadge(article, save.source);
+
+        const body = $('[data-recipe-body]', article);
+        const instructionsCol = $('[data-recipe-instructions-col]', article) as HTMLElement | null;
+        const prose = $('[data-recipe-instructions]', article);
+        if (!body || !instructionsCol || !prose) return false;
+
+        let ingredientsCol = $('[data-recipe-ingredients-col]', article) as HTMLElement | null;
+        let ingredientsList = $('[data-recipe-ingredients-list]', article) as HTMLUListElement | null;
+        let methodHeading = instructionsCol.querySelector('.instructions-heading');
+
+        if (ingredients.length > 0) {
+          if (!ingredientsCol) {
+            ingredientsCol = document.createElement('aside');
+            ingredientsCol.className = 'ingredients-col';
+            ingredientsCol.dataset.recipeIngredientsCol = '';
+            ingredientsCol.setAttribute('aria-labelledby', 'ingredients-heading');
+            ingredientsCol.innerHTML =
+              '<h2 id="ingredients-heading" class="ingredients-heading">Ingredients</h2><ul class="ingredients-list" data-recipe-ingredients-list></ul>';
+            body.insertBefore(ingredientsCol, instructionsCol);
+          }
+          ingredientsList = $('[data-recipe-ingredients-list]', ingredientsCol) as HTMLUListElement | null;
+          if (ingredientsList) {
+            ingredientsList.replaceChildren(
+              ...ingredients.map((item) => {
+                const li = document.createElement('li');
+                li.textContent = item;
+                return li;
+              }),
+            );
+          }
+          if (!methodHeading) {
+            methodHeading = document.createElement('h2');
+            methodHeading.className = 'instructions-heading';
+            methodHeading.textContent = 'Method';
+            instructionsCol.insertBefore(methodHeading, prose);
+          }
+          instructionsCol.classList.remove('instructions-col--full');
+        } else {
+          ingredientsCol?.remove();
+          methodHeading?.remove();
+          instructionsCol.classList.add('instructions-col--full');
+        }
+
+        prose.innerHTML = renderMarkdown(methodMd);
+        article.dataset.recipeSourceFile = save.relativePath;
+        article.dataset.recipeHref = save.href;
+        updateRecipeActions(article, save);
+        return true;
+      }
+
+      function applyPendingSaveForCurrentPage() {
+        const article = $('[data-recipe-detail]') as HTMLElement | null;
+        if (!article) return;
+        const sourceFile = article.dataset.recipeSourceFile ?? '';
+        const href = normalizeHref(article.dataset.recipeHref ?? location.pathname);
+        const currentHref = normalizeHref(location.pathname);
+        const unique = new Map<string, PendingRecipeSave>();
+        for (const save of Object.values(readPendingSaves())) {
+          unique.set(`${save.oldRelativePath}\n${save.relativePath}\n${save.savedAt}`, save);
+        }
+        const match = Array.from(unique.values()).find(
+          (save) =>
+            save.relativePath === sourceFile ||
+            save.oldRelativePath === sourceFile ||
+            normalizeHref(save.href) === href ||
+            normalizeHref(save.oldHref) === href ||
+            normalizeHref(save.href) === currentHref ||
+            normalizeHref(save.oldHref) === currentHref,
+        );
+        if (match) applyRecipeToCurrentPage(match);
       }
 
       async function openModal(p: EditPayload) {
@@ -450,20 +628,26 @@ const recipeEditEnabled =
             relativePath: string;
             baseName: string;
           };
+          const newSlug = slugify(cleanTitle(result.baseName.replace(/\.md$/i, '')).title);
+          const newHref = result.renamed ? `/${payload.sectionSlug}/${newSlug}/` : payload.recipeHref;
+          const pendingSave: PendingRecipeSave = {
+            relativePath: result.relativePath,
+            oldRelativePath: payload.relativePath,
+            href: newHref,
+            oldHref: payload.recipeHref,
+            title,
+            source,
+            content,
+            baseName: result.baseName,
+            savedAt: Date.now(),
+          };
 
+          storePendingSave(pendingSave);
           setDirty(false);
           getDialog()?.close();
 
-          if (result.renamed) {
-            const newSlug = slugify(cleanTitle(result.baseName.replace(/\.md$/i, '')).title);
-            const newHref = `/${payload.sectionSlug}/${newSlug}/`;
-            // If we're on the recipe detail page, navigate to the new URL.
-            // Otherwise reload to refresh card titles/links.
-            if (location.pathname === payload.recipeHref) {
-              location.href = newHref;
-            } else {
-              location.reload();
-            }
+          if (normalizeHref(location.pathname) === normalizeHref(payload.recipeHref)) {
+            applyRecipeToCurrentPage(pendingSave);
           } else {
             location.reload();
           }
@@ -537,6 +721,7 @@ const recipeEditEnabled =
 
       function init() {
         bind();
+        applyPendingSaveForCurrentPage();
       }
 
       window.addEventListener('recipe-edit-open', (e: Event) => {

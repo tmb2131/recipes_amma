@@ -33,35 +33,41 @@ function escapeHtml(s: string) {
 }
 ---
 <BookLayout title={`${recipe.title} — Amma's Kitchen`}>
-  <article class="recipe-spread" data-pagefind-body>
+  <article
+    class="recipe-spread"
+    data-pagefind-body
+    data-recipe-detail
+    data-recipe-source-file={recipe.sourceFile}
+    data-recipe-href={recipe.href}
+  >
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="/">Cover</a>
       <span aria-hidden="true">›</span>
       <a href={`/${sectionSlug}/`}>{recipe.section}</a>
       <span aria-hidden="true">›</span>
-      <span class="breadcrumbs-current">{recipe.title}</span>
+      <span class="breadcrumbs-current" data-recipe-breadcrumb-title>{recipe.title}</span>
     </nav>
 
     <header class="recipe-head">
       <Floral variant={motif as any} class="recipe-motif" width={48} height={48} />
-      <h1 class="recipe-title">{recipe.title}</h1>
-      <div class="recipe-tags">
+      <h1 class="recipe-title" data-recipe-title>{recipe.title}</h1>
+      <div class="recipe-tags" data-recipe-tags>
         <FavoriteHeart recipe={recipe} variant="detail" />
-        {recipe.source && <span class="badge badge-source">{recipe.source}</span>}
+        {recipe.source && <span class="badge badge-source" data-recipe-source>{recipe.source}</span>}
       </div>
       <RecipeActions recipe={recipe} variant="detail" />
     </header>
 
-    <div class="recipe-body" style={{ ['view-transition-name' as any]: 'recipe-content' }}>
+    <div class="recipe-body" data-recipe-body style={{ ['view-transition-name' as any]: 'recipe-content' }}>
       {ingredientsHtml && (
-        <aside class="ingredients-col" aria-labelledby="ingredients-heading">
+        <aside class="ingredients-col" data-recipe-ingredients-col aria-labelledby="ingredients-heading">
           <h2 id="ingredients-heading" class="ingredients-heading">Ingredients</h2>
-          <ul class="ingredients-list" set:html={ingredientsHtml} />
+          <ul class="ingredients-list" data-recipe-ingredients-list set:html={ingredientsHtml} />
         </aside>
       )}
-      <div class:list={['instructions-col', !ingredientsHtml && 'instructions-col--full']}>
+      <div class:list={['instructions-col', !ingredientsHtml && 'instructions-col--full']} data-recipe-instructions-col>
         {ingredientsHtml && <h2 class="instructions-heading">Method</h2>}
-        <div class="prose-recipe" set:html={bodyHtml} />
+        <div class="prose-recipe" data-recipe-instructions set:html={bodyHtml} />
       </div>
     </div>
 
