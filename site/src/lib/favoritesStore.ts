@@ -29,7 +29,7 @@ const KEY = 'ammas-favorites:v1';
 export class FavoritesStorageUnavailableError extends Error {
   constructor() {
     super(
-      'Favorites storage is not configured. Set Upstash/Vercel env vars: UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN, or KV_REST_API_URL + KV_REST_API_TOKEN, or the Vercel Storage quickstart names (e.g. UPSTASH_REDIS_REST_REDIS_URL + UPSTASH_REDIS_REST_KV_REST_API_TOKEN).',
+      'Favorites storage is not configured. Use the Upstash HTTPS REST endpoint (begins with https://), not a redis:// or rediss:// URL. Typical pairs: UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN, KV_REST_API_URL + KV_REST_API_TOKEN, or UPSTASH_REDIS_REST_KV_REST_API_URL + UPSTASH_REDIS_REST_KV_REST_API_TOKEN.',
     );
     this.name = 'FavoritesStorageUnavailableError';
   }
@@ -61,16 +61,26 @@ function firstEnv(...keys: string[]): string {
   return '';
 }
 
+/** @upstash/redis speaks HTTP REST only — ignore redis:// / rediss:// TCP URLs from the dashboard. */
+function firstRestHttpsUrl(...keys: string[]): string {
+  for (const k of keys) {
+    const v = process.env[k]?.trim();
+    if (v && v.startsWith('https://')) return v;
+  }
+  return '';
+}
+
 function readCreds(): { url: string; token: string } | null {
   // Standard Upstash: UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN.
   // Vercel KV marketplace: KV_REST_API_*.
-  // Vercel "Storage" linked Upstash DB often injects longer names (see Upstash quickstart in dashboard).
-  const url = firstEnv(
+  // Vercel Storage may set UPSTASH_REDIS_REST_REDIS_URL to a rediss:// TCP URL — skip it;
+  // prefer *REST*_API_* or KV_REST_* which are https:// endpoints.
+  const url = firstRestHttpsUrl(
     'UPSTASH_REDIS_REST_URL',
     'KV_REST_API_URL',
-    'UPSTASH_REDIS_REST_REDIS_URL',
     'UPSTASH_REDIS_REST_KV_REST_API_URL',
     'UPSTASH_REDIS_REST_KV_URL',
+    'UPSTASH_REDIS_REST_REDIS_URL',
   );
   // Use a read-write token only (not *READ_ONLY*).
   const token = firstEnv(
