@@ -9,10 +9,6 @@
  * and saves back via `POST /api/edit/save` (with optional file rename when
  * the title changes).
  *
- * Outside dev, API routes require `Authorization: Bearer <RECIPE_EDIT_TOKEN>`
- * (or `FAVORITES_TOKEN`). The browser prompts once after a 401 and caches
- * the token in localStorage (`ammas-recipe-edit:token`).
- *
  * When `PUBLIC_RECIPE_EDIT` is unset/false at build time, this component is
  * omitted so Milkdown is not bundled.
  */
@@ -116,33 +112,6 @@ const recipeEditEnabled =
       (window as any).__recipeEditModalInit = true;
 
       const EDIT_API = '/api/edit';
-
-      async function fetchRecipeEdit(input: string, init?: RequestInit): Promise<Response> {
-        const withAuth = async () => {
-          const h = new Headers(init?.headers);
-          try {
-            const t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', `Bearer ${t}`);
-          } catch {
-            /* private mode */
-          }
-          return fetch(input, { ...init, headers: h });
-        };
-        let res = await withAuth();
-        if (res.status === 401) {
-          const t =
-            typeof window !== 'undefined' ? window.prompt('Recipe edit token:') : null;
-          if (t?.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', t.trim());
-            } catch {
-              /* ignore */
-            }
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
 
       // Lazy-load modal CSS.
       void import('./recipeEditModal.css');
@@ -312,7 +281,7 @@ const recipeEditEnabled =
         setStatus('Loading…');
 
         try {
-          const res = await fetchRecipeEdit(
+          const res = await fetch(
             `${EDIT_API}/load?relativePath=${encodeURIComponent(p.relativePath)}`,
           );
           if (!res.ok) throw new Error(`load failed: ${res.status} ${await res.text()}`);
@@ -461,7 +430,7 @@ const recipeEditEnabled =
         if (saveBtn) saveBtn.disabled = true;
 
         try {
-          const res = await fetchRecipeEdit(`${EDIT_API}/save`, {
+          const res = await fetch(`${EDIT_API}/save`, {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({

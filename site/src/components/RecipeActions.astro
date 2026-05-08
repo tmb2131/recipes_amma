@@ -76,32 +76,6 @@ const deletePayload = recipeEditEnabled
 
       var EDIT_DELETE = '/api/edit/delete';
 
-      async function fetchRecipeDelete(bodyObj) {
-        async function withAuth() {
-          var h = new Headers({ 'content-type': 'application/json' });
-          try {
-            var t = localStorage.getItem('ammas-recipe-edit:token');
-            if (t) h.set('authorization', 'Bearer ' + t);
-          } catch (e) {}
-          return fetch(EDIT_DELETE, {
-            method: 'POST',
-            headers: h,
-            body: JSON.stringify(bodyObj),
-          });
-        }
-        var res = await withAuth();
-        if (res.status === 401) {
-          var p = window.prompt('Recipe edit token:');
-          if (p && p.trim()) {
-            try {
-              localStorage.setItem('ammas-recipe-edit:token', p.trim());
-            } catch (e) {}
-            res = await withAuth();
-          }
-        }
-        return res;
-      }
-
       async function handleClick(e) {
         var target = e.target;
         if (!target || !(target instanceof Element)) return;
@@ -138,7 +112,11 @@ const deletePayload = recipeEditEnabled
         if (!ok) return;
         btn.disabled = true;
         try {
-          var res = await fetchRecipeDelete({ relativePath: payload.relativePath });
+          var res = await fetch(EDIT_DELETE, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ relativePath: payload.relativePath }),
+          });
           if (!res.ok) {
             var text = await res.text();
             alert('Delete failed: ' + res.status + ' ' + text);

@@ -19,33 +19,6 @@ export function resolvedSiteRoot(): string {
   return path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 }
 
-function recipeEditSecret(): string | undefined {
-  const s = process.env.RECIPE_EDIT_TOKEN ?? process.env.FAVORITES_TOKEN;
-  return s && s.length > 0 ? s : undefined;
-}
-
-/**
- * Dev server: no auth. Production/preview: require RECIPE_EDIT_TOKEN or FAVORITES_TOKEN.
- */
-export function assertRecipeEditAuthorized(request: Request): Response | null {
-  if (import.meta.env.DEV) return null;
-  const secret = recipeEditSecret();
-  if (!secret) {
-    return new Response(
-      'Recipe editing is not configured (set RECIPE_EDIT_TOKEN on the server).',
-      { status: 503, headers: { 'content-type': 'text/plain; charset=utf-8' } },
-    );
-  }
-  const auth = request.headers.get('authorization');
-  if (auth !== `Bearer ${secret}`) {
-    return new Response('Unauthorized', {
-      status: 401,
-      headers: { 'content-type': 'text/plain; charset=utf-8' },
-    });
-  }
-  return null;
-}
-
 export function resolveSafeMdPath(repoRoot: string, relativePath: unknown): string | null {
   if (!relativePath || typeof relativePath !== 'string') return null;
   const resolved = path.resolve(repoRoot, relativePath);
