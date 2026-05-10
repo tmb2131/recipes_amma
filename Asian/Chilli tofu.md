@@ -1,6 +1,5 @@
 # Chilli tofu
 
-- (G)
 - 800g firm tofu, drained and cut into 3cm cubes
 - Cornflour
 - Rapeseed oil, for frying
