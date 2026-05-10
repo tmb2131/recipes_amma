@@ -15,6 +15,7 @@
 - Pepper
 - Add as much pre — soaked Chana as onion 1.5 cups
 - Water 1.5 cups
+- Allu's Kala Chana (ghugni)
 
 # Allu's Kala Chana (ghugni)
 
