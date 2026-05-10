@@ -17,7 +17,7 @@
 - 5 g slit green chillies, ‍
 - 35 g salt,
 - 100 g sugar
-- &#x20;2.2 — 2.3 L hot water
+- 2.2 — 2.3 L hot water
 
 ***
 
