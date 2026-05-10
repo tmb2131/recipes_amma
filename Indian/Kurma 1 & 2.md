@@ -6,7 +6,7 @@
 
 Veg kurma
 
-Prepare vegetables – Chop the following:
+**Prepare vegetables – Chop the following:**
 
 2 medium onions (1 cup finely chopped)
 
@@ -26,7 +26,7 @@ Prepare vegetables – Chop the following:
 
 <br />
 
-Kurma paste: To a grinder jar, add
+**Kurma paste: To a grinder jar, add**
 
 ¼ cup grated coconut (or ¼ cup coconut milk)
 
@@ -40,7 +40,7 @@ Pour 6 tablespoons water and make a fine paste. We don’t want a coarse paste.
 
 <br />
 
-Heat 2 tablespoons oil in a pot. Add
+**Heat 2 tablespoons oil in a pot. Add**
 
 1 bay leaf
 
@@ -76,9 +76,9 @@ Add 1.5 cups of water and salt.  Bring to a simmer. Cover and cook until vegeta
 
 <br />
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+***
 
-<br />
+**Ingredients**
 
 4 turnips ( chopped)
 
@@ -118,7 +118,9 @@ TO GRIND
 
 1/2 tsp saunf
 
-METHOD
+<br />
+
+**METHOD**
 
 Wash and peel the skin of the turnips,chop them and keep it aside.
 
