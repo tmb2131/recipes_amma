@@ -1,16 +1,14 @@
 # Jeera Milagu Rasam
 
-* Ingredients:
-
-  1. Tamarind: Size of a big lemon
-  2. Toor Dal: 2 tbsps
-  3. Jeera: 1 Tbsp
-  4. Pepper: 1 Tbsp
-  5. Curry Leaves: Few
-  6. Red Chilly: 2 (medium sized)
-  7. Salt
-  8. Ghee
-  9. Water
+1. Tamarind: Size of a big lemon
+2. Toor Dal: 2 tbsps
+3. Jeera: 1 Tbsp
+4. Pepper: 1 Tbsp
+5. Curry Leaves: Few
+6. Red Chilly: 2 (medium sized)
+7. Salt
+8. Ghee
+9. Water
 
 <br />
 
