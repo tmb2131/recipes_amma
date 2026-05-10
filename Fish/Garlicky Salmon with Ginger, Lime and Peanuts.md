@@ -13,11 +13,9 @@
 - | 1/2 | cup (30g) finely chopped fresh cilantro |
 - | 6 | tablespoons (55g) roughly chopped peanuts |
 
-1. <br />
+***
 
-   ***
-
-   1	Preheat the oven to 400° F. Place the broccoli in a large roasting pan or large baking dish, scatter over the grated garlic, drizzle with the sesame oil, and toss well to mix.
-2. Place the salmon fillets in the roasting pan, cover the pan tightly with foil, then transfer to the oven and bake for 20 to 25 minutes, until the salmon is cooked through to your liking.
-3. Meanwhile, mix together the scallions, ginger, chile, fish sauce, vegetable oil, lime zest and juice, cilantro and peanuts. Taste and adjust the fish sauce and lime juice as you wish.
-4. Remove the roasting pan from the oven and generously coat the salmon with some of the dressing. Drizzle the remaining dressing over the broccoli and serve immediately.
+1	Preheat the oven to 400° F. Place the broccoli in a large roasting pan or large baking dish, scatter over the grated garlic, drizzle with the sesame oil, and toss well to mix.
+2\. Place the salmon fillets in the roasting pan, cover the pan tightly with foil, then transfer to the oven and bake for 20 to 25 minutes, until the salmon is cooked through to your liking.
+3\. Meanwhile, mix together the scallions, ginger, chile, fish sauce, vegetable oil, lime zest and juice, cilantro and peanuts. Taste and adjust the fish sauce and lime juice as you wish.
+4\. Remove the roasting pan from the oven and generously coat the salmon with some of the dressing. Drizzle the remaining dressing over the broccoli and serve immediately.
