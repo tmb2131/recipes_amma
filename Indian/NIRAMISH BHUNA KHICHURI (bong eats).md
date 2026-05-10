@@ -19,11 +19,7 @@
 - 100 g sugar
 - &#x20;2.2 — 2.3 L hot water
 
-<br />
-
 ***
-
-<br />
 
 1. Wash and rinse gobindobhog rice 3-4 times until the water runs clear. Spread rice over a cloth, set on a strainer, to air dry for 1 hour.
 2. Dry roast shona moong dal on medium heat for 15 minutes. Stir constantly for even roasting. The colour the grains will change gradually from yellow to pinkish-brown.
