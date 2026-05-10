@@ -11,7 +11,6 @@
 - ▪	2 tablespoon oil
 - ▪	Oil to fry
 
-Method
 1	Wash and soak urad dal four hours or more. Drain the water. Blend dal coarsely into a thick paste, preferably in a food processor, using as little water as possible.
 2	In a bowl mix all the spices. Add to the flour and mix well.
 3	Add the dal paste (pithi) to the flour and form into a soft dough using lukewarm water as needed. Dough will be a little sticky. Grease your palm. Spread one teaspoon of oil over the dough and knead for one minute. Cover the dough with a damp cloth and let it sit half an hour or more.
