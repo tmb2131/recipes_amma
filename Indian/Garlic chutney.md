@@ -10,9 +10,11 @@
 - Salt
 - Coriander leaves 1 sprig
 
+***
+
 To prepare the garlic chutney
 
-Heat coconut oil in a pan, 
+Heat coconut oil in a pan,
 
 Sauté the shallots, garlic and dried chillies.
 
