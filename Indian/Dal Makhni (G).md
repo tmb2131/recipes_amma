@@ -21,7 +21,9 @@
 - Fresh coriander (optional)
 
 Soak the dal overnight, then rinse well and drain. Cover with three times as much cold water and bring to a boil. Skim, then add the cinnamon stick and cardamom pods, if using. Simmer until the beans are soft enough to crush easily against the side of the pan, topping up the water if necessary, because they should always be covered (this will probably take 45 minutes to an hour).
+
 Meanwhile, melt four tablespoons of ghee in a large frying pan over a medium heat, then gently sweat the onions until soft and golden.
+
 Stir in the ginger, garlic and green chillies, cook for another minute or so, then stir in all the dried spices apart from the fenugreek leaves, and cook, stirring, for a few minutes more.
 Turn down the heat and stir in first the tomato puree and then, gradually, the cream and fenugreek. Turn off the heat.
 When the dal is ready, drain it over a bowl, retaining the water, then roughly mash so some of the dal is squashed and some remains whole. Stir all the dal into the pan with the sauce, then, over a low heat, add just enough of the cooking water to bring it to your desired consistency – I like mine quite thick, rather than soupy.
