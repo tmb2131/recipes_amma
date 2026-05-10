@@ -16,7 +16,7 @@
 
 ***
 
-**All** made into a paste with water\*\* Saute for 2 — 3 minutes. Next a**dd the roasted moong da**l and mix with the masala. Saute the dal along with the masalas for couple of minutes.
+**All** made into a paste with water. Saute for 2 — 3 minutes. Next a**dd the roasted moong da**l and mix with the masala. Saute the dal along with the masalas for couple of minutes.
 Add 1 **cup of pre-washed rice** now
 Now add about **8 cups of warm water** to the pot. Add little **salt**. Cover the pot and let the water simmer to a boil.
 2-3 minutes after the boiling starts **add the potatoes, cauliflower and peas**. Add **1-2 Cup more water** if needed.
