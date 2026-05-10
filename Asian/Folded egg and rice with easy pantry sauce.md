@@ -7,12 +7,12 @@
 - 1 tsp potato starch (available online or in some large supermarkets — see recipe tip)
 - For the folded eggs
 - 1 portion cooked short — grain rice (50 — 75g/1¾oz — 2½oz uncooked rice or about 150g/5½oz leftover cooked rice
-- 2 free — range eggs
-- 2 tsp extra — virgin olive oil
+- 2 free-range eggs
+- 2 tsp extra-virgin olive oil
 - sea salt, to taste
 - knob of unsalted butter for cooking
 - To serve
-- 1 tsp chopped, to garnish (optional)
+- 1 tsp chopped chives, to garnish (optional)
 - black pepper, to taste
 
 ***
