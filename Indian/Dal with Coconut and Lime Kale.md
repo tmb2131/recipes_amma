@@ -21,8 +21,7 @@
 - Yogurt, for serving
 - Rice, for serving
 
-1. **PREPARATION**
-2. Wash the lentils in a strainer in cold water until the water runs clear, then place in a medium bowl, cover with water and set aside. Bash the cardamom pods with the side of a knife so they crack open.
+2. **Preparation:** Wash the lentils in a strainer in cold water until the water runs clear, then place in a medium bowl, cover with water and set aside. Bash the cardamom pods with the side of a knife so they crack open.
 3. Put 2 tablespoons of the coconut oil into a large pot over medium heat. When hot, add the cardamom pods, cinnamon stick and cloves. Fry for a minute, then add the onions. Cook for 10 minutes, stirring frequently, until the onions are browning and soft. Add the garlic, ginger and green chiles and stir-fry for 1 to 2 minutes, then remove a third of the mixture from the pot and set aside. (Leave the cinnamon stick behind.)
 4. Drain the lentils and add to the pot, along with the turmeric and 4 1/4 cups of hot water. Turn the heat to high and bring to a boil. Once they are boiling, reduce the heat to low and simmer for 20 to 25 minutes, stirring occasionally, until the lentils are soft and creamy.
 5. While the lentils are simmering, chop the kale into thin strips and discard the thicker stems. Put the remaining tablespoon of coconut oil into a lidded frying pan (keep the lid off for now) over medium heat and, when hot, add the mustard seeds. When the seeds begin to pop, add the reserved onion mixture and fry for 1 to 2 minutes. Add the kale, shredded coconut and 1/2 teaspoon of the salt. Stir-fry for 1 minute, add 1/4 cup of hot water and put the lid on to steam the kale for 2 minutes, or until soft and tender. Add the lime juice and stir.
