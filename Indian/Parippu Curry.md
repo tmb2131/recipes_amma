@@ -6,7 +6,7 @@ Spilt green gram dal/ cherrupayar parippu/ mung dal – 3/4 cup (For sadya, its 
 
 3. Cumin seeds – 1/4 tsp
 
-   0\.		0.	Garlic – 1 small clove, chopped (optional)
+   Garlic – 1 small clove, chopped (optional)
 
 4. Salt – To taste
 
