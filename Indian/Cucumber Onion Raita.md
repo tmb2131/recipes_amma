@@ -1,18 +1,12 @@
 # Cucumber Onion Raita
 
-Curd (dahi), beaten (3 cups)
+- Curd (dahi), beaten (3 cups)
+- Cucumber (kheera), de — seeded and finely chopped (1 cup)
+- Onion, finely cut (½ cup)
 
-\
-Cucumber (kheera), de-seeded and finely chopped (1 cup)
-
-\
-Onion, finely cut (½ cup)
-
-\
 Green chillies (hari mirch), finely chopped (1)\
 \
-Coriander leaves (hara dhania) (for garnish)
-
+Coriander leaves (hara dhania) (for garnish)\
 \
 Salt (to taste )
 
