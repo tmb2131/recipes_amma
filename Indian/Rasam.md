@@ -40,28 +40,4 @@ Note:
 
 * After adding the boiled thurdal water,  the rasam should not boil for long time.
 
-* Ripened tomatoes of normal size 2
-
-* Turmeric powder 1/4 tea spoon
-
-* Salt to taste
-
-* Well boiled Thur dal from 2 tb spoon of thur dal 1 cup
-
-* Thur dal 1 tea spoon
-
-* Bengal Gram 1 tea spoon
-
-* Red chillies 3 or 4
-
-1. Wait till the juice becomes half in quantity.
-2. Now add the Rasam powder and mix well. Allow it to boil for 2 minutes.
-3. Now mix 2 cups of water with boiled thur dal and add to the boiling rasam.
-4. Chop the other tomato to small pi,In a sauteing pan add 2 tea spoons of ghee. Add mustard seeds. After it splutters add 1/4 tea spoon hing powder and the pepper, cumin seed powder. Transfer it to the rasam.
-5. Add chopped curry leaves and Coriander leaves.
-
-* Cumin seeds must dominate the flavour than the pepper flavour.
-
-* Sauteing should be done in ghee.
-
-* After adding the boiled thurdal water,  the rasam should not boil for long time.
+* <br />
