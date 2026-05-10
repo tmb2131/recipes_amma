@@ -18,8 +18,6 @@
 - 2 cups (200g) thinly sliced shallots (about 1mm thick)
 - 3/4 cup (65g) thinly sliced garlic (about 1mm thick)
 
-##
-
 Put on disposable latex gloves.
 
 | <br /> |
