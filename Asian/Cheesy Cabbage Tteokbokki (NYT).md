@@ -1,30 +1,19 @@
 # Cheesy Cabbage Tteokbokki (NY Times)
 
-* Yield: 4 servings
+- Yield: 4 servings
+- 3 large eggs
+- 1 tablespoon granulated sugar
+- 3 tablespoons gochujang
+- 1 tablespoon soy sauce
+- 1 large garlic clove, finely grated
+- 3 tablespoons unsalted butter
+- 2 large shallots, thinly sliced crosswise into rings
+- Salt
+- 1 pound fresh or frozen tteok (rice cakes)
+- ½ cup shredded cheese, such as sharp Cheddar or low — moisture mozzarella
+- 5 ounces green cabbage, shredded (about 2 cups)
 
-* 3 large eggs
-
-* 1 tablespoon granulated sugar
-
-* 3 tablespoons gochujang
-
-* 1 tablespoon soy sauce
-
-* 1 large garlic clove, finely grated
-
-* 3 tablespoons unsalted butter
-
-* 2 large shallots, thinly sliced crosswise into rings
-
-* Salt
-
-* 1 pound fresh or frozen tteok (rice cakes)
-
-* ½ cup shredded cheese, such as sharp Cheddar or low — moisture mozzarella
-
-* 5 ounces green cabbage, shredded (about 2 cups)
-
-* <br />
+***
 
 Bring a small pot of water to a boil over high heat. Add the eggs carefully and reduce the heat to gently simmer the eggs until soft-boiled, 7 minutes. Drain the eggs, leaving them in their pot, then gently shake the pot to crack their shells. Cover the cracked eggs with cold water to shock them, then let cool enough to touch. Once they are sufficiently cooled, peel the eggs directly in the water (they should peel easily); set aside.
 
