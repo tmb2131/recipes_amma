@@ -17,9 +17,9 @@
 - 2 green chillies, slit
 - 4 tbsp coconut oil
 
-Cut the vegetables into 2-inch batons
-Blanch the carrots in salted water
-Boil the drumsticks separately to remove any bitterness. Set aside to cool.
+***
+
+Cut the vegetables into 2 — inch batons. Blanch the carrots in salted water. Boil the drumsticks separately to remove any bitterness. Set aside to cool.
 Now, marinate all the vegetables with 2 tbsp coconut oil, turmeric, curry leaves and salt for 20 minutes (the marination begins to soften the veggies right away)
 Coarsely blend coconut, cumin seeds and green chillies
 Now, on a medium to low flame, place the remaining vegetables in a pan and cover with a lid. Allow to cook gently in the moisture released through steaming. Check intermittently, stir gently, and check doneness — we want the vegetables to retain their crunch.
