@@ -23,7 +23,11 @@ Pressure cook on a medium flame for 20 minutes, until the dal is fully cooked.
 While the dal cooks, make the coconut paste. Add the coconut, shallots, cumin along with 2 tbsp of water and grind to a fine paste.
 When the dal is ready, gently smush it with the back of a ladle.
 Next, add the coconut paste to this and cook for about 10 minutes. Adjust seasoning.
+
+***
+
 ***For the tempering***
+
 Heat the coconut oil and add the mustard seeds.
 When the seeds splutter, add the dried red chillies, followed by the shallots,  green chillies and turmeric.
 Pour the tempering into the dal and cook for a few minutes.
