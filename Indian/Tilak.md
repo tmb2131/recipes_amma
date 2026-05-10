@@ -1,28 +1,18 @@
+# Tilak
+
 Alu Rasedar
 
 \
-Jeera, hing, Haldi, alu salt green chillis
-
-\
+Jeera, hing, Haldi, alu salt green chillis\
 Cover\
-\
-Dhania, lal mirchi, bhaja masala,
-
-\
+Dhania, lal mirchi, bhaja masala,\
 Methi
 
-\
-\---\
-Dal
+***
 
 \
-Jeera, ginger, tomatoes, dhania powder, haldi, lal mirchi powder,
-
-\
-Hari mirchi
-
-\
-Dal
-
-\
+Dal\
+Jeera, ginger, tomatoes, dhania powder, haldi, lal mirchi powder,\
+Hari mirchi\
+Dal\
 Dhania patta
