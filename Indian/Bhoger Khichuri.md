@@ -1,8 +1,6 @@
-**Bhoger Khichuri **
+# Bhoger Khichuri
 
 ***
-
-** **
 
 **A liitle prep**
 
@@ -134,13 +132,8 @@ At the very end, heat **1 Tbsp ghee** in a small frying pan and roast some **cas
 
 <br />
 
-<br />
-
-<br />
-
 **1 medium tomato**
 
  Saute for 2-3 minutes
 
 **1 tsp of sugar and a pinch of Garam Masala**. Mix gently. Drizzle **a tbsp or more of ghee** . Serve hot.
-
