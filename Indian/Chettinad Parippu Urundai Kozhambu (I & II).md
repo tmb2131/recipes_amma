@@ -1,5 +1,6 @@
 # Chettinad Parippu Urundai Kozhambu (I & II)
 
+- Ingredients for the Paruppu Urundai (Lentil Balls)
 - 1 cup Chana dal
 - 1/4 cup Toor Dal
 - 1 Onion , finely chopped
@@ -35,9 +36,8 @@
 - 1 sprig Curry leaves
 - Salt , to taste
 
-1. <br />
+***
 
-   ***
 2. I
 3. To begin making Chettinad Paruppu Urundai Kuzhambu, first prepare making the lentil balls. Soak the channa and toor dal along with dry red chilli and fennel seeds for an hour.
 4. Grind the soaked dals along with the fennel seeds, cumin seeds and asafoetida to a smooth mix. Now take the ground lentil mix in a bowl and add the finely chopped onion, ground coconut, coriander and curry leaves, season with salt and mix it well.
