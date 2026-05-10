@@ -1,15 +1,5 @@
 # Bhoger Khichuri
 
-- 4 green cardamom
-- 4 clove/laung
-- 1 thin stick of cinnamom
-- 1 Bay Leaf/tejpata
-- 2 Dry red chilli
-- 1 tsp of whole cumin seeds/jeera
-- <br />
-- When the spices pop to the oil add
-- 1 — 2 tbsp mince or grated ginger
-
 ***
 
 **A liitle prep**
