@@ -8,18 +8,16 @@
 - 1 Tsp Fennel Seeds Powder
 - 1/2 Cup Milk Powder
 
-1. <br />
+***
 
-   ***
-
-   Grind tea leaves along with all other ingredients, except milk powder, in the grinder to a fine powder.
-2. Pass this powder through a sieve. Whatever remains in the sieve can be added to your jar of regular tea.
-3. In this powder, add milk powder and mix everything nicely.
-4. You can even swirl it in the grinder for uniform mixing.
-5. Your Masala Instant Mix is ready.Store it in an airtight container.
-6. Carry with you while you travel or keep it at home for guests in a hurry or pack it for use in your/hubby’s office.
-7. To make tea, put 1 teaspoon of this instant mix in a teacup. Add boiling hot water and sweetener of your taste.
-8. Wait for just 5 to 6 seconds so that the mix releases its true colour. Enjoy
+Grind tea leaves along with all other ingredients, except milk powder, in the grinder to a fine powder.
+2\. Pass this powder through a sieve. Whatever remains in the sieve can be added to your jar of regular tea.
+3\. In this powder, add milk powder and mix everything nicely.
+4\. You can even swirl it in the grinder for uniform mixing.
+5\. Your Masala Instant Mix is ready.Store it in an airtight container.
+6\. Carry with you while you travel or keep it at home for guests in a hurry or pack it for use in your/hubby’s office.
+7\. To make tea, put 1 teaspoon of this instant mix in a teacup. Add boiling hot water and sweetener of your taste.
+8\. Wait for just 5 to 6 seconds so that the mix releases its true colour. Enjoy
 
 ***
 
