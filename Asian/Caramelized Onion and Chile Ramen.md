@@ -16,8 +16,6 @@
 - 4 soft boiled eggs peeled and halved
 - chile oil, to server
 
-* <br />
-
 ***
 
 ## Instructions
