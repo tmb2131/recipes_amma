@@ -24,7 +24,7 @@
 - ¼ teaspoon fine sea salt, more to taste
 - Plain yogurt, for serving (optional)
 
-PREPARATION
+***
 
 1	Season eggplant slices all over with salt. Heat a large skillet over medium-high heat, then add 1 tablespoon olive oil and heat until it thins out in the pan. Add enough eggplant slices to fit in one layer without overlapping. Cook until the bottoms are browned, then flip and continue to cook until well browned and soft, 3 to 5 minutes per side. Add more oil if needed. Transfer cooked eggplant to a plate lined with paper towels, and repeat with more oil and eggplant until all the eggplant is cooked. Taste eggplant and add more salt if necessary.
 
