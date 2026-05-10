@@ -1,36 +1,37 @@
-**To Pressure Cook**  
-3/4 cup urad dal sabut (whole black lentil)165 grams  
-1/4 cup rajma (red kidney beans) 60 grams  
-1 teaspoon salt  
-3.5 cups water 28 oz  
-**Masala for the Dal**  
-1 tablespoon ghee  
-3 tablespoons butter divided, use amul butter (salted) if possible  
-1 medium white onion 115 grams, finely grated using a food processor  
-2 teaspoons ginger garlic paste use fresh paste if possible  
-1/2 cup tomato puree use store bought tomato puree  
-1/2 teaspoon kashmiri red chili powder  
-1/4 teaspoon garam masala  
-1/2 teaspoon salt or to taste  
-1.5 cups water 12 oz, as needed  
-1/2 teaspoon sugar  
-1/4 cup cream 60 ml  
-more amul butter (salted) for serving
+# Dal Makhani(CwM)
 
-* piece of charcoal optional, for giving dal a smokey flavor
+- 3/4 cup urad dal sabut (whole black lentil)165 grams
+- 1/4 cup rajma (red kidney beans) 60 grams
+- 1 teaspoon salt
+- 3.5 cups water 28 oz
+- Masala for the Dal
+- 1 tablespoon ghee
+- 3 tablespoons butter divided, use amul butter (salted) if possible
+- 1 medium white onion 115 grams, finely grated using a food processor
+- 2 teaspoons ginger garlic paste use fresh paste if possible
+- 1/2 cup tomato puree use store bought tomato puree
+- 1/2 teaspoon kashmiri red chili powder
+- 1/4 teaspoon garam masala
+- 1/2 teaspoon salt or to taste
+- 1.5 cups water 12 oz, as needed
+- 1/2 teaspoon sugar
+- 1/4 cup cream 60 ml
+- more amul butter (salted) for serving
+- piece of charcoal optional, for giving dal a smokey flavor
 
-**Instructions** 
+<br />
 
 * Wash and rinse urad dal (whole black lentil) and rajma (kidney beans) in a large bowl. Soak in 3 cups water overnight.
 
-* In the morning, drain the water in which the dal and rajma was soaked. Transfer the dal and rajma to a pressure cooker with 1 teaspoon salt. Add around 3.5 cups water. 
+* In the morning, drain the water in which the dal and rajma was soaked. Transfer the dal and rajma to a pressure cooker with 1 teaspoon salt. Add around 3.5 cups water.
 
 * Pressure cook on high-medium heat for 10 whistles, then lower the heat to low-medium and cook for another 10 minutes. In total around 15 to 20 whistles.
 
-* Let the pressure release naturally. The dal and rajma should be completely cooked and you should be able to mash them with your fingers. 
+* Let the pressure release naturally. The dal and rajma should be completely cooked and you should be able to mash them with your fingers.
 
-   If using the Instant pot, pressure cook the lentils on high pressure for 30 minutes with natural pressure release.  
-* 
+  If using the Instant pot, pressure cook the lentils on high pressure for 30 minutes with natural pressure release.
+
+* <br />
 
 * Mash some of the dal and rajma using a potato masher. Then turn on the heat to lowest heat and let the dal simmer while you make the masala.
 
@@ -42,11 +43,11 @@ more amul butter (salted) for serving
 
 * Add the tomato puree and mix. Cook for 2 minutes or until the puree mixes well with masala and oil starts oozing out from the sides.
 
-* Add in the boiled dal (which had been simmering for around 10 to 15 mins you were making the masala) and mix. 
+* Add in the boiled dal (which had been simmering for around 10 to 15 mins you were making the masala) and mix.
 
-* Add garam masala, kashmiri red chili powder and salt. Mix to combine. 
+* Add garam masala, kashmiri red chili powder and salt. Mix to combine.
 
-* Add 1/2 cup water, stir and set heat to low. Let it simmer on low heat uncovered for around 45 minutes. 
+* Add 1/2 cup water, stir and set heat to low. Let it simmer on low heat uncovered for around 45 minutes.
 
 * Stir often (every 10 minutes or so) else dal will stick to the bottom of the pot. You will also need to add water. I added total of 1.5 cups water as the dal was simmering.
 
