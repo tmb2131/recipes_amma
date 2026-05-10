@@ -1,85 +1,25 @@
 Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-Perfect Coffee and Walnut Cake (G)  
-  
-Serves 8 2tbsp instant coffee 100g walnut halves 225g butter, at room temperature = 1 cup  
-Serves 8 2tbsp instant coffee 100g walnut halves 225g butter, at room temperature = 1 cup  
-Serves 8 2tbsp instant coffee 100g walnut halves 225g butter, at room temperature = 1 cup  
-Serves 8 2tbsp instant coffee 100g walnut halves 225g butter, at room temperature = 1 cup  
-Serves 8 2tbsp instant coffee 100g walnut halves 225g butter, at room temperature = 1 cup  
-Serves 8 2tbsp instant coffee 100g walnut halves 225g butter, at room temperature = 1 cup  
-Serves 8 2tbsp instant coffee 100g walnut halves 225g butter, at room temperature = 1 cup  
-Serves 8 2tbsp instant coffee 100g walnut halves 225g butter, at room temperature = 1 cup  
-Serves 8 2tbsp instant coffee 100g walnut halves 225g butter, at room temperature = 1 cup  
-Serves 8 2tbsp instant coffee 100g walnut halves 225g butter, at room temperature = 1 cup  
-*++(Substitute half with oil. Butter:oil = 1:3/4++*  
-*++(Substitute half with oil. Butter:oil = 1:3/4++*  
-*++(Substitute half with oil. Butter:oil = 1:3/4++*  
+
+Serves 8
+2tbsp instant coffee
+100g walnut halves
+225g butter, at room temperature = 1 cup  
 *++(Substitute half with oil. Butter:oil = 1:3/4++*  
 *++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-*++0.5 cup butter & <0.4 cup oil)++*  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-225g soft, light-brown sugar 4 eggs, beaten together 225g plain flour (or 70% flour & 30% almond flour) 3tsp baking powder 1/4tsp salt  
-B Milk, optional  
-B Milk, optional  
-B Milk, optional  
-  
-For the icing: 2tbsp instant coffee 165g butter, at room temperature 425g icing sugar 1/4tsp salt 4tbsp double cream  
-For the icing: 2tbsp instant coffee 165g butter, at room temperature 425g icing sugar 1/4tsp salt 4tbsp double cream  
-  
+225g soft, light-brown sugar
+4 eggs, beaten together
+225g plain flour (or 70% flour & 30% almond flour)
+3tsp baking powder
+1/4tsp salt  
+Milk, optional  
+
+For the icing:
+2tbsp instant coffee
+165g butter, at room temperature
+425g icing sugar
+1/4tsp salt
+4tbsp double cream  
+
 Mix the coffee with 1tbsp boiling water, and then leave to cool. Meanwhile, toast the walnut halves in a dry pan until they smell toasted and nutty, then set a quarter of them aside and roughly chop the remainder.  
 Heat the oven to 180C (160C fan) and grease and line the bases of 2 x 20cm sandwich tins.  
 Beat the butter and sugar together until really light and fluffy.  
