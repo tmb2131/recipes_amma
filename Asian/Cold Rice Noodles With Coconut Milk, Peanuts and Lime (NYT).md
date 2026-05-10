@@ -1,7 +1,6 @@
 # Cold Rice Noodles With Coconut Milk, Peanuts and Lime (NY Times)
 
 - Serves 4
-- <br />
 - ##
 - 8 ounces linguine — style rice noodles
 - 1 cup full — fat coconut milk, plus more as needed
