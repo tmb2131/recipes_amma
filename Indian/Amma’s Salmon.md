@@ -1,6 +1,6 @@
 # Amma’s Salmon
 
-1. **C**ut salmon into two pieces
+1. Cut salmon into two pieces
 2. Heat 1 tbsp of oil
 3. When hot, add 0.5 tsp of kalonji (onion seeds).
 4. Lower heat and add 0.5 tsp of turmeric, 0.25 tsp of cayenne and 1 tbsp of mustard powder.
