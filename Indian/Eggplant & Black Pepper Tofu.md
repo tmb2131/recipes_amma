@@ -1,16 +1,31 @@
-Cut eggplant into largish pieces and fry them in hot oil.
+# Eggplant & Black Pepper Tofu
 
-Or you could preheat oven to 450 and put in the eggplant pieces tossed in salt and a generous amount of oil. 15 to 20 minutes and turned once or twice (better option).
+* Cut eggplant into largish pieces and fry them in hot oil.
 
-Heat a tbsp or two of oil, add nigella seeds, turmeric, chilli powder, cumin powder and add the roasted eggplant pieces.  Salt and a quarter cup or more of water (depending on whether you want more or less gravy). Cover and cook till done. Squirt of lemon and coriander leaves.
 
-You can add pieces of squash and potatoes to this.  They take longer to cook, so add them first to the seasoned oil and allow to cook for a bit and then add the roasted eggplant.
 
-<br />
+  Or you could preheat oven to 450 and put in the eggplant pieces tossed in salt and a generous amount of oil. 15 to 20 minutes and turned once or twice (better option).
 
-**Black Pepper Tofu**
 
--Use plain soy sauce; you don't need three kinds\
--Use plain onions; you don't need shallots and scallions\
--Brown a handful of cashews at the beginning; remove and add before serving.\
--Add the butter (not so much though), it lends a great flavour.
+
+  Heat a tbsp or two of oil, add nigella seeds, turmeric, chilli powder, cumin powder and add the roasted eggplant pieces.  Salt and a quarter cup or more of water (depending on whether you want more or less gravy). Cover and cook till done. Squirt of lemon and coriander leaves.
+
+
+
+  You can add pieces of squash and potatoes to this.  They take longer to cook, so add them first to the seasoned oil and allow to cook for a bit and then add the roasted eggplant.
+
+  \
+  \
+  \---
+
+  **Black Pepper Tofu**
+
+
+
+  -Use plain soy sauce; you don't need three kinds
+
+  -Use plain onions; you don't need shallots and scallions
+
+  -Brown a handful of cashews at the beginning; remove and add before serving.
+
+  -Add the butter (not so much though), it lends a great flavour.
