@@ -1,6 +1,4 @@
-Bengal gram (Channa dhal) 1 cup
-
-\
+Bengal gram (Channa dhal) 1 cup\
 Urad dhal (Black gram dhal) 0.75 cup
 
 Red chillies 1 cup
@@ -21,4 +19,4 @@ Amchoor to taste or marble sized tamarind
 
 Salt as required
 
-Roast & grind
+**Roast & grind**
