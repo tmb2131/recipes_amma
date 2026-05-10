@@ -17,12 +17,9 @@
 - 1 cup Whole Wheat Bread crumbs
 - 4 tablespoon Corn flour
 - Oil , to deep fry
+- ---
 
-* <br />
-
-How to make Kolkata Style Vegetable Chop Recipe
-
-1. To begin making Kolkata Style Vegetable Chop Recipe, heat a kadai and roast the dry spices (fennel, cumin, cardamom, cinnamon, dry red chili, black peppercorn, kalonji), let them cool down and grind to powder. Keep aside.
+1. **How to make Kolkata Style Vegetable Chop Recipe:** To begin making Kolkata Style Vegetable Chop Recipe, heat a kadai and roast the dry spices (fennel, cumin, cardamom, cinnamon, dry red chili, black peppercorn, kalonji), let them cool down and grind to powder. Keep aside.
 2. Peel the vegetables, wash them well and cut into big chunks. Cook till the first whistle goes off, remove from heat. Wait till the pressure releases. Take out all the vegetables and keep in a colander to drain out all the excess water.
 3. Grate the cooked vegetables.
 4. In a non stick pan add some oil(1tbsp) and when the oil is hot reduce the heat and add grated ginger and the vegetables.
