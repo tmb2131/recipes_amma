@@ -1,5 +1,15 @@
 # Bhoger Khichuri
 
+- 4 green cardamom
+- 4 clove/laung
+- 1 thin stick of cinnamom
+- 1 Bay Leaf/tejpata
+- 2 Dry red chilli
+- 1 tsp of whole cumin seeds/jeera
+- <br />
+- When the spices pop to the oil add
+- 1 — 2 tbsp mince or grated ginger
+
 ***
 
 **A liitle prep**
@@ -14,7 +24,7 @@ Defrost about **1/4 cup of frozen peas (or use same amount of fresh green peas)*
 
 <br />
 
-Wash **1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water\*\* \*\*
+Wash **1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water** **
 
 <br />
 
@@ -43,16 +53,6 @@ Temper the oil with
 **1 thin stick of cinnamom**
 
 **1 Bay Leaf/tejpata**
-
-**2 Dry red chilli**
-
-\*\*1 tsp of whole cumin seeds/jeera \*\*
-
-<br />
-
-When the spices pop to the oil add
-
-\*\*1-2 tbsp mince or grated ginger \*\*
 
 <br />
 
