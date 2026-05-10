@@ -13,7 +13,7 @@
 - knob of unsalted butter for cooking
 - To serve
 - 1 tsp chopped, to garnish (optional)
-- ++black pepper++, to taste
+- black pepper, to taste
 
 ***
 
