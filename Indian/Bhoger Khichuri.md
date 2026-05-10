@@ -1,6 +1,14 @@
 # Bhoger Khichuri
 
-***
+- 4 green cardamom
+- 4 clove/laung
+- 1 thin stick of cinnamom
+- 1 Bay Leaf/tejpata
+- 2 Dry red chilli
+- 1 tsp of whole cumin seeds/jeera
+- <br />
+- When the spices pop to the oil add
+- 1 — 2 tbsp mince or grated ginger
 
 **A liitle prep**
 
@@ -76,7 +84,7 @@ Next a**dd the roasted moong da**l and mix with the masala. Saute the dal along 
 
 <br />
 
-Add 1** cup of pre-washed rice** now
+Add 1\*\* cup of pre-washed rice\*\* now
 
 <br />
 
@@ -118,7 +126,7 @@ At the very end, heat **1 Tbsp ghee** in a small frying pan and roast some **cas
 
 **1/4 cup of frozen peas (or use same amount of fresh green peas)**
 
-**1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water** **
+**1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water\*\* \*\*
 
 **fry the potatoes and cauliflower** with **sprinkle of turmeric powder** till they are a shade of light gold and the cauliflower florets have some brown spots.Throw in the **green peas** and saute them too.
 
