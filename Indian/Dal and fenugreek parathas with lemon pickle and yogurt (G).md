@@ -1,5 +1,7 @@
 # Dal and fenugreek parathas with lemon pickle and yogurt (Guardian)
 
+- Makes 4-5
+- For the parathas
 - fine salt** 1 tsp
 - potato** 1 small, boiled, then mashed
 - white onion** 1 small, peeled and minced
@@ -10,6 +12,7 @@
 - fresh fenugreek** 15g, chopped (optional)
 - melted butter** 1 tbsp, or neutral oil, plus extra to brush the parathas
 - leftover cooked dal** 200g, we like to use yellow dal that has been seasoned properly so it’s super flavourful
+- ---
 - For the lemon pickle (makes a large jar which should last a month or so)
 - lemons** 5 large
 - bird’s eye chillies** 20
