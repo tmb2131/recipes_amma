@@ -7,6 +7,7 @@
 - 2 Dry red chilli
 - 1 tsp of whole cumin seeds/jeera
 - 1 — 2 tbsp mince or grated ginger
+- Refer to Method for full ingredient list
 
 ***
 
