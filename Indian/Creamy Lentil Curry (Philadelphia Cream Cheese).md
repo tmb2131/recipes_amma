@@ -2,9 +2,7 @@
 
 - \| 1 tbsp | oil |
 
-***
-
-* \| 1 x | onion, thinly sliced |
+\| 1 x | onion, thinly sliced |
 
 * \| 1 x large | clove garlic, finely grated |
 
