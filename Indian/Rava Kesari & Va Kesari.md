@@ -2,19 +2,26 @@
 
 - See Method section
 
-**Rava Kesari**
+***
 
-<br />
+**Rava Kesari**
 
 **Ingredients**
 
 * 0.5 cup semolina
+
 * 0.25 cup nei
+
 * 0.33 cup sugar
+
 * 0.5 cup Milk
+
 * 1 cup Water
+
 * Small pinch cardamom Powder
+
 * 3 saffron strands 
+
 * 1 tsp nei to fry a few cashews and raisins
 
 <br />
@@ -35,12 +42,19 @@
 **Ingredients**
 
 * 0.25 cup nei
+
 * 0.33 cup sugar
+
 * 0.5 cup Milk
+
 * 1 cup Water
+
 * Small pinch cardamom Powder
+
 * 3 saffron strands 
+
 * 1 tsp nei to fry a few cashews and raisins
+
 * <br />
 
 1. In wide heavy bottomed pan heat ghee on medium heat; add the semolina and roast until the semolina gives out a roasted aroma and also turns light golden color. Take care not to let it brown too much.
