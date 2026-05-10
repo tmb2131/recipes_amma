@@ -20,9 +20,7 @@
 - To roast:
 - 1/4 cup coconut
 
-* <br />
-
-  ***
+***
 
 * **Preparing coconut paste**
 
