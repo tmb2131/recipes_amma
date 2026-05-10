@@ -34,6 +34,10 @@
 
 * 1 sprig curry leaves
 
+* <br />
+
+  ***
+
 * Wash and pressure cook moong dal with 1 cup water for 4 — 5 whisltes.
 
 * Cut off the head and slice off the bottom of the zucchini. Cut into two. Divide into halves lengthwise. Cut into strips and chop it to bite size pieces.
