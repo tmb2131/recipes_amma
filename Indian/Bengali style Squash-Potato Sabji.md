@@ -19,8 +19,6 @@
 - ¼ tsp — Garam masala powder
 - finely chopped — Fresh coriander leaves (for garnishing)
 
-1. <br />
-
 2. Peel and cut the potatoes into cubes, wash and keep aside.
 
 3. Heat oil in a deep frying pan/kadai. Saute the potatoes over medium heat until pale golden in colour, remove and keep aside.
@@ -44,6 +42,8 @@
 12. Add the fried bori, garnish with fresh coriander leaves, remove from the heat and transfer to a bowl.
 
 13. Serve hot with Roti/Rice, Enjoy!
+
+<br />
 
 **Recipe Notes**
 
