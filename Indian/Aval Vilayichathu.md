@@ -10,27 +10,26 @@
 - 1/3 cup Roasted gram dal (pottu kadala)
 - 3 Crushed cardamom
 - 1.5 — 2 tbsp Ghee
-- Instructions
 
-* Heat ghee in a pan and fry black sesame seeds (lightly), roasted gram dal (till you get the roasted smell) and coconut bits (till it turns golden brown) separately.
+Heat ghee in a pan and fry black sesame seeds (lightly), roasted gram dal (till you get the roasted smell) and coconut bits (till it turns golden brown) separately.
 
-  <br />
+<br />
 
-  Melt jaggery with 1/3 cup water and strain it.
+Melt jaggery with 1/3 cup water and strain it.
 
-  <br />
+<br />
 
-  Add grated coconut to this and cook on low flame. Cook till the jaggery reduces a bit and the mixture becomes a semi dry consistency.
+Add grated coconut to this and cook on low flame. Cook till the jaggery reduces a bit and the mixture becomes a semi dry consistency.
 
-  <br />
+<br />
 
-  Add aval and roasted ingredients to the coconut jaggery mixture. Cook on low flame for 3-4 mins, stir continuously. Remove from fire and keep stirring for 2-3 mins. Add crushed cardamom and mix well. Cover and keep for 20-25 mins.
+Add aval and roasted ingredients to the coconut jaggery mixture. Cook on low flame for 3-4 mins, stir continuously. Remove from fire and keep stirring for 2-3 mins. Add crushed cardamom and mix well. Cover and keep for 20-25 mins.
 
-  <br />
+<br />
 
-  You can eat it as it is or serve with banana.
+You can eat it as it is or serve with banana.
 
-  <br />
+<br />
 
 **Notes:**
 Do a taste check of jaggery to assess the sweetness and adjust the qty accordingly.
