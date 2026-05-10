@@ -22,9 +22,9 @@ Heat ½ cup milk in a aan. Add generous pinch of saffron and mix well for 1 minu
 **Step 4**
 Heat sugar and 1 cup water in another pan. Cook till sugar dissolves completely.
 
-**Step 5 **Add saffron milk to moong dal and mix well.
+**Step 5** Add saffron milk to moong dal and mix well.
 
-**Step 6 **Add remaining milk and keep stirring.Add khoya in saffron milk pan, mix and heat for 2 minutes.
+**Step 6** Add remaining milk and keep stirring.Add khoya in saffron milk pan, mix and heat for 2 minutes.
 
 **Step 7**
 Add khoya to moong dal mixture alongwith cardamom powder, some almond slivers and sugar syrup.
