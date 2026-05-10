@@ -13,10 +13,12 @@
 - Tomato 1 chopped
 - Salt
 - Pepper
-- Add as much pre-soaked Chana as onion 1.5 cups
+- Add as much pre — soaked Chana as onion 1.5 cups
 - Water 1.5 cups
 
 Lots of heated mustard oil. 
+
+<br />
 
 Add ingredients
 
