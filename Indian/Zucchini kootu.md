@@ -1,42 +1,24 @@
 # Zucchini kootu
 
-* 1 zucchini
+- 1 zucchini
+- ⅓ cup moong dal pasi paruppu
+- 1 Tomato
+- 1 & ½ teaspoon [sambar powder](<https://rakskitchen.net/sambar> — podi — recipe — homemade — sambar — powder/)
+- ¼ teaspoon turmeric
+- Salt
+- 1 teaspoon coconut oil for garnish optional
+- To grind
+- ½ cup coconut grated loosely packed
+- ½ teaspoon cumin seeds
+- 2 shallots
+- ½ teaspoon [rice flour](<https://rakskitchen.net/how> — to — make — rice — flour — at — home — homemade — rice — flour/)
+- To temper
+- 2 teaspoon oil
+- ½ teaspoon mustard
+- 1 teaspoon urad dal
+- 1 sprig curry leaves
 
-* ⅓ cup moong dal pasi paruppu
-
-* 1 Tomato
-
-* 1 & ½ teaspoon \[sambar powder]\(<https://rakskitchen.net/sambar> — podi — recipe — homemade — sambar — powder/)
-
-* ¼ teaspoon turmeric
-
-* Salt
-
-* 1 teaspoon coconut oil for garnish optional
-
-* To grind
-
-* ½ cup coconut grated loosely packed
-
-* ½ teaspoon cumin seeds
-
-* 2 shallots
-
-* ½ teaspoon \[rice flour]\(<https://rakskitchen.net/how> — to — make — rice — flour — at — home — homemade — rice — flour/)
-
-* To temper
-
-* 2 teaspoon oil
-
-* ½ teaspoon mustard
-
-* 1 teaspoon urad dal
-
-* 1 sprig curry leaves
-
-* <br />
-
-  ***
+***
 
 * Wash and pressure cook moong dal with 1 cup water for 4 — 5 whisltes.
 
