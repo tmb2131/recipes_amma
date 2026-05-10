@@ -24,11 +24,9 @@
 - To taste Salt
 - 1 cup Water, or more as needed
 
-* <br />
+***
 
-  ***
-
-  **To make Lentil fritters:**
+**To make Lentil fritters:**
 
 * Combine chana and masoor dal in a medium bowl. Add enough water and soak dals in water for at least 30 minutes and up to 2 hours. Drain the water from the lentils and transfer them to a blender or food processor. Add ginger, green chilies, salt, and 1\~2 tablespoons of water. Grind into a coarse paste.\*
 
