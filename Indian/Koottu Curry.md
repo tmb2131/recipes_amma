@@ -20,11 +20,7 @@
 - To roast:
 - 1/4 cup coconut
 
-* <br />
-
-**Preparing coconut paste**
-
-* To a mixer jar add 1/2 cup coconut, 2 garlic, 1  green chilli, 1/4 teaspoon pepper, 1/2 teaspoon cumin seeds along with little water.
+* **Preparing coconut paste:** To a mixer jar add 1/2 cup coconut, 2 garlic, 1  green chilli, 1/4 teaspoon pepper, 1/2 teaspoon cumin seeds along with little water.
 
 * Grind it to a slightly coarse mixture like this, Set aside.
 
