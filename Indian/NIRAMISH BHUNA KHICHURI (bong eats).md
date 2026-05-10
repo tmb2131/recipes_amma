@@ -1,40 +1,23 @@
-Serves 10\
-**INGREDIENTS**\
-500 g shona moong dal (small-grained moong),
+# NIRAMISH BHUNA KHICHURI (bong eats)
 
-&#x20;‍500 g aged gobindobhog rice‍,
-
-&#x20;320 g Bengali-style ghee (see notes)‍,
-
-&#x20;65 g cashew nuts, 65 g raisins,
-
-&#x20;‍5 g (12 pcs) dried red chillies‍,
-
-3 g (15 pcs) cardamom‍, 
-
-2 g (5 pcs) cinnamon‍,
-
- 2 g (15 pcs) cloves, 
-
-3 g (10 pcs) bay leaves, 
-
-8 g (2 tsp) cumin seeds, 
-
-6 g turmeric,
-
- 2 g garam masala, 
-
-70 g ginger paste‍,
-
- 5 g, green chilli paste, 
-
-5 g slit green chillies, ‍
-
-35 g salt, 
-
-100 g sugar 
-
-&#x20;2.2–2.3 L hot water
+- 500 g shona moong dal (small — grained moong),
+- 500 g aged gobindobhog rice‍,
+- 320 g Bengali — style ghee (see notes)‍,
+- 65 g cashew nuts, 65 g raisins,
+- 5 g (12 pcs) dried red chillies‍,
+- 3 g (15 pcs) cardamom‍,
+- 2 g (5 pcs) cinnamon‍,
+- 2 g (15 pcs) cloves,
+- 3 g (10 pcs) bay leaves,
+- 8 g (2 tsp) cumin seeds,
+- 6 g turmeric,
+- 2 g garam masala,
+- 70 g ginger paste‍,
+- 5 g, green chilli paste,
+- 5 g slit green chillies, ‍
+- 35 g salt,
+- 100 g sugar
+- &#x20;2.2 — 2.3 L hot water
 
 <br />
 
