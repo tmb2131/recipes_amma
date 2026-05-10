@@ -8,7 +8,7 @@ Cubed and cooked pumpkin 1-2 cups\
 Salt 1 tsp
 
 \
-For masala\
+**For masala**\
 Cooking oil 1/4 tsp or a few drops\
 Dried red chillies 4\
 Chana dal (kadalai paruppu) 1 tbsp\
