@@ -14,9 +14,7 @@
 - Green Chili — 2
 - Water — 1 cup
 
-Add 2 cups of water, a pinch of turmeric and salt to the washed dal and cook in a pressure cooker / rice cooker till soft. 
-
-Remove and mash coarsely with a fork and keep aside.
+Add 2 cups of water, a pinch of turmeric and salt to the washed dal and cook in a pressure cooker / rice cooker till soft. Remove and mash coarsely with a fork and keep aside.
 
 Heat 1 tbsp oil in a skillet. Add the five spice mixture and dried red chili. Saute for a few seconds. Now add the diced bottle gourd, grated ginger, a little salt and a pinch of turmeric. Reduce the flame and cook on slow fire till the vegetable is almost cooked.
 
