@@ -15,8 +15,8 @@
 - few curry leaves
 - 1 tbsp lemon juice, or to taste
 
-Step 1	For the salad, mix together all the salad ingredients in a bowl.
+For the salad, mix together all the salad ingredients in a bowl.
 
-Step 2	For the spices, heat the oil in a small pan and add the mustard seeds. Once they begin to splutter, add the curry leaves and remove from the heat. Add the lemon juice and stir.
+For the spices, heat the oil in a small pan and add the mustard seeds. Once they begin to splutter, add the curry leaves and remove from the heat. Add the lemon juice and stir.
 
-Step 3	To serve, pour the spice mixture over the salad and stir to coat. Taste and adjust the seasoning if necessary.
+To serve, pour the spice mixture over the salad and stir to coat. Taste and adjust the seasoning if necessary.
