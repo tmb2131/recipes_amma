@@ -20,14 +20,7 @@
 - 1 tbsp sugar
 - Coriander for garnish
 
-<br />
-
 1. Add the cumin, mustard seeds, fenugreek, fennel and nigella seeds to a mixer and grind to a coarse mix. Separately add the green chillies with a pinch of salt to a pestle and mortar and grind to a paste. Set aside. Blend the garlic and ginger to a smooth paste with a splash of water and set aside.
 2. Heat oil in a heavy bottom sauce pan over a medium flame. Add the asafoetida and the coarsely ground spice mix. Fry for 20 seconds and add the onions cook them for 12 minutes stirring well. As they begin to soften add the garlic and ginger paste and fry for a minute.
 3. Add the turmeric powder, stir well and add the cauliflower florets along with the coriander powder. Season to taste. Fry for a 2-3 minutes stirring continuously. Add 150mls water and the green chilli paste. Stir well and cook over a low heat with a lid on for 14 minutes. Stir a couple of times through the cooking.
 4. Add amchoor powder and sugar continue cooking for a minute. Garnish with fresh coriander. Serve warm with roti, naan or pulao.
-
-**Ingredients**
-
-1. Heat oil in a heavy bottom sauce pan over a medium flame. Add the asafoetida and the coarsely ground spice mix. Fry for 20 seconds and add the onions cook them for 12 minutes stirring well. As they begin to soften add the garlic and ginger paste and fry for a minute.
-2. Add the turmeric powder, stir well and add the cauliflower florets along with the coriander powder. Season to taste. Fry for a 2-3 minutes stirring continuously. Add 150mls water and the green chilli paste. Stir well and cook over a low heat with a lid on for 14 minutes. Stir a couple of times through the cooking.
