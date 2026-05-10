@@ -7,14 +7,24 @@
 - Asafoetida 0.25 tsp
 - Tamarind tiny bit
 
+***
+
 Grind the above items in a blender and keep aside.
+
 Oil 1 table spoon
+
 Mustard seeds 0.5 tsp
+\
 Urad dal and Chana dal 1 tsp each
+\
 1 onion sliced
+\
 Curry leaves
+\
 Cilantro
+\
 Water 0.75 cup
+
 Heat a pan with oil.
 Season with mustard seeds and the dals.
 Once the dals brown add onions and curry leaves.
