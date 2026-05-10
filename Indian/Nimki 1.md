@@ -1,80 +1,91 @@
 # Nimki 1
 
-- 1 cup Maida / All purpose flour
-- 1/2 tsp Salt
-- 1/4 tsp Cumin seeds
-- 1/4 tsp Kalonji / Onion seeds
-- 1 tbsp Ghee
-- 5 tbsp Water
-- For Sata:
-- 1 tsp Ghee
-- 1 tsp Maida
-- Oil for frying
+* 1 cup Maida / All purpose flour
 
-* <br />
+* 1/2 tsp Salt
 
-* Take maida into a dish.
+* 1/4 tsp Cumin seeds
 
-* Add salt, cumin seeds and kalonji. Mix well and add ghee.
+* 1/4 tsp Kalonji / Onion seeds
 
-* Mix ghee well with flour.
+* 1 tbsp Ghee
 
-* Add a little water at a time and knead dough.
+* 5 tbsp Water
 
-* The consistency of the dough should be stiff and not soft.
+* For Sata:
 
-* Transfer the dough into a bowl and cover.
+* 1 tsp Ghee
 
-* Give it a standing time of 30 minutes.
+* 1 tsp Maida
 
-* In a bowl, take ghee. Add maida and mix well.
+* Oil for frying
 
-* Sata is already, Keep it aside.
+- <br />
 
-* Take the dough and knead it once again.
+  ***
 
-* Roll the dough like paratha.
+- Take maida into a dish.
 
-* Make it as thick as paratha. Do not roll it too thin.
+- Add salt, cumin seeds and kalonji. Mix well and add ghee.
 
-* Take sata and spread it all over the paratha evenly.
+- Mix ghee well with flour.
 
-* Roll the paratha as tight as possible. Make the roll nice and even.
+- Add a little water at a time and knead dough.
 
-* Cut the paratha into equal size portions with the help of knife.
+- The consistency of the dough should be stiff and not soft.
 
-* Take these into a bowl and keep covered.
+- Transfer the dough into a bowl and cover.
 
-* Take one dough ball.
+- Give it a standing time of 30 minutes.
 
-* Press it a little and start to roll out.
+- In a bowl, take ghee. Add maida and mix well.
 
-* Roll it into a 5-6” round puri.
+- Sata is already, Keep it aside.
 
-* Prick it with fork at places as we don’t want this puri to puff up.
+- Take the dough and knead it once again.
 
-* Fold it into half and again fold into quarter.
+- Roll the dough like paratha.
 
-* Give it a triangular shape. Pinch the edges.
+- Make it as thick as paratha. Do not roll it too thin.
 
-* Do not press all of it. Keep separate layers.
+- Take sata and spread it all over the paratha evenly.
 
-* Prick again from both sides at the interval.
+- Roll the paratha as tight as possible. Make the roll nice and even.
 
-* You can make 12 nimki of regular size.
+- Cut the paratha into equal size portions with the help of knife.
 
-* Heat up oil in a pan.
+- Take these into a bowl and keep covered.
 
-* Drop the niki into hot oil and fry on medium to high heat.
+- Take one dough ball.
 
-* So that these nimki will be nicely fried inside out.
+- Press it a little and start to roll out.
 
-* After about 3-4 minutes, flip nimki over.
+- Roll it into a 5-6” round puri.
 
-* Fry from other side for about 3-4 minutes.
+- Prick it with fork at places as we don’t want this puri to puff up.
 
-* After it gets nice deep golden color from both sides, take the nimki out.
+- Fold it into half and again fold into quarter.
 
-* Drain excess oil and transfer nimki into a dish.
+- Give it a triangular shape. Pinch the edges.
 
-* Nimki is already to serve with tea.
+- Do not press all of it. Keep separate layers.
+
+- Prick again from both sides at the interval.
+
+- You can make 12 nimki of regular size.
+
+- Heat up oil in a pan.
+
+- Drop the niki into hot oil and fry on medium to high heat.
+
+- So that these nimki will be nicely fried inside out.
+
+- After about 3-4 minutes, flip nimki over.
+
+- Fry from other side for about 3-4 minutes.
+
+- After it gets nice deep golden color from both sides, take the nimki out.
+
+- Drain excess oil and transfer nimki into a dish.
+
+- Nimki is already to serve with tea.
