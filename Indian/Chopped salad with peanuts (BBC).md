@@ -9,7 +9,7 @@
 - 1 heaped tbsp desiccated coconut
 - ¼ tsp grated ginger
 - salt, to taste
-- ---
+- —  —  —
 - For the spice mixture
 - 1 tsp vegetable oil
 - ¼ tsp black mustard seeds
@@ -42,36 +42,3 @@ Salt , to taste
 
 1. To begin making the Peanut Cucumber Salad Recipe, in a mixing bowl, combine the roasted peanuts, along with the finely chopped tomatoes, cucumber, onion, and green chilli.
 2. Now add salt to taste, chaat masala and lemon juice and toss Peanut Cucumber Salad well.
-
-***
-
-**(BBC)For the salad**
-
-* [tomato](https://www.bbc.co.uk/food/tomato), finely chopped
-
-* [cucumber](https://www.bbc.co.uk/food/cucumber)
-
-* [chilli](https://www.bbc.co.uk/food/chilli), finely chopped
-
-* [onion](https://www.bbc.co.uk/food/onion)
-
-* [coriander](https://www.bbc.co.uk/food/coriander) leaves and stalks, chopped
-
-* [peanuts](https://www.bbc.co.uk/food/peanut), roughly chopped
-
-* [coconut](https://www.bbc.co.uk/food/coconut)
-
-* [ginger](https://www.bbc.co.uk/food/ginger)
-
-* [salt](https://www.bbc.co.uk/food/salt), to taste
-
-* [vegetable oil](https://www.bbc.co.uk/food/vegetable_oil)
-
-* [mustard seeds](https://www.bbc.co.uk/food/mustard_seeds)
-
-* [curry leaves](https://www.bbc.co.uk/food/curry_leaves)
-
-* [lemon juice](https://www.bbc.co.uk/food/lemon_juice), or to taste
-
-1. To make the spice mixture, heat the oil in a small pan and add the mustard seeds. Once they begin to splutter, add the curry leaves and remove from the heat. Add the lemon juice and stir.
-2. To serve, pour the spice mixture over the salad and stir to coat. Taste and adjust the seasoning if necessary.
