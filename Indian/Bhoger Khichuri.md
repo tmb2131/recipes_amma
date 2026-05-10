@@ -6,8 +6,6 @@
 - 1 Bay Leaf/tejpata
 - 2 Dry red chilli
 - 1 tsp of whole cumin seeds/jeera
-- <br />
-- When the spices pop to the oil add
 - 1 — 2 tbsp mince or grated ginger
 
 ***
@@ -24,7 +22,7 @@ Defrost about **1/4 cup of frozen peas (or use same amount of fresh green peas)*
 
 <br />
 
-Wash **1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water** **
+Wash **1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water\*\* \*\*
 
 <br />
 
