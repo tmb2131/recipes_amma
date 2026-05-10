@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "cd site && npm ci",
-  "buildCommand": "cd site && npm run build && rm -rf ../.vercel && mv .vercel ../.vercel"
+  "buildCommand": "cd site && npm run build && rm -rf ../.vercel && mv .vercel ../.vercel",
+  "ignoreCommand": "sh -c 'root=$(git rev-parse --show-toplevel 2>/dev/null) || exit 1; cd \"$root\" && git diff --quiet HEAD^ HEAD -- site Indian Asian Fish Soup Salad Dressing Desserts Sylvestre Other Indian.md vercel.json Image.jpeg'"
 }
