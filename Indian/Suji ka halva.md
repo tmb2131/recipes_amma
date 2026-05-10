@@ -13,9 +13,14 @@ How to Make Suji Ka Halwa
 
 <br />
 
-1. 1\. In a deep, heavy based sauce pan, melt the ghee add the sooji and stir fry over medium/low heat, depending on how often you stir it.
+1. <br />
 
-* 2\.
+   In a deep, heavy based sauce pan, melt the ghee add the sooji and stir fry over medium/low heat, depending on how often you stir it.
+
+* <br />
+
+  2. <br />
+
   At the same time in another pan dissolve the sugar in the water over low heat and keep on simmer, till required.
 
 * <br />
