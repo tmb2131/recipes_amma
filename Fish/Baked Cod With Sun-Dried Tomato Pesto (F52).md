@@ -20,8 +20,8 @@
 ***
 
 Heat the oven to 400˚F with an oven rack positioned in the center.\
-Make the pesto rosso: Add the sun-dried tomatoes, pine nuts, basil, Parmigiano-Reggiano, garlic, rosemary, salt, pepper, red pepper flakes, and balsamic vinegar to the bowl of a food processor. Pulse until finely chopped. Scrape down the sides of the bowl with a silicone spatula. With the motor running, drizzle the olive oil into the food processor until smooth.
 \
+Make the pesto rosso: Add the sun-dried tomatoes, pine nuts, basil, Parmigiano-Reggiano, garlic, rosemary, salt, pepper, red pepper flakes, and balsamic vinegar to the bowl of a food processor. Pulse until finely chopped. Scrape down the sides of the bowl with a silicone spatula. With the motor running, drizzle the olive oil into the food processor until smooth.
 \
 Prepare the cod: Pat the cod dry with paper towels and season with salt. Spread the lemons on a rimmed baking sheet and place the cod on top of the lemons. Spread 1 cup of the pesto on top of the cod in a thick layer.
 Transfer to the middle of the center rack in the oven and bake until the cod is cooked through and easily flakes with a fork, about 13 to 15 minutes. Serve cod immediately with the remaining pesto.
