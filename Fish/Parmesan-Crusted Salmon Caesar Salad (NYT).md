@@ -15,7 +15,7 @@
 - 1 large head romaine lettuce (about 1 pound), quartered through the center and chopped into bite — size pieces
 - ½ small red onion, halved and thinly sliced
 
-PREPARATION
+***
 
 Heat oven to 350 degrees and arrange a rack 8 inches from the top broiler.
 
