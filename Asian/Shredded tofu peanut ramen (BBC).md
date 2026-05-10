@@ -1,22 +1,29 @@
 # Shredded tofu peanut ramen (BBC)
 
-- Serves: 2
-- ## Ingredients
-- For the shredded tofu
-- 200g/7oz extra — firm tofu, coarsely grated
-- 2 tbsp dark soy sauce
-- For the broth
-- 1 tbsp sesame oil
-- 4 spring onions, trimmed and chopped: 4 spring onions, trimmed and chopped
-- handful fresh coriander, leaves and stalks separated and chopped: handful fresh coriander, leaves and stalks separated and chopped
-- 2 garlic cloves, crushed : 2 garlic cloves, crushed
-- 600ml/20fl oz vegetable stock
-- 2 tbsp peanut butter
-- 2 tbsp dark soy sauce
-- To serve
-- 125g/4½oz dried noodles
-- 1 chilli, sliced (optional)
-- 1 lime, cut in half (optional)
+Serves: 2
+
+## Ingredients
+
+For the shredded tofu
+
+* 200g/7oz extra-firm tofu, coarsely grated
+* 2 tbsp dark soy sauce
+
+For the broth
+
+* 1 tbsp sesame oil
+* 4 spring onions, trimmed and chopped
+* handful fresh coriander, leaves and stalks separated and chopped
+* 2 garlic cloves, crushed
+* 600ml/20fl oz vegetable stock
+* 2 tbsp peanut butter
+* 2 tbsp dark soy sauce
+
+To serve
+
+* 125g/4½oz dried noodles
+* 1 chilli, sliced (optional)
+* 1 lime, cut in half (optional)
 
 ## Method
 
