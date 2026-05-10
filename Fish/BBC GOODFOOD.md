@@ -1,5 +1,0 @@
-BBC GOODFOOD  
-  
-Tartare Style Sauce  
-  
-Mix together 125ml mayonnaise, 1 rounded tbsp roughly chopped capers, 1 rounded tsp creamed horseradish, 1 rounded tsp Dijon mustard, 1 small very finley chopped shallot and 1 tsp finely chopped flatleaf parsley. Set aside.  
