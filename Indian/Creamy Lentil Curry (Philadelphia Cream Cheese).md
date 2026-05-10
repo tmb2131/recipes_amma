@@ -1,6 +1,6 @@
 # Creamy Lentil Curry (Philadelphia Cream Cheese)
 
-- 1 tbsp | oil
+- 1 tbsp oil
 - 1 x onion, thinly sliced
 - 1 x large clove garlic, finely grated
 - Small knob ginger, peeled and finely grated
@@ -12,8 +12,7 @@
 - 2 x 250 g packet microwavable Basmati rice
 - 1 x lime, cut into quarters, to serve
 - Handful coriander leaves, leaves picked, to serve
-- \| 1 tsp | toasted sesame seeds, to serve (optional |
-- <br />
+- 1 tsp toasted sesame seeds, to serve (optional)
 
 ***
 
