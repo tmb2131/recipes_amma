@@ -29,16 +29,19 @@
 - salt to taste
 - ½ tsp garam masala powder (optional)
 
-**To make the lentil cakes**
+1. <br />
 
-1. Mix the two kinds of dal and soak in water overnight.
-2. Drain the water and grind the dals/lentils into a smooth paste.
-3. Add coriander powder, chilli powder, turmeric powder, ginger paste, salt and sugar and mix well.
-4. Heat oil in a thick-bottomed pan.
-5. Add asafoetida, onion seeds, and green chillies. When they start to splutter, add the dal paste.
-6. Cook over medium heat, stirring continuously, until all the water evaporates and the mix starts sticking together and comes off the side of the pan easily.
-7. Remove from heat and form the lentil cakes (follow the video below for instructions).
-8. Deep fry the lentil cakes till golden brown (takes about 3-4 minutes).
+   ***
+
+   To make the lentil cakes
+2. Mix the two kinds of dal and soak in water overnight.
+3. Drain the water and grind the dals/lentils into a smooth paste.
+4. Add coriander powder, chilli powder, turmeric powder, ginger paste, salt and sugar and mix well.
+5. Heat oil in a thick-bottomed pan.
+6. Add asafoetida, onion seeds, and green chillies. When they start to splutter, add the dal paste.
+7. Cook over medium heat, stirring continuously, until all the water evaporates and the mix starts sticking together and comes off the side of the pan easily.
+8. Remove from heat and form the lentil cakes (follow the video below for instructions).
+9. Deep fry the lentil cakes till golden brown (takes about 3-4 minutes).
 
 **To make the sauce**
 
