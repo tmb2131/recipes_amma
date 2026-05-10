@@ -21,17 +21,15 @@
 - ½ **cup red or white miso
 - 1 **cup soft or medium tofu, cut in small cubes
 - 4 **scallions, finely chopped, for garnish
-- Shichimi togarashi or crushed red-pepper fl
+- Shichimi togarashi or crushed red — pepper fl
 
-* <br />
+1. <br />
 
-PREPARATION
+   ***
 
-1. Make the broth: In a large pot, bring 8 cups water to a bowl over high heat. Add scallion, dried mushrooms, seaweed (if using), ginger, garlic, fresh mushroom trimmings and salt. Reduce heat to a gentle simmer and cook for 20 minutes. Strain and set aside.
+   Make the broth: In a large pot, bring 8 cups water to a bowl over high heat. Add scallion, dried mushrooms, seaweed (if using), ginger, garlic, fresh mushroom trimmings and salt. Reduce heat to a gentle simmer and cook for 20 minutes. Strain and set aside.
 2. Meanwhile, in a separate pot, cook udon noodles until al dente, then drain, rinse well with cold water, and keep at room temperature.
 3. In a soup pot, melt butter over medium-high heat and swirl to coat the bottom of the pot. Add leeks and sliced shiitake and cook, stirring, until softened, about 2 to 3 minutes. Add ginger, garlic, mirin, sesame oil and soy sauce and cook for 1 minute. Turn heat to high, add reserved broth and bring to a simmer.
 4. Add bok choy and reserved noodles and cook for 1 to 2 minutes, until greens are cooked and noodles are heated through. Gently stir in miso and tofu. Turn off heat.
 5. Using tongs, divide noodles among 4 to 6 bowls. Ladle hot soup over noodles. Sprinkle with scallions and serve. Pass togarashi or crushed red pepper at the table.\
-
-   \
    Tip: Shichimi togarashi is available at Japanese markets.
