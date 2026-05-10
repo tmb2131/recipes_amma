@@ -3,10 +3,10 @@
 - Servings: 4
 - Four (3 — to 4 — ounce) skin — on salmon fillets, at least 1 inch thick
 - 2 cups (3 ounces) packed fresh basil leaves, plus more for serving
-- 2/3 cup extra-virgin olive oil
+- 2/3 cup extra — virgin olive oil
 - 1/4 cup raw pistachios, plus optional chopped pistachios for serving
 - 3 tablespoons fresh lemon juice
-- 1 tablespoon chopped fresh flat-leaf parsley
+- 1 tablespoon chopped fresh flat — leaf parsley
 - 1 clove garlic
 - 3 tablespoons grated parmesan cheese
 - Finely grated zest of 1 lemon
@@ -15,9 +15,9 @@
 - 1 tablespoon vegetable oil or another neutral oil, plus more as needed
 - Lemon wedges, for serving
 
-Remove the salmon from the refrigerator 15 to 30 minutes before cooking.
+***
 
-<br />
+Remove the salmon from the refrigerator 15 to 30 minutes before cooking.
 
 Heat the grill to medium-high heat, about 400 degrees. If grilling over charcoal, use a grill thermometer or use the hand method: If you can hold your hand 4 inches from the grill for about 5 seconds, the grill should be hot enough.
 
@@ -34,5 +34,3 @@ Using tongs or a spatula, ease the fish off the grill grates. If it doesn’t bu
 Transfer the fish to a platter – the skin may easily slide off and remain on the grill. If it doesn’t, you can either leave it on the fillets or discard it before plating.
 
 Place the salmon on serving plates, top with the pesto, and garnish with basil leaves and chopped pistachios, if using, and serve with a lemon wedge on the side.
-
-Lemon wedges, for serving
