@@ -1,66 +1,33 @@
-Cold Rice Noodles With Coconut Milk, Peanuts and Lime (NYT)  
-Cold Rice Noodles With Coconut Milk, Peanuts and Lime (NYT)  
-Cold Rice Noodles With Coconut Milk, Peanuts and Lime (NYT)  
-Cold Rice Noodles With Coconut Milk, Peanuts and Lime (NYT)  
-Cold Rice Noodles With Coconut Milk, Peanuts and Lime (NYT)  
-Cold Rice Noodles With Coconut Milk, Peanuts and Lime (NYT)  
-  
-Serves 4  
-Serves 4  
-Serves 4  
-Serves 4  
-##   
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-8 ounces linguine-style rice noodles 1 cup full-fat coconut milk, plus more as needed ½ cup finely chopped cilantro leaves and tender stems 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced 2 teaspoons soy sauce, plus more as needed 2 limes ¾ cup coarsely chopped roasted, salted peanuts  
-Fried tofu cubes  Red chile sauce, like sambal or sriracha, for serving  
-Fried tofu cubes  Red chile sauce, like sambal or sriracha, for serving  
-Fried tofu cubes  Red chile sauce, like sambal or sriracha, for serving  
-Fried tofu cubes  Red chile sauce, like sambal or sriracha, for serving  
-Fried tofu cubes  Red chile sauce, like sambal or sriracha, for serving  
-Fried tofu cubes  Red chile sauce, like sambal or sriracha, for serving  
-Fried tofu cubes  Red chile sauce, like sambal or sriracha, for serving  
-Fried tofu cubes  Red chile sauce, like sambal or sriracha, for serving  
-Fried tofu cubes  Red chile sauce, like sambal or sriracha, for serving  
-Fried tofu cubes  Red chile sauce, like sambal or sriracha, for serving  
-  
-Step 1 Cook noodles in a large saucepan of boiling water according to package instructions until tender but still chewy. (They’ll firm up when cool, so you want to cook them to softer than al dente). Drain the noodles in a colander, fill the saucepan with cold water, swish the noodles in the cold water, then drain again.  
-Step 1 Cook noodles in a large saucepan of boiling water according to package instructions until tender but still chewy. (They’ll firm up when cool, so you want to cook them to softer than al dente). Drain the noodles in a colander, fill the saucepan with cold water, swish the noodles in the cold water, then drain again.  
-Step 1 Cook noodles in a large saucepan of boiling water according to package instructions until tender but still chewy. (They’ll firm up when cool, so you want to cook them to softer than al dente). Drain the noodles in a colander, fill the saucepan with cold water, swish the noodles in the cold water, then drain again.  
-Step 2 In the empty pot, stir together the coconut milk, cilantro, chiles and soy sauce. Zest the limes over the pot, then halve one of the limes and squeeze its juice directly into the pot. Cut the remaining lime into 4 wedges.  
-Step 2 In the empty pot, stir together the coconut milk, cilantro, chiles and soy sauce. Zest the limes over the pot, then halve one of the limes and squeeze its juice directly into the pot. Cut the remaining lime into 4 wedges.  
-Step 2 In the empty pot, stir together the coconut milk, cilantro, chiles and soy sauce. Zest the limes over the pot, then halve one of the limes and squeeze its juice directly into the pot. Cut the remaining lime into 4 wedges.  
-Step 2 In the empty pot, stir together the coconut milk, cilantro, chiles and soy sauce. Zest the limes over the pot, then halve one of the limes and squeeze its juice directly into the pot. Cut the remaining lime into 4 wedges.  
-Step 2 In the empty pot, stir together the coconut milk, cilantro, chiles and soy sauce. Zest the limes over the pot, then halve one of the limes and squeeze its juice directly into the pot. Cut the remaining lime into 4 wedges.  
-Step 2 In the empty pot, stir together the coconut milk, cilantro, chiles and soy sauce. Zest the limes over the pot, then halve one of the limes and squeeze its juice directly into the pot. Cut the remaining lime into 4 wedges.  
-Step 2 In the empty pot, stir together the coconut milk, cilantro, chiles and soy sauce. Zest the limes over the pot, then halve one of the limes and squeeze its juice directly into the pot. Cut the remaining lime into 4 wedges.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
-Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.  
+# Cold Rice Noodles With Coconut Milk, Peanuts and Lime (NY Times)
+
+* Serves 4
+
+* <br />
+
+  ##
+
+* 8 ounces linguine — style rice noodles
+
+* 1 cup full — fat coconut milk, plus more as needed
+
+* ½ cup finely chopped cilantro leaves and tender stems
+
+* 2 Thai chiles, thinly sliced into rounds, or 1 jalapeño, minced
+
+* 2 teaspoons soy sauce, plus more as needed
+
+* 2 limes
+
+* ¾ cup coarsely chopped roasted, salted peanuts
+
+* Fried tofu cubes
+
+* Red chile sauce, like sambal or sriracha, for serving
+
+* <br />
+
+  ***
+
+Step 1 Cook noodles in a large saucepan of boiling water according to package instructions until tender but still chewy. (They’ll firm up when cool, so you want to cook them to softer than al dente). Drain the noodles in a colander, fill the saucepan with cold water, swish the noodles in the cold water, then drain again.
+Step 2 In the empty pot, stir together the coconut milk, cilantro, chiles and soy sauce. Zest the limes over the pot, then halve one of the limes and squeeze its juice directly into the pot. Cut the remaining lime into 4 wedges.
+Step 3 Toss the noodles in the coconut milk mixture. Taste and adjust seasonings. (The flavor should be coconut-y, lightly sweet and savory. If you can’t taste the coconut, add more milk; if the mixture is too sweet, add more soy sauce.) Serve in bowls with fried tofu and peanuts scattered over top and lime wedges and chile sauce alongside. Spoon any collected coconut milk at the bottom of the pan over the noodles.
