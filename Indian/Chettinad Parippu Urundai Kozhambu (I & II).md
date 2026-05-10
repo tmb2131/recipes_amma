@@ -11,11 +11,13 @@
 - 4 sprig Coriander leaves , finely chopped
 - 2 — 3 Curry leaves , finely chopped
 - Salt , to taste
+- ---
 - Ingredients to be ground to paste
 - 1/2 cup Fresh coconut
 - 1 teaspoon White Urad Dal (Split)
 - 1 teaspoon Saunf
 - 3 Dry Red Chillies
+- ---
 - Ingredients for the Gravy
 - 1 Onion , finely chopped
 - 6 cloves Garlic , roughly chopped
@@ -24,6 +26,7 @@
 - 2 teaspoon Coriander Powder (Dhania)
 - 1/2 teaspoon Turmeric powder (Haldi)
 - 4 sprig Coriander (Dhania) Leaves , finely chopped
+- ---
 - Ingredients for seasoning
 - 1 teaspoon Mustard seeds
 - 1 teaspoon Saunf
@@ -31,8 +34,6 @@
 - 2 tablespoon Sesame Oil
 - 1 sprig Curry leaves
 - Salt , to taste
-
-<br />
 
 1. To begin making Chettinad Paruppu Urundai Kuzhambu, first prepare making the lentil balls. Soak the channa and toor dal along with dry red chilli and fennel seeds for an hour.
 2. Grind the soaked dals along with the fennel seeds, cumin seeds and asafoetida to a smooth mix. Now take the ground lentil mix in a bowl and add the finely chopped onion, ground coconut, coriander and curry leaves, season with salt and mix it well.
