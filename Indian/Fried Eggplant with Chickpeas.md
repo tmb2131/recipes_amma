@@ -34,4 +34,4 @@
 
 4 While the eggplant cooks, combine all the ingredients for the chutney in a blender with 2 tablespoons water. Blend until puréed, about 1 minute. Taste and add more lemon juice or salt, or both, if needed.
 
-5 Serve the eggplant topped with the chutney and yogurt if you like.Fried Eggplant with Chickpeas
+5 Serve the eggplant topped with the chutney and yogurt if you like.
