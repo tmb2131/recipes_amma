@@ -6,17 +6,20 @@
 - 1/4 teaspoon turmeric
 - water as needed
 - salt to taste
+- ---
 - To grind:
 - 1/2 cup coconut
 - 2 nos garlic
 - 1 no green chilli
 - 1/4 teaspoon pepper
 - 1/2 teaspoon jeera
+- ---
 - To temper:
 - 2 teaspoon coconut oil
 - 1/2 teaspoon mustard seeds
 - 1 red chilli
 - few curry leaves
+- ---
 - To roast:
 - 1/4 cup coconut
 
