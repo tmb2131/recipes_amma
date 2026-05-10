@@ -1,38 +1,36 @@
-Ingredients for the Paruppu Urundai (Lentil Balls)
+# Chettinad Parippu Urundai Kozhambu (I & II)
 
-* 1 cup Chana dal 
-* 1/4 cup Toor Dal
-* 1 Onion , finely chopped
-* 1 Dry Red Chilli
-* 1 teaspoon Saunf
-* 1 teaspoon Jeera
-* 1/2 teaspoon hing
-*           1/2 cup ground fresh coconut
-* 4 sprig Coriander leaves , finely chopped
-* 2-3 Curry leaves , finely chopped
-* Salt , to taste
-
-  <br />
-* Ingredients to be ground to paste
-* 1/2 cup Fresh coconut
-* 1 teaspoon White Urad Dal (Split)
-* 1 teaspoon Saunf
-* 3 Dry Red Chillies
-* Ingredients for the Gravy
-* 1 Onion , finely chopped
-* 6 cloves Garlic , roughly chopped
-* 2 Tomatoes , finely chopped
-* 1/2 cup [Tamarind Water](https://www.archanaskitchen.com/video-recipe-how-to-make-homemade-tamarind-water)
-* 2 teaspoon Coriander Powder (Dhania)
-* 1/2 teaspoon Turmeric powder (Haldi)
-* 4 sprig Coriander (Dhania) Leaves , finely chopped
-* Ingredients for seasoning
-* 1 teaspoon Mustard seeds
-* 1 teaspoon Saunf
-* 1/4 teaspoon hing
-* 2 tablespoon Sesame Oil
-* 1 sprig Curry leaves
-* Salt , to taste
+- 1 cup Chana dal
+- 1/4 cup Toor Dal
+- 1 Onion , finely chopped
+- 1 Dry Red Chilli
+- 1 teaspoon Saunf
+- 1 teaspoon Jeera
+- 1/2 teaspoon hing
+- 1/2 cup ground fresh coconut
+- 4 sprig Coriander leaves , finely chopped
+- 2 — 3 Curry leaves , finely chopped
+- Salt , to taste
+- Ingredients to be ground to paste
+- 1/2 cup Fresh coconut
+- 1 teaspoon White Urad Dal (Split)
+- 1 teaspoon Saunf
+- 3 Dry Red Chillies
+- Ingredients for the Gravy
+- 1 Onion , finely chopped
+- 6 cloves Garlic , roughly chopped
+- 2 Tomatoes , finely chopped
+- 1/2 cup [Tamarind Water](https://www.archanaskitchen.com/video — recipe — how — to — make — homemade — tamarind — water)
+- 2 teaspoon Coriander Powder (Dhania)
+- 1/2 teaspoon Turmeric powder (Haldi)
+- 4 sprig Coriander (Dhania) Leaves , finely chopped
+- Ingredients for seasoning
+- 1 teaspoon Mustard seeds
+- 1 teaspoon Saunf
+- 1/4 teaspoon hing
+- 2 tablespoon Sesame Oil
+- 1 sprig Curry leaves
+- Salt , to taste
 
 <br />
 
@@ -62,13 +60,21 @@ II
 **For the dumplings**
 
 * 1/2 cup Channa dal
+
 * 1/4 tsp Fennel seeds
+
 * 2 cloves minced Garlic
+
 * 1/2 Onion, finely chopped
+
 * 1/4 teaspoon Turmeric
+
 * 1/2 green chilli finely minced
+
 * 5–6 stalks Coriander leaves, chopped
+
 * 1/4 cup fresh Shredded coconut
+
 * 1/4 teaspoon Salt
 
 <br />
@@ -76,16 +82,27 @@ II
 **For the curry**
 
 * 2 tablespoon Oil
+
 * 2 Cloves
+
 * 1 small piece Cinnamon
+
 * 1/2 teaspoon Fennel seeds
+
 * 1 sprig curry leaf
+
 * 1 medium size onion
+
 * 4 cloves minced Garlic
+
 * 3 Tomatoes pureed
+
 * 1/2 teaspoon Turmeric
+
 * 1 teaspoon Sambar powder
+
 * 1 teaspoon salt
+
 * 1/4 cup coconut
 
 <br />
@@ -111,31 +128,57 @@ II
 Ingredients for the Paruppu Urundai (Lentil Balls)
 
 * 1/4 cup Toor Dal
+
 * 1 Onion , finely chopped
+
 * 1 Dry Red Chilli
+
 * 1 teaspoon Saunf
+
 * 1 teaspoon Jeera
+
 * 1/2 teaspoon hing
+
 * 1/2 cup ground fresh coconut
+
 * leaves , finely chopped
+
 * Salt , to taste
+
 * 1/2 cup Fresh coconut
+
 * 1 teaspoon White Urad Dal (Split)
+
 * 1 teaspoon Saunf
+
 * 3 Dry Red Chillies
+
 * Ingredients for the Gravy
+
 * 1 Onion , finely chopped
+
 * 6 cloves Garlic , roughly chopped
+
 * 2 Tomatoes , finely chopped
+
 * 1/2 cup [Tamarind Water](https://www.archanaskitchen.com/video-recipe-how-to-make-homemade-tamarind-water)
+
 * 1/2 teaspoon Turmeric powder (Haldi)
+
 * 4 sprig Coriander (Dhania) Leaves , finely chopped
+
 * Ingredients for seasoning
+
 * 1 teaspoon Mustard seeds
+
 * 1 teaspoon Saunf
+
 * 1/4 teaspoon hing
+
 * 2 tablespoon Sesame Oil
+
 * 1 sprig Curry leaves
+
 * Salt , to taste
 
 1. First prepare making the lentil balls. Soak the channa and toor dal along with dry red chilli and fennel seeds for an hour.
@@ -149,4 +192,4 @@ Ingredients for the Paruppu Urundai (Lentil Balls)
 9. At this stage add the coconut paste and bring it to a rolling boil.
 10. Add the steamed lentil balls to this gravy and simmer for another 10 minutes and switch it off. Check the salt and spices and adjust to suit your taste. Adjust the consistency of the Kuzhambu by adding water if required.
 11. Your Chettinad Paruppu Urundai Kuzhambu is ready to be served. Transfer the Kuzhambu to a serving bowl and garnish with coriander leaves on top. 
-12. Serve the Chettinad Paruppu Urundai Kuzhambu (Steamed Lentil Balls Cooked in a Tangy Curry) with Steamed Rice, Kootu, [Poriyal](https://www.archanaskitchen.com/beetroot-poriyal-a-delicious-preparation-in-south-indian-style) and Appalam. 
+12. Serve the Chettinad Paruppu Urundai Kuzhambu (Steamed Lentil Balls Cooked in a Tangy Curry) with Steamed Rice, Kootu, [Poriyal](https://www.archanaskitchen.com/beetroot-poriyal-a-delicious-preparation-in-south-indian-style) and Appalam.
