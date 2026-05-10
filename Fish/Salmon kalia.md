@@ -22,18 +22,17 @@
 ***
 
 **Step 1**\
-Rub salmon fillets with 1/2 teaspoon salt and turmeric; cover and refrigerate 5 minutes. Heat 1 teaspoon oil in a large nonstick skillet over medium-high heat. Add fillets; cook 1 minute on each side. Remove fillets; cover and set aside. (Fish need not be fully cooked.)
-\
+Rub salmon fillets with 1/2 teaspoon salt and turmeric; cover and refrigerate 5 minutes. Heat 1 teaspoon oil in a large nonstick skillet over medium-high heat. Add fillets; cook 1 minute on each side. Remove fillets; cover and set aside. (Fish need not be fully cooked.)\
+
 \
 **Step 2**
 
-Combine 2 teaspoons oil and Panch Phoron Blend in pan; cover and cook for 30 seconds, shaking pan constantly. Add onion and potato; stir-fry for 6 minutes or until vegetables begin to brown, stirring frequently.
-
+Combine 2 teaspoons oil and Panch Phoron Blend in pan; cover and cook for 30 seconds, shaking pan constantly. Add onion and potato; stir-fry for 6 minutes or until vegetables begin to brown, stirring frequently.\
 \
 **Step 3**
 
-Place 1 pound tomatoes in a food processor; process until pureed. Add 1/2 teaspoon salt, tomato puree, zucchini, and the next 4 ingredients (zucchini through garlic) to pan; bring to a boil. Cover, reduce heat, and simmer 10 minutes or until vegetables are tender. Stir in yogurt until well blended.
-\
+Place 1 pound tomatoes in a food processor; process until pureed. Add 1/2 teaspoon salt, tomato puree, zucchini, and the next 4 ingredients (zucchini through garlic) to pan; bring to a boil. Cover, reduce heat, and simmer 10 minutes or until vegetables are tender. Stir in yogurt until well blended.\
+
 \
 **Step 4**
 
