@@ -8,7 +8,7 @@
 - 1 teaspoon Ground Cumin
 - To taste Salt
 - As needed Oil
-- ---
+- —  —  —
 - For the Jhol (Curry):
 - 1 tablespoon Oil
 - 1 teaspoon Panch Phoron
@@ -24,7 +24,11 @@
 - To taste Salt
 - 1 cup Water, or more as needed
 
-**To make Lentil fritters:**
+* <br />
+
+  ***
+
+  **To make Lentil fritters:**
 
 * Combine chana and masoor dal in a medium bowl. Add enough water and soak dals in water for at least 30 minutes and up to 2 hours. Drain the water from the lentils and transfer them to a blender or food processor. Add ginger, green chilies, salt, and 1\~2 tablespoons of water. Grind into a coarse paste.\*
 
