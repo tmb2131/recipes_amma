@@ -8,12 +8,14 @@
 - Curry leaves
 - Salt to taste
 - Oil 4 tea spoons
+- ---
 - For tempering:
 - Oil 2 tea spoons
 - Mustard seeds 1/2 tea spoon
 - Urad dal 1 tea spoon
 - Curry leaves
 - Finely chopped shallots / baby onions 5
+- ---
 - For grinding:
 - Grated coconut 2 tb spoons
 - Shallots / baby onions 4
