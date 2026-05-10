@@ -18,9 +18,7 @@
 3	Add the dal paste (pithi) to the flour and form into a soft dough using lukewarm water as needed. Dough will be a little sticky. Grease your palm. Spread one teaspoon of oil over the dough and knead for one minute. Cover the dough with a damp cloth and let it sit half an hour or more.
 
 4	Oil your palm and knead the dough again and divide
-into eight equal parts. 
-
-<br />
+into eight equal parts.
 
 5 Oil palm again and roll the eight parts into smooth balls. Set aside five minutes.
 
