@@ -20,11 +20,17 @@
 - To roast:
 - 1/4 cup coconut
 
-* **Preparing coconut paste:** To a mixer jar add 1/2 cup coconut, 2 garlic, 1  green chilli, 1/4 teaspoon pepper, 1/2 teaspoon cumin seeds along with little water.
+* <br />
+
+  ***
+
+* **Preparing coconut paste**
+
+* To a mixer jar add 1/2 cup coconut, 2 garlic, 1 green chilli, 1/4 teaspoon pepper, 1/2 teaspoon cumin seeds along with little water.
 
 * Grind it to a slightly coarse mixture like this, Set aside.
 
-**Cooking black chickpeas**
+* **Cooking black chickpeas**
 
 * Soak 1/2 cup black chickpeas overnight or at least for 8 hours. Drain water and rinse it well.
 
