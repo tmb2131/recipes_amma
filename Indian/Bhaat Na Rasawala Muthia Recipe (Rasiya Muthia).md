@@ -1,5 +1,6 @@
 # Bhaat Na Rasawala Muthia Recipe (Rasiya Muthia)
 
+- For bhaat na muthia:
 - 1 cup Cooked rice
 - 2 tablespoons besan
 - 2 tablespoons atta
@@ -10,6 +11,7 @@
 - Salt to taste
 - Pinch Sugar
 - 1 teaspoon Lemon juice
+- ---
 - For rasa or gravy:
 - ¼ cup [Plain yogurt](https://www.spiceupthecurry.com/homemade — yogurt/)
 - 1 — 2 cups Water
@@ -26,8 +28,6 @@
 - 1 small Green chilies finely chopped
 - 4 — 5 Curry leaves
 - few sprigs Cilantro or coriander leaves finely chopped
-
-<br />
 
 **Making muthia dough:**
 
