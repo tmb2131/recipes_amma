@@ -12,7 +12,7 @@
 - Maldon or other flaky salt, for serving
 - Black pepper, for serving
 
-Directions
+***
 
 1	In a medium bowl, whisk together the water and sugar to dissolve the sugar, then stir in the sherry vinegar and soy sauce.
 
