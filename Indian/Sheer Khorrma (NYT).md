@@ -15,7 +15,7 @@
 
 ***
 
-* **Step 1 **Simply chop the almonds and pistachios (see Tips) or blanch the almonds and pistachios by pouring boiling water over them in a heat-safe bowl until fully covered. Let them sit for 1 minute, then strain and transfer them to a bowl of cold or ice water. Once cooled, gently rub them between your fingers to remove the skins. Peel promptly, as the skins become more challenging to remove if left too long. Slice the nuts into thin slivers. Mix the chopped or slivered almonds and pistachios with the charoli nuts and set aside.
+* **Step 1** Simply chop the almonds and pistachios (see Tips) or blanch the almonds and pistachios by pouring boiling water over them in a heat-safe bowl until fully covered. Let them sit for 1 minute, then strain and transfer them to a bowl of cold or ice water. Once cooled, gently rub them between your fingers to remove the skins. Peel promptly, as the skins become more challenging to remove if left too long. Slice the nuts into thin slivers. Mix the chopped or slivered almonds and pistachios with the charoli nuts and set aside.
 
 - **Step 2**
   Using a mortar and pestle or the flat side of a chef’s knife, lightly crack the cardamom pods to release their aroma.
