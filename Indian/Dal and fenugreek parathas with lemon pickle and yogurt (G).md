@@ -22,9 +22,10 @@
 - white wine vinegar** 250ml
 - caster sugar** 2 tbsp
 - asafoetida** 1 tsp
-- ---
+- —  —  —
 - To serve
-- natural set yogurt lemon pickle (see above)
+- natural set yogurt
+- lemon pickle (see above)
 
 To make the pickle, cut the lemons into pieces the size of a 50p coin. Keep the chillies whole. Put them in a heatproof bowl. Heat the oil, then add the mustard and nigella seeds and heat for a few minutes. Pour the hot oil over the lemons and chillies, and add the remaining ingredients. Stir, stir, stir. Decant into an airtight, sterilised jar, and leave for 2 weeks before eating. Make sure you keep stirring the pickle every few days.
 To make the chapatis, mix together the flour, salt, potato, onion, chilli, and spices and herbs.
