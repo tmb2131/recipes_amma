@@ -11,8 +11,7 @@
 
 Grind the above items in a blender and keep aside.
 
-Oil 1 table spoon
-
+Oil 1 table spoon\
 Mustard seeds 0.5 tsp
 \
 Urad dal and Chana dal 1 tsp each
