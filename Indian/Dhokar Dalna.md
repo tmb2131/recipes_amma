@@ -1,5 +1,6 @@
 # Dhokar Dalna
 
+- For the lentil cakes
 - 2 cups Bengal gram/chana dal/cholar dal
 - 1 cup dried peas/matar dal
 - 1 tsp cumin powder
@@ -14,6 +15,7 @@
 - ½ tsp onion seeds
 - 4 — 6 green chillies, finely chopped
 - oil for deep frying
+- ---
 - For the sauce
 - 3 tbsp mustard or vegetable oil
 - 1 — 2 bay leaves
@@ -29,19 +31,20 @@
 - salt to taste
 - ½ tsp garam masala powder (optional)
 
-1. <br />
+***
 
-   ***
+**To make the lentil cakes**
 
-   To make the lentil cakes
-2. Mix the two kinds of dal and soak in water overnight.
-3. Drain the water and grind the dals/lentils into a smooth paste.
-4. Add coriander powder, chilli powder, turmeric powder, ginger paste, salt and sugar and mix well.
-5. Heat oil in a thick-bottomed pan.
-6. Add asafoetida, onion seeds, and green chillies. When they start to splutter, add the dal paste.
-7. Cook over medium heat, stirring continuously, until all the water evaporates and the mix starts sticking together and comes off the side of the pan easily.
-8. Remove from heat and form the lentil cakes (follow the video below for instructions).
-9. Deep fry the lentil cakes till golden brown (takes about 3-4 minutes).
+2\. Mix the two kinds of dal and soak in water overnight.
+3\. Drain the water and grind the dals/lentils into a smooth paste.
+4\. Add coriander powder, chilli powder, turmeric powder, ginger paste, salt and sugar and mix well.
+5\. Heat oil in a thick-bottomed pan.
+6\. Add asafoetida, onion seeds, and green chillies. When they start to splutter, add the dal paste.
+7\. Cook over medium heat, stirring continuously, until all the water evaporates and the mix starts sticking together and comes off the side of the pan easily.
+8\. Remove from heat and form the lentil cakes (follow the video below for instructions).
+9\. Deep fry the lentil cakes till golden brown (takes about 3-4 minutes).
+
+<br />
 
 **To make the sauce**
 
