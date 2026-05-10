@@ -16,8 +16,6 @@
 - Water/ Sparkling water
 - Boondi to serve, optional (Tiny round puffed chick pea flour fritter balls. Available at Indian stores)
 
-\---
-
 Wash mint leaves and cilantro leaves and keep aside.
 Peel & slice pineapple. Using a juicer, extract juice and strain it twice to procure clear pineapple juice.
 Grind the dry spices using a spice grinder and then add the tamarind paste, mint leaves and cilantro leaves. Using 3-4 tbsp of water, make a fine paste. Strain the paste twice so you have a clear concentrated paste. *(I used a regular sieve for the first straining and a finely meshed one for the second)* Transfer this to a pot or jug.
