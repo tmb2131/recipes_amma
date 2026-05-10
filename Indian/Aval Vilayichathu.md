@@ -10,10 +10,7 @@
 - 1/3 cup Roasted gram dal (pottu kadala)
 - 3 Crushed cardamom
 - 1.5 — 2 tbsp Ghee
-
-**Instructions**
-
-<br />
+- Instructions
 
 * Heat ghee in a pan and fry black sesame seeds (lightly), roasted gram dal (till you get the roasted smell) and coconut bits (till it turns golden brown) separately.
 
@@ -35,7 +32,7 @@
 
   <br />
 
-**Notes**
+**Notes:**
 Do a taste check of jaggery to assess the sweetness and adjust the qty accordingly.
 Make sure not to cook the mixture for long after adding Aval, overcooking may harden the Aval.
 If you want, you can add 1-2 tsp of ghee while cooking jaggery and coconut mixture.
