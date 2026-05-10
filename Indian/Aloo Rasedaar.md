@@ -13,9 +13,7 @@
 - 2 tbsp clarified butter
 - 2 tbsp coriander leaves to garnish, chopped
 
-How to Make Aloo Rasedaar: 
-
-1\. Break the potatoes by holding each in your palm and closing your fist.
+1.Break the potatoes by holding each in your palm and closing your fist.
 
 **2.**
 Set aside these unevenly broken potatoes.
