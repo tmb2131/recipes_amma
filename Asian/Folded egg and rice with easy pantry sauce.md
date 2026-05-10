@@ -15,9 +15,11 @@
 - 1 tsp chopped **++[chives](https://www.bbc.co.uk/food/chives)++**, to garnish (optional)
 - ++black pepper++, to taste
 
-* <br />
+1. <br />
 
-1. To make the sauce, combine all the ingredients in a bowl with 100ml/3½fl oz water and set aside.
+   ***
+
+   To make the sauce, combine all the ingredients in a bowl with 100ml/3½fl oz water and set aside.
 
 2. To make the folded eggs, first put the cooked rice into a bowl. Whisk the eggs and olive oil with a pinch of salt. Melt some butter in a small frying pan over a medium heat and pour in the egg. You should notice the edges of the egg mixture start to set.
 
