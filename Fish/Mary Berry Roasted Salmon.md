@@ -1,27 +1,35 @@
-Mary Berry Roasted Salmon  
+# Mary Berry Roasted Salmon
 
-Salmon  
-Butter  
-Semolina  
-Paprika  
-Salt  
-Pepper  
-Parsley  
+- Salmon
+- Butter
+- Semolina
+- Paprika
+- Salt
+- Pepper
+- Parsley
 
-Spread butter on salmon  
-Mix semolina, paprika, salt & pepper.  
-Dip buttered salmon in mix and lay on parsley stalks.  
+***
 
-180 C for ~ 15 minutes  
+1. 1\. Spread butter on salmon
+2. 2\. Mix semolina, paprika, salt & pepper.
+3. 3\. Dip buttered salmon in mix and lay on parsley stalks.\`
 
-Preserved lemon  
-Parsley  
-Juice of 0.5 lemon  
-Blend  
-Mayonnaise  
-Creme fraiche  
-Blend  
+4) <br />
+5) 180 C for \~ 15 minutes
+6) <br />
+7) Preserved lemon\
+   \
+   Parsley\
+   \
+   Juice of 0.5 lemon
+8) Blend
+9) Mayonnaise
+10) Creme fraiche
+11) Blend
+12) <br />
 
-Warm gently  
+Warm gently
 
-Spread on plate, salmon on top  
+<br />
+
+Spread on plate, salmon on top
