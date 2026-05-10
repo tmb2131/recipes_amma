@@ -18,5 +18,7 @@
 Bring a large pot of water to a boil. Add noodles and cook until barely tender, about 5 minutes; they should retain a hint of chewiness. Drain, rinse with cold water, drain again and toss with a splash of sesame oil.
 
 1. In a medium bowl, whisk together the remaining 2 tablespoons sesame oil, the soy sauce, rice vinegar, sesame paste, peanut butter, sugar, ginger, garlic and chili-garlic paste.
-2. Pour the sauce over the noodles and toss. Transfer to a serving bowl, and garnish with cucumber and peanuts.
-3. Tip: The Chinese sesame paste called for here is made of toasted sesame seeds; it is not the same as tahini, the Middle Eastern paste made of plain, untoasted sesame. But you could use tahini in a pinch. You need only add a little toasted sesame oil to compensate for flavor, and perhaps some peanut butter to keep the sauce emulsified.
+2. <br />
+3. Pour the sauce over the noodles and toss. Transfer to a serving bowl, and garnish with cucumber and peanuts.
+4. <br />
+5. Tip: The Chinese sesame paste called for here is made of toasted sesame seeds; it is not the same as tahini, the Middle Eastern paste made of plain, untoasted sesame. But you could use tahini in a pinch. You need only add a little toasted sesame oil to compensate for flavor, and perhaps some peanut butter to keep the sauce emulsified.
