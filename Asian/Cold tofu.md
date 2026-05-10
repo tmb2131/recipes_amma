@@ -1,7 +1,6 @@
 # Cold tofu
 
 - Serves 2
-- ## Ingredients
 - One box of silken tofu
 - Coriander leaves for decorating
 - 1 green onion , finely chopped
@@ -15,9 +14,7 @@
 - 1/2 tsp. sugar
 - 1 garlic clove , chopped
 - 1 tsp. minced ginger
-- 2-3 coriander stem , finely chopped
-
-<br />
+- 2 — 3 coriander stem , finely chopped
 
 ***
 
