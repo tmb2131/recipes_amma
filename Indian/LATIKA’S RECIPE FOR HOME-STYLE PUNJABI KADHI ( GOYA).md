@@ -25,6 +25,7 @@ In another container, combine besan, yogurt, water, turmeric, red chilli powder 
 Pour the yogurt mix into the pot, and allow to cook. Bring to a boil then reduce to a simmer.
 Allow to cook for 30 minutes, stirring regularly to prevent catching at the bottom. The kadhi will thicken.
 Finish with kasoori methi and fresh coriander leaves.
+
 *To make pakoras*
 2 onion, chopped
 1 inch ginger
@@ -35,17 +36,20 @@ Rock salt, to taste
 4 ladles of besan
 Ajwain, a pinch
 1 tsp baking soda
+
 *Method*
 Combine the ingredients for the pakodas with a few tablespoons of water, to make a thick batter.
 Drop into hot oil and fry until golden.
 (Can make a large batch and freeze to use later).
 Add the pakodas into the kadhi just before serving, and finish with a tadka.
+
 *Ingredients for tadka*
 2 tbsp ghee
 1 tsp mustard seeds
 Hing, a pinch
 3 Dry red chillies
 1 tsp red chilli powder
+
 *Method*
 In a small pan, heat ghee and add in the mustard seeds.
 When they sputter, add in the hing, dry red chillies and chilli powder.
