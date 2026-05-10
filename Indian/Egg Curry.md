@@ -21,7 +21,11 @@ Heat oil. Add jeera and tej patta, followed by ground mixture, haldi, chilli pow
 Sit on medium low heat until well done and the mixture glistens with oil.
 Add boiled eggs and mix gently. Add water and bring to a simmer.
 Turn off heat and garnish with coriander leaves and lemon.
-Egg Curry
+
+<br />
+
+**Egg Curry**
+
 Eggs, hard boiled - 8
 chopped - 1
 ***tbsp***
