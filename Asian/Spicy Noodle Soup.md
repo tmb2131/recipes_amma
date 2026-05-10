@@ -12,11 +12,9 @@
 - 2 **cups herbs (tender leaves and stems), such as cilantro, mint, chives, parsley or a mix, for serving
 - Sesame seeds, sesame oil or both, for serving (optional)
 
-* <br />
+***
 
-  ***
-
-  Heat oil in a large, heavy-bottomed pot or Dutch oven over medium heat. Add garlic and shallots, and season with salt and pepper. Cook, stirring occasionally, until shallots start to turn a nice golden brown, 3 to 4 minutes. Add mushrooms and half the chile, and season with salt and pepper.
+Heat oil in a large, heavy-bottomed pot or Dutch oven over medium heat. Add garlic and shallots, and season with salt and pepper. Cook, stirring occasionally, until shallots start to turn a nice golden brown, 3 to 4 minutes. Add mushrooms and half the chile, and season with salt and pepper.
 
 * Cook, stirring occasionally, until the mushrooms have softened, released much of their water and turned a deep golden brown, 10 to 15 minutes. (A browned mushroom will have infinitely more flavor than an unbrowned mushroom, because the water inside it evaporates and the flavor concentrates. So do not skip this step.)
 
