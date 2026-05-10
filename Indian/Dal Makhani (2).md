@@ -1,34 +1,37 @@
-Prep Time: 10 minutes  
-Cook Time: 2 hours  
-Total Time: 2 hours 10 minutes  
-Servings: 5  
-**Ingredients**
+# Dal Makhani (2)
 
- 3/4 cup urad dal sabut (whole black lentil), 165 grams  
- 1/4 cup rajma (red kidney beans), 60 grams  
- 1 teaspoon salt  
- 3.5 cups water , 28 oz  
-**Masala for the Dal**  
- 1 tablespoon ghee  
- 3 tablespoons butter, divided, use amul butter (salted) if possible  
- 1 medium white onion, 115 grams, finely grated using a food processor  
- 2 teaspoons ginger garlic paste, use fresh paste if possible  
- 1/2 cup tomato puree, use store bought tomato puree  
- 1/2 teaspoon kashmiri red chili powder  
- 1/4 teaspoon garam masala  
- 1/2 teaspoon salt, or to taste  
- 1.5 cups water, 12 oz, as needed  
- 1/2 teaspoon sugar  
- 1/4 cup cream, 60 ml  
- more amul butter (salted), for serving  
- piece of charcoal, optional, for giving dal a smokey flavor  
-**Instructions**
+- Prep Time: 10 minutes
+- Cook Time: 2 hours
+- Total Time: 2 hours 10 minutes
+- Servings: 5
+- Ingredients
+- 3/4 cup urad dal sabut (whole black lentil), 165 grams
+- 1/4 cup rajma (red kidney beans), 60 grams
+- 1 teaspoon salt
+- 3.5 cups water , 28 oz
+- Masala for the Dal
+- 1 tablespoon ghee
+- 3 tablespoons butter, divided, use amul butter (salted) if possible
+- 1 medium white onion, 115 grams, finely grated using a food processor
+- 2 teaspoons ginger garlic paste, use fresh paste if possible
+- 1/2 cup tomato puree, use store bought tomato puree
+- 1/2 teaspoon kashmiri red chili powder
+- 1/4 teaspoon garam masala
+- 1/2 teaspoon salt, or to taste
+- 1.5 cups water, 12 oz, as needed
+- 1/2 teaspoon sugar
+- 1/4 cup cream, 60 ml
+- more amul butter (salted), for serving
+- piece of charcoal, optional, for giving dal a smokey flavor
+
+<br />
 
 1. Wash and rinse urad dal (whole black lentil) and rajma (kidney beans) in a large bowl. Soak in 3 cups water overnight.
 
-2. In the morning, drain the water in which the dal and rajma was soaked. Transfer the dal and rajma to a pressure cooker with 1 teaspoon salt. Add around 3.5 cups water. 
+2. In the morning, drain the water in which the dal and rajma was soaked. Transfer the dal and rajma to a pressure cooker with 1 teaspoon salt. Add around 3.5 cups water.
 
-3. If using the Instant pot, pressure cook the lentils on high pressure for 30 minutes with natural pressure release.  
+3. If using the Instant pot, pressure cook the lentils on high pressure for 30 minutes with natural pressure release.
+
 4. Mash some of the dal and rajma using a potato masher. Then turn on the heat to lowest heat and let the dal simmer while you make the masala.
 
 5. To make the masala, in a large pot/pan, heat 2 tablespoons butter  (I use and recommend amul salted butter here) and 1 tablespoon ghee on medium heat.
@@ -39,11 +42,11 @@ Servings: 5
 
 8. Add the tomato puree and mix. Cook for 2 minutes or until the puree mixes well with masala and oil starts oozing out from the sides.
 
-9. Add in the boiled dal (which had been simmering for around 10 to 15 mins you were making the masala) and mix. 
+9. Add in the boiled dal (which had been simmering for around 10 to 15 mins you were making the masala) and mix.
 
-10. Add garam masala, kashmiri red chili powder and salt. Mix to combine. 
+10. Add garam masala, kashmiri red chili powder and salt. Mix to combine.
 
-11. Add 1/2 cup water, stir and set heat to low. Let it simmer on low heat uncovered for around 45 minutes. 
+11. Add 1/2 cup water, stir and set heat to low. Let it simmer on low heat uncovered for around 45 minutes.
 
 12. Stir often (every 10 minutes or so) else dal will stick to the bottom of the pot. You will also need to add water. I added total of 1.5 cups water as the dal was simmering.
 
@@ -59,24 +62,25 @@ Servings: 5
 
 18. You will immediately see fumes coming out of charcoal. Immediately close the pan with a lid. Let it remain like this for 2 minutes. After 2 minutes, remove lid and remove the bowl from dal. The longer you keep the lid closed, the smokier dal will get and for dal makhani I don't like it very smokey so 2 minutes was good for me. You may do 5 minutes but don't do more.
 
-19. Garnish dal makhani with more cream and serve with a pat of amul butter. Enjoy\!
+19. Garnish dal makhani with more cream and serve with a pat of amul butter. Enjoy!
 
-**Recipe NotesMasala for the Dal**  
- 1 tablespoon ghee  
- 3 tablespoons butter, divided, use amul butter (salted) if possible  
- 1 medium white onion, 115 grams, finely grated using a food processor  
- 2 teaspoons ginger garlic paste, use fresh paste if possible  
- 1/2 cup tomato puree, use store bought tomato puree  
- 1/2 teaspoon kashmiri red chili powder  
- 1/4 teaspoon garam masala  
- 1/2 teaspoon salt, or to taste  
- 1.5 cups water, 12 oz, as needed  
- 1/2 teaspoon sugar  
- 1/4 cup cream, 60 ml  
- more amul butter (salted), for serving  
- piece of charcoal, optional, for giving dal a smokey flavor
+**Recipe NotesMasala for the Dal**
+1 tablespoon ghee
+3 tablespoons butter, divided, use amul butter (salted) if possible
+1 medium white onion, 115 grams, finely grated using a food processor
+2 teaspoons ginger garlic paste, use fresh paste if possible
+1/2 cup tomato puree, use store bought tomato puree
+1/2 teaspoon kashmiri red chili powder
+1/4 teaspoon garam masala
+1/2 teaspoon salt, or to taste
+1.5 cups water, 12 oz, as needed
+1/2 teaspoon sugar
+1/4 cup cream, 60 ml
+more amul butter (salted), for serving
+piece of charcoal, optional, for giving dal a smokey flavor
 
-1. If using the Instant pot, pressure cook the lentils on high pressure for 30 minutes with natural pressure release.  
+1. If using the Instant pot, pressure cook the lentils on high pressure for 30 minutes with natural pressure release.
+
 2. Mash some of the dal and rajma using a potato masher. Then turn on the heat to lowest heat and let the dal simmer while you make the masala.
 
 3. Once the butter melts and is hot, add the finely grated onion. Cook the onion for around 6 to 7 minutes or until it turns light golden brown. Keep stirring it continuously so that it doesn't burn and keep heat on medium.
@@ -85,11 +89,11 @@ Servings: 5
 
 5. Add the tomato puree and mix. Cook for 2 minutes or until the puree mixes well with masala and oil starts oozing out from the sides.
 
-6. Add in the boiled dal (which had been simmering for around 10 to 15 mins you were making the masala) and mix. 
+6. Add in the boiled dal (which had been simmering for around 10 to 15 mins you were making the masala) and mix.
 
-7. Add garam masala, kashmiri red chili powder and salt. Mix to combine. 
+7. Add garam masala, kashmiri red chili powder and salt. Mix to combine.
 
-8. Add 1/2 cup water, stir and set heat to low. Let it simmer on low heat uncovered for around 45 minutes. 
+8. Add 1/2 cup water, stir and set heat to low. Let it simmer on low heat uncovered for around 45 minutes.
 
 9. Stir often (every 10 minutes or so) else dal will stick to the bottom of the pot. You will also need to add water. I added total of 1.5 cups water as the dal was simmering.
 
@@ -105,4 +109,4 @@ Servings: 5
 
 15. You will immediately see fumes coming out of charcoal. Immediately close the pan with a lid. Let it remain like this for 2 minutes. After 2 minutes, remove lid and remove the bowl from dal. The longer you keep the lid closed, the smokier dal will get and for dal makhani I don't like it very smokey so 2 minutes was good for me. You may do 5 minutes but don't do more.
 
-16. Garnish dal makhani with more cream and serve with a pat of amul butter. Enjoy\!
+16. Garnish dal makhani with more cream and serve with a pat of amul butter. Enjoy!
