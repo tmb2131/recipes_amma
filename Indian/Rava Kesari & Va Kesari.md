@@ -6,7 +6,7 @@
 
 **Rava Kesari**
 
-**Ingredients**
+***Ingredients***
 
 * 0.5 cup semolina
 
@@ -39,7 +39,7 @@
 ***
 
 **Va Kesari**\
-**Ingredients**
+***Ingredients***
 
 * 0.25 cup nei
 
