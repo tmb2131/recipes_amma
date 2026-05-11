@@ -24,6 +24,10 @@ const recipeEditEnabled =
           <button type="button" class="rem-close" data-rem-close aria-label="Close">×</button>
         </div>
         <div class="rem-fields">
+          <label class="rem-field rem-field--full" data-rem-section-field hidden>
+            <span class="rem-label">Section</span>
+            <select class="rem-input" data-rem-section></select>
+          </label>
           <label class="rem-field rem-field--wide">
             <span class="rem-label">Title</span>
             <input type="text" class="rem-input" data-rem-title autocomplete="off" spellcheck="true" />
@@ -102,7 +106,52 @@ const recipeEditEnabled =
       family: boolean;
     };
 
+    type CreatePayload = {
+      defaultSection?: string;
+    };
+
+    type FormMode = 'edit' | 'create';
+
     type Mode = 'structured' | 'raw';
+
+    /**
+     * Mirror of `SECTION_ORDER` in `src/lib/loadRecipes.ts`. Hard-coded so the
+     * production-built modal doesn't need to ship the loader/cleaner module
+     * graph just to render the section dropdown.
+     */
+    const SECTION_LIST = [
+      'Indian',
+      'Asian',
+      'Fish',
+      'Soup',
+      'Salad',
+      'Dressing',
+      'Desserts',
+      'Sylvestre',
+      'Other',
+    ] as const;
+    type SectionName = (typeof SECTION_LIST)[number];
+
+    function slugifyClient(input: string): string {
+      return input
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/['’]/g, '')
+        .replace(/&/g, ' and ')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+        .replace(/-{2,}/g, '-');
+    }
+
+    function findSectionBySlug(slug: string | undefined): SectionName | null {
+      if (!slug) return null;
+      const want = slug.toLowerCase();
+      for (const s of SECTION_LIST) {
+        if (slugifyClient(s) === want) return s;
+      }
+      return null;
+    }
 
     type EditorHandle = {
       destroy: () => Promise<void>;
@@ -137,6 +186,7 @@ const recipeEditEnabled =
       let payload: EditPayload | null = null;
       let originalRaw = '';
       let mode: Mode = 'structured';
+      let formMode: FormMode = 'edit';
       let editor: EditorHandle | null = null;
       let dirty = false;
       let saving = false;
@@ -451,10 +501,75 @@ const recipeEditEnabled =
         if (match) applyRecipeToCurrentPage(match);
       }
 
+      function ensureSectionOptions() {
+        const select = $('[data-rem-section]') as HTMLSelectElement | null;
+        if (!select) return;
+        if (select.options.length === SECTION_LIST.length) return;
+        select.replaceChildren();
+        for (const s of SECTION_LIST) {
+          const opt = document.createElement('option');
+          opt.value = s;
+          opt.textContent = s;
+          select.appendChild(opt);
+        }
+      }
+
+      function setFormMode(next: FormMode, opts: { defaultSection?: SectionName } = {}) {
+        formMode = next;
+        const sectionField = $('[data-rem-section-field]') as HTMLElement | null;
+        const eyebrow = $('[data-rem-eyebrow]') as HTMLElement | null;
+        if (sectionField) sectionField.hidden = next !== 'create';
+        if (eyebrow) eyebrow.textContent = next === 'create' ? 'New recipe' : 'Edit recipe';
+        if (next === 'create') {
+          ensureSectionOptions();
+          const select = $('[data-rem-section]') as HTMLSelectElement | null;
+          if (select) {
+            const want = opts.defaultSection ?? 'Other';
+            const has = SECTION_LIST.includes(want as SectionName);
+            select.value = has ? want : 'Other';
+          }
+        }
+      }
+
+      async function openCreate(p: CreatePayload | undefined) {
+        const dlg = getDialog();
+        if (!dlg) return;
+        payload = null;
+        originalRaw = '';
+        setDirty(false);
+        setStatus('');
+
+        const defaultSection = findSectionBySlug(p?.defaultSection) ?? undefined;
+        setFormMode('create', { defaultSection: defaultSection ?? undefined });
+
+        const titleInput = $('[data-rem-title]') as HTMLInputElement | null;
+        const sourceInput = $('[data-rem-source]') as HTMLInputElement | null;
+        if (titleInput) titleInput.value = '';
+        if (sourceInput) sourceInput.value = '';
+
+        if (editor) {
+          await editor.destroy();
+          editor = null;
+        }
+
+        setMode('structured');
+        renderIngredients([]);
+        const methodMount = $('[data-rem-method-mount]') as HTMLElement | null;
+        if (methodMount) editor = await mountEditor(methodMount, '');
+        note('New recipe. Add ingredients and method, then Save.');
+
+        dlg.showModal();
+        queueMicrotask(() => {
+          setDirty(false);
+          titleInput?.focus();
+        });
+      }
+
       async function openModal(p: EditPayload) {
         const dlg = getDialog();
         if (!dlg) return;
         payload = p;
+        setFormMode('edit');
         setDirty(false);
         setStatus('Loading…');
 
@@ -564,8 +679,32 @@ const recipeEditEnabled =
         setDirty(true);
       }
 
+      function readEditorContent(title: string, source: string | undefined): string {
+        if (mode === 'structured') {
+          const methodMd = editor ? editor.getMarkdown() : '';
+          return reassembleStructured({
+            title,
+            source,
+            ingredients: readIngredients(),
+            methodMd,
+          });
+        }
+        let content = editor ? editor.getMarkdown() : originalRaw;
+        if (!content.endsWith('\n')) content += '\n';
+        return content;
+      }
+
       async function save() {
-        if (!payload || saving) return;
+        if (saving) return;
+        if (formMode === 'create') {
+          await saveCreate();
+        } else {
+          await saveEdit();
+        }
+      }
+
+      async function saveEdit() {
+        if (!payload) return;
         const titleInput = $('[data-rem-title]') as HTMLInputElement | null;
         const sourceInput = $('[data-rem-source]') as HTMLInputElement | null;
         const title = titleInput?.value.trim() ?? '';
@@ -575,19 +714,7 @@ const recipeEditEnabled =
           return;
         }
 
-        let content: string;
-        if (mode === 'structured') {
-          const methodMd = editor ? editor.getMarkdown() : '';
-          content = reassembleStructured({
-            title,
-            source,
-            ingredients: readIngredients(),
-            methodMd,
-          });
-        } else {
-          content = editor ? editor.getMarkdown() : originalRaw;
-          if (!content.endsWith('\n')) content += '\n';
-        }
+        const content = readEditorContent(title, source);
 
         // Compute newBaseName if title or source changed.
         const currentInfo = cleanTitle(payload.currentBaseName.replace(/\.md$/i, ''));
@@ -659,6 +786,102 @@ const recipeEditEnabled =
         }
       }
 
+      async function saveCreate() {
+        const sectionSelect = $('[data-rem-section]') as HTMLSelectElement | null;
+        const titleInput = $('[data-rem-title]') as HTMLInputElement | null;
+        const sourceInput = $('[data-rem-source]') as HTMLInputElement | null;
+        const title = titleInput?.value.trim() ?? '';
+        const source = sourceInput?.value.trim() || undefined;
+        const section = sectionSelect?.value as SectionName | undefined;
+
+        if (!section || !(SECTION_LIST as readonly string[]).includes(section)) {
+          setStatus('Pick a section.', 'error');
+          return;
+        }
+        if (!title) {
+          setStatus('Title cannot be empty.', 'error');
+          return;
+        }
+        const baseName = computeNewBaseName(title, source);
+        if (!baseName) {
+          setStatus('Title produced an empty filename.', 'error');
+          return;
+        }
+
+        const content = readEditorContent(title, source);
+
+        saving = true;
+        setStatus('Saving…');
+        const saveBtn = $('[data-rem-save]') as HTMLButtonElement | null;
+        if (saveBtn) saveBtn.disabled = true;
+
+        try {
+          const res = await fetch(`${EDIT_API}/create`, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ section, baseName, content }),
+          });
+          if (!res.ok) {
+            const text = await res.text();
+            // Friendlier message for the most common error case.
+            const msg = res.status === 409
+              ? `A recipe with that filename already exists in ${section}.`
+              : `Create failed: ${res.status} ${text}`;
+            setStatus(msg, 'error');
+            return;
+          }
+          const result = (await res.json()) as {
+            ok: boolean;
+            requiresDeploy: boolean;
+            relativePath: string;
+            baseName: string;
+            section: string;
+            sectionSlug: string;
+            slug: string;
+            href: string;
+          };
+
+          // Cache the new recipe so the destination page can render it
+          // optimistically — works locally where the page exists immediately.
+          const pendingSave: PendingRecipeSave = {
+            relativePath: result.relativePath,
+            oldRelativePath: result.relativePath,
+            href: result.href,
+            oldHref: result.href,
+            title,
+            source,
+            content,
+            baseName: result.baseName,
+            savedAt: Date.now(),
+          };
+          storePendingSave(pendingSave);
+          setDirty(false);
+          getDialog()?.close();
+
+          if (result.requiresDeploy) {
+            // On Vercel cloud the new file is in the GitHub repo but not yet
+            // in the deployed build — landing on the new href would 404.
+            // Send the user to the table of contents with a flash message.
+            try {
+              sessionStorage.setItem(
+                'ammas-kitchen:new-recipe-flash',
+                JSON.stringify({ title, href: result.href, at: Date.now() }),
+              );
+            } catch {
+              /* ignore unavailable storage */
+            }
+            location.href = '/contents/';
+          } else {
+            location.href = result.href;
+          }
+        } catch (err) {
+          setStatus(`Create failed: ${(err as Error).message}`, 'error');
+        } finally {
+          saving = false;
+          if (saveBtn) saveBtn.disabled = false;
+        }
+      }
+
       function tryClose() {
         if (saving) return;
         if (dirty) {
@@ -717,11 +940,60 @@ const recipeEditEnabled =
         $('[data-rem-ingredients]')?.addEventListener('input', () => setDirty(true));
         $('[data-rem-title]')?.addEventListener('input', () => setDirty(true));
         $('[data-rem-source]')?.addEventListener('input', () => setDirty(true));
+        $('[data-rem-section]')?.addEventListener('change', () => setDirty(true));
       }
 
       function init() {
         bind();
         applyPendingSaveForCurrentPage();
+        showNewRecipeFlashIfPresent();
+      }
+
+      function showNewRecipeFlashIfPresent() {
+        let raw: string | null = null;
+        try {
+          raw = sessionStorage.getItem('ammas-kitchen:new-recipe-flash');
+        } catch {
+          return;
+        }
+        if (!raw) return;
+        try {
+          sessionStorage.removeItem('ammas-kitchen:new-recipe-flash');
+        } catch {
+          /* ignore */
+        }
+        let flash: { title?: string; href?: string; at?: number } = {};
+        try {
+          flash = JSON.parse(raw) as typeof flash;
+        } catch {
+          return;
+        }
+        if (!flash.title) return;
+        // Only show the flash on the contents page; navigating anywhere else
+        // means it's stale.
+        if (!location.pathname.startsWith('/contents')) return;
+        const banner = document.createElement('div');
+        banner.setAttribute('role', 'status');
+        banner.textContent = `Saved "${flash.title}" — it will appear on the site once the next deploy finishes.`;
+        banner.style.cssText = [
+          'position: fixed',
+          'left: 50%',
+          'bottom: 1.25rem',
+          'transform: translateX(-50%)',
+          'z-index: 50',
+          'background: rgba(232, 176, 74, 0.95)',
+          'color: #2b2118',
+          'padding: 0.7rem 1.1rem',
+          'border-radius: 10px',
+          'border: 1px solid rgba(160, 130, 90, 0.45)',
+          'box-shadow: 0 12px 24px rgba(20, 15, 10, 0.18)',
+          'font-family: var(--serif, Georgia, serif)',
+          'font-size: 0.92rem',
+          'max-width: min(36rem, calc(100vw - 2rem))',
+          'text-align: center',
+        ].join(';');
+        document.body.appendChild(banner);
+        setTimeout(() => banner.remove(), 7000);
       }
 
       window.addEventListener('recipe-edit-open', (e: Event) => {
@@ -729,6 +1001,12 @@ const recipeEditEnabled =
         if (!detail) return;
         bind();
         void openModal(detail);
+      });
+
+      window.addEventListener('recipe-new-open', (e: Event) => {
+        const detail = (e as CustomEvent<CreatePayload | undefined>).detail;
+        bind();
+        void openCreate(detail);
       });
 
       // Astro's ClientRouter swaps the body but the dialog has

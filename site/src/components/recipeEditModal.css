@@ -78,6 +78,17 @@
   flex-direction: column;
   gap: 0.2rem;
 }
+.rem-field--full {
+  grid-column: 1 / -1;
+}
+.rem-field[hidden] {
+  display: none;
+}
+select.rem-input {
+  appearance: auto;
+  padding-right: 1.8rem;
+  cursor: pointer;
+}
 .rem-label {
   font-family: var(--sans, system-ui);
   font-size: 0.7rem;

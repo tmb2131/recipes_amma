@@ -13,6 +13,8 @@ interface Props {
   bare?: boolean;
 }
 const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.props;
+const recipeEditEnabled =
+  import.meta.env.DEV || import.meta.env.PUBLIC_RECIPE_EDIT === 'true';
 ---
 <!doctype html>
 <html lang="en">
@@ -46,6 +48,20 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
               <path d="m17 17-3.5-3.5" stroke-linecap="round"/>
             </svg>
           </a>
+          {recipeEditEnabled && (
+            <button
+              type="button"
+              class="header-btn header-btn--new"
+              data-new-recipe-trigger
+              aria-label="New recipe"
+              title="New recipe"
+            >
+              <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M10 4v12M4 10h12" stroke-linecap="round"/>
+              </svg>
+              <span class="header-btn__label">New</span>
+            </button>
+          )}
         </div>
       </header>
     )}
@@ -82,6 +98,31 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
         color: var(--ink);
         background: var(--paper-deep);
       }
+      .header-btn--new {
+        width: auto;
+        gap: 0.35rem;
+        padding: 0 0.7rem 0 0.55rem;
+        border-color: var(--paper-edge);
+        background: rgba(232, 176, 74, 0.12);
+      }
+      .header-btn--new:hover {
+        background: var(--gold);
+        color: var(--ink);
+        border-color: var(--gold);
+      }
+      .header-btn__label {
+        font-family: var(--sans, system-ui);
+        font-size: 0.78rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      @media (max-width: 640px) {
+        .header-btn__label { display: none; }
+        .header-btn--new {
+          width: 36px;
+          padding: 0;
+        }
+      }
       .main-area {
         margin: 0 auto;
         padding: 2rem 1rem 6rem;
@@ -108,6 +149,37 @@ const { title = "Amma's Kitchen", showCover = false, bare = false } = Astro.prop
         }
       });
     </script>
+
+    {recipeEditEnabled && (
+      <script is:inline>
+        // Delegate clicks anywhere on the page so we catch:
+        //   1. The sticky header "+ New" button.
+        //   2. Section-page "+ Add to this section" buttons that opt-in
+        //      with `data-new-recipe-trigger` plus a `data-default-section`.
+        (function () {
+          if (window.__newRecipeTriggerInit) return;
+          window.__newRecipeTriggerInit = true;
+          function firstPathSegment() {
+            var parts = (location.pathname || '/').split('/').filter(Boolean);
+            return parts.length > 0 ? parts[0] : '';
+          }
+          document.addEventListener('click', function (e) {
+            var target = e.target;
+            if (!target || !(target instanceof Element)) return;
+            var btn = target.closest('[data-new-recipe-trigger]');
+            if (!btn) return;
+            e.preventDefault();
+            var explicit = btn.getAttribute('data-default-section') || '';
+            var slug = explicit || firstPathSegment();
+            window.dispatchEvent(
+              new CustomEvent('recipe-new-open', {
+                detail: { defaultSection: slug || undefined },
+              })
+            );
+          });
+        })();
+      </script>
+    )}
 
     <script is:inline>
       /**
