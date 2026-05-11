@@ -35,7 +35,7 @@ export const SECTION_META: Record<Section, { tagline: string; motif: string }> =
   Salad: { tagline: 'Crisp, bright, and leafy', motif: 'sprig' },
   Dressing: { tagline: 'The little jars that lift everything', motif: 'drop' },
   Desserts: { tagline: 'Cakes, cookies, and the sweet of the meal', motif: 'marigold' },
-  Sylvestre: { tagline: "Sylvestre's pages", motif: 'lotus' },
+  Sylvestre: { tagline: "Sylvestre's recipes", motif: 'lotus' },
   Other: { tagline: 'Everything else, the everyday and the unusual', motif: 'star' },
 };
 
