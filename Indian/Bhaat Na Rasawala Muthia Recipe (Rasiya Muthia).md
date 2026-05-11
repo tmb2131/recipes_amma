@@ -11,9 +11,9 @@
 - Salt to taste
 - Pinch Sugar
 - 1 teaspoon Lemon juice
-- ---
+- —  —  —
 - For rasa or gravy:
-- ¼ cup [Plain yogurt](https://www.spiceupthecurry.com/homemade — yogurt/)
+- ¼ cup Plain yogurt
 - 1 — 2 cups Water
 - 1 tsp besan
 - ½ teaspoon Red chili powder
@@ -28,6 +28,8 @@
 - 1 small Green chilies finely chopped
 - 4 — 5 Curry leaves
 - few sprigs Cilantro or coriander leaves finely chopped
+
+***
 
 **Making muthia dough:**
 
