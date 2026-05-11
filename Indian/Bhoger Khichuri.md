@@ -78,7 +78,7 @@ At the very end, heat **1 Tbsp ghee** in a small frying pan and roast some **cas
 
 **1/4 cup of frozen peas (or use same amount of fresh green peas)**
 
-**1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water\*\* \*\*
+**1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water
 
 **fry the potatoes and cauliflower** with **sprinkle of turmeric powder** till they are a shade of light gold and the cauliflower florets have some brown spots.Throw in the **green peas** and saute them too.
 
