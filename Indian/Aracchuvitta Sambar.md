@@ -8,7 +8,7 @@ Cubed and cooked pumpkin 1-2 cups\
 Salt 1 tsp
 
 \
-**For masala**\
+For masala\
 Cooking oil 1/4 tsp or a few drops\
 Dried red chillies 4\
 Chana dal (kadalai paruppu) 1 tbsp\
@@ -18,9 +18,9 @@ LG asafoetida chunk 1/8tsp\
 Curry leaves 1 sprig\
 Desiccated coconut (optional) 1/4 cup
 
-**For tempering:** 
+<br />
 
-Cooking oil 2 tsps\
+For tempering: Cooking oil 2 tsps\
 Mustard seeds 1/4-1/2 tsp\
 Curry leaves 1 sprig\
 Red chilli 1\
