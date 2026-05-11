@@ -1,8 +1,10 @@
-***
+# Allu's & llu's Kala Chana (ghugni)
 
-# Allu's  Kala Chana (ghugni)
+- See Method section
 
-Lots of heated mustard oil. 
+# Allu's Kala Chana (ghugni)
+
+Lots of heated mustard oil. 
 
 Add
 
@@ -32,15 +34,13 @@ Salt
 
 Pepper
 
-Add as much pre — soaked Chana as onion 1.5 cups
+Add as much pre-soaked Chana as onion 1.5 cups
 
 Water 1.5 cups
 
 Pressure cook
 
 Open and fry on medium high flame, until liquid evaporates
-
-<br />
 
 <br />
 
