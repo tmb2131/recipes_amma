@@ -12,7 +12,7 @@ Chop **half of a small cauliflower** in about **6-8 large-ish florets**
 
 Defrost about **1/4 cup of frozen peas (or use same amount of fresh green peas)**
 
-Wash **1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water\*\* \*\*
+Wash **1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water
 
 Roast **1 cup of Yellow Moong Dal** till you get a nice nutty aroma. About 50% of the dals should be a light brown on roasting. Rinse the dal lightly in water and keep aside. Approx. 4 minutes.
 
