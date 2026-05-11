@@ -11,8 +11,6 @@
 
 Boil potatoes until done (NOT mushy). Allow them to cook and break up by hand. 
 
-<br />
-
 Heat oil in pan. (Roughly 1 tbsp for 1 cup of broken potatoes). 
 
 All mustard seeds and allow to pop. 
