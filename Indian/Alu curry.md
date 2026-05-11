@@ -9,9 +9,7 @@
 - Salt
 - Curry leaves
 
-Boil potatoes until done (NOT mushy). 
-
-Allow them to cook and break up by hand. 
+Boil potatoes until done (NOT mushy). Allow them to cook and break up by hand. 
 
 <br />
 
