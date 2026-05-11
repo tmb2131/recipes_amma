@@ -14,7 +14,7 @@
 
 ***
 
-Step 1 Cook noodles in a large saucepan of boiling water according to package instructions until tender but still chewy. (They’ll firm up when cool, so you want to cook them to softer than al dente). Drain the noodles in a colander, fill the saucepan with cold water, swish the noodles in the cold water, then drain again.
+**Step 1** Cook noodles in a large saucepan of boiling water according to package instructions until tender but still chewy. (They’ll firm up when cool, so you want to cook them to softer than al dente). Drain the noodles in a colander, fill the saucepan with cold water, swish the noodles in the cold water, then drain again.
 
 Step 2 In the empty pot, stir together the coconut milk, cilantro, chiles and soy sauce. Zest the limes over the pot, then halve one of the limes and squeeze its juice directly into the pot. Cut the remaining lime into 4 wedges.
 
