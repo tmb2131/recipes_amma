@@ -1,6 +1,6 @@
 # Allu's & llu's Kala Chana (ghugni)
 
-- See Method section
+* See Method section
 
 ***
 
@@ -8,9 +8,8 @@
 
 <br />
 
-Lots of heated mustard oil.
-
-Add
+* Lots of heated mustard oil.
+* Add
 
 Tej patta
 
