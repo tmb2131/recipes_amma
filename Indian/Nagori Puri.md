@@ -6,7 +6,6 @@
 - to taste salt
 - 2 tbsp yogurt
 - Oil or ghee (for frying)
-- 1. <br />
 
 ***
 
