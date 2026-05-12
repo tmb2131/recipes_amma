@@ -1,20 +1,20 @@
 # Caper and Lemon Fish Schnitzel (Washington Post)
 
-Serves: 4
+- Serves: 4
+- ## Ingredients
+- Four (6 — ounce) white — fleshed fish fillets, such as snapper, catfish or tilapia
+- 1/2 teaspoon fine salt
+- 1/2 teaspoon freshly cracked black pepper
+- 1 1/2 cups (4 ounces) panko or fresh sourdough breadcrumbs
+- 1/4 cup (1/2 ounce) fresh dill fronds, minced
+- 2 tablespoons capers, drained, rinsed and chopped
+- 2 tablespoons finely grated lemon zest
+- 1 large egg
+- 1 tablespoon water
+- Extra — virgin olive oil, for drizzling
+- Lemon wedges, for serving
 
-## Ingredients
-
-* Four (6-ounce) white-fleshed fish fillets, such as snapper, catfish or tilapia
-* 1/2 teaspoon fine salt
-* 1/2 teaspoon freshly cracked black pepper
-* 1 1/2 cups (4 ounces) panko or fresh sourdough breadcrumbs
-* 1/4 cup (1/2 ounce) fresh dill fronds, minced
-* 2 tablespoons capers, drained, rinsed and chopped
-* 2 tablespoons finely grated lemon zest
-* 1 large egg
-* 1 tablespoon water
-* Extra-virgin olive oil, for drizzling
-* Lemon wedges, for serving
+***
 
 ## Step 1
 
