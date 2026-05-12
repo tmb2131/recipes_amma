@@ -1,7 +1,6 @@
 # Caper and Lemon Fish Schnitzel (Washington Post)
 
 - Serves: 4
-- ## Ingredients
 - Four (6 — ounce) white — fleshed fish fillets, such as snapper, catfish or tilapia
 - 1/2 teaspoon fine salt
 - 1/2 teaspoon freshly cracked black pepper
