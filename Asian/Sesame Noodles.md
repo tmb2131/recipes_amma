@@ -13,8 +13,6 @@
 - Half a cucumber, peeled, seeded, and cut into 1/8 — inch by 1/8 — inch by 2 — inch sticks
 - ¼ cup chopped roasted peanuts
 
-##
-
 Bring a large pot of water to a boil. Add noodles and cook until barely tender, about 5 minutes; they should retain a hint of chewiness. Drain, rinse with cold water, drain again and toss with a splash of sesame oil.
 
 1. In a medium bowl, whisk together the remaining 2 tablespoons sesame oil, the soy sauce, rice vinegar, sesame paste, peanut butter, sugar, ginger, garlic and chili-garlic paste.
