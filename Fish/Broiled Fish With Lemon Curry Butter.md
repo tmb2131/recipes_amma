@@ -14,7 +14,6 @@
 
 ***
 
-PREPARATION
-
 1. Heat the broiler. In a small saucepan over medium heat, melt butter. Stir in garlic, thyme, curry powder, ginger and 1/4 teaspoon salt; heat until fragrant, about 1 minute. Stir in lemon zest.
-2. Season fish with salt and pepper and place on a rimmed baking sheet. Pour sauce over fish and broil until fish is flaky and cooked through, about 5 minutes. Top with a squeeze of lemon juice and fresh dill, and serve.
+2. <br />
+3. Season fish with salt and pepper and place on a rimmed baking sheet. Pour sauce over fish and broil until fish is flaky and cooked through, about 5 minutes. Top with a squeeze of lemon juice and fresh dill, and serve.
