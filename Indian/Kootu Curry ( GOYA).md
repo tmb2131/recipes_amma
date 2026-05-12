@@ -19,8 +19,10 @@
 
 In a cooker, add the black channa, plantain and yam. To this add salt to taste, chilli powder, turmeric powder and ground black pepper.
 Add enough water to cover the ingredients and pressure cook on medium flame for two whistles.
+
 Meanwhile, briefly grind together the coconut, cumin and powder till it comes together — it does not need to form a paste.
 Add this mixture to the pressure-cooked ingredients and let it simmer till the coconut gets cooked, about 5 minutes. Adjust the seasoning and add a few curry leaves.
+
 Heat the oil in pan. Add the mustard seeds and urad dal.
 Next add in the coconut and sauté on a low flame till the coconut becomes medium-brown.
 Add this to the kootu curry, and mix well.
