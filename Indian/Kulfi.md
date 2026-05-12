@@ -4,12 +4,11 @@
 - Prep time: 3 hrs
 - Cook time: 10 min
 - | 12 | cardamom pods |
-- | : —  —  —  — | : —  —  —  — |
 - | 1 | (12 — ounce/354ml) can evaporated milk |
 - | 1 1/4 | cups (295g) heavy cream |
 - | 1/2 | cup (100g) sugar |
 - | 2 | tablespoons rose water |
-- |  | Fresh fruit, for serving (optional) | |
+- | | Fresh fruit, for serving (optional) | |
 - | Dried rose petals or chopped pistachios, for topping (optional, see Genius Tip below) |
 
 1. Crush the cardamom pods lightly to free the seeds inside; then discard the outer green pods. Using a spice grinder or a mortar and pestle, grind the seeds as finely as you can.
