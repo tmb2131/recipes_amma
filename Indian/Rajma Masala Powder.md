@@ -11,5 +11,7 @@
 12 gms badi elaichi\
 35 gms anardana powder
 
+***
+
 \
-Roast, cool and powder.
+**R**oast, cool and powder.
