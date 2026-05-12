@@ -15,11 +15,8 @@
 - 6 large eggs
 - 1½ cups (3 ounces) mung bean sprouts (or any combination of shredded cabbage, shredded carrots, finely chopped onions and thinly sliced scallions)
 - ¼ cup finely chopped scallions, plus more for serving
-- Step 1
 
-Make the gravy: In a small saucepan, heat oil over medium-low. Add garlic and cook, stirring, until fragrant, 1 minute. Reserve 2 tablespoons of the broth in a small bowl; add the remaining broth to the pan. Add soy sauce and mushroom powder and bring to a boil. Simmer briskly, stirring occasionally, until the flavors have melded and the sauce reduced to about 1 cup, about 10 minutes.
-
-<br />
+***
 
 Step 1
 
