@@ -11,17 +11,22 @@
 - ⅓ **cup sliced almonds
 - Juice of half a lemon
 
-1. <br />
+***
 
-   ***
+Heat oven to 400 degrees. Lay out a double layer of foil big enough to wrap fish in, and drizzle with oil. Place fish on foil. Put scallions and half the thyme in cavity of fish. Drizzle 2 tablespoons butter over fish, and sprinkle with salt to taste. Wrap fish loosely, place on a baking sheet and bake 35 minutes.
 
-   Heat oven to 400 degrees. Lay out a double layer of foil big enough to wrap fish in, and drizzle with oil. Place fish on foil. Put scallions and half the thyme in cavity of fish. Drizzle 2 tablespoons butter over fish, and sprinkle with salt to taste. Wrap fish loosely, place on a baking sheet and bake 35 minutes.
-2. <br />
-3. Place a small skillet over medium heat. When pan is hot, add almonds, and stir until golden brown. Remove from pan, and set aside. In a small bowl, combine remaining melted butter and lemon juice; set aside.
-4. <br />
-5. When fish is cooked, carefully peel skin from side facing you. With a knife, divide fish in three portions by making two long cuts parallel to each other and perpendicular to the backbone. Cut down to the rib bones, but do not cut through them. Remove a portion of meat by sliding a spatula over rib bones and pulling meat away; repeat with 2 remaining portions, and place on three warmed plates. Remove backbone and attached rib bones. Cut three more fillets from remaining fish, placing them on plates.
-6. <br />
-7. Drizzle lemon butter over each fillet, and sprinkle with toasted almonds. Pull leaves from remaining sprigs of thyme, and scatter over fillets. Serve immediately
-8. <br />
+<br />
+
+Place a small skillet over medium heat. When pan is hot, add almonds, and stir until golden brown. Remove from pan, and set aside. In a small bowl, combine remaining melted butter and lemon juice; set aside.
+
+<br />
+
+When fish is cooked, carefully peel skin from side facing you. With a knife, divide fish in three portions by making two long cuts parallel to each other and perpendicular to the backbone. Cut down to the rib bones, but do not cut through them. Remove a portion of meat by sliding a spatula over rib bones and pulling meat away; repeat with 2 remaining portions, and place on three warmed plates. Remove backbone and attached rib bones. Cut three more fillets from remaining fish, placing them on plates.
+
+<br />
+
+Drizzle lemon butter over each fillet, and sprinkle with toasted almonds. Pull leaves from remaining sprigs of thyme, and scatter over fillets. Serve immediately
+
+<br />
 
 Cook 1.5 inch filet for 25 minutes approx.
