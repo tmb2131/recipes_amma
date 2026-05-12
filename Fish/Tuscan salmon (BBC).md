@@ -1,17 +1,17 @@
 # Tuscan salmon (BBC)
 
-- 2 tbsp olive oil, for frying : 2 tbsp olive oil, for frying&#x20;
-- 4 salmon fillets, around 125g/4½oz per fillet : 4 salmon fillets, around 125g/4½oz per fillet&#x20;
-- 1 medium onion, sliced : 1 medium onion, sliced&#x20;
-- 1 garlic clove, crushed : 1 garlic clove, crushed&#x20;
-- 1 small bunch fresh parsley: 1 small bunch fresh parsley
-- 75g/2¾oz sun — dried tomatoes, roughly chopped : 75g/2¾oz sun — dried tomatoes, roughly chopped&#x20;
-- 250g/9oz cherry tomatoes, halved : 250g/9oz cherry tomatoes, halved&#x20;
-- 300ml/½ pint double cream: 300ml/½ pint double cream&#x20;
-- ½ lemon, zest and a squeeze of juice: ½ lemon, zest and a squeeze of juice
-- 25g/1oz Parmesan, finely grated: 25g/1oz Parmesan, finely grated
-- 100g/3½oz baby spinach: 100g/3½oz baby spinach&#x20;
-- sea salt and freshly cracked black pepper: sea salt and freshly cracked black pepper
+- 2 tbsp olive oil, for frying
+- 4 salmon fillets, around 125g/4½oz per fillet
+- 1 medium onion, sliced
+- 1 garlic clove, crushed
+- 1 small bunch fresh parsley
+- 75g/2¾oz sun — dried tomatoes, roughly chopped
+- 250g/9oz cherry tomatoes, halved
+- 300ml/½ pint double cream
+- ½ lemon, zest and a squeeze of juice
+- 25g/1oz Parmesan, finely grated
+- 100g/3½oz baby spinach
+- sea salt and freshly cracked black pepper
 
 ***
 
