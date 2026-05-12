@@ -1,8 +1,8 @@
-50gms. Red chillies, 
+50gms Red chillies,
 
 125gms dhania,
 
-20gms black pepper, 
+20gms black pepper,
 
 10gms jeera,
 
