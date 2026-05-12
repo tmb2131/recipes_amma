@@ -1,34 +1,20 @@
 # Lentil, tomato and coconut soup (Guardian)
 
-* Serves 4
+- Serves 4
+- stock (or water if needs be) 1.5 litres
+- small green or brown lentils 250g
+- onions 2, medium
+- olive oil 3 tbsp
+- garlic 3 cloves
+- tomatoes 250g
+- tomato purée 1 tbsp
+- coconut milk 100ml
+- Lao Gan Ma to taste (2 or 3 tsp)
+- coriander leaves to serve
 
-* <br />
+***
 
-  ## Ingredients
-
-* stock (or water if needs be) 1.5 litres
-
-* small green or brown lentils 250g
-
-* onions 2, medium
-
-* olive oil 3 tbsp
-
-* garlic 3 cloves
-
-* tomatoes 250g
-
-* tomato purée 1 tbsp
-
-* coconut milk 100ml
-
-* Lao Gan Ma to taste (2 or 3 tsp)
-
-* coriander leaves to serve
-
-  ***
-
-  Bring the stock to the boil in a medium pan and rain in the lentils. As soon as the stock comes back to the boil, lower the heat slightly and let the lentils cook for 20 minutes or until they are just tender. They should still have a bit of bite to them.
+Bring the stock to the boil in a medium pan and rain in the lentils. As soon as the stock comes back to the boil, lower the heat slightly and let the lentils cook for 20 minutes or until they are just tender. They should still have a bit of bite to them.
 
 * <br />
 
