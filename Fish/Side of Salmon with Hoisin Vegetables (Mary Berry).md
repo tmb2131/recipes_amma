@@ -58,11 +58,7 @@ Place the salmon on a platter, discarding the ginger and lemon. Arrange a line o
    Salmon can be cooked up to 6 hours ahead, serve on the same day. Dressing and sauce can be made up to 4 days ahead.
 2. <br />
 
-   2. <br />
-
    Tip the vegetables in the dressing just before serving. If you dress them too early, the vegetables will lose their crispness.
 3. <br />
-
-   3. <br />
 
    Not suitable for freezing.
