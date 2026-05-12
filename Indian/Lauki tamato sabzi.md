@@ -11,7 +11,7 @@
 - Asafoetida /hing — 1/3 tsp
 - Fresh coriander/dhaniya — 1.5 tbsp
 
-PROCEDURE-
+***
 
 1	Peel bottle gourd and chop in medium size pieces.
 
