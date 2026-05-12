@@ -1,20 +1,38 @@
 # Salmon Bake
 
-- Serves 4
-- Prep Time: 10 MINUTES
-- Cook Time: 15 MINUTES
-- Total Time: 25 MINUTES
-- Servings: 4 SERVINGS
-- ## Ingredients
-- 4 salmon fillets — about 6 ounces each
-- 2 tablespoons olive oil
-- ½ teaspoon salt — or to taste
-- ¼ teaspoon cracked black pepper — just a pinch if using finely ground black pepper
-- 2 teaspoons minced garlic
-- 1 teaspoon Italian herb seasoning blend — OR herbs de provence, or ¼ teaspoon each dried thyme, parsley, oregano, and basil
-- 1 medium lemon
+* Serves 4
 
-* Preheat oven to 400 degrees and grease a large baking pan. Arrange salmon fillets on the baking sheet and season generously with salt and pepper.
+* Prep Time: 10 MINUTES
+
+* Cook Time: 15 MINUTES
+
+* Total Time: 25 MINUTES
+
+* Servings: 4 SERVINGS
+
+* <br />
+
+  ## Ingredients
+
+* 4 salmon fillets — about 6 ounces each
+
+* 2 tablespoons olive oil
+
+* ½ teaspoon salt — or to taste
+
+* ¼ teaspoon cracked black pepper — just a pinch if using finely ground black pepper
+
+* 2 teaspoons minced garlic
+
+* 1 teaspoon Italian herb seasoning blend — OR herbs de provence, or ¼ teaspoon each dried thyme, parsley, oregano, and basil
+
+* 1 medium lemon
+
+* <br />
+
+  ***
+
+  Preheat oven to 400 degrees and grease a large baking pan. Arrange salmon fillets on the baking sheet and season generously with salt and pepper.
 
 * <br />
 
@@ -22,13 +40,11 @@
 
 * <br />
 
-* Bake for 12-15 minutes until salmon is opaque and flaky when pulled apart with a fork. You can broil the last 1-2 minutes if desired.
+* Bake for 12 — 15 minutes until salmon is opaque and flaky when pulled apart with a fork. You can broil the last 1 — 2 minutes if desired.
 
 * <br />
 
 * Garnish with fresh thyme or parsley if desired and serve.
-
-<br />
 
 ## Notes
 
