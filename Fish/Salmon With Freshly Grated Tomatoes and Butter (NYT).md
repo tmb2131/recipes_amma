@@ -9,15 +9,13 @@
 - 2garlic cloves, grated
 - Toast, for serving
 
-* <br />
+***
 
-  ***
-
-  **Step 1**
+**Step 1**
 
 * Place a box grater in a medium bowl. Place the flat, cut side of each tomato half against the coarse side of the grater and grate the tomatoes in the bowl, stopping when you reach the tomato skin. Discard (or snack on) the tomato skins. You should have 1¾ to 2 cups of grated tomatoes.
 
-* 		
+* <br />
 
 * <br />
 
@@ -25,7 +23,7 @@
 
 * Using paper towels, pat dry the salmon fillets. Season with salt on all sides.
 
-* 		
+* <br />
 
 * <br />
 
@@ -33,7 +31,7 @@
 
 * In a 10- to 12-inch skillet over medium heat, melt the butter. Place the salmon fillets skin-side down and sear for 3 minutes, until the skin becomes crispy and easily releases from the pan. Flip the fillets and continue searing for 2 to 3 minutes, until a light crust forms.
 
-* 		
+* <br />
 
 * <br />
 
@@ -41,7 +39,7 @@
 
 * Decrease heat to low to prevent the butter from burning. Transfer the salmon to a clean plate.
 
-* 	
+* <br />
 
 * <br />
 
@@ -49,7 +47,7 @@
 
 * Carefully add the thyme sprigs, garlic and 1 teaspoon coarsely ground pepper to the skillet and cook for 1 minute, until fragrant. Be careful, the butter will splatter after adding the thyme; you may want to partly cover the skillet with a lid until the splattering stops.
 
-* 		
+* <br />
 
 * <br />
 
