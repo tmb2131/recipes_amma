@@ -10,19 +10,15 @@
 - 2cups herbs, such as parsley, cilantro, dill and tarragon, roughly picked from the stem
 - Flaky sea salt, for serving
 
-* <br />
+***
 
-  ***
-
-  	
-
-  **Step 1**
+**Step 1**
 
 * Heat oven to 300 degrees. Season salmon with salt and pepper on both sides. Place in a large baking dish with sliced lemons, orange and thyme (or rosemary, oregano or marjoram), if using.
 
 * <br />
 
-* 	**Step 2**
+* **Step 2**
 
 * Drizzle everything with olive oil and bake until salmon is just turning opaque at the edges and is nearly cooked through, 25 to 35 minutes.
 
