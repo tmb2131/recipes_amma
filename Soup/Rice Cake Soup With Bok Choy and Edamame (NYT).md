@@ -1,44 +1,49 @@
-Rice Cake Soup With Bok Choy and Edamame (NYT)  
-Rice Cake Soup With Bok Choy and Edamame (NYT)  
-Rice Cake Soup With Bok Choy and Edamame (NYT)  
-Rice Cake Soup With Bok Choy and Edamame (NYT)  
-Rice Cake Soup With Bok Choy and Edamame (NYT)  
-Rice Cake Soup With Bok Choy and Edamame (NYT)  
-Rice Cake Soup With Bok Choy and Edamame (NYT)  
-  
-Serves: 4  
-Serves: 4  
-Serves: 4  
-Serves: 4  
-Serves: 4  
-Serves: 4  
-  
-## Ingredients  
-Yield: 4 servings  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-¼ cup vegetable oil 2 medium leeks, trimmed, white and light green parts cut into ¼-inch rounds 1 bunch scallions (about 6), whites and greens separated, thinly sliced 1 (1-inch) piece fresh ginger, peeled and thinly sliced  Kosher salt and black pepper 4 cups chicken stock 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite-size pieces 2 cups fresh or frozen rice cakes (about 10 ounces) 1 cup frozen shelled edamame 2 large eggs, lightly beaten 1 tablespoon apple cider vinegar  
-  
-  
-* 		Step 1 In a pot, heat oil over medium-high. Add leeks, scallion whites and ginger, and season with salt and pepper. Cook, stirring occasionally, until lightly golden at the edges and softened, 7 to 8 minutes.  
-* 		Step 2 Add chicken stock and bok choy stems, and bring to a boil over high. Reduce the heat and simmer and cook until the broth is flavorful, about 10 minutes. Add rice cakes and simmer until plump, about 8 minutes.  
-* 		Step 3 Add edamame and bok choy leaves and stir until bright green, about 1 minute. Swirl in the beaten eggs in a slow, steady stream, stirring gently to make sure the eggs form long ribbons. Stir in the vinegar; season with salt and pepper. Divide among bowls and top with remaining scallion greens.  
-* 		Step 3 Add edamame and bok choy leaves and stir until bright green, about 1 minute. Swirl in the beaten eggs in a slow, steady stream, stirring gently to make sure the eggs form long ribbons. Stir in the vinegar; season with salt and pepper. Divide among bowls and top with remaining scallion greens.  
+# Rice Cake Soup With Bok Choy and Edamame (NY Times)
+
+* Serves: 4
+
+* ¼ cup vegetable oil
+
+* 2 medium leeks, trimmed, white and light green parts cut into ¼ — inch rounds
+
+* 1 bunch scallions (about 6), whites and greens separated, thinly sliced
+
+* 1 (1 — inch) piece fresh ginger, peeled and thinly sliced
+
+* Kosher salt and black pepper
+
+* 4 cups chicken stock
+
+* 2 medium heads baby bok choy (about 8 ounces), trimmed, stems and leaves divided, stems cut into bite — size pieces
+
+* 2 cups fresh or frozen rice cakes (about 10 ounces)
+
+* 1 cup frozen shelled edamame
+
+* 2 large eggs, lightly beaten
+
+* 1 tablespoon apple cider vinegar
+
+  ***
+
+  Step 1
+
+In a pot, heat oil over medium-high. Add leeks, scallion whites and ginger, and season with salt and pepper. Cook, stirring occasionally, until lightly golden at the edges and softened, 7 to 8 minutes.
+
+<br />
+
+Step 2
+
+Add chicken stock and bok choy stems, and bring to a boil over high. Reduce the heat and simmer and cook until the broth is flavorful, about 10 minutes. Add rice cakes and simmer until plump, about 8 minutes.
+
+<br />
+
+Step 3
+
+Add edamame and bok choy leaves and stir until bright green, about 1 minute. Swirl in the beaten eggs in a slow, steady stream, stirring gently to make sure the eggs form long ribbons. Stir in the vinegar; season with salt and pepper. Divide among bowls and top with remaining scallion greens.
+
+<br />
+
+Step 3
+
+Add edamame and bok choy leaves and stir until bright green, about 1 minute. Swirl in the beaten eggs in a slow, steady stream, stirring gently to make sure the eggs form long ribbons. Stir in the vinegar; season with salt and pepper. Divide among bowls and top with remaining scallion greens.
