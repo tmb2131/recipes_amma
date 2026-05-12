@@ -14,7 +14,7 @@
 - ½ tsp garam masala
 - 500g/1lb 2oz full — fat ricotta
 - ¼ tsp salt
-- ---
+- —  —  —
 - To garnish the bhurji
 - ½ small red onion, finely chopped
 - ½ small tomato, chopped
@@ -27,7 +27,7 @@
 
 ***
 
-## Place the spinach in a colander inside the sink. Pour hot kettle water over the top to wilt. Once the spinach has wilted, refresh under cold running water. Squeeze as much water as you can out of the spinach and roughly chop. Set aside.
+Place the spinach in a colander inside the sink. Pour hot kettle water over the top to wilt. Once the spinach has wilted, refresh under cold running water. Squeeze as much water as you can out of the spinach and roughly chop. Set aside.
 
 1. Next, make the garlic butter for the garlic naan toast. In a bowl, use the back of a fork to squash together the softened butter, garlic, nigella seeds and coriander. Set aside.
 
