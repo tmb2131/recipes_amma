@@ -1,32 +1,19 @@
 # Curried Singapore Noodles With Stir-Fried Veggies
 
-* tablespoons low — sodium soy sauce
-
-* Packed 1 tablespoon dark brown sugar
-
-* 1 tablespoon mirin
-
-* 1 tablespoon water
-
-* 4 ounces rice vermicelli noodles
-
-* 2 tablespoons grapeseed or vegetable oil
-
-* 1/4 medium head green cabbage (13 to 14 ounces total), cored and thinly sliced
-
-* 1/2 large red bell pepper, cored, seeded and thinly sliced
-
-* 1/2 medium red onion (4 ounces total), thinly sliced
-
-* 3 to 4 ounces fresh snow peas, strings removed and sliced on the diagonal
-
-* Fine salt
-
-* One (1 — inch) piece fresh ginger, finely grated
-
-* 2 teaspoons chili — garlic sauce
-
-* 2 teaspoons curry powder, preferably Madras
+- tablespoons low — sodium soy sauce
+- Packed 1 tablespoon dark brown sugar
+- 1 tablespoon mirin
+- 1 tablespoon water
+- 4 ounces rice vermicelli noodles
+- 2 tablespoons grapeseed or vegetable oil
+- 1/4 medium head green cabbage (13 to 14 ounces total), cored and thinly sliced
+- 1/2 large red bell pepper, cored, seeded and thinly sliced
+- 1/2 medium red onion (4 ounces total), thinly sliced
+- 3 to 4 ounces fresh snow peas, strings removed and sliced on the diagonal
+- Fine salt
+- One (1 — inch) piece fresh ginger, finely grated
+- 2 teaspoons chili — garlic sauce
+- 2 teaspoons curry powder, preferably Madras
 
 ***
 
@@ -65,11 +52,19 @@ Add the soy sauce mixture and stir-fry for a few seconds. Taste, and season with
 * Step 9
 
 Divide among individual plates or wide bowls, and serve warm.
+
 Substitutions
+
 Red onion >> other types of onion.
+\
 Red bell pepper >> other bell pepper colors.
+\
 Snow peas >> sugar snap peas, or shelled peas (fresh or frozen, no need to defrost).
+\
 Green cabbage >> Napa cabbage.
+\
 Rice noodles >> thin wheat or egg noodles.
+\
 Gluten-free? >> Use gluten-free tamari instead of soy sauce.
+\
 Want to add more protein? >> Add cubed firm or extra-firm tofu, or cooked chicken, shrimp or pork.
