@@ -6,6 +6,8 @@ Now grind them to chutney adding some water. After grinding add some more water 
 Heat a pan with 2 tea spoons of oil.\
 Add mustard seeds and after they splutter add 2 tb spoons of thinly sliced onions and some curry leaves.
 
-Fry till the onions become translucent. Switch off the stove and wait till it becomes cold.\
-Add to the chutney and mix well.\
+Fry till the onions become translucent. Switch off the stove and wait till it becomes cold.
+
+Add to the chutney and mix well.
+
 The spicy chutney is ready now.
