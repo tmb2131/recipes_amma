@@ -2,7 +2,7 @@
 
 - 60 gms dhania
 - 35 gms jeera
-- 5  gms ajvain
+- 5 gms ajvain
 - 30 gms red chillies
 - 17 gms ginger powder
 - 7 gms tej patta
@@ -13,9 +13,6 @@
 - 12 gms badi elaichi
 - 35 gms anardana powder
 
-<br />
-
 ***
 
-\
 **R**oast, cool and powder.
