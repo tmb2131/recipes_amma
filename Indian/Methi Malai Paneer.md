@@ -22,8 +22,9 @@
 - 1.5 cups water
 - 1 teaspoon kasuri methi crushed
 
-**Make the onion-cashew paste**
-To a pan on medium heat, add 1 cup water, roughly chopped onion, ginger, garlic, cardamom pods (I crush them before adding), sliced green chili and cashews.
+***
+
+**Make the onion — cashew paste** To a pan on medium heat, add 1 cup water, roughly chopped onion, ginger, garlic, cardamom pods (I crush them before adding), sliced green chili and cashews.
 Simmer for 15-20 minutes on medium heat. Onions will be really soft by then and almost all water would have evaporated.
 Remove pan from heat and let the mixture cool down a bit.
 Grind to a smooth paste using your blender or food processor. You don't need to add any water here since the mixture already has little water it in and will grind quite easily. Set aside.
@@ -38,7 +39,7 @@ Then water , salt and let the curry simmer for 3-4 minutes. This will also cook 
 Add heavy cream and mix.
 Add paneer cubes and simmer for 2-3 minutes.
 And finally add crushed kasuri methi (dried fenugreek leaves) and sprinkle little garam masala on top.
-Remove pan from heat. 
+Remove pan from heat.
 
 <br />
 
