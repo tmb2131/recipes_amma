@@ -27,4 +27,4 @@ Add the mushrooms and cook for 5 minutes. 
 **Step 3**
 Add all remaining ingredients except the spinach/pak choi/bok choy leaves and cover with the vegetable stock. Turn the heat down to low and simmer for 20 minutes, adding the spinach or pak choi/bok choy for the last 3 minutes so that it maintains its lovely green colour. 
 
-**Step 4 **Serve with toasted peanuts, fresh mint, purple cabbage and sauerkraut.
+**Step 4** Serve with toasted peanuts, fresh mint, purple cabbage and sauerkraut.
