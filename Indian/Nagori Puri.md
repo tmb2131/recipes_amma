@@ -6,18 +6,12 @@
 - to taste salt
 - 2 tbsp yogurt
 - Oil or ghee (for frying)
+- 1. <br />
 
-1. <br />
+***
 
-   ***
+1. Mix the maida, ghee, ajwain, salt and yogurt and knead to a stiff dough.
 
-   1\. Mix the maida, ghee, ajwain, salt and yogurt and knead to a stiff dough.
+   Roll out small rounds and fry first over high heat and then over low till brown and cooked through.
 
-* 2\.
-  Roll out small rounds and fry first over high heat and then over low till brown and cooked through.
-
-* <br />
-
-  3. <br />
-
-  Serve hot with a rasedaar aloo of your choice.
+   Serve hot with a rasedaar aloo of your choice.
