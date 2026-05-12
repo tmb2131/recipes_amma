@@ -1,6 +1,6 @@
 Boil cubed unripe mango with haldi\
 \
-Grind\
+**Grind**\
 Coconut\
 Ginger\
 Green chillies\
