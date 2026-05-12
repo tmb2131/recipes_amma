@@ -39,4 +39,5 @@
 13. Heat the soup through, taste and adjust the seasonings with salt, pepper, drops of red wine vinegar and dabs of chipotle purée.
 14. <br />
 15. Serve in deep bowls, garnishing each serving with sour cream, pickled onions, cilantro leaves, sliced chiles and avocado as desired.
-16. Tip: If chipotle chiles are unavailable, use 1 tablespoon each ground cumin and ground coriander. Add to vegetables at the same point in the recipe, in Step 3.
+16. <br />
+17. Tip: If chipotle chiles are unavailable, use 1 tablespoon each ground cumin and ground coriander. Add to vegetables at the same point in the recipe, in Step 3.
