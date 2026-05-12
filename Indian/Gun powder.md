@@ -14,4 +14,4 @@
 
 ***
 
-**Roast & grind**
+**R**oast & grind
