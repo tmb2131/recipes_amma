@@ -1,7 +1,6 @@
 # Dry Garlic Chutney
 
 - | Garlic Cloves |
-- | : —  —  —  — |
 - | 1/2 cup grated Dry Coconut |
 - | 1 tablespoon Sesame Seeds |
 - | 1 tablespoon Roasted Peanuts (groundnuts) |
