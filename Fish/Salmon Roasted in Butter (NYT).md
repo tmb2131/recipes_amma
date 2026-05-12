@@ -1,22 +1,28 @@
-Salmon Roasted in Butter (NYT)  
-  
-  
-  
-**Yield:**  
-4 to 6 servings  
-* 		4tablespoons (½ stick) butter  
-* 		4tablespoons minced chervil, parsley or dill  
-* 		1salmon fillet, 1½ to 2 pounds  
-* 		Salt and freshly ground black pepper to taste  
-* 		Lemon wedges  
-**Add ingredients to Grocery List**  
-**Shop ingredients on Instacart**  
-**Your first order gets $20 off and free delivery.**  
-++[Instacart terms apply.](https://www.instacart.com/help/section/360007996832/26915917211540)++  
-++[Ingredient Substitution Guide](https://cooking.nytimes.com/article/ingredient-substitutions)++  
-++Nutritional Information++  
-  
-**PREPARATION**  
-* **		Step 1 **Preheat the oven to 475 degrees. Place the butter and half the herb in a roasting pan just large enough to fit the salmon and place it in the oven. Heat about 5 minutes, until the butter melts and the herb begins to sizzle.  
-* **		Step 2 **Add the salmon to the pan, skin side up. Roast 4 minutes. Remove from the oven, then peel the skin off. (If the skin does not lift right off, cook 2 minutes longer.) Sprinkle with salt and pepper and turn the fillet over. Sprinkle with salt and pepper again.  
-* **		Step 3 **Roast 3 to 5 minutes more, depending on the thickness of the fillet and the degree of doneness you prefer. Cut into serving portions, spoon a little of the butter over each and garnish with the remaining herb. Serve with lemon wedges.  
+# Salmon Roasted in Butter (NY Times)
+
+- 4 to 6 servings
+- 4tablespoons (½ stick) butter
+- 4tablespoons minced chervil, parsley or dill
+- 1salmon fillet, 1½ to 2 pounds
+- Salt and freshly ground black pepper to taste
+- Lemon wedges
+
+* <br />
+
+  ***
+
+  	**Step 1**
+
+* Preheat the oven to 475 degrees. Place the butter and half the herb in a roasting pan just large enough to fit the salmon and place it in the oven. Heat about 5 minutes, until the butter melts and the herb begins to sizzle.
+
+* <br />
+
+* 		**Step 2**
+
+* Add the salmon to the pan, skin side up. Roast 4 minutes. Remove from the oven, then peel the skin off. (If the skin does not lift right off, cook 2 minutes longer.) Sprinkle with salt and pepper and turn the fillet over. Sprinkle with salt and pepper again.
+
+* <br />
+
+* 		**Step 3**
+
+* Roast 3 to 5 minutes more, depending on the thickness of the fillet and the degree of doneness you prefer. Cut into serving portions, spoon a little of the butter over each and garnish with the remaining herb. Serve with lemon wedges.
