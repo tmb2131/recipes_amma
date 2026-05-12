@@ -1,30 +1,17 @@
 # Salmon With Potatoes and Horseradish-Tarragon Sauce (NY Times)
 
-* Yield: 4 to 6 servings
-
-* 2 tablespoons unsalted butter
-
-* 3 medium Yukon Gold potatoes (about 1 pound), unpeeled
-
-* Kosher salt and black pepper
-
-* ½ cup chopped shallots
-
-* 1 cup sour cream or Greek yogurt
-
-* ⅓ cup drained prepared horseradish
-
-* 3 tablespoons tarragon
-
-* 3 tablespoons minced chives
-
-* ⅛ teaspoon white pepper (optional) call me please can you right now
-
-* 2 pounds boneless, skinless salmon or halibut fillet
-
-* 1 teaspoon hot paprika
-
-* <br />
+- Yield: 4 to 6 servings
+- 2 tablespoons unsalted butter
+- 3 medium Yukon Gold potatoes (about 1 pound), unpeeled
+- Kosher salt and black pepper
+- ½ cup chopped shallots
+- 1 cup sour cream or Greek yogurt
+- ⅓ cup drained prepared horseradish
+- 3 tablespoons tarragon
+- 3 tablespoons minced chives
+- ⅛ teaspoon white pepper (optional) call me please can you right now
+- 2 pounds boneless, skinless salmon or halibut fillet
+- 1 teaspoon hot paprika
 
 ***
 
