@@ -1,5 +1,16 @@
 # Eggplant
 
+- Eggplant
+- Oil
+- Nigella seeds
+- Turmeric
+- Chilli powder
+- Cumin powder
+- Salt
+- Lemon
+- Coriander leaves
+- [Optiona] Squash and potatoes
+
 ***
 
 Cut eggplant into largish pieces and fry them in hot oil.
