@@ -13,10 +13,9 @@
 - 1 (15 — ounce) can cannellini or butter beans, rinsed
 - 1 large bunch Tuscan kale, stems and leaves chopped (6 packed cups)
 - Cooked white rice, for serving
+- Sour cream and chopped flat-leaf parsley (both optional), for serving
 
 ***
-
-Sour cream and chopped flat-leaf parsley (both optional), for serving
 
 Heat a large pot or Dutch oven over medium-high. Melt the butter and add the onion. Season with salt and pepper. Cook, stirring occasionally, until the onion starts to soften, 2 to 3 minutes. Add the garlic and gochujang, and stir until heated through and fragrant, just a few seconds.
 
