@@ -22,7 +22,6 @@
 
 ***
 
-
 FOR THE LEMON BUTTER SAUCE:
 
 In a small saucepan, combine the wine and the minced onion. Bring to a boil and reduce the temperature to medium heat until liquid reduces to 2 tablespoons.
@@ -57,9 +56,6 @@ Set the salmon packets on a baking sheet lined with foil.
 
 Bake at 375 degrees F, on the center rack, in the oven for 15-16 minutes, depending on personal preference.
 DO NOT OPEN.
-
-<br />
-
 
 Remove salmon from the oven and, carefully, cut open the top of the packet and serve the salmon in the paper. If desired, remove the skin before serving.
 Warm the lemon butter and drizzle it over the salmon.
