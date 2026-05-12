@@ -1,7 +1,7 @@
 # Eggplant
 
 - Eggplant
-- Oil
+- Olive oil
 - Nigella seeds
 - Turmeric
 - Chilli powder
