@@ -11,8 +11,7 @@
 - 2teaspoons sherry or white wine vinegar
 - ¼cup heavy cream, plus more for serving
 
-* \*\*		Step 1
-  \*\*Heat the oven to 400 degrees. On a sheet pan, toss together the mushrooms, shallots, thyme, oil and soy sauce until well combined. Sprinkle with salt and pepper and spread into an even layer.
+\*\* Step 1 \*\*Heat the oven to 400 degrees. On a sheet pan, toss together the mushrooms, shallots, thyme, oil and soy sauce until well combined. Sprinkle with salt and pepper and spread into an even layer.
 
 * \*\*		Step 2
   \*\*Roast until the mushrooms are pooling in liquid, about 15 minutes. Carefully pour the liquid into a small bowl and reserve. Return the sheet pan to the oven and roast, stirring occasionally, until browned, another 25 to 30 minutes.
