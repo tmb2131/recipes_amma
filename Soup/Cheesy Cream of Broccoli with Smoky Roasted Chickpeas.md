@@ -24,7 +24,6 @@
 - | 1 | cup (240 ml) unsweetened nondairy milk |
 - | 1/4 | cup (20 g) nutritional yeast |
 - | 1 | pinch freshly ground black pepper |
-- 1. <br />
 
 ***
 
