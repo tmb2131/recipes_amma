@@ -40,6 +40,7 @@
    \
    Salt – add to taste
 
+\
 **To make Chokha:**
 
 * 4-6 potatoes, boiled and peeled
