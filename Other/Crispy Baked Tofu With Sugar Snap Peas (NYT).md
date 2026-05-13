@@ -26,7 +26,7 @@ Transfer tofu slices to a cutting board and cut into 1-inch cubes. Pat them dry 
 
 In a medium bowl, whisk together 1 tablespoon oil and cornstarch. Add tofu to the mixture and gently toss until evenly coated. Place tofu on one side of the prepared sheet pan. Sprinkle with 4 tablespoons Parmesan.
 
-* <br />
+<br />
 
 In a large bowl, toss together the red onion wedges, sugar snap peas, lemon juice, remaining ¾ teaspoon salt and ¼ teaspoon pepper. Drizzle in remaining 2 tablespoons oil, tossing to combine.
 
