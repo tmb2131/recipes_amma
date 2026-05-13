@@ -14,7 +14,6 @@
 - ½cup coarsely chopped parsley, plus more for serving
 - Ground cinnamon, for serving (optional)
 - Flaky sea salt, for serving
-- Add to Your Grocery List
 
 Bring a large pot of water to a boil. Put currants in a small bowl and ladle a little of the boiling water over them to cover. Let soak for 10 minutes, then drain.
 
