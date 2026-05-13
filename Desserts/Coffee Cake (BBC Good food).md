@@ -1,22 +1,38 @@
 # Coffee Cake (BBC Good food)
 
-- Serves: 8
-- 225g self raising flour
-- 1 tsp baking powder
-- 225g golden caster sugar
-- 225g olive oil
-- 2 large eggs
-- 2 tbsp strong coffee
-- 75ml milk
-- Filling
-- 100g softened butter
-- 100g golden caster sugar
-- 250g mascarpone
-- 12 walnut halves
-- 1 tsp vanilla extract
-- 3 tsp strong coffee
+* Serves: 8
 
-* STEP 1 Preheat oven to 170’C. Line two 20cm cake tins.
+* 225g self raising flour
+
+* 1 tsp baking powder
+
+* 225g golden caster sugar
+
+* 225g olive oil
+
+* 2 large eggs
+
+* 2 tbsp strong coffee
+
+* 75ml milk
+
+* Filling
+
+* 100g softened butter
+
+* 100g golden caster sugar
+
+* 250g mascarpone
+
+* 12 walnut halves
+
+* 1 tsp vanilla extract
+
+* 3 tsp strong coffee
+
+  ***
+
+  STEP 1 Preheat oven to 170’C. Line two 20cm cake tins.
 
 * STEP 2 Whisk together the eggs, olive oil, coffee, milk and sugar. Gently mix in the flour and baking powder. Divide the mixture evenly between the cake tins. Bake for 25-30 mins.
 
