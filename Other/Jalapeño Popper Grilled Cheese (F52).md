@@ -8,9 +8,7 @@
 - Garlic powder, for sprinkling
 - Salted butter, at room temperature, for smearing
 
-In the oven or a toaster oven, heat the broiler to high with a rack no more than 6 inches from the heat source. Line a sheet pan with foil. Add the jalapeños, cut side down. Broil until blackened and flattened, rotating the pan halfway through, 6 to 8 minutes. Transfer the jalapeños to a small bowl and use the foil to tightly cover, so the jalapeños can steam for a few minutes. Peel away and discard the skins.
-
-<br />
+In the oven or a toaster oven, heat the broiler to high with a rack no more than 6 inches from the heat source. Line a sheet pan with foil. Add the jalapeños, cut side down. Broil until blackened and flattened, rotating the pan halfway through, 6 to 8 minutes. Transfer the jalapeños to a small bowl and use the foil to tightly cover, so the jalapeños can steam for a few minutes. Peel away and discard the skins. 
 
 Meanwhile, if you’re using bacon, add it to a (preferably cast-iron) skillet and set over medium heat. Cook for about 8 minutes, flipping halfway through, until it’s as crispy as you like. Transfer the bacon to a plate and pour the fat into a heatproof jar. (If you’re using potato chips instead, skip this step.)
 Lay 2 slices of bread on a work surface. Top each with a slice of cheese, 4 jalapeño halves, half the bacon or potato chips, another slice of cheese, and another slice of bread.
