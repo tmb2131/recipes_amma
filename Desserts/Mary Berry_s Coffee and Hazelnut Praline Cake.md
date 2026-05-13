@@ -1,42 +1,21 @@
 # Mary Berry's Coffee and Hazelnut Praline Cake
 
-- Serves 6-8
+- Serves 6 — 8
 - coffee granules 1 tbsp
-- just-boiled water 1 tbsp
+- just — boiled water 1 tbsp
 - eggs 4
 - baking spread, plus extra for greasing 225g (8oz)
 - caster sugar 225g (8oz)
-- self-raising flour 225g (8oz)
+- self — raising flour 225g (8oz)
 - baking powder 1 tsp
 - For the praline:
 - granulated sugar 100g (4oz)
 - whole hazelnuts 75g (3oz)
 - For the buttercream icing:
 - coffee granules 1½ tbsp
-- just-boiled water 1½ tbsp
+- just — boiled water 1½ tbsp
 - butter, softened 225g (8oz)
 - icing sugar 400g (14oz)
-
-<br />
-
-| <br /> | <br /> |
-| ------ | ------ |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-| <br /> | <br /> |
-
-<br />
 
 **Essential kit**\
 You will need: two 20cm (8in) round, loose-bottomed sandwich tins, an electric hand whisk,
