@@ -1,7 +1,6 @@
 # Cheesy White Bean Bake (NY Times)
 
 - Serves 4
-- INGREDIENTS
 - ¼ **cup extra — virgin olive oil
 - 3 **fat garlic cloves, thinly sliced
 - 3 **tablespoons tomato paste
