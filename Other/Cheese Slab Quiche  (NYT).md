@@ -16,7 +16,7 @@
 - 1 tablespoon Dijon mustard
 - 6 ounces Gruyère, grated (about 1¾ cups)
 
-\*\*Step 1\*\*Arrange a rack in the center of your oven and set to 375 degrees. Grab two 9-by-13-inch sheet trays (no deeper than 1¼ inches), and butter the inside of one (making sure to butter the rim and lip) and underneath the second one (including the lip).
+**Step 1 **Arrange a rack in the center of your oven and set to 375 degrees. Grab two 9-by-13-inch sheet trays (no deeper than 1¼ inches), and butter the inside of one (making sure to butter the rim and lip) and underneath the second one (including the lip).
 
 \*\*Step 2
 \*\*On a lightly floured surface, roll out the puff pastry until it’s wide enough to come up and slightly over the lip of a sheet tray, but by no more than ¼-inch. You’re looking for a rectangle that is roughly 12 inches wide and 15 inches long.
