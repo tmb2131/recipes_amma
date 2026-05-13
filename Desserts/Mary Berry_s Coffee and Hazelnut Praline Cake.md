@@ -17,10 +17,13 @@
 - butter, softened 225g (8oz)
 - icing sugar 400g (14oz)
 
-**Essential kit**\
-You will need: two 20cm (8in) round, loose-bottomed sandwich tins, an electric hand whisk,
+**Essential kit**
 
-## Instructions
+You will need: two 20cm (8in) round, loose — bottomed sandwich tins, an electric hand whisk,
+
+<br />
+
+**Instructions**
 
 1. You will need two 20cm (8in) round, loose-bottomed sandwich tins and a baking sheet lined with non-stick baking paper. Preheat the oven to 180°C/160°C fan/Gas 4, then grease the tins and line each base with a disc of baking paper.
 2. <br />
