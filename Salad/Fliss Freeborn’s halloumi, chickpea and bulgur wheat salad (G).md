@@ -1,13 +1,6 @@
-Fliss Freeborn’s halloumi, chickpea and bulgur wheat salad (G)  
-Fliss Freeborn’s halloumi, chickpea and bulgur wheat salad (G)  
-Fliss Freeborn’s halloumi, chickpea and bulgur wheat salad (G)  
-Fliss Freeborn’s halloumi, chickpea and bulgur wheat salad (G)  
-Fliss Freeborn’s halloumi, chickpea and bulgur wheat salad (G)  
-  
-Serves 2  
-Serves 2  
-Serves 2  
-Serves 2  
-Serves 2  
-Freeborn, Fortnum & Mason’s cookery writer of the year, has no time for salads as sides. For her, they have to feed a person, so she believes in including carbs. Here, she suggests adding to bulgur wheat (or rice, if you want to make it gluten-free) either pomegranate seeds or chopped apricots, but I would include both. Substitute tofu for the halloumi to keep it vegan. Serves two, generously.  
-Cook 120g bulgur wheat in salted water, according to the packet instructions. Fry 220g halloumi slices in a splash of olive oil until golden on both sides, then remove and chop up. To the same pan, add a can of chickpeas and 2 tbsp harissa paste. Stir-fry for 4-6 minutes, to coat the pulses, then leave on a low heat, stirring occasionally, while you dice 1 small deseeded cucumber and very finely chop 20g each coriander and parsley. When the bulgur wheat is cooked, drain it, then tip into a big serving bowl with the chickpeas. Mix, then add in the halloumi, cucumber and herbs, along with 2 tbsp pomegranate seeds or chopped apricots. Drizzle with olive oil and 1 tbsp lemon juice and serve warm, sprinkled with 1 tbsp flaked almonds, if you like.  
+Fliss Freeborn’s halloumi, chickpea and bulgur wheat salad (G)\
+Serves 2
+
+Freeborn, Fortnum & Mason’s cookery writer of the year, has no time for salads as sides. For her, they have to feed a person, so she believes in including carbs. Here, she suggests adding to bulgur wheat (or rice, if you want to make it gluten-free) either pomegranate seeds or chopped apricots, but I would include both. Substitute tofu for the halloumi to keep it vegan. Serves two, generously.
+
+Cook 120g bulgur wheat in salted water, according to the packet instructions. Fry 220g halloumi slices in a splash of olive oil until golden on both sides, then remove and chop up. To the same pan, add a can of chickpeas and 2 tbsp harissa paste. Stir-fry for 4-6 minutes, to coat the pulses, then leave on a low heat, stirring occasionally, while you dice 1 small deseeded cucumber and very finely chop 20g each coriander and parsley. When the bulgur wheat is cooked, drain it, then tip into a big serving bowl with the chickpeas. Mix, then add in the halloumi, cucumber and herbs, along with 2 tbsp pomegranate seeds or chopped apricots. Drizzle with olive oil and 1 tbsp lemon juice and serve warm, sprinkled with 1 tbsp flaked almonds, if you like.
