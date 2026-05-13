@@ -1,6 +1,17 @@
-Crisp gnocchi with tomatoes(G)!
+# Crisp gnocchi with tomatoes(G)!
 
-Serves 2 red onion 1 small red wine vinegar 2 tbsp ready-made gnocchi 400g olive oil a little assorted tomatoes 400g radishes 8-12 cucumber 250g parsley a small bunch garlic 2 cloves olive oil 4 tbsp
+- Serves 2
+- red onion 1
+- small red wine vinegar 2 tbsp
+- ready-made gnocchi 400g
+- olive oil 4 tbsp
+- assorted tomatoes 400g
+- radishes 8-12
+- cucumber 250g
+- parsley a small bunch
+- garlic 2 cloves
+
+<br />
 
 ***
 
