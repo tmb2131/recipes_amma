@@ -1,6 +1,6 @@
 # Shortcrust pastry - Read all
 
-<br />
+- See Method section
 
 Shortcrust pastry - Read all
 
@@ -45,6 +45,8 @@ Shortcrust pastry - Read all
 
 <br />
 
+<br />
+
 **Basic Flaky Pie Crust for a 9-Inch Pie**
 
 * Divide the butter into two parts, about two thirds to one third -- 2.5 ounces and 1.5 ounces (5 tablespoons and 3 tablespoons). Cut the butter into 3/4-inch cubes. Wrap each portion of butter with plastic wrap, refrigerate the larger amount and freeze the smaller for at least 30 minutes. Place the flour, salt, and baking powder in a reclosable gallon-size freezer bag and freeze for at least 30 minutes.
@@ -72,13 +74,14 @@ Shortcrust pastry - Read all
 
 <br />
 
-<br />
-
 **WP**
 
 * 1 1/4 cups (156 grams) all-purpose flour
+
 * 1/4 teaspoon fine sea salt
+
 * 8 tablespoons (113 grams/1 stick) cold unsalted butter, cut into 1/2-inch (13-millimeter) cubes
+
 * 1/4 cup (60 milliliters/57 grams) ice water, plus more as needed
 
 <br />
