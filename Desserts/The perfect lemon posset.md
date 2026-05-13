@@ -18,8 +18,6 @@ Divide between ramekins and pass a blowtorch over the top if you're pernickety a
 
 <br />
 
-<br />
-
 ***
 
 **Lemon Posset**
@@ -38,7 +36,6 @@ Divide between ramekins and pass a blowtorch over the top if you're pernickety a
 2. Boil it for precisely 3 minutes and no more.
 3. Remove it from the heat and whisk in the lemon juice and zest.
 4. Divide the mixture between 6 clean glass jars, allow to cool, and transfer to the fridge to set for at least 3 hours, preferably overnight.
-5. <br />
 
    ***
 
@@ -65,7 +62,6 @@ caster sugar 30g
 rose water 1 tsp (optional)
 \
 raspberries 1 punnet
-
 
 Put the glasses on a tray (one that will fit in the fridge), to be filled as soon as the cream is prepared.
 
