@@ -11,16 +11,6 @@
 - 4 tbsp gram flour (or plain flour)
 - 1 tsp salt
 - Vegetable oil (sunflower or rapeseed) for frying
-- 500g soaked chickpeas (from 250g dry)
-- 1 large onion (approx 180g)
-- 2 cloves of garlic (peeled)
-- 2 tsp ground cumin
-- 1 tsp ground coriander
-- 1 tsp ground cinnamon
-- 2 tsp baking powder
-- 4 tbsp gram flour (or plain flour)
-- 1 tsp salt
-- Vegetable oil (sunflower or rapeseed) for frying
 
 Use a coarse blade on a meat grinder if you have it – the texture is nicer – or use the pulse setting on a food processor. Blitz or grind the chickpeas, onion and garlic to get the same texture throughout. It should be quite gravelly and not too smooth. Then transfer to a large bowl and add all the spices, baking powder, flour and salt. Mix into a paste. Squeeze a little in your palm to a ball; it should hold its shape well. The mix can be made a day ahead and kept in the fridge.
 If you own an electric fryer, use that, or set a medium pan on the heat and half-fill with a neutral vegetable oil, such as sunflower or rapeseed. The fryer should be at 170C; in a pan, test the oil by placing a small piece of bread or falafel mix in the oil, and as soon as it starts to bubble up and float, you’re ready to go.
@@ -44,6 +34,5 @@ Mix equal quantities of tahini paste and cold water in a bowl, add as much crush
 
 **Cabbage salad**\
 Finely shred white cabbage, sprinkle with salt and let stand for 5-10 minutes till the cabbage softens a bit. Add oil, lemon and lots of chopped parsley. Or use sauerkraut from a jar.
-
 
 Pickled chillies, cucumber and pink turnip pickles are available from Middle Eastern grocers.
