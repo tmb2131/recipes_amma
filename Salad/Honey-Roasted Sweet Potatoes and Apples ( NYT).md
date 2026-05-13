@@ -8,11 +8,9 @@
 - Salt
 - Generous pinch of red — pepper flakes or black pepper
 
-* <br />
+***
 
-  ***
-
-  Step 1
+Step 1
 
 * Heat the oven to 425 degrees. Halve the vegetables lengthwise, then cut each piece lengthwise into ½ — inch — thick wedges. If pieces are long, cut crosswise into 4 — or — so — inch lengths. Quarter the fruit lengthwise through the stem, then core to remove seeds.
 
