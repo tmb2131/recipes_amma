@@ -1,40 +1,23 @@
 # Creamy leeks and butter beans with za’atar breadcrumbs (Guardian)
 
-* 500g leeks, trimmed and cut into 1½cm — thick rounds (substitute with celery and scallions)
-
-* 4 shallots (160g), peeled and cut into 1cm — thick rounds
-
-* 7 garlic cloves, peeled
-
-* 60ml olive oil, plus 1 tbsp extra to finish
-
-* Fine sea salt and black pepper
-
-* 1 x 600g jar butter beans, drained and liquid reserved (you should be left with about 200ml)
-
-* 2 slices sourdough, crusts cut off, the rest blitzed to coarse breadcrumbs (60g)
-
-* 1½ tbsp za’atar
-
-* <br />
-
-* For the cream mixture
-
-* 2 x 125g balls mozzarella, drained and roughly torn; set aside 50g to finish
-
-* 150g creme fraiche
-
-* 100ml chicken stock, or water
-
-* 1½ tsp cornflour
-
-* 1 tbsp wholegrain mustard
-
-* 1 tbsp dijon mustard
-
-* 10g chives, finely chopped
-
-* 15g picked flat — leaf parsley, roughly chopped
+- 500g leeks, trimmed and cut into 1½cm — thick rounds (substitute with celery and scallions)
+- 4 shallots (160g), peeled and cut into 1cm — thick rounds
+- 7 garlic cloves, peeled
+- 60ml olive oil, plus 1 tbsp extra to finish
+- Fine sea salt and black pepper
+- 1 x 600g jar butter beans, drained and liquid reserved (you should be left with about 200ml)
+- 2 slices sourdough, crusts cut off, the rest blitzed to coarse breadcrumbs (60g)
+- 1½ tbsp za’atar
+- ---
+- For the cream mixture
+- 2 x 125g balls mozzarella, drained and roughly torn; set aside 50g to finish
+- 150g creme fraiche
+- 100ml chicken stock, or water
+- 1½ tsp cornflour
+- 1 tbsp wholegrain mustard
+- 1 tbsp dijon mustard
+- 10g chives, finely chopped
+- 15g picked flat — leaf parsley, roughly chopped
 
 ***
 
