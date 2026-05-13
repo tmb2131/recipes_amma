@@ -23,6 +23,8 @@ Bring a deep pan of water to the boil and salt generously. When the water is bub
 \
 Dice the tomatoes and put them in a large bowl. Halve or thinly slice the radishes as you wish, then add them to the tomatoes. Peel the cucumber, slice it lengthways and remove and discard the inner wet core of seeds. Cut the flesh into small dice and toss among the tomatoes and radishes.
 
+<br />
+
 Finely chop the parsley leaves and add to the tomatoes. You will need about 3 heaped tablespoons. Chill the salad in the fridge while you fry the gnocchi.
 
 \
