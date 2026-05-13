@@ -10,7 +10,6 @@
 - 2 tablespoons all — purpose flour
 - 1 tablespoon powdered sugar
 - Sprinkles, for garnishing
-- Spray a small microwave — safe mug or a 5 — ounce ramekin with vegetable oil spray.
 
 Place butter in the mug & melt in microwave, about 30 seconds.
 
