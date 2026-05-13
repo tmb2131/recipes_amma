@@ -1,18 +1,35 @@
-Chili Lime Black Bean Tacos   
-Chili Lime Black Bean Tacos   
-Chili Lime Black Bean Tacos   
-  
-Servings: 2 (makes 6 tacos)  
-2 scallions, trimmed and thinly sliced crosswise (white and green parts)  1 small red onion (4 ounces), thinly sliced and divided 1/4 cup fresh lime juice (from 2 to 3 limes) 1/4 teaspoon fine salt, plus more as needed 2 tablespoons extra-virgin olive oil One (15.5-ounce) can no-salt-added black beans, with the liquid 1 teaspoon chili powder 1 teaspoon ground cumin 1 teaspoon Spanish smoked paprika (pimentón; sweet or hot)  1 teaspoon Dijon mustard Six (6-inch) corn tortillas  
-2 scallions, trimmed and thinly sliced crosswise (white and green parts)  1 small red onion (4 ounces), thinly sliced and divided 1/4 cup fresh lime juice (from 2 to 3 limes) 1/4 teaspoon fine salt, plus more as needed 2 tablespoons extra-virgin olive oil One (15.5-ounce) can no-salt-added black beans, with the liquid 1 teaspoon chili powder 1 teaspoon ground cumin 1 teaspoon Spanish smoked paprika (pimentón; sweet or hot)  1 teaspoon Dijon mustard Six (6-inch) corn tortillas  
-1 cup chopped romaine lettuce (from 1 heart of romaine) Hot sauce, such as Cholula (optional)  
-  
-Total: 20 mins  
- Make the two-onion quick pickle: In a medium bowl, combine the scallions and half of the onion. Cover the onions and scallions with hot tap water and squeeze them a few times with your hands. Let stand for about 2 minutes to extract their raw flavor, then drain. (This will lessen your onion breath.)  
- Make the two-onion quick pickle: In a medium bowl, combine the scallions and half of the onion. Cover the onions and scallions with hot tap water and squeeze them a few times with your hands. Let stand for about 2 minutes to extract their raw flavor, then drain. (This will lessen your onion breath.)  
- In a small jar or liquid measuring cup, combine the lime juice, the rinsed onions and scallions and a pinch of salt. Let stand while you make the remainder of the recipe, or for at least 10 minutes.  
- In a small jar or liquid measuring cup, combine the lime juice, the rinsed onions and scallions and a pinch of salt. Let stand while you make the remainder of the recipe, or for at least 10 minutes.  
- In a large skillet over medium heat, heat the oil until shimmering. Add the remaining onion and cook without stirring until lightly browned, about 3 minutes. Add the black beans with their liquid, chili powder, cumin, Spanish smoked paprika, Dijon mustard and 1/4 teaspoon of salt and stir to combine. Cook, stirring occasionally, until the liquid reduces to a thick and fragrant sauce, 5 to 7 minutes.  
- We like to add a bit of flavor and lovely char marks while warming our tortillas (not required, but highly recommended). Place a tortilla right on the grate above the flame of a gas burner, then cook on medium heat for a few seconds per side, flipping with tongs, until lightly blackened on the edges. Repeat with the remaining tortillas. (If you don’t have a gas range, arrange the tortillas in a single layer on a baking sheet and broil for about 1 minute per side.)  
- To assemble the tacos, place some chopped romaine at the center of each tortilla, then add a large spoonful of the black bean mixture. Top with the pickled onion and hot sauce, if using. If desired, you can pour a small splash of the lime juice from the onion pickle onto each taco (but be conservative, or you’ll have a watery taco).  
- To assemble the tacos, place some chopped romaine at the center of each tortilla, then add a large spoonful of the black bean mixture. Top with the pickled onion and hot sauce, if using. If desired, you can pour a small splash of the lime juice from the onion pickle onto each taco (but be conservative, or you’ll have a watery taco).  
+# Chili Lime Black Bean Tacos
+
+- Servings: 2 (makes 6 tacos)
+- 2 scallions, trimmed and thinly sliced crosswise (white and green parts)
+- 1 small red onion (4 ounces), thinly sliced and divided
+- 1/4 cup fresh lime juice (from 2 to 3 limes)
+- 1/4 teaspoon fine salt, plus more as needed
+- 2 tablespoons extra — virgin olive oil
+- One (15.5 — ounce) can no — salt — added black beans, with the liquid
+- 1 teaspoon chili powder
+- 1 teaspoon ground cumin
+- 1 teaspoon Spanish smoked paprika (pimentón; sweet or hot)
+- 1 teaspoon Dijon mustard
+- Six (6 — inch) corn tortillas
+- 1 cup chopped romaine lettuce (from 1 heart of romaine)
+- Hot sauce, such as Cholula (optional)
+- Total: 20 mins
+
+Make the two-onion quick pickle: In a medium bowl, combine the scallions and half of the onion. Cover the onions and scallions with hot tap water and squeeze them a few times with your hands. Let stand for about 2 minutes to extract their raw flavor, then drain. (This will lessen your onion breath.)
+
+<br />
+
+In a small jar or liquid measuring cup, combine the lime juice, the rinsed onions and scallions and a pinch of salt. Let stand while you make the remainder of the recipe, or for at least 10 minutes.
+
+<br />
+
+In a large skillet over medium heat, heat the oil until shimmering. Add the remaining onion and cook without stirring until lightly browned, about 3 minutes. Add the black beans with their liquid, chili powder, cumin, Spanish smoked paprika, Dijon mustard and 1/4 teaspoon of salt and stir to combine. Cook, stirring occasionally, until the liquid reduces to a thick and fragrant sauce, 5 to 7 minutes.
+
+<br />
+
+We like to add a bit of flavor and lovely char marks while warming our tortillas (not required, but highly recommended). Place a tortilla right on the grate above the flame of a gas burner, then cook on medium heat for a few seconds per side, flipping with tongs, until lightly blackened on the edges. Repeat with the remaining tortillas. (If you don’t have a gas range, arrange the tortillas in a single layer on a baking sheet and broil for about 1 minute per side.)
+
+<br />
+
+To assemble the tacos, place some chopped romaine at the center of each tortilla, then add a large spoonful of the black bean mixture. Top with the pickled onion and hot sauce, if using. If desired, you can pour a small splash of the lime juice from the onion pickle onto each taco (but be conservative, or you’ll have a watery taco).
