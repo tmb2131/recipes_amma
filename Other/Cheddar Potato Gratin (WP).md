@@ -1,20 +1,16 @@
-# Cheddar Potato Gratin (WP)
+# Cheddar Potato Gratin (Washington Post)
 
-Serves: 4
-
-## Ingredients
-
-* Butter or cooking spray, for greasing the dish
-* 1 cup low-sodium chicken broth
-* 1 cup heavy cream
-* 2 tablespoons Dijon mustard
-* 1 teaspoon kosher salt
-* 1/2 teaspoon freshly ground black pepper
-* 1 1/2 teaspoons fresh thyme leaves (or 1/2 teaspoon dried thyme), plus more for optional garnish
-* 2 pounds 8 ounces russet potatoes, peeled and sliced about 1/8-inch thin
-* 8 ounces (2 cups) grated sharp cheddar cheese
-
-## Step 1
+- Serves: 4
+- ## Ingredients
+- Butter or cooking spray, for greasing the dish
+- 1 cup low — sodium chicken broth
+- 1 cup heavy cream
+- 2 tablespoons Dijon mustard
+- 1 teaspoon kosher salt
+- 1/2 teaspoon freshly ground black pepper
+- 1 1/2 teaspoons fresh thyme leaves (or 1/2 teaspoon dried thyme), plus more for optional garnish
+- 2 pounds 8 ounces russet potatoes, peeled and sliced about 1/8 — inch thin
+- 8 ounces (2 cups) grated sharp cheddar cheese
 
 Position the rack in the middle of the oven and preheat to 400 degrees. Lightly grease a 9-by-9-inch baking dish with butter or cooking spray.
 
