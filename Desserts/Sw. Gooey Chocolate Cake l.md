@@ -9,6 +9,24 @@
 - | 1 tbsp | | vanilla sugar* |
 - Or use 1 teaspoon of vanilla essence
 
+1. Serves 6-8
+
+   <br />
+
+   <http://www.swedishfood.com/swedish-food-recipes-biscuits-cakes/298-kladdkaka>
+
+   <br />
+
+   • Unusually for a cake recipe, it is easy to tweak the ingredients to suit your own taste. If you prefer a darker topping, as shown above, halve the amount of flour suggested below. If you want it more chocolatey, increase the amount of cocoa powder to 40 g (6 tbsp).
+
+   • If you've not got an electric whisk, simply stir the flour and sugars into the melted butter and then stir in the eggs ensuring that everything is well combined.
+
+   • For a gluten-free *kladdkak*a simply substitute ground almonds for the flour.
+
+<br />
+
+## Instructions
+
 1. Preheat the oven to 175°C (350°F, gas 4, fan 160°C).
 2. Lightly grease a deep loose-bottomed 21 cm (8") round cake tin (pie plate).
 3. Melt the butter and leave to cool slightly.
@@ -24,5 +42,6 @@
 1. Serve with lightly whipped cream and glazed raspberries. To glaze the raspberries mix 2 tablespoons of raspberry jam with 2 tablespoons of water in a saucepan. Bring to a gentle simmer and then sieve. Glaze the raspberries on a plate and use to garnish slices of *kladdkaka*.
 2. Serve with lightly whipped cream flavoured with some vanilla essence and then sprinkled with sieved cocoa powder.
 3. For a double dose of chocolate, drizzle some warm chocolate sauce\* over the top and serve with lightly whipped cream spiked with a splash of Grand Marnier.
-   \***Chocolate sauce**
+4. \***Chocolate sauce**
+   \
    \*Put 25 g (1 oz) of dark chocolate, 2 teaspoons of double (heavy) cream, 2 tsp of caster (superfine) sugar and ½ tablespoon of hot water in a bowl over a saucepan of simmering water. Stir until the chocolate has melted and everything is thoroughly mixed and then drizzle or pipe over the *kladdkaka*.
