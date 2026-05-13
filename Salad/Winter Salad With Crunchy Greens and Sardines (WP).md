@@ -15,8 +15,6 @@
 - 6 sprigs fresh dill, finely chopped
 - 6 sprigs fresh parsley, finely chopped
 - 1 large lemon
-- ## Directions
-- Time Icon
 - Total: 30 mins
 
 In a medium skillet over medium heat, heat the oil until it shimmers. Add the bread and sprinkle in the seasoning salt. Stir or shake the pan until the bread cubes are lightly coated in oil, adding more oil if needed. Cook, stirring occasionally, until the bread is crisp and golden brown, about 5 minutes. Remove from the heat.
