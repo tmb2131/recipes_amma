@@ -1,39 +1,22 @@
 # An Interseasonal Blueberry Cobbler(Ruby Tandoh NY)
 
-* Serves 6
-
-* For the cobbler topping:
-
-* 1 cup (120g) all — purpose flour
-
+- Serves 6
+- For the cobbler topping:
+- 1 cup (120g) all — purpose flour
 - ¾ cup plus 1 Tbsp. (120g) fine cornmeal
-
 - 2 tsp. baking powder
-
 - 3 Tbsp. (40g) Demerara sugar
-
 - Zest of 1 orange
-
 - Pinch of ground nutmeg
-
-- Generous pinch of sea-salt flakes
-
+- Generous pinch of sea — salt flakes
 - 7 Tbsp. (100g) unsalted butter, cold
-
 - 1 ¼ cups (300 ml) heavy cream
-  For the blueberries:
-
+- For the blueberries:
 - 4 cups (roughly 750g) frozen blueberries
-
 - ½ cup (125g) pitted prunes, roughly chopped
-
 - Juice from 1 orange
-
 - ¼ cup plus 2 Tbsp. (85g) Demerara sugar
-
-- 3–4 Tbsp. (20–30g) all-purpose flour
-  To finish:
-
+- 3–4 Tbsp. (20–30g) all-purpose flour To finish:
 - 2 Tbsp. (20g) Demerara sugar
 
 ***
