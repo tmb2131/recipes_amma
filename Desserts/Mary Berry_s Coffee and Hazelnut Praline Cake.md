@@ -17,6 +17,8 @@
 - butter, softened 225g (8oz)
 - icing sugar 400g (14oz)
 
+***
+
 **Essential kit**
 
 You will need: two 20cm (8in) round, loose — bottomed sandwich tins, an electric hand whisk,
