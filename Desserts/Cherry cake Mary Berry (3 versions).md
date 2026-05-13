@@ -1,16 +1,16 @@
 # Cherry cake Mary Berry (3 versions)
 
-* <br />
+- See Method section
 
-  ***
+***
 
-  ## V — l (original MB)
+## V — l (original MB)
 
 * <br />
 
 * 200g/7oz glacé cherries
 
-  225g/8oz \[self — raising flour]\(https\://www\.bbc.co.uk/food/self — raising\_flour)
+  225g/8oz \[self — raising flour]\(<https://www.bbc.co.uk/food/self> — raising\_flour)
 
   175g/6oz softened butter, plus extra for greasing
 
