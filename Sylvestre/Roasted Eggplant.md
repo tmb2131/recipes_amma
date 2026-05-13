@@ -1,14 +1,22 @@
 # Roasted Eggplant
 
-- Eggplant
-- Salt
-- Pepper
-- Oregano
-- Cumin
-- Garlic powder
-- Olive oil
+* Eggplant
 
-* Heat oven to 420.
+* Salt
+
+* Pepper
+
+* Oregano
+
+* Cumin
+
+* Garlic powder
+
+* Olive oil
+
+  ***
+
+  Heat oven to 420.
 
 * Halve eggplant.
 
