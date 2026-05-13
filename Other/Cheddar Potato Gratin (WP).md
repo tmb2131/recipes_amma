@@ -1,7 +1,6 @@
 # Cheddar Potato Gratin (Washington Post)
 
 - Serves: 4
-- ## Ingredients
 - Butter or cooking spray, for greasing the dish
 - 1 cup low — sodium chicken broth
 - 1 cup heavy cream
