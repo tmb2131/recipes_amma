@@ -1,5 +1,3 @@
-Orange and poppy seed cakes (G)
-
 Serves 8\
 For the cakes\
 butter 225g, softened\
