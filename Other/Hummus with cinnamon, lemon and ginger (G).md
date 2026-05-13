@@ -1,34 +1,20 @@
 # Hummus with cinnamon, lemon and ginger (Guardian)
 
-* For the hummus
-
-* 300g freshly cooked chickpeas\*\* (see previous recipe)
-
-* 3cm piece fresh ginger\*\*, peeled and grated
-
-* 2 tbsp olive oil
-
-* 1 small garlic clove
-
-* 2 lemons \*\* — shave off five thin strips of peel, then juice, to get 3 tbsp
-
-* Flaked sea salt
-
-* <br />
-
-* For the fried aromatics
-
-* 60ml olive oil
-
-* 1 red chilli\*\*, deseeded and finely sliced
-
-* 1 large garlic clove\*\*, peeled and thinly sliced
-
-* 2cm piece fresh ginger\*\*, peeled and julienned
-
-* 1 cinnamon stick\*\*, lightly crushed
-
-* 5g coriander stalks\*\*, cut into 4cm lengths, plus 2 tbsp picked leaves
+- For the hummus
+- 300g freshly cooked chickpeas** (see previous recipe)
+- 3cm piece fresh ginger**, peeled and grated
+- 2 tbsp olive oil
+- 1 small garlic clove
+- 2 lemons ** — shave off five thin strips of peel, then juice, to get 3 tbsp
+- Flaked sea salt
+- ---
+- For the fried aromatics
+- 60ml olive oil
+- 1 red chilli**, deseeded and finely sliced
+- 1 large garlic clove**, peeled and thinly sliced
+- 2cm piece fresh ginger**, peeled and julienned
+- 1 cinnamon stick**, lightly crushed
+- 5g coriander stalks**, cut into 4cm lengths, plus 2 tbsp picked leaves
 
 ***
 
