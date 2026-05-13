@@ -1,28 +1,20 @@
 # Mary Berry's banana bread
 
-1. 1 ripe banana (peeled weight 100g/4oz)
+- 1 tbsp milk
+- 50g/2oz soft butter or baking spread
+- 75g/3oz plain flour
+- 75g/3oz caster sugar
+- ½ tsp bicarbonate of soda
+- ½ tsp baking powder
+- 1 free — range egg
+- 50g/2oz dark chocolate chips
+- To decorate (optional)
 
-   1 tbsp milk
+<br />
 
-   50g/2oz soft butter or baking spread
+***
 
-   75g/3oz plain flour
-
-   75g/3oz caster sugar
-
-   ½ tsp bicarbonate of soda
-
-   ½ tsp baking powder
-
-   1 free — range egg
-
-   50g/2oz dark chocolate chips
-
-   To decorate (optional)
-
-   ***
-
-   Preheat the oven 160C/140C Fan/Gas 3. Grease and line a 450g/1lb loaf tin with baking paper.
+Preheat the oven 160C/140C Fan/Gas 3. Grease and line a 450g/1lb loaf tin with baking paper.
 
 2. <br />
 
