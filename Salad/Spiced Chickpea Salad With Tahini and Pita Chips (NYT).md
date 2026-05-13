@@ -30,4 +30,3 @@
    Tip
 
 * It’s easy to make pita chips from stale pita bread. Cut each round into triangles like a pie and separate the top and bottom layers. Heat 2 tablespoons olive oil in a large skillet over medium-high heat. When it ripples, add the pita triangles and cook, stirring often, until golden brown. Reduce the heat as needed to prevent scorching.
-  erves 4
