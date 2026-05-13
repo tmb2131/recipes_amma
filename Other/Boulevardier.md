@@ -1,8 +1,8 @@
 # Boulevardier
 
-- 1 ½** **ounces bourbon, preferably Maker’s Mark
-- ¾** **ounce sweet vermouth, preferably Dolin Rouge
-- ¾** **ounce Campari
+- 1 ½ ounces bourbon, preferably Maker’s Mark
+- ¾ ounce sweet vermouth, preferably Dolin Rouge
+- ¾ ounce Campari
 - Twist of orange peel, for garnish
 
 1. Chill a cocktail glass by filling with ice or putting in freezer for about 5 minutes.
