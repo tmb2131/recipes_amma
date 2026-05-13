@@ -92,8 +92,7 @@
 
 ## V - lll (Masterclasses GBBO)
 
-200 gms glace cherries
-
+200 gms glace cherries\
 225 gms self raising flour
 \
 175 gms caster sugar
