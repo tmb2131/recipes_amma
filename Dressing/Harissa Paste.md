@@ -1,19 +1,32 @@
 # Harissa Paste
 
-- 7 Dried New Mexico Chiles or Guajillo Chiles, or a combination of dried New Mexico Chiles and another kind of dried hot chiles such as de arbol or chipotle chiles
-- 6 oz jarred roasted red peppers, drained rinsed, and dried (2 large peppers)
-- 2 tbsp tomato paste
-- 4 large garlic cloves, peeled
-- 1 tsp caraway seeds, toasted and ground (use a mortar and pestle, grinder or food processor)
-- 2 tsp ground coriander
-- 2 tsp ++[ground cumin
-- 1 tsp ++[smoked paprika
-- ½ tsp cayenne pepper
-- Kosher salt
-- Juice of 1 large lemon, 2 tbsp fresh lemon juice
-- 2 tbsp quality extra virgin olive oil, more for later
+* 7 Dried New Mexico Chiles or Guajillo Chiles, or a combination of dried New Mexico Chiles and another kind of dried hot chiles such as de arbol or chipotle chiles
 
-* **Soak and prepare the dried chiles**. Place the dried chiles in a heat-safe bowl and cover with hot water. Set aside for 30 minutes until the chiles are tender and re-hydrated. Drain the chiles and remove the stems and seeds.
+* 6 oz jarred roasted red peppers, drained rinsed, and dried (2 large peppers)
+
+* 2 tbsp tomato paste
+
+* 4 large garlic cloves, peeled
+
+* 1 tsp caraway seeds, toasted and ground (use a mortar and pestle, grinder or food processor)
+
+* 2 tsp ground coriander
+
+* 2 tsp ++\[ground cumin
+
+* 1 tsp ++\[smoked paprika
+
+* ½ tsp cayenne pepper
+
+* Kosher salt
+
+* Juice of 1 large lemon, 2 tbsp fresh lemon juice
+
+* 2 tbsp quality extra virgin olive oil, more for later
+
+  ***
+
+  **Soak and prepare the dried chiles**. Place the dried chiles in a heat-safe bowl and cover with hot water. Set aside for 30 minutes until the chiles are tender and re-hydrated. Drain the chiles and remove the stems and seeds.
 
 * <br />
 
