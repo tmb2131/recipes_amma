@@ -1,3 +1,5 @@
+# Apple Rose Tartes Tatin (Food52)
+
 ***
 
 # Apple Rose Tartes Tatin (Food52)
@@ -19,7 +21,7 @@ Roll out the pastry to 2 millimeters thick. Cut lengthwise into 6 strips. (Store
 Arrange one-sixth of the apple slices on the top half of each strip, then fold the pastry in half and press down, leaving the rounded, unpeeled edges of the apple slices exposed at the top.
 
 Roll up one apple-filled pastry strip to form a rose. Cut the excess dough off if necessary and pinch the end of the dough strip to seal. Repeat with the remaining strips.
-In a small pot over medium heat, gently stir the sugar with a splash of water (just enough to make the sugar look like wet sand), then use a wet brush to make sure there are no sugar granules on the side of the pan. 
+In a small pot over medium heat, gently stir the sugar with a splash of water (just enough to make the sugar look like wet sand), then use a wet brush to make sure there are no sugar granules on the side of the pan.
 
 Cook undisturbed for about 10 minutes, until the sugar caramelizes to a deep amber (you can tilt the pan if needed for even cooking, but avoid stirring). Mix in the vanilla and cinnamon.
 Pour 2 to 3 soup spoons of caramel into each muffin well. Arrange the apple roses upside down in each well.
@@ -49,7 +51,7 @@ Allow the roses to rest for 5 minutes before serving.
 
 Combine water and lemon juice in a saucepan. Put it aside.
 Cut the apples in half and remove the core using a teaspoon or with a knife. Slice them thinly. They don’t have to be paper thin. Transfer them into the water and lemon juice mixture. This will prevent the apple slices from turning brown.
-Put the saucepan on medium heat and bring it to boil. Let it simmer for 3-5 minutes just until the slices get flexible enough but not too soft or mushy. 
+Put the saucepan on medium heat and bring it to boil. Let it simmer for 3-5 minutes just until the slices get flexible enough but not too soft or mushy.
 
 Drain the apples and let them cool.
 Place the puff pastry sheet on the counter. Cut it into 6 strips.
