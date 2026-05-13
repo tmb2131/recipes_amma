@@ -6,6 +6,7 @@
 - 120g plain flour
 
 First, make the shortbread. Put the almonds in a small pan over a medium heat and toast, stirring frequently, until golden and fragrant. Set aside to cool completely.
+
 Heat the oven to 180C (160C fan)/350F/gas 4. Cream the butter and sugar until creamy, then add the flour and almonds, and mix to get a thick dough. Press the dough evenly into a 23cm x 16cm baking tin (or use a 20cm round tin), prick the surface all over with a fork and bake for 25-30 minutes, until lightly golden. Cut the shortbread in the tin while it’s still warm, then leave to cool completely.
 
 <br />
