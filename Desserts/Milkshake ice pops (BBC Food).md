@@ -1,12 +1,18 @@
 # Milkshake ice pops (BBC)
 
-- Makes 4
-- 405ml can light condensed milk
-- 1 tsp vanilla bean paste
-- 1 ripe chopped banana
-- 10 strawberries or 3 tbsp chocolate hazelnut spread
+* Makes 4
 
-* STEP 1 Pour the light condensed milk into a food processor and add the vanilla bean paste and chopped banana. Whizz until smooth. Add either the strawberries or chocolate hazelnut spread and whizz again.
+* 405ml can light condensed milk
+
+* 1 tsp vanilla bean paste
+
+* 1 ripe chopped banana
+
+* 10 strawberries or 3 tbsp chocolate hazelnut spread
+
+  ***
+
+  STEP 1 Pour the light condensed milk into a food processor and add the vanilla bean paste and chopped banana. Whizz until smooth. Add either the strawberries or chocolate hazelnut spread and whizz again.
 
 * <br />
 
