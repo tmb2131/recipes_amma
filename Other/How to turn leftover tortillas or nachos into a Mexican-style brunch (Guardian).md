@@ -15,4 +15,6 @@
 - Hot sauce
 - Extra tortillas
 
-&#x20;Tear the tortillas into bite-sized strips (or break the nachos into bite-sized pieces). Heat the oil in a large frying pan, then fry the tortilla for a few minutes, until crunchy. Add the eggs, leave for a minute until they start to set, then break them up and cook until done to your liking (alternatively, scramble the tofu with the fried tortillas). Stir in the salsa, season and serve on warmed plates with your optional toppings of choice, and perhaps a tortilla or two on the side.
+Tear the tortillas into bite-sized strips (or break the nachos into bite-sized pieces). Heat the oil in a large frying pan, then fry the tortilla for a few minutes, until crunchy. Add the eggs, leave for a minute until they start to set, then break them up and cook until done to your liking (alternatively, scramble the tofu with the fried tortillas). 
+
+Stir in the salsa, season and serve on warmed plates with your optional toppings of choice, and perhaps a tortilla or two on the side.
