@@ -12,10 +12,13 @@
 - OR
 - 230g self raising flour
 
-For the icing:
+* <br />
+
+  ***
+
+  For the icing:
 
 * Your quantity of icing will depend on your method of icing.
-  Tip: I tend to use twice the amount of icing sugar as butter.
 
 * Tip: I tend to use twice the amount of icing sugar as butter.
 
