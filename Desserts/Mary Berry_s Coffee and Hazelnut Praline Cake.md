@@ -1,24 +1,40 @@
-Mary Berry's Coffee and Hazelnut Praline Cake\
-Serves 6-8
+# Mary Berry's Coffee and Hazelnut Praline Cake
 
-## Ingredients
+- Serves 6-8
+- coffee granules 1 tbsp
+- just-boiled water 1 tbsp
+- eggs 4
+- baking spread, plus extra for greasing 225g (8oz)
+- caster sugar 225g (8oz)
+- self-raising flour 225g (8oz)
+- baking powder 1 tsp
+- For the praline:
+- granulated sugar 100g (4oz)
+- whole hazelnuts 75g (3oz)
+- For the buttercream icing:
+- coffee granules 1½ tbsp
+- just-boiled water 1½ tbsp
+- butter, softened 225g (8oz)
+- icing sugar 400g (14oz)
 
-| 1 tbsp      | coffee granules                        |
-| ----------- | -------------------------------------- |
-| 1 tbsp      | just-boiled water                      |
-| 4           | eggs                                   |
-| 225g (8oz)  | baking spread, plus extra for greasing |
-| 225g (8oz)  | caster sugar                           |
-| 225g (8oz)  | self-raising flour                     |
-| 1 tsp       | baking powder                          |
-| <br />      | For the praline:                       |
-| 100g (4oz)  | granulated sugar                       |
-| 75g (3oz)   | whole hazelnuts                        |
-| <br />      | For the buttercream icing:             |
-| 1½ tbsp     | coffee granules                        |
-| 1½ tbsp     | just-boiled water                      |
-| 225g (8oz)  | butter, softened                       |
-| 400g (14oz) | icing sugar                            |
+<br />
+
+| <br /> | <br /> |
+| ------ | ------ |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
+| <br /> | <br /> |
 
 <br />
 
