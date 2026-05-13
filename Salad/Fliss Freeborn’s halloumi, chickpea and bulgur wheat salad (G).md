@@ -1,4 +1,3 @@
-Fliss Freeborn’s halloumi, chickpea and bulgur wheat salad (G)\
 Serves 2
 
 Freeborn, Fortnum & Mason’s cookery writer of the year, has no time for salads as sides. For her, they have to feed a person, so she believes in including carbs. Here, she suggests adding to bulgur wheat (or rice, if you want to make it gluten-free) either pomegranate seeds or chopped apricots, but I would include both. Substitute tofu for the halloumi to keep it vegan. Serves two, generously.
