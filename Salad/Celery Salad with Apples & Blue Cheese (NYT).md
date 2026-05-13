@@ -1,24 +1,20 @@
-Celery Salad with Apples & Blue Cheese (NYT)  
-  
-Serves 8  
-  
-  
-INGREDIENTS  
-* **5 **tablespoons extra-virgin olive oil  
-* **¼ **cup finely chopped shallot  
-* **4 **teaspoons coarse mustard  
-* **1 **teaspoon finely grated fresh lemon zest, plus 4 teaspoons lemon juice (from 1 lemon)  
-* **1 **teaspoon granulated sugar  
-* Kosher salt and freshly ground black pepper  
-* **1 **head celery, trimmed, stalks peeled and thinly sliced on the diagonal, leaves reserved  
-* **2 **tart red apples, such as Pink Lady  
-* **1 **small celery root (about 12 ounces)  
-* **1 **packed cup fresh parsley leaves, plus more for garnish  
-* **½ **cup coarsely chopped roasted, salted almonds  
-* **1 **cup crumbled bold, creamy but firm blue cheese (4 to 5 ounces)   
-  
-PREPARATION  
-1. Prepare the vinaigrette: In a large bowl, whisk together the olive oil, shallot, mustard, lemon zest and juice, and sugar; season to taste with salt and pepper. Add the sliced celery and toss to coat.  
-2. Core the apples, then slice them lengthwise into very thin wedges using a knife or mandoline. Add to the sliced celery and toss to coat. Peel or slice off the outer skin and layers of the celery root until no brown skin remains. Cut the celery root in half lengthwise, then slice into very thin half-moons using a knife or a mandoline. Add to the celery and apple mixture and toss to coat. (The salad will hold up fairly well refrigerated for 1 to 2 hours — or even overnight — from this point.)  
-3. Just before serving, add the parsley, almonds and half the cheese, and toss to combine; season to taste with salt and pepper.  
-4. Transfer to a shallow serving bowl or platter; top with the remaining cheese, the reserved celery leaves and fresh parsley leaves. Serve immediately.  
+# Celery Salad with Apples & Blue Cheese (NY Times)
+
+- Serves 8
+- 5 **tablespoons extra — virgin olive oil
+- ¼ **cup finely chopped shallot
+- 4 **teaspoons coarse mustard
+- 1 **teaspoon finely grated fresh lemon zest, plus 4 teaspoons lemon juice (from 1 lemon)
+- 1 **teaspoon granulated sugar
+- Kosher salt and freshly ground black pepper
+- 1 **head celery, trimmed, stalks peeled and thinly sliced on the diagonal, leaves reserved
+- 2 **tart red apples, such as Pink Lady
+- 1 **small celery root (about 12 ounces)
+- 1 **packed cup fresh parsley leaves, plus more for garnish
+- ½ **cup coarsely chopped roasted, salted almonds
+- 1 **cup crumbled bold, creamy but firm blue cheese (4 to 5 ounces)
+
+1. Prepare the vinaigrette: In a large bowl, whisk together the olive oil, shallot, mustard, lemon zest and juice, and sugar; season to taste with salt and pepper. Add the sliced celery and toss to coat.
+2. Core the apples, then slice them lengthwise into very thin wedges using a knife or mandoline. Add to the sliced celery and toss to coat. Peel or slice off the outer skin and layers of the celery root until no brown skin remains. Cut the celery root in half lengthwise, then slice into very thin half-moons using a knife or a mandoline. Add to the celery and apple mixture and toss to coat. (The salad will hold up fairly well refrigerated for 1 to 2 hours — or even overnight — from this point.)
+3. Just before serving, add the parsley, almonds and half the cheese, and toss to combine; season to taste with salt and pepper.
+4. Transfer to a shallow serving bowl or platter; top with the remaining cheese, the reserved celery leaves and fresh parsley leaves. Serve immediately.
