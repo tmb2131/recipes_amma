@@ -19,5 +19,6 @@ Peel and seed peppers; cut into 2” strips. Toss peppers in a clean large bowl 
 Toss bread and remaining 2 Tbsp. oil on a clean baking sheet; season with salt and pepper. Bake, tossing occasionally, until crisp on the outside but still chewy in the center, 8–10 minutes. Let croutons cool.
 
 Toss pepper mixture, and croutons in a large bowl. Arrange on a platter with cheese; top with remaining 1 Tbsp. herbs.
-Step 5
+
+
 DO AHEAD: Peppers and croutons can be prepared 1 day ahead. Cover peppers; chill. Store croutons airtight at room temperature.
