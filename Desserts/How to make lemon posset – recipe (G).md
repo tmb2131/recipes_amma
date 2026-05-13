@@ -1,21 +1,19 @@
-# How to make lemon posset – recipe (G)
+# How to make lemon posset – recipe (Guardian)
 
-Prep 5 min
-Cook 10 min
-Chill 2 hr+
-Serves 4
+- Prep 5 min
+- Cook 10 min
+- Chill 2 hr+
+- Serves 4
+- ## Ingredients
+- 2 lemons, preferably unwaxed
+- 125g white or golden sugar
+- 425ml double cream
+- A pinch of nutmeg
+- A pinch of ginger
+- 1 tbsp flaked almonds (optional)
+- 1 tbsp candied peel (optional)
 
-## Ingredients
-
-* 2 lemons, preferably unwaxed
-* 125g white or golden sugar
-* 425ml double cream
-* A pinch of nutmeg
-* A pinch of ginger
-* 1 tbsp flaked almonds (optional)
-* 1 tbsp candied peel (optional)
-
-## 1 A note on the lemons
+**## 1 A note on the lemons**
 
 Ideally, buy unwaxed organic lemons for this recipe (organic fruit is never waxed), because it makes use of the zest as well as the juice; though wax should be perfectly safe to eat, few of us like the idea of consuming it. Alternatively, give waxed fruit a good scrub with a stiff brush and hot water before use.
 
