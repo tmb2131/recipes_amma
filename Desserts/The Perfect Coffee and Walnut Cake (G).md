@@ -22,15 +22,13 @@ Mix the coffee with 1tbsp boiling water, and then leave to cool. Meanwhile, toas
 Heat the oven to 180C (160C fan) and grease and line the bases of 2 x 20cm sandwich tins.
 
 Beat the butter and sugar together until really light and fluffy.
-With the mixer still running, pour in the egg mix very gradually, scraping down the sides of the mixer as necessary. 
+With the mixer still running, pour in the egg mix very gradually, scraping down the sides of the mixer as necessary.
 
 <br />
 
 Once incorporated, sift in the flour, baking powder and salt, and gently fold in with a large metal spoon, adding the coffee and chopped walnuts as you go.
 
-The batter should fall, reluctantly, from a spoon; if not, add a little milk to loosen it. Divide between the 2 tins, and bake for about 25 minutes until well risen. Allow to cool for 10 minutes in the tins, then put on a wire rack to cool completely. 
-
-<br />
+The batter should fall, reluctantly, from a spoon; if not, add a little milk to loosen it. Divide between the 2 tins, and bake for about 25 minutes until well risen. Allow to cool for 10 minutes in the tins, then put on a wire rack to cool completely.
 
 Meanwhile, mix the 2tbsp coffee for the icing with 1tbsp boiling water and allow to cool.
 
