@@ -27,5 +27,7 @@ Spoon the strawberries and all their juices over the top of the cake batter. Pla
 <br />
 
 Vanilla to batter
+\
 Brown the butter.
+\
 Add a dash of freshly ground cardamom or ground ginger or fresh grated ginger on top before baking it off.
