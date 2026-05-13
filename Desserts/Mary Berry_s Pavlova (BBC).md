@@ -1,34 +1,19 @@
 # Mary Berry's Pavlova (BBC)
 
-* 6 large free — range egg whites
-
-  350g/12oz caster sugar
-
-  1 tsp white wine vinegar
-
-  1 tsp cornflour
-
-  For the filling
-
-  600ml/20fl oz double cream
-
-  1 tsp vanilla bean paste
-
-  50g/1¾oz icing sugar, sifted
-
-  200g/7oz strawberries, hulled and quartered
-
-  300g/10½oz raspberries
-
-  200g/7oz blueberries
-
-  50g/1¾oz pomegranate seeds
-
-* a few mint leaves, to decorate (optional)
-
-* icing sugar, for dusting
-
-* <br />
+- 6 large free — range egg whites
+- 350g/12oz caster sugar
+- 1 tsp white wine vinegar
+- 1 tsp cornflour
+- For the filling
+- 600ml/20fl oz double cream
+- 1 tsp vanilla bean paste
+- 50g/1¾oz icing sugar, sifted
+- 200g/7oz strawberries, hulled and quartered
+- 300g/10½oz raspberries
+- 200g/7oz blueberries
+- 50g/1¾oz pomegranate seeds
+- a few mint leaves, to decorate (optional)
+- icing sugar, for dusting
 
 ***
 
