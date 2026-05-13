@@ -1,14 +1,22 @@
 # Beets With Horseradish and Pumpkin Seeds (NY Times)
 
-- Serves 4
-- 1 **small bunch red beets (about 1 pound), washed and leaves removed
-- 1 **small bunch golden beets (about 1 pound), washed and leaves removed
-- 2 **tablespoon extra — virgin olive oil
-- Kosher salt and black pepper
-- ½ **cup sour cream
-- 2 **tablespoons prepared horseradish
-- 2 **tablespoons lemon juice
-- ¼ **cup roasted pumpkin seeds
+* Serves 4
+
+* 1 \*\*small bunch red beets (about 1 pound), washed and leaves removed
+
+* 1 \*\*small bunch golden beets (about 1 pound), washed and leaves removed
+
+* 2 \*\*tablespoon extra — virgin olive oil
+
+* Kosher salt and black pepper
+
+* ½ \*\*cup sour cream
+
+* 2 \*\*tablespoons prepared horseradish
+
+* 2 \*\*tablespoons lemon juice
+
+* ¼ \*\*cup roasted pumpkin seeds
 
 1. Heat oven to 375 degrees. Place all the beets on a sheet of aluminum foil. Drizzle with the olive oil. Wrap together tightly and bake until tender, 65 to 70 minutes. Remove from the oven and let cool slightly. Peel off the skin. (You may need the help of a paring knife.)
 2. Slice the peeled beets 1/4-inch thick and arrange the slices on a serving tray. Sprinkle with salt and pepper.
