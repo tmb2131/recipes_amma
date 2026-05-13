@@ -5,9 +5,9 @@
 - 3	Free Range Large Egg(s)
 - 175g	Unsalted Butter (Softened) 7/8th cup
 - (Substitute half with oil. Butter:oil = 1:3/4) (87.5 gms butter; <0.5 cup oil)
-- 165g	++Unrefined Golden Caster Sugar (we like Billington's)++
-- 115g	++Self-Raising White Flour  ++ Use 25% almond flour 1 tsp	Baking Powder
-- ---
+- 165g	Unrefined Golden Caster Sugar (we like Billington's
+- 115g	Self — Raising White Flour ++ Use 25% almond flour 1 tsp	Baking Powder
+- —  —  —
 - For the Buttercream
 - 60g	Unsalted Butter (Softened)
 - 30g	Cocoa Powder
