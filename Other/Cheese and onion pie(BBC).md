@@ -1,42 +1,23 @@
 # Cheese and onion pie (BBC)
 
-450g/1lb plain flour, plus extra for dusting
-
-2 tsp baking powder
-
-½ tsp salt
-
-120g/4½oz unsalted butter, plus extra for greasing
-
-1 free — range egg yolk
-
-50g/2oz parmesan cheese (or a similar vegetarian hard cheese), grated
-
-120ml/4fl oz water
-
-1 free — range egg, beaten, for glazing
-
-For the filling
-
-1 medium potato, peeled and cut into cubes
-
-2 ++onions, finely sliced
-
-1 tbsp plain flour
-
-50ml/2oz whole milk
-
-50ml/2oz double cream
-
-150g/5½oz mature cheddar cheese, grated
-
-½ tsp English mustard
-
-½ tsp cayenne pepper
-
-salt and freshly ground black pepper
-
-## Method
+- 450g/1lb plain flour, plus extra for dusting
+- 2 tsp baking powder
+- ½ tsp salt
+- 120g/4½oz unsalted butter, plus extra for greasing
+- 1 free — range egg yolk
+- 50g/2oz parmesan cheese (or a similar vegetarian hard cheese), grated
+- 120ml/4fl oz water
+- 1 free — range egg, beaten, for glazing
+- For the filling
+- 1 medium potato, peeled and cut into cubes
+- 2 ++onions, finely sliced
+- 1 tbsp plain flour
+- 50ml/2oz whole milk
+- 50ml/2oz double cream
+- 150g/5½oz mature cheddar cheese, grated
+- ½ tsp English mustard
+- ½ tsp cayenne pepper
+- salt and freshly ground black pepper
 
 1. For the pastry, pulse the flour, baking powder, salt, butter and egg yolk in a food processor until the mixture resembles breadcrumbs. Add the grated parmesan and stir until well combined.
 
