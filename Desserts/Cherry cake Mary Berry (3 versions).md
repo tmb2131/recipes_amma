@@ -6,11 +6,11 @@
 
 ## V — l (original MB)
 
-* <br />
+### Ingredients
 
 * 200g/7oz glacé cherries
 
-  225g/8oz \[self — raising flour]\(<https://www.bbc.co.uk/food/self> — raising\_flour)
+  225g/8oz \[self — raising flour
 
   175g/6oz softened butter, plus extra for greasing
 
@@ -31,6 +31,8 @@
   15g/½oz flaked almonds, toasted
 
   5 glacé cherries, quartered
+
+* <br />
 
 ### Method
 
@@ -61,7 +63,8 @@
 * 25g ground almonds
 
 * 2 large free-range eggs
-  **Decoration**
+
+* **Decoration**
 
 * 125g icing sugar
 
@@ -72,6 +75,8 @@
 * 7 glacé cherries, halved
   **Note**
   This delicious cherry cake is my adaptation of Mary Berry's Cherry Cake recipe - I had to reduce the measurements of the cake to fit my smaller savarin mould, as well as adding a little extra lemon zest and juice to the cake and icing. The original recipe was used as the "technical bake" in the first programme of the 5th series in ++[The Great British Bake Off](http://thegreatbritishbakeoff.co.uk/)
+
+<br />
 
 ### Directions
 
@@ -88,12 +93,20 @@
 ## V - lll (Masterclasses GBBO)
 
 200 gms glace cherries
+
 225 gms self raising flour
+\
 175 gms caster sugar
+\
 175 gms softened butter
+\
 50 gms ground almonds
+\
 Zest of lemon
+\
 3 large eggs
+
+<br />
 
 Quarter, rinse and dry the cherries
 Toss cherries in a spoonful of flour
