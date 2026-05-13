@@ -1,44 +1,27 @@
 # Perfect Chocolate Cake (Felicity Cloake G)
 
-* 50g dark chocolate, melted and allowed to cool slightly
+- 50g dark chocolate, melted and allowed to cool slightly
+- 250g butter, at room temperature
+- 250g light muscovado sugar
+- ½ tsp salt
+- 100g cocoa powder
+- 250g plain flour
+- 2 tsp baking powder
+- 3 large eggs
+- 250ml milk
+- 50g chocolate chips
+- ---
+- For the buttercream:
+- 140g butter, softened
+- 50g cocoa powder
+- 200g icing sugar
+- Pinch of salt
+- 2 tbsp milk
+- 5 Oreo cookies
 
-* 250g butter, at room temperature
+***
 
-* 250g light muscovado sugar
-
-* ½ tsp salt
-
-* 100g cocoa powder
-
-* 250g plain flour
-
-* 2 tsp baking powder
-
-* 3 large eggs
-
-* 250ml milk
-
-* 50g chocolate chips
-
-* <br />
-
-  For the buttercream:
-
-* 140g butter, softened
-
-* 50g cocoa powder
-
-* 200g icing sugar
-
-* Pinch of salt
-
-* 2 tbsp milk
-
-* 5 Oreo cookies
-
-  ***
-
-  Grease and line the bases of 2 x 20cm springform cake tins with greaseproof paper. Preheat the oven to 180C (160C fan) 350F / gas 4. Cream together the butter and sugar with ½ tsp salt until light and fluffy.
+Grease and line the bases of 2 x 20cm springform cake tins with greaseproof paper. Preheat the oven to 180C (160C fan) 350F / gas 4. Cream together the butter and sugar with ½ tsp salt until light and fluffy.
 
 * <br />
 
