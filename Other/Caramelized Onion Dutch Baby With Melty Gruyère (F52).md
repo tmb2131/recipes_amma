@@ -1,7 +1,6 @@
 # Caramelized Onion Dutch Baby With Melty Gruyère (Food52)
 
 - Serves 4
-- Ingredients
 - Neutral oil
 - 5 sprigs thyme
 - 1/2 teaspoon caraway seeds
@@ -23,7 +22,7 @@ Add the onions to the pan with a big pinch of salt and stir to coat. Cook over m
 Add the hard cider to deglaze the pan and use a wooden spoon to release any caramelized bits that have stuck to the bottom. Keep cooking until the cider has completely evaporated, about 2 minutes.
 Heat the oven to 425°F. Place a large cast-iron skillet in the oven to heat up for 7 to 10 minutes.
 Meanwhile, whisk or blend the eggs, flour, milk, sugar, and a pinch of salt until smooth.
-With the pan still in the oven, add the butter, close the oven, and let the butter melt, being careful not to let it burn. 
+With the pan still in the oven, add the butter, close the oven, and let the butter melt, being careful not to let it burn.
 
 <br />
 
