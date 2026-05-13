@@ -13,6 +13,8 @@
 - A little milk
 - 100g demerara sugar
 
+***
+
 **1 Prepare the tin**
 
 Grease a 2lb loaf tin (ie, one measuring about 23cm x 13cm x 7cm) with butter or oil, and line with greaseproof paper. Heat the oven to 180C (160C fan)/350F/gas 4.
