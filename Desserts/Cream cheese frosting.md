@@ -1,26 +1,18 @@
 # Cream cheese frosting
 
-- ½ cup (1 stick) ++[unsalted butter](https://sugarspunrun.com/salted — or — unsalted — butter — substitutions/)++ softened (113g)
-- 8 oz cream cheese softened (brick — style, not spreadable) (226g)
-- 1 teaspoon ++[vanilla extract](https://sugarspunrun.com/make — your — own — vanilla — extract/)++
-- ¼ teaspoon salt
-- 4 cups powdered sugar* (500g)
+* ½ cup (1 stick) unsalted butter softened (113g)
 
-* Combine butter and cream cheese in the bowl of a stand mixer (or you may use an electric mixer) and beat until creamy, well-combined, and lump-free.
+* 8 oz cream cheese softened (brick — style, not spreadable) (226g)
 
-* Add vanilla extract and salt and stir well to combine.
+* 1 teaspoon vanilla extract
 
-* With mixer on low, gradually add powdered sugar until completely combined.
+* ¼ teaspoon salt
 
-* Use to frost completely cooled cake or cupcakes.
-  frosting
-  (24 cupcakes or single 2-layer 8” or 9” cake)
+* 4 cups powdered sugar\* (500g)
 
-* unsalted butter softened (113g)
+  ***
 
-  1 teaspoon vanilla extract
-
-* <br />
+  Combine butter and cream cheese in the bowl of a stand mixer (or you may use an electric mixer) and beat until creamy, well — combined, and lump — free.
 
 * Add vanilla extract and salt and stir well to combine.
 
