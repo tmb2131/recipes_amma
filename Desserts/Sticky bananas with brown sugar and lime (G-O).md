@@ -13,9 +13,7 @@
 - 2 tsp black sesame seeds
 - ½ tsp ground star anise
 
-Set the oven grill to its highest setting. Meanwhile, put the rice in a small frying pan on a medium heat and toast for 12-15 minutes, shaking the pan from time to time, until deeply golden. 
-
-<br />
+Set the oven grill to its highest setting. Meanwhile, put the rice in a small frying pan on a medium heat and toast for 12-15 minutes, shaking the pan from time to time, until deeply golden.
 
 Transfer to a spice grinder, blitz very finely, then tip into a small bowl. Return the pan to a medium-high heat, add the sesame seeds and toast, shaking the pan regularly, for about a minute, then tip into the rice bowl. Add the ground star anise and mix to combine.
 
