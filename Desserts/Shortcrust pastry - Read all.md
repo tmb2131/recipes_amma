@@ -2,17 +2,25 @@
 
 - See Method section
 
-Shortcrust pastry - Read all
+| <br /> | <br /> | <br /> | <br /> | <br /> | <br /> | <br /> | <br /> |
+| :----- | :----- | :----- | :----- | :----- | :----- | :----- | :----- |
+| <br /> | <br /> | <br /> | <br /> | <br /> | <br /> | <br /> | <br /> |
 
-<br />
+| <br />                                                              |
+| :------------------------------------------------------------------ |
+| • Mix together flour and a bit of salt and sometimes a bit of sugar |
 
-| <br />                                                              | <br />                                                      | <br />                                                                                                                                                                                                                              | <br />                                                                                                    | <br />               | <br />                                                | <br />                                | <br />                                     |
-| :------------------------------------------------------------------ | :---------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- | :------------------- | :---------------------------------------------------- | :------------------------------------ | :----------------------------------------- |
-| • Mix together flour and a bit of salt and sometimes a bit of sugar | • Toss in cold unsalted butter that has been cut into cubes | • Use your hands, a [pastry cutter](https://s2.washingtonpost.com/39be76c/643e94d453816d1ce0a8ba2c/5b241813ade4e279394b103a/18/57/643e94d453816d1ce0a8ba2c) or a food processor to mash or cut the butter into the dry ingredients  | • Stop cutting or mashing when you have butter-flour lumps the size of walnut halves, peas or oatmeal\*\* | • Stir in cold water | • Gently mash everything together until a dough forms | • Chill and rest (you, and the dough) | • Roll out the dough and fit it into a pan |
+• Use your hands, a [pastry cutter](https://s2.washingtonpost.com/39be76c/643e94d453816d1ce0a8ba2c/5b241813ade4e279394b103a/18/57/643e94d453816d1ce0a8ba2c) or a food processor to mash or cut the butter into the dry ingredients 
 
-<br />
+• Stop cutting or mashin when you have butter-flour lumps the size of walnut halves, peas or oatmeal
 
-<br />
+• Stir in cold water
+
+• Gently mash everything together until a dough forms
+
+• Chill and rest (you, and the dough)
+
+• Roll out the dough and fit it into a pan
 
 <br />
 
@@ -35,10 +43,15 @@ Shortcrust pastry - Read all
 **Basic Flaky Pie Crust for a 9-Inch Pie**
 
 * 8 tablespoons unsalted butter, cold
+
 * 1 1/3 cups pastry flour or bleached all-purpose flour
+
 * 1/4 teaspoon salt
+
 * 3 tablespoons ice water
+
 * 1 1/2 teaspoons cider vinegar (optional)
+
 * 1/8 teaspoon non-aluminum baking powder (if not using, double the salt)
 
 <br />
@@ -50,24 +63,35 @@ Shortcrust pastry - Read all
 **Basic Flaky Pie Crust for a 9-Inch Pie**
 
 * Divide the butter into two parts, about two thirds to one third -- 2.5 ounces and 1.5 ounces (5 tablespoons and 3 tablespoons). Cut the butter into 3/4-inch cubes. Wrap each portion of butter with plastic wrap, refrigerate the larger amount and freeze the smaller for at least 30 minutes. Place the flour, salt, and baking powder in a reclosable gallon-size freezer bag and freeze for at least 30 minutes.
+
 * \
   Place a medium mixing bowl in the freezer to chill. Place the flour, salt, and optional baking powder in another medium bowl and whisk to combine them.
-*  \
+
+* \
   Use a pastry cutter or rub the mixture between your fingers to blend the larger portion of the butter into the flour until it resembles coarse meal.
+
 * \
   Spoon the mixture, together with the cold butter from the freezer, into a reclosable gallon-size freezer bag. Expel any air from the bag and close it. Use a rolling pin to flatten the butter into flakes. Place the bag in the freezer for at least 10 minutes or until the butter is very firm.
+
 * \
   Transfer the mixture to the chilled bowl, scraping the sides of the bag. Set the bag aside. Sprinkle the ice water and vinegar onto the mixture, tossing it lightly with a rubber spatula. Spoon the loose mixture back into the plastic bag.
+
 * \
   Holding both ends of the bag opening with your fingers, knead the mixture by alternately pressing it, from the outside of the bag, with knuckles and heels of your hands until the mixture holds together in one piece and feels slightly stretchy when pulled.
+
 * \
   Wrap the dough with plastic wrap, flatten it into a disc and refrigerate for at least 45 minutes, preferably overnight. This dough can be stored, refrigerated, up to 2 days; frozen, up to 3 months.
+
 * <br />
+
 * **Open-Faced Fresh Blueberry Pie**
+
 * For the crust Remove the dough from the refrigerator. If necessary, allow it to sit for about 10 minutes or until it is soft enough to roll.
+
 * \
   Using a pastry cloth and sleeve rubbed with flour or two sheets of plastic wrap lightly sprinkled with flour, roll the dough 1/8 inch thick or less and large enough to cut a 13-inch circle. Use an expandable flan ring or a cardboard template and a sharp knife as a guide to cut out the circle. Transfer the dough to the pie pan, fold under the excess, and crimp the border using a fork or your fingers (or just fold it under). Cover it loosely and refrigerate it for a minimum of 1 hour and a maximum of 24 hours. Preheat the oven to 425°F at least 20 minutes before baking.
-*  \
+
+* \
   Line the pastry with parchment, pleating it as necessary so it fits into the pan, and fill it with rice or dried beans. Bake for 20 minutes. Carefully lift out the rice or beans with the parchment. With a fork, prick the bottom and sides, and bake 5-10 minutes, or until the crust is pale golden. Check after 3 minutes and prick any bubbles that may have formed.
 
 <br />
