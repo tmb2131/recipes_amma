@@ -1,16 +1,12 @@
 # Shortcrust pastry - Read all
 
-- See Method section
+* See Method section
 
-| <br /> | <br /> | <br /> | <br /> | <br /> | <br /> | <br /> | <br /> |
-| :----- | :----- | :----- | :----- | :----- | :----- | :----- | :----- |
-| <br /> | <br /> | <br /> | <br /> | <br /> | <br /> | <br /> | <br /> |
+<br />
 
-| <br />                                                              |
-| :------------------------------------------------------------------ |
-| • Mix together flour and a bit of salt and sometimes a bit of sugar |
+• Mix together flour and a bit of salt and sometimes a bit of sugar
 
-• Use your hands, a [pastry cutter](https://s2.washingtonpost.com/39be76c/643e94d453816d1ce0a8ba2c/5b241813ade4e279394b103a/18/57/643e94d453816d1ce0a8ba2c) or a food processor to mash or cut the butter into the dry ingredients 
+• Use your hands, a pastry cutter or a food processor to mash or cut the butter into the dry ingredients 
 
 • Stop cutting or mashin when you have butter-flour lumps the size of walnut halves, peas or oatmeal
 
@@ -21,8 +17,6 @@
 • Chill and rest (you, and the dough)
 
 • Roll out the dough and fit it into a pan
-
-<br />
 
 <br />
 
