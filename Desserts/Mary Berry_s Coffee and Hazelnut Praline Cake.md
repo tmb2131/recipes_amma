@@ -1,7 +1,7 @@
-  
-Mary Berry's Coffee and Hazelnut Praline Cake  
-Serves 6-8  
-## Ingredients  
+Mary Berry's Coffee and Hazelnut Praline Cake\
+Serves 6-8
+
+## Ingredients
 
 | 1 tbsp      | coffee granules                        |
 | ----------- | -------------------------------------- |
@@ -11,23 +11,33 @@ Serves 6-8
 | 225g (8oz)  | caster sugar                           |
 | 225g (8oz)  | self-raising flour                     |
 | 1 tsp       | baking powder                          |
-|             | For the praline:                       |
+| <br />      | For the praline:                       |
 | 100g (4oz)  | granulated sugar                       |
 | 75g (3oz)   | whole hazelnuts                        |
-|             | For the buttercream icing:             |
+| <br />      | For the buttercream icing:             |
 | 1½ tbsp     | coffee granules                        |
 | 1½ tbsp     | just-boiled water                      |
 | 225g (8oz)  | butter, softened                       |
 | 400g (14oz) | icing sugar                            |
-  
-**Essential kit**  
-You will need: two 20cm (8in) round, loose-bottomed sandwich tins, an electric hand whisk,  
-## Instructions  
-1. You will need two 20cm (8in) round, loose-bottomed sandwich tins and a baking sheet lined with non-stick baking paper. Preheat the oven to 180°C/160°C fan/Gas 4, then grease the tins and line each base with a disc of baking paper.  
-2. Dissolve the coffee granules in the hot water and stir until smooth. Measure the eggs, baking spread, sugar, flour and baking powder into a large mixing bowl and add the dissolved coffee mix. Beat with an electric hand whisk until well mixed and no lumps of fat remain. Divide between the tins and level the tops.  
-3. Bake in the oven for about 30 minutes until well risen and just shrinking away from the sides of the tins. Leave to cool slightly, then remove from the tins and leave to cool on a wire rack.  
-4. For the praline, measure the sugar and 4 tablespoons of water into a saucepan. Stir slowly over a low heat until the sugar has dissolved and you have a clear syrup. Remove the spoon and stop stirring, then increase the heat and boil until the syrup is pale golden. Add the hazelnuts and swirl the syrup in the pan to coat them, then quickly tip the mixture on to the lined baking sheet. Leave to cool and harden into a praline. Break the praline up on a wooden board and chop into very small pieces.  
-5. For the buttercream icing, dissolve the coffee in the hot water and stir until smooth. Measure the butter into a large bowl. Beat until smooth with an electric hand whisk, then add the coffee mixture and the sugar, a little at a time, and beat until smooth, light and fluffy.  
-6. Sit one cake on a plate. Spread with half the icing and sprinkle with half the praline. Sit the second cake on top and spread with the remaining icing, then sprinkle over the rest of praline. Cut into slices to serve.  
-Prepare ahead: Can be assembled and iced up to a day ahead and decorated with the praline up to 8 hours before serving.  
-Freeze: The cake, without icing, freezes well.  
+
+<br />
+
+**Essential kit**\
+You will need: two 20cm (8in) round, loose-bottomed sandwich tins, an electric hand whisk,
+
+## Instructions
+
+1. You will need two 20cm (8in) round, loose-bottomed sandwich tins and a baking sheet lined with non-stick baking paper. Preheat the oven to 180°C/160°C fan/Gas 4, then grease the tins and line each base with a disc of baking paper.
+2. <br />
+3. Dissolve the coffee granules in the hot water and stir until smooth. Measure the eggs, baking spread, sugar, flour and baking powder into a large mixing bowl and add the dissolved coffee mix. Beat with an electric hand whisk until well mixed and no lumps of fat remain. Divide between the tins and level the tops.
+4. <br />
+5. Bake in the oven for about 30 minutes until well risen and just shrinking away from the sides of the tins. Leave to cool slightly, then remove from the tins and leave to cool on a wire rack.
+6. <br />
+7. For the praline, measure the sugar and 4 tablespoons of water into a saucepan. Stir slowly over a low heat until the sugar has dissolved and you have a clear syrup. Remove the spoon and stop stirring, then increase the heat and boil until the syrup is pale golden. Add the hazelnuts and swirl the syrup in the pan to coat them, then quickly tip the mixture on to the lined baking sheet. Leave to cool and harden into a praline. Break the praline up on a wooden board and chop into very small pieces.
+8. <br />
+9. For the buttercream icing, dissolve the coffee in the hot water and stir until smooth. Measure the butter into a large bowl. Beat until smooth with an electric hand whisk, then add the coffee mixture and the sugar, a little at a time, and beat until smooth, light and fluffy.
+10. <br />
+11. Sit one cake on a plate. Spread with half the icing and sprinkle with half the praline. Sit the second cake on top and spread with the remaining icing, then sprinkle over the rest of praline. Cut into slices to serve.
+12. \
+    Prepare ahead: Can be assembled and iced up to a day ahead and decorated with the praline up to 8 hours before serving.\
+    Freeze: The cake, without icing, freezes well.
