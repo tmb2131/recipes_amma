@@ -24,8 +24,6 @@ Heat the oven to 180C (160C fan) and grease and line the bases of 2 x 20cm sandw
 Beat the butter and sugar together until really light and fluffy.
 With the mixer still running, pour in the egg mix very gradually, scraping down the sides of the mixer as necessary.
 
-<br />
-
 Once incorporated, sift in the flour, baking powder and salt, and gently fold in with a large metal spoon, adding the coffee and chopped walnuts as you go.
 
 The batter should fall, reluctantly, from a spoon; if not, add a little milk to loosen it. Divide between the 2 tins, and bake for about 25 minutes until well risen. Allow to cool for 10 minutes in the tins, then put on a wire rack to cool completely.
