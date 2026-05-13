@@ -1,14 +1,22 @@
 # Tomato Ketchup (The Modern Nonna)
 
-- 6 oz tomato paste , Italian
-- ½ cup water
-- ⅓ cup vinegar, apple cider is fine too
-- 4 tablespoons honey, **to taste
-- ½ tablespoon onion powder
-- ½ tablespoon garlic powder
-- 1 pinch salt
+* 6 oz tomato paste , Italian
 
-* In a saucepan on the stove, mix together all the ingredients until well combined. Bring mixture to a simmer over low/medium heat.
+* ½ cup water
+
+* ⅓ cup vinegar, apple cider is fine too
+
+* 4 tablespoons honey, \*\*to taste
+
+* ½ tablespoon onion powder
+
+* ½ tablespoon garlic powder
+
+* 1 pinch salt
+
+  ***
+
+  In a saucepan on the stove, mix together all the ingredients until well combined. Bring mixture to a simmer over low/medium heat.
 
 * <br />
 
