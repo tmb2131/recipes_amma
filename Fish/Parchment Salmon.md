@@ -1,7 +1,6 @@
 # Parchment Salmon
 
 - Serves 4
-- Ingredients
 - 4 (½ — inch — thick) salmon fillets (about 6 ounces each)
 - Kosher salt
 - 2 lemons
