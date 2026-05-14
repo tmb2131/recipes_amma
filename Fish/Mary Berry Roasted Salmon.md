@@ -20,18 +20,12 @@ Dip buttered salmon in mix and lay on parsley stalks.\`
 
 ***
 
-Preserved lemon
-
-Parsley
-
-Juice of 0.5 lemon
-
-Blend
-
-Mayonnaise
-
-Creme fraiche
-
+Preserved lemon\
+Parsley\
+Juice of 0.5 lemon\
+Blend\
+Mayonnaise\
+Creme fraiche\
 Blend
 
 ***
