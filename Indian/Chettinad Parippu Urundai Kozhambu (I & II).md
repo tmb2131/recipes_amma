@@ -77,51 +77,32 @@ Serve the Chettinad Paruppu Urundai Kuzhambu (Steamed Lentil Balls Cooked in a T
 
 **For the dumplings**
 
-* 1/2 cup Channa dal
-
-* 1/4 tsp Fennel seeds
-
-* 2 cloves minced Garlic
-
-* 1/2 Onion, finely chopped
-
-* 1/4 teaspoon Turmeric
-
-* 1/2 green chilli finely minced
-
-* 5–6 stalks Coriander leaves, chopped
-
-* 1/4 cup fresh Shredded coconut
-
-* 1/4 teaspoon Salt
+* 1/2 cup Channa dal\
+  1/4 tsp Fennel seeds\
+  2 cloves minced Garlic\
+  1/2 Onion, finely chopped\
+  1/4 teaspoon Turmeric\
+  1/2 green chilli finely minced\
+  5–6 stalks Coriander leaves, chopped\
+  1/4 cup fresh Shredded coconut\
+  1/4 teaspoon Salt
 
 <br />
 
 **For the curry**
 
-* 2 tablespoon Oil
-
-* 2 Cloves
-
-* 1 small piece Cinnamon
-
-* 1/2 teaspoon Fennel seeds
-
-* 1 sprig curry leaf
-
-* 1 medium size onion
-
-* 4 cloves minced Garlic
-
-* 3 Tomatoes pureed
-
-* 1/2 teaspoon Turmeric
-
-* 1 teaspoon Sambar powder
-
-* 1 teaspoon salt
-
-* 1/4 cup coconut
+* 2 tablespoon Oil\
+  2 Cloves\
+  1 small piece Cinnamon\
+  1/2 teaspoon Fennel seeds\
+  1 sprig curry leaf\
+  1 medium size onion\
+  4 cloves minced Garlic\
+  3 Tomatoes pureed\
+  1/2 teaspoon Turmeric\
+  1 teaspoon Sambar powder\
+  1 teaspoon salt\
+  1/4 cup coconut
 
 <br />
 
