@@ -54,16 +54,16 @@ For the mujadara:\
 1 teaspoon cornstarch\
 Vegetable oil, for frying
 
-##
+<br />
 
-1. In a serving bowl, combine all salad ingredients except for salt. Set aside until ready to serve.
-2. <br />
-3. Make the mujadara: In a medium sized dutch oven or non-stick pan, combine lentils with 4 cups water, and place over high heat. Bring to a boil, removing any foam that rises to the surface. Reduce heat and simmer until lentils are almost done but still have a bite, about 15 minutes. (The exact time will depend on the variety and age of the lentils, but, generally, cook them for about 5 minutes less than the time stated on the package.)
-4. <br />
-5. Add washed and drained rice, 1 teaspoon of the salt and spices to lentils. Bring to a boil, then reduce heat, cover and simmer on lowest setting until rice is fully cooked, about 10 minutes.
-6. <br />
-7. While lentils and rice are cooking, heat olive oil in a frying pan over medium-high heat. Add 3 diced onions and remaining 1 teaspoon salt, and sauté, stirring regularly, until a golden-brown color and crisp around the edges, 12-15 minutes. Once rice is done, pour onions and their oil over rice and lentils, give one gentle stir, and place a dish towel or paper towels under the lid and cover. Remove from heat and set aside for at least 10 minutes before serving to let flavors meld.
-8. <br />
-9. Meanwhile, prepare the crispy onion topping: Heat vegetable oil in a small, deep skillet or wok until hot. Sprinkle onion half-moon slices with cornstarch and toss to combine. Add seasoned onions to hot oil and fry until crisp and golden-brown, taking care not to burn, about 5 minutes. Remove with a slotted spoon and drain on paper towels until dry and crispy.
-10. <br />
-11. To serve, transfer mujadara to a serving platter and top with crispy onions. Add salt to salad, and toss to combine. Serve salad alongside mujadra.
+In a serving bowl, combine all salad ingredients except for salt. Set aside until ready to serve.
+
+Make the mujadara: In a medium sized dutch oven or non-stick pan, combine lentils with 4 cups water, and place over high heat. Bring to a boil, removing any foam that rises to the surface. Reduce heat and simmer until lentils are almost done but still have a bite, about 15 minutes. (The exact time will depend on the variety and age of the lentils, but, generally, cook them for about 5 minutes less than the time stated on the package.)
+
+Add washed and drained rice, 1 teaspoon of the salt and spices to lentils. Bring to a boil, then reduce heat, cover and simmer on lowest setting until rice is fully cooked, about 10 minutes.
+
+While lentils and rice are cooking, heat olive oil in a frying pan over medium-high heat. Add 3 diced onions and remaining 1 teaspoon salt, and sauté, stirring regularly, until a golden-brown color and crisp around the edges, 12-15 minutes. Once rice is done, pour onions and their oil over rice and lentils, give one gentle stir, and place a dish towel or paper towels under the lid and cover. Remove from heat and set aside for at least 10 minutes before serving to let flavors meld.
+
+Meanwhile, prepare the crispy onion topping: Heat vegetable oil in a small, deep skillet or wok until hot. Sprinkle onion half-moon slices with cornstarch and toss to combine. Add seasoned onions to hot oil and fry until crisp and golden-brown, taking care not to burn, about 5 minutes. Remove with a slotted spoon and drain on paper towels until dry and crispy.
+
+To serve, transfer mujadara to a serving platter and top with crispy onions. Add salt to salad, and toss to combine. Serve salad alongside mujadra.
