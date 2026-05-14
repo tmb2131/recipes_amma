@@ -24,5 +24,7 @@ Mix the besan well with the water and add the yoghurt to the mixture
 Whisk well with electric blender. Adjust consistency eembering that the mixture will thicken when heated.
 Add the green chillies to the yoghurt mixture and blend well with your fingers to crush the chillies well.
 Add all the remaining ingredients and mix.
-Set the mixture on a low flame and watch as the liquid begins to these from the sides. Bring to a slow simmer and let it cook for about 15 minutes or so.  If necessary add water for right consistency.
+Set the mixture on a low flame and watch as the liquid begins to these from the sides.
+
+Bring to a slow simmer and let it cook for about 15 minutes or so.  If necessary add water for right consistency.
 Heat oil and add bhagaar ingredients. Pour over kadhi.  Garnish with corriander leaves.
