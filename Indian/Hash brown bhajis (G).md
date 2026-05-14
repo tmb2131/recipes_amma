@@ -1,19 +1,19 @@
 # Hash brown bhajis (Guardian)
 
 - Serves 4
-- maris piper potatoes** 800g, peeled and coarsely grated
-- onion** 1, peeled and coarsely grated
-- mild curry powder** 1 tsp
-- cornflour** 1 tbsp
-- chilli flakes** ½ tsp
-- nigella seeds** ½ tsp, plus optional extra to serve
-- flaky salt **1 tsp
+- maris piper potatoes 800g, peeled and coarsely grated
+- onion 1, peeled and coarsely grated
+- mild curry powder 1 tsp
+- cornflour 1 tbsp
+- chilli flakes ½ tsp
+- nigella seeds ½ tsp, plus optional extra to serve
+- flaky salt 1 tsp
 - neutral oil
 - black pepper
 - To serve
-- coconut yoghurt** 2 tbsp
+- coconut yoghurt 2 tbsp
 - mango chutney
-- coriander leaves** a handful, roughly chopped or torn
+- coriander leaves a handful, roughly chopped or torn
 - red chilli 1, finely chopped
 
 Line a baking tray with baking parchment. Tip the grated potato and onion into a clean tea towel. Gather up the edges and squeeze out all of the moisture.
