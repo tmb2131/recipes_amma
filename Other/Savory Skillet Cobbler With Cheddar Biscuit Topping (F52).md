@@ -27,7 +27,9 @@
 - 1 1/2 cups (255 grams) halved cherry tomatoes (Sungold are especially delicious here!)
 - 1 large egg
 
-For the cheddar biscuits:
+***
+
+**For the cheddar biscuits:**
 
 In a medium bowl, whisk the flour, brown sugar, baking powder, salt, onion powder, garlic powder, smoked paprika, and cayenne to combine. Add the cubed butter, and use your hands or a pastry cutter to cut the butter into the flour, continuing to mix until the butter is in pieces—the largest size should be no larger than the size of peas.
 
@@ -35,7 +37,7 @@ Add the shredded cheddar and toss well to combine. Add the buttermilk and mix un
 
 <br />
 
-For the pie filling & assembly:
+**For the pie filling & assembly:**
 
 In a large, oven-safe skillet (about 12 inches), melt the butter over medium heat. Add the onion and squash, and sauté until they are just tender, 5 to 6 minutes. Add the fresh tomatoes and garlic, and cook until the tomatoes release their juices and the mixture begins to simmer. Season with salt and pepper, reduce the heat to low, and simmer for 10 minutes.
 
