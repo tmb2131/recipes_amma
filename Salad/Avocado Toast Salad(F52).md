@@ -22,8 +22,6 @@
 
 Make the dressing. Combine the yogurt, lemon juice, olive oil, and salt in a measuring cup or small bowl. Whisk with a fork until creamy and emulsified. Taste and adjust the seasoning as needed.
 
-<br />
-
 Preheat the oven to 375° F. Line a rimmed sheet pan with parchment, nonstick foil, or a silicone baking mat. Add the bread pieces and both seeds. Drizzle with the oil, 1 pinch of salt, and the pepper. Toss with your hands until everything is coated and seasoned. Bake for about 16 minutes, until the bread is toasty and the seeds are colorful. Let cool completely.
 Meanwhile, combine the cucumbers, radishes, onion, and remaining pinch of salt in a large bowl. Toss with your hands. Top with half the herbs.
 
