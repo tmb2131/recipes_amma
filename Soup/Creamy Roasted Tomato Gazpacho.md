@@ -13,14 +13,14 @@
 - water, as needed, to thin
 - optional toppings: chopped tomato, cucumber, scallion, chile flakes
 
-1. Heat a cast iron skillet, grill pan (or outdoor grill). Dry roast (whole) tomatoes, onion slices, peppers, and garlic (still in it's paper) by placing each directly in the pan, rotating every few minutes until a nice black char marks form all over. You'll probably remove the garlic first, then the peppers and lastly the onion slices and tomatoes. Let everything cool to room temp.
-2. <br />
-3. Scrape most of the skin off the peppers, and remove seeds and ribbing.
-4. <br />
-5. Over a bowl, core the tomatoes (saving the juice that comes out).
-6. <br />
-7. Remove the paper from the garlic and place it into the food processor with the tomatoes, onion, peppers, 1 tablespoon olive oil, 1 tablespoon sherry vinegar, and a generous amount of salt and pepper.
-8. <br />
-9. Blend until pureed. Add pine nuts and bread and blend again. Taste and adjust.
-10. <br />
-11. Chill at least 1 hour. The longer this sits the better. Taste again & adjust seasonings before serving.
+Heat a cast iron skillet, grill pan (or outdoor grill). Dry roast (whole) tomatoes, onion slices, peppers, and garlic (still in it's paper) by placing each directly in the pan, rotating every few minutes until a nice black char marks form all over. You'll probably remove the garlic first, then the peppers and lastly the onion slices and tomatoes. Let everything cool to room temp.
+
+Scrape most of the skin off the peppers, and remove seeds and ribbing.
+
+Over a bowl, core the tomatoes (saving the juice that comes out).
+
+Remove the paper from the garlic and place it into the food processor with the tomatoes, onion, peppers, 1 tablespoon olive oil, 1 tablespoon sherry vinegar, and a generous amount of salt and pepper.
+
+Blend until pureed. Add pine nuts and bread and blend again. Taste and adjust.
+
+Chill at least 1 hour. The longer this sits the better. Taste again & adjust seasonings before serving.
