@@ -14,6 +14,6 @@
 - 1 **scallion, green and white parts, thinly sliced
 - Handful of cilantro leaves
 
-1. Make the dressing: Combine the soy sauce, rice vinegar, sesame oil, chile oil, sugar, sesame seeds and scallion in a small bowl. Whisk until the sugar has dissolved.
-2. <br />
-3. Carefully drain the liquid from the package of tofu, and gently tip the block onto a kitchen towel. (Try to keep the block in one piece, if possible, but don’t worry if it falls apart; it will still taste great.) Pat with another clean kitchen towel, removing as much liquid as possible. Transfer the blocks to one large plate or two smaller plates, and spoon the soy dressing over the top until the tofu is completely covered. Top with scallions and cilantro leaves, and eat on its own or with rice or noodles on the side.
+Make the dressing: Combine the soy sauce, rice vinegar, sesame oil, chile oil, sugar, sesame seeds and scallion in a small bowl. Whisk until the sugar has dissolved.
+
+Carefully drain the liquid from the package of tofu, and gently tip the block onto a kitchen towel. (Try to keep the block in one piece, if possible, but don’t worry if it falls apart; it will still taste great.) Pat with another clean kitchen towel, removing as much liquid as possible. Transfer the blocks to one large plate or two smaller plates, and spoon the soy dressing over the top until the tofu is completely covered. Top with scallions and cilantro leaves, and eat on its own or with rice or noodles on the side.
