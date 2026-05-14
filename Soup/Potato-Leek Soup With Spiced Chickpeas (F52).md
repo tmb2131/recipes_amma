@@ -19,8 +19,6 @@
 
 Heat the butter and 2 tablespoons of the oil in a large saucepan over medium heat. Once the butter is melted, add the shallot and cook for 2 to 3 minutes, until softened. Add the garlic and cook for another 2 minutes.
 
-<br />
-
 Reserve a handful of the leeks' green tops. Add the rest of the leeks to the pan and cook for 4 to 5 minutes, until softened. Add in the potatoes and cook for 5 minutes, until they start to turn golden.
 
 Reserve ½ cup of the chickpeas. Add the rest to the pan and combine with the vegetables. Add the stock and 1 teaspoon of salt to the pan and bring to a boil. Cover and cook over low heat for 40 minutes, until the potatoes are fall-apart tender.
