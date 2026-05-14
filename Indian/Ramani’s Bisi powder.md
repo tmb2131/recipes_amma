@@ -3,24 +3,14 @@ From the internet
 
 **Ingredients**
 
-* 1/4 cup Fresh coconut
-
-* 1 tablespoon Black Urad Dal (Whole)
-
-* 1 tablespoon Chana dal (Bengal Gram Dal)
-
-* 2 tablespoons Coriander (Dhania) Seeds
-
-* 1 teaspoon Methi Seeds (Fenugreek Seeds)
-
-* 5 Dry Red Chillies
-
-* 1 tablespoon Poppy seeds
-
-* 3 Cloves (Laung)
-
-* 1 inch Cinnamon Stick (Dalchini)
-
-* 1/2 teaspoon Asafoetida (hing)
-
-* 1 teaspoon Turmeric powder (Haldi)
+* 1/4 cup Fresh coconut\
+  1 tablespoon Black Urad Dal (Whole)\
+  1 tablespoon Chana dal (Bengal Gram Dal)\
+  2 tablespoons Coriander (Dhania) Seeds\
+  1 teaspoon Methi Seeds (Fenugreek Seeds)\
+  5 Dry Red Chillies\
+  1 tablespoon Poppy seeds\
+  3 Cloves (Laung)\
+  1 inch Cinnamon Stick (Dalchini)\
+  1/2 teaspoon Asafoetida (hing)\
+  1 teaspoon Turmeric powder (Haldi)
