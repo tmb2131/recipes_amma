@@ -1,29 +1,52 @@
 # Moolor Ghonto (Bong Eats)
 
-- Serves 4 servings
-- 500 g** moolo (radish; 300 g after peeling)
-- 100 g** potatoes (3 — cm cubes)
-- 15 g** green peas (shelled)
-- 15 g** tomato (chopped)
-- 15 g** grated coconut
-- 4** green chillies
-- 30 g** mustard oil
-- 1** dried red chilli
-- 1** bay leaf
-- 1** cardamom
-- 1** cinnamon
-- 1** clove
-- ½ tsp** cumin seeds
-- ½ tsp** cumin powder
-- ¼ tsp** turmeric
-- 1 pinch** red chilli powder
-- 5 g** ginger paste
-- 8 g** total salt (in two parts)
-- 14 g** sugar
-- ¼ tsp** atta
-- ¼ tsp** gorom moshla[Get recipe »](https://www.bongeats.com/recipe/bengali — garam — masala)
-- 1 tsp** ghee
-- 6 g** coriander leaves (chopped)
+* Serves 4 servings
+
+* 500 g moolo (radish; 300 g after peeling)
+
+* 100 g potatoes (3 — cm cubes)
+
+* 15 g green peas (shelled)
+
+* 15 g tomato (chopped)
+
+* 15 g grated coconut
+
+* 4 green chillies
+
+* 30 g mustard oil
+
+* 1 dried red chilli
+
+* 1 bay leaf
+
+* 1 cardamom
+
+* 1 cinnamon
+
+* 1 clove
+
+* ½ tsp cumin seeds
+
+* ½ tsp cumin powder
+
+* ¼ tsp turmeric
+
+* 1 pinch red chilli powder
+
+* 5 g ginger paste
+
+* 8 g total salt (in two parts)
+
+* 14 g sugar
+
+* ¼ tsp atta
+
+* ¼ tsp gorom moshla\[Get recipe »]\(<https://www.bongeats.com/recipe/bengali> — garam — masala)
+
+* 1 tsp ghee
+
+* 6 g coriander leaves (chopped)
 
 Peel and chop the radish into fine shreds. For 300 g of shredded radish, mix in 6 g salt. Set aside to allow the salt to draw moisture out from the radish.
 
