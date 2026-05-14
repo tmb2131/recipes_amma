@@ -19,24 +19,20 @@
 
 ***
 
-Step 1
-
+Step 1\
 Combine the cornstarch, stock, rice wine and soy sauce in a bowl and whisk until smooth; set aside.
 
 <br />
 
-Step 2
-
+Step 2\
 Heat a wok or large skillet over medium-high. Once it’s hot, add 1 to 2 tablespoons of oil, along with the celery. Cook, tossing, for 2 to 3 minutes, until the celery is slightly softened; push it to the side. Add the ginger, garlic and three-quarters of the scallions, then toss for 30 seconds until fragrant. Add the greens and toss for 1 to 2 minutes until slightly wilted. Toss in the tofu and cashews and stir fry for another 1 to 2 minutes, until the tofu is warmed through.
 
 <br />
 
-Step 3
-
+Step 3\
 Stir the cornstarch mixture, then swirl it into the wok or skillet and toss until the sauce thickens and coats everything. Taste and season with a little salt, if needed.
 
 <br />
 
-Step 4
-
+Step 4\
 Top with the remaining scallions and the sesame seeds; serve with rice.
