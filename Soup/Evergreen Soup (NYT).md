@@ -9,12 +9,12 @@
 - 1 tablespoon raw pumpkin seeds
 - Pinch of freshly grated raw turmeric
 
-1. In a small pot, add stock, vegetables, parsley and basil and a pinch of salt, and bring to a boil. Reduce heat, cover and simmer until vegetables are soft but still vibrant in color (about five to seven minutes).
-2. <br />
-3. In a small bowl, combine miso with ¼ cup hot water and stir until the miso is fully dissolved.
-4. <br />
-5. Once the soup is cooked, remove from heat, stir in the dissolved miso and let cool slightly.
-6. <br />
-7. Transfer to a blender or food processor and blend to a fine purée.
-8. <br />
-9. Garnish with avocado, pumpkin seeds and turmeric.
+In a small pot, add stock, vegetables, parsley and basil and a pinch of salt, and bring to a boil. Reduce heat, cover and simmer until vegetables are soft but still vibrant in color (about five to seven minutes).
+
+In a small bowl, combine miso with ¼ cup hot water and stir until the miso is fully dissolved.
+
+Once the soup is cooked, remove from heat, stir in the dissolved miso and let cool slightly.
+
+Transfer to a blender or food processor and blend to a fine purée.
+
+Garnish with avocado, pumpkin seeds and turmeric.
