@@ -26,5 +26,3 @@ Prepare the dressing: In a large measuring cup, whisk all of the dressing ingred
 In a large shallow bowl or platter, toss the romaine with half of the following ingredients: corn, radishes, avocado, sliced scallions, Cotija and cilantro. Season to taste with salt and pepper. Add ½ cup dressing and toss to coat. Season again with salt and pepper.
 
 Top with the remaining corn, radishes, avocado, scallions, Cotija and cilantro, scattering the garnishes on top or arranging them in stripes or piles. Sprinkle some crumbled tortilla chips on top, if using. Drizzle the salad with an additional ¼ cup dressing, and serve immediately, serving any remaining dressing and additional tortilla chips alongside.
-
-Top with the remaining corn, radishes, avocado, scallions, Cotija and cilantro, scattering the garnishes on top or arranging them in stripes or piles. Sprinkle some crumbled tortilla chips on top, if using. Drizzle the salad with an additional ¼ cup dressing, and serve immediately, serving any remaining dressing and additional tortilla chips alongside.
