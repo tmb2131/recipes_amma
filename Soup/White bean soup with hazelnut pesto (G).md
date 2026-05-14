@@ -31,36 +31,20 @@
 - 1 tsp dried chilli flakes (optional)
 - Vinegar (red wine or sherry)
 
-1 Soak the beans overnight. The next day, sweat the veg in the light olive oil over a low heat. Add the chopped rosemary and bay leaves. 
+1 Soak the beans overnight. The next day, sweat the veg in the light olive oil over a low heat. Add the chopped rosemary and bay leaves.
 
-<br />
+2 Drain the beans and add to the pot with the bicarbonate of soda. Pour in the stock and top up with water – the liquid should rise four inches above the beans.
 
-2 Drain the beans and add to the pot with the bicarbonate of soda. Pour in the stock and top up with water – the liquid should rise four inches above the beans. 
+3 Bring to the boil, skim the surface, then simmer for around two hours until the beans have wilfully collapsed.
 
-<br />
+4 Make the pesto. Roughly blitz the hazelnuts and walnuts. Pour half of the olive oil in a pan on a low heat. Add the nuts and garlic.
 
-3 Bring to the boil, skim the surface, then simmer for around two hours until the beans have wilfully collapsed. 
+5 Slow fry for 15 minutes, stirring regularly. Once the nuts have coloured, add the chopped herbs and chilli.
 
-<br />
+6 Infuse for 10 minutes, then cool.
 
-4 Make the pesto. Roughly blitz the hazelnuts and walnuts. Pour half of the olive oil in a pan on a low heat. Add the nuts and garlic. 
+7 Pulse in a food processor to a coarse paste. Scoop into a bowl and stir in the rest of the olive oil, vinegar and salt and pepper to taste.
 
-<br />
-
-5 Slow fry for 15 minutes, stirring regularly. Once the nuts have coloured, add the chopped herbs and chilli. 
-
-<br />
-
-6 Infuse for 10 minutes, then cool. 
-
-<br />
-
-7 Pulse in a food processor to a coarse paste. Scoop into a bowl and stir in the rest of the olive oil, vinegar and salt and pepper to taste. 
-
-<br />
-
-8 Once the beans are soft and mushy, stir in the extra virgin olive oil and a splash of the vinegar. If you like, you can encourage the beans to break down further with a potato masher. Season extensively. 
-
-<br />
+8 Once the beans are soft and mushy, stir in the extra virgin olive oil and a splash of the vinegar. If you like, you can encourage the beans to break down further with a potato masher. Season extensively.
 
 9 You can either serve the pesto as a blob on top of the soup or stir it in.
