@@ -1,7 +1,6 @@
 # Saag Paneer (2)
 
 - Serves 4
-- INGREDIENTS:
 - 1 Pack (6oz) of Sach Original Paneer, cubed
 - 1 tbsp ghee or butter
 - 8oz baby spinach
