@@ -13,8 +13,7 @@
 
 ***
 
-Step 1
-
+Step 1\
 Bring a medium pot of salted water to a boil. Add the orzo and cook until al dente according to package directions. Two minutes before the orzo is done, add the asparagus. Drain the orzo and asparagus. Wipe out and reserve the pot.
 
 Step 2\
