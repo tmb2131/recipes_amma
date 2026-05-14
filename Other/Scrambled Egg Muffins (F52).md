@@ -28,4 +28,5 @@ Add a tablespoon of butter to pan and scramble 4 of the eggs with salt/pepper to
 Mix flour, cornmeal, 1/2 tablespoon sugar, 1 teaspoon salt, baking powder, baking soda, and a good dose of black pepper. In another bowl, whisk milk, remaining 2 eggs, and 1/4 cup melted butter.
 
 Stir dry and wet mixtures together then fold in cheese, ham, corn, eggs, and chiles.
+
 Use 1 final tablespoon of butter to grease a muffin tin and add batter. Bake about 15 minutes, or until a toothpick comes out clean.
