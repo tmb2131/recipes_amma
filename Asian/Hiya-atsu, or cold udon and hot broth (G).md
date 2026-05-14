@@ -16,7 +16,10 @@
 - ½ tsp salt
 
 To make the salted peanut miso, put the peanuts in a blender and pulverise to a powder, taking care not to turn them into peanut butter. Pour into a small bowl, add both the misos and the syrup, and mix really well. Roll the mix into four balls and put to one side.
+
 To make the broth, put the dried mushrooms in a large pot. Make cuts in the kombu at 4cm intervals, but don’t slice it up entirely (this is to make it easy to remove later). Pour over a litre and a half of boiling water and leave to soak for 15 minutes. Add the ginger to the pot, bring to a rolling boil, then strain through a sieve. Discard the mushrooms, ginger and kombu, and set the broth aside.
+
 Bring a large pot of water to a boil, then add the udon noodles and boil for two minutes. Drain, rinse under cold water until cold, then put to one side.
 Put the broth back on the heat, add the fresh mushrooms, cabbage, soy, mirin and salt, bring back to a boil and take off the heat.
+
 To serve, divide the noodles and peanut miso balls between four plates and ladle the broth into four bowls. To eat, sip a little of the broth, dip a noodle or two in the broth and chase it down with a piece of salted peanut miso, using chopsticks to cut off a little at a time.
