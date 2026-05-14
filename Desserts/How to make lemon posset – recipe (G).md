@@ -13,6 +13,8 @@
 - 1 tbsp flaked almonds (optional)
 - 1 tbsp candied peel (optional)
 
+***
+
 **A note on the lemons**\
 Ideally, buy unwaxed organic lemons for this recipe (organic fruit is never waxed), because it makes use of the zest as well as the juice; though wax should be perfectly safe to eat, few of us like the idea of consuming it. Alternatively, give waxed fruit a good scrub with a stiff brush and hot water before use.
 
