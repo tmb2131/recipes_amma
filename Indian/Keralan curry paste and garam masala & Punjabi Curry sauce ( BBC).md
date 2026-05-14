@@ -6,46 +6,29 @@
 
 **For the paste**
 
-65g/2¼oz desiccated coconut soaked in 100ml/3½fl oz hot water
-
-40g/1½ oz fresh root ginger, roughly chopped
-
-1 tsp ground turmeric
-
-2 tsp ground cumin, dry toasted in a pan
-
-100ml/3½fl oz coconut milk
-
-1 tsp salt
-
-30ml sunflower oil
-
-1 tsp black mustard seeds
-
-10–12 fresh curry leaves
-
+65g/2¼oz desiccated coconut soaked in 100ml/3½fl oz hot water\
+40g/1½ oz fresh root ginger, roughly chopped\
+1 tsp ground turmeric\
+2 tsp ground cumin, dry toasted in a pan\
+100ml/3½fl oz coconut milk\
+1 tsp salt\
+30ml sunflower oil\
+1 tsp black mustard seeds\
+10–12 fresh curry leaves\
 2–3 whole red chillies (kashmiri, kanthari or bird's eye will work)
 
 <br />
 
 **For the garam masala**
 
-1 tsp peppercorns
-
-6 green cardamom pods
-
-2 star anise
-
-5 cloves
-
-5cm/2in cinnamon stick
-
-2 tsp fennel seeds
-
-2 tbsp coriander seeds
-
-¼ mace blade
-
+1 tsp peppercorns\
+6 green cardamom pods\
+2 star anise\
+5 cloves\
+5cm/2in cinnamon stick\
+2 tsp fennel seeds\
+2 tbsp coriander seeds\
+¼ mace blade\
 ½ tsp ground nutmeg
 
 <br />
@@ -64,28 +47,17 @@
 
 **Ingredients**
 
-50ml/2fl oz rapeseed oil
-
-1 large garlic bulb, cloves finely chopped
-
-50g/1¾oz fresh root ginger, finely chopped
-
-2 large red onions, finely chopped
-
-2 large tomatoes, roughly chopped
-
-4–5 bird’s-eye chillies, chopped
-
-small handful fresh coriander, chopped
-
-2 tsp salt
-
-1 tsp chilli flakes or chilli powder
-
-1 heaped tsp ground turmeric
-
-2 heaped tsp garam masala
-
+50ml/2fl oz rapeseed oil\
+1 large garlic bulb, cloves finely chopped\
+50g/1¾oz fresh root ginger, finely chopped\
+2 large red onions, finely chopped\
+2 large tomatoes, roughly chopped\
+4–5 bird’s-eye chillies, chopped\
+small handful fresh coriander, chopped\
+2 tsp salt\
+1 tsp chilli flakes or chilli powder\
+1 heaped tsp ground turmeric\
+2 heaped tsp garam masala\
 sprinkle dried fenugreek leaves
 
 <br />
