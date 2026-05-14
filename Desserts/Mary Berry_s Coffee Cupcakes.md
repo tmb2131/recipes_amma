@@ -13,17 +13,17 @@
 - 225 g icing sugar
 - 12 walnut halves, to decorate
 
-1. **For the cupcakes:** Preheat the oven to 180C/160C fan/gas 4 and line a 12-hole muffin tin with paper muffin cases. Put the coffee granules and 1 tablespoon of boiling water into a mixing bowl and stir until smooth. Add the butter, flour, sugar, milk, and eggs and mix with an electric whisk until smooth. Stir in the walnuts, then spoon into the muffin cases.
+**For the cupcakes:** Preheat the oven to 180C/160C fan/gas 4 and line a 12-hole muffin tin with paper muffin cases. Put the coffee granules and 1 tablespoon of boiling water into a mixing bowl and stir until smooth. Add the butter, flour, sugar, milk, and eggs and mix with an electric whisk until smooth. Stir in the walnuts, then spoon into the muffin cases.
 
-2. Bake in the centre of the oven for 20 to 25 minutes or until risen and golden brown. Transfer to a wire rack until stone cold.
+Bake in the centre of the oven for 20 to 25 minutes or until risen and golden brown. Transfer to a wire rack until stone cold.
 
-3. <br />
+<br />
 
-4. **For the icing:** Put the coffee granules and 2 teaspoons boiling water into a bowl and stir until smooth. Add the butter, sift in the icing sugar, and stir until smooth and free of streaks.
+**For the icing:** Put the coffee granules and 2 teaspoons boiling water into a bowl and stir until smooth. Add the butter, sift in the icing sugar, and stir until smooth and free of streaks.
 
-5. Spoon on to the cupcakes, then decorate each one with a walnut half.
+Spoon on to the cupcakes, then decorate each one with a walnut half.
 
-6. <br />
+1. <br />
 
 ## TIPS AND SUGGESTIONS
 
