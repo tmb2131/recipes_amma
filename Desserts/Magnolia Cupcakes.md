@@ -15,20 +15,23 @@
 - 2 — 3 tablespoons milk
 - 1 teaspoons vanilla extract
 
+***
+
 **Here’s how to make the cupcakes:**
 
 1. Preheat oven to 350 degrees.
-2. Line two 12-cup muffin tins with cupcake papers.
-3. In a small bowl, combine the flours. Set aside.
-4. In a large bowl, on the medium speed of an electric mixer, cream the butter until smooth.
-5. Add the sugar gradually and beat until fluffy, about 3 minutes.
-6. Add the eggs, one at a time, beating well after each addition.
-7. Add the dry ingredients in three parts, alternating with the milk and vanilla.
-8. With each addition, beat until the ingredients are incorporated but do not overbeat.
-9. Using a rubber spatula, scrape down the batter in the bowl to make sure the ingredients are well blended.
-10. Carefully spoon the batter into the cupcake liners, filling them about three-quarters full.
-11. Bake for 20-25 minutes, or until a cake tester inserted into the center of the cupcake comes out clean.
-12. Cool the cupcakes in the tins for 15 minutes. Remove from the tins and cool completely on a wire rack before icing.
+
+   Line two 12-cup muffin tins with cupcake papers.
+2. In a small bowl, combine the flours. Set aside.
+3. In a large bowl, on the medium speed of an electric mixer, cream the butter until smooth.
+4. Add the sugar gradually and beat until fluffy, about 3 minutes.
+5. Add the eggs, one at a time, beating well after each addition.
+6. Add the dry ingredients in three parts, alternating with the milk and vanilla.
+7. With each addition, beat until the ingredients are incorporated but do not overbeat.
+8. Using a rubber spatula, scrape down the batter in the bowl to make sure the ingredients are well blended.
+9. Carefully spoon the batter into the cupcake liners, filling them about three-quarters full.
+10. Bake for 20-25 minutes, or until a cake tester inserted into the center of the cupcake comes out clean.
+11. Cool the cupcakes in the tins for 15 minutes. Remove from the tins and cool completely on a wire rack before icing.
 
 <br />
 
