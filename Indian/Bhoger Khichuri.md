@@ -24,30 +24,20 @@ Heat **Vegetable Oil + 1 tsp Ghee** in a deep and heavy bottomed pot.
 
 Temper the oil with
 
-**4 green cardamom**
-
-**4 clove/laung**
-
-**1 thin stick of cinnamom**
-
-**1 Bay Leaf/tejpata**
-
-**2 Dry red chilli**
-
+**4 green cardamom**\
+**4 clove/laung**\
+**1 thin stick of cinnamom**\
+**1 Bay Leaf/tejpata**\
+**2 Dry red chilli**\
 **1 tsp of whole cumin seeds/jeera**
 
 When the spices pop to the oil add
 
-**1-2 tbsp mince or grated ginger**
-
-Add **1 medium tomato**
-
-Add
-
-**1 tsp Cumin powder**
-
-**1 tsp Garam Masala** **1/2 tsp Red chilli powder(or Kashmiri Mirch)**
-
+**1-2 tbsp mince or grated ginger**\
+Add **1 medium tomato**\
+Add\
+**1 tsp Cumin powder**\
+**1 tsp Garam Masala** **1/2 tsp Red chilli powder(or Kashmiri Mirch)**\
 **1/2 tsp turmeric powder**
 
 **all made into a paste with water** Saute for 2-3 minutes
