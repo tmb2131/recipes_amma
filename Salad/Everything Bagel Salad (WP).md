@@ -19,19 +19,15 @@
 ***
 
 **Step**
-**1**
-
+**1**\
 In a small bowl, whisk together the olive oil and lemon juice or vinegar. Stir in the capers and season to taste with pepper.
- 
 
 <br />
 
-Step 2
-
+**Step 2**\
 On a serving platter or a large plate, arrange the romaine. Using your hands, break the lox into chunks, then scatter it evenly over the greens. Top with the tomatoes and red onion.
 
 <br />
 
-Step 3
-
+**Step 3**\
 In a small bowl, toss the goat cheese with everything bagel seasoning until the cheese is coated with the seasoning. Sprinkle the mixture over the salad, followed by the bagel chips, broken up if desired. Drizzle the dressing over everything. Pick small fronds off the dill and add them to the salad, along with another generous sprinkle of everything bagel seasoning, then serve.
