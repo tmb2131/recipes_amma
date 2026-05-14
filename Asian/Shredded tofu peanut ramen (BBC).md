@@ -1,7 +1,6 @@
 # Shredded tofu peanut ramen (BBC)
 
 - Serves: 2
-- ## Ingredients
 - For the shredded tofu
 - 200g/7oz extra — firm tofu, coarsely grated
 - 2 tbsp dark soy sauce
@@ -18,16 +17,16 @@
 - 1 chilli, sliced (optional)
 - 1 lime, cut in half (optional)
 
-1. Preheat an air fryer to 180C or an oven to 200C/180C Fan/Gas 6.
+Preheat an air fryer to 180C or an oven to 200C/180C Fan/Gas 6.
 
-   Place the tofu in a bowl and stir in the soy sauce.
+Place the tofu in a bowl and stir in the soy sauce.
 
-2. Cook in the air fryer for 10–12 minutes or in the oven for 15–18 minutes until crispy, turning regularly to ensure even cooking.
+Cook in the air fryer for 10–12 minutes or in the oven for 15–18 minutes until crispy, turning regularly to ensure even cooking.
 
-3. To make the broth, heat the oil in a saucepan over a medium heat. Set aside some of the spring onions for the garnish. Add the remaining spring onions, coriander stalks and garlic to the pan and fry for 5–6 minutes until softened.
+To make the broth, heat the oil in a saucepan over a medium heat. Set aside some of the spring onions for the garnish. Add the remaining spring onions, coriander stalks and garlic to the pan and fry for 5–6 minutes until softened.
 
-4. Pour in the vegetable stock, reduce the heat to low and leave to simmer for 10 minutes.
+Pour in the vegetable stock, reduce the heat to low and leave to simmer for 10 minutes.
 
-5. Mix together the peanut butter and soy sauce in a small bowl. Ladle in a small amount of the hot stock and whisk to emulsify the peanut butter mixture. Once loosened, add to the saucepan and stir to combine.
+Mix together the peanut butter and soy sauce in a small bowl. Ladle in a small amount of the hot stock and whisk to emulsify the peanut butter mixture. Once loosened, add to the saucepan and stir to combine.
 
-6. To serve, cook the noodles according to the packet instructions. Split the broth between two bowls, add the noodles and garnish with the crispy tofu, reserved spring onions and coriander leaves. Sprinkle over the chilli, if using. Serve immediately with the lime halves for squeezing, if using.
+To serve, cook the noodles according to the packet instructions. Split the broth between two bowls, add the noodles and garnish with the crispy tofu, reserved spring onions and coriander leaves. Sprinkle over the chilli, if using. Serve immediately with the lime halves for squeezing, if using.
