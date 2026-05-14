@@ -25,22 +25,12 @@
 - | 1/4 | cup (20 g) nutritional yeast |
 - | 1 | pinch freshly ground black pepper |
 
-***
-
 To roast the chickpeas, preheat the oven to 400°F (200°C) and line a rimmed baking sheet with parchment paper. In a medium bowl, toss the chickpeas with the oil until evenly coated. Sprinkle with the paprika, chili powder, cayenne, and salt and toss again. Transfer to the lined baking sheet and bake for 30 to 40 minutes, until crispy, stirring a few times as they bake.
-
-<br />
 
 Meanwhile, make the soup. Heat the oil in a large pot over medium heat. Add the onion and celery and cook, stirring occasionally, for 5 to 7 minutes, until the onion is tender and translucent. Add the garlic and cook, stirring constantly, for 2 minutes.
 
-<br />
-
 Stir in the broccoli, potatoes, salt, oregano, bay leaf, and paprika, then pour in the broth. Bring to a boil over high heat. Lower the heat, cover, and simmer for 20 minutes, until the potatoes are fork-tender. Remove the bay leaf.
 
-<br />
-
 Use an immersion blender to puree the soup, or puree it in batches in a standard blender and return it to the pot. Stir in the lemon juice, nondairy milk, and nutritional yeast. If the soup is thicker than you’d like, stir in more broth as needed to achieve the desired consistency. Season with black pepper to taste, and adjust lemon and salt as needed.
-
-<br />
 
 Serve, topped with the chickpeas.
