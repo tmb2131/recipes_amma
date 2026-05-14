@@ -17,8 +17,8 @@
 - 6 cups vegetable or chicken stock
 - 1 lemon, juiced
 - Kosher salt and freshly ground black pepper
-- Parmigiano-Reggiano, shaved or grated, to garnish
+- Parmigiano — Reggiano, shaved or grated, to garnish
 
-1. Set a medium pot over medium heat. Swirl in 4 tablespoons olive oil. Add leeks and garlic, and cook until leeks are translucent, about 2 minutes. Add carrots, celery and potatoes, and cook until vegetables soften but pick up no color, about 3 minutes.
-2. <br />
-3. Stir in kale and cabbage, and cook until wilted, about 2 minutes. Add canned tomatoes and their juices, breaking up whole tomatoes with your hands. Stir in beans, chile flakes, bay leaves, bread and stock. If necessary, add more broth or water to submerge ingredients by 1 inch. Simmer until potatoes are tender, flavors meld and soup thickens, about 25 minutes.
+Set a medium pot over medium heat. Swirl in 4 tablespoons olive oil. Add leeks and garlic, and cook until leeks are translucent, about 2 minutes. Add carrots, celery and potatoes, and cook until vegetables soften but pick up no color, about 3 minutes.
+
+Stir in kale and cabbage, and cook until wilted, about 2 minutes. Add canned tomatoes and their juices, breaking up whole tomatoes with your hands. Stir in beans, chile flakes, bay leaves, bread and stock. If necessary, add more broth or water to submerge ingredients by 1 inch. Simmer until potatoes are tender, flavors meld and soup thickens, about 25 minutes.
