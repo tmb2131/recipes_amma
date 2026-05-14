@@ -20,8 +20,6 @@
 
 Combine the water, soy sauce, oyster sauce, hoisin sauce, maple syrup, sesame oil, ground pepper, dark soy sauce (if using), and pepper in a bowl and whisk to combine.
 
-<br />
-
 Pat the tofu dry. Cut it lengthwise into 3 slabs, then season with salt. Rub all over with the cornstarch, patting to adhere if needed (you might have a bit of excess).
 
 Heat a nonstick 10-inch skillet over medium heat. Add 1 to 2 tablespoons of oil, then tilt the skillet so the oil coats the bottom. Pan-fry the tofu until golden brown on all sides, 3 to 5 minutes per side, lowering the heat if needed along the way; don’t flip the tofu until a crust has formed.
