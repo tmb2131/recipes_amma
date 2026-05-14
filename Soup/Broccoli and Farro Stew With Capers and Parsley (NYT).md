@@ -13,23 +13,14 @@
 - 1¼ cups dry white wine (or substitute with lemon, see Tip)
 - 4 cups vegetable stock
 
-***
-
 On a cutting board, coarsely chop the garlic. Add the parsley and capers to the garlic; chop everything together until finely chopped. (You can also pulse the mixture in the food processor, if that’s easier for you.) Transfer to a small bowl and stir in the red-pepper flakes. Reserve the cutting board without cleaning it.
 
-* \
-  Heat 2 tablespoons oil in a large pot or Dutch oven over medium-high. Add a single layer of the broccoli and cook, undisturbed, until browned underneath, 3 to 4 minutes. Transfer to the reserved cutting board, then repeat with the remaining broccoli, adding more oil when the pot gets dry.
+Heat 2 tablespoons oil in a large pot or Dutch oven over medium-high. Add a single layer of the broccoli and cook, undisturbed, until browned underneath, 3 to 4 minutes. Transfer to the reserved cutting board, then repeat with the remaining broccoli, adding more oil when the pot gets dry.
 
-* \
-  To the now-empty pot, reduce the heat to medium and add 2 tablespoons oil. Add the onion, farro and half of the parsley-caper mixture (about ¼ cup, but no need to measure). Season with salt, then stir until the farro is darker in color and the garlic is fragrant, 2 to 3 minutes. Add the wine, increase heat to medium-high and scrape up browned bits on the bottom of the pot. Simmer until the wine is reduced by half, 2 to 3 minutes. Add the stock and 2 cups of water; season lightly with salt and bring to a boil. Reduce heat to simmer gently for 10 minutes.
+To the now-empty pot, reduce the heat to medium and add 2 tablespoons oil. Add the onion, farro and half of the parsley-caper mixture (about ¼ cup, but no need to measure). Season with salt, then stir until the farro is darker in color and the garlic is fragrant, 2 to 3 minutes. Add the wine, increase heat to medium-high and scrape up browned bits on the bottom of the pot. Simmer until the wine is reduced by half, 2 to 3 minutes. Add the stock and 2 cups of water; season lightly with salt and bring to a boil. Reduce heat to simmer gently for 10 minutes.
 
-* \
-  Meanwhile, coarsely chop the broccoli until small enough to fit on your spoon. After the farro has cooked for 10 minutes, add the broccoli and simmer until the farro and broccoli are tender, 10 to 15 minutes. Remove from heat and season to taste with salt.                    
+Meanwhile, coarsely chop the broccoli until small enough to fit on your spoon. After the farro has cooked for 10 minutes, add the broccoli and simmer until the farro and broccoli are tender, 10 to 15 minutes. Remove from heat and season to taste with salt.
 
-* <br />
+Divide among bowls; top with the remaining parsley-caper mixture and a drizzle of olive oil. Leftovers will keep for up to 3 days, but the soup will thicken as the farro continues to drink up the broth. You can thin leftovers with more stock, but the dish is actually better warm, like porridge, or cold, as a grain salad.
 
-* Divide among bowls; top with the remaining parsley-caper mixture and a drizzle of olive oil. Leftovers will keep for up to 3 days, but the soup will thicken as the farro continues to drink up the broth. You can thin leftovers with more stock, but the dish is actually better warm, like porridge, or cold, as a grain salad.
-
-* <br />
-
-  Tip: If you’d prefer not to use wine, you can mimic the brightness by finishing the soup with lemon zest and juice to taste.
+Tip: If you’d prefer not to use wine, you can mimic the brightness by finishing the soup with lemon zest and juice to taste.
