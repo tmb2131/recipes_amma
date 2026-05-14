@@ -12,22 +12,14 @@
 
 <br />
 
-Cumin Seeds -- 1/2 tsp
-
-Fennel seeds -- 1/2 tsp
-
-Corriander seeds -- 1/2 tsp
-
-Clove -- 6
-
-Green Elaichi -- 3
-
-Cinnamon -- 1/2" stick
-
-Peppercorn -- 12
-
-Red chili -- 2-3
-
+Cumin Seeds -- 1/2 tsp\
+Fennel seeds -- 1/2 tsp\
+Corriander seeds -- 1/2 tsp\
+Clove -- 6\
+Green Elaichi -- 3\
+Cinnamon -- 1/2" stick\
+Peppercorn -- 12\
+Red chili -- 2-3\
 Bay leaf -- tiny
 
 <br />
@@ -44,9 +36,9 @@ Roast the above on stove pop, cool and then grind to a fine powder. Do not char.
 
 Now we will chop the following vegetables in chunks
 
-**2 medium beet , **
+\*\*2 medium beet , \*\*
 
-**2 carrot (if carrot is the thin kind use 4 else 2 should be fine), **
+\*\*2 carrot (if carrot is the thin kind use 4 else 2 should be fine), \*\*
 
 **2 large potato**
 
@@ -72,22 +64,17 @@ Roast **1/4 cup of halved peanuts**, remove and keep aside
 
 In the same oil add
 
-**2 tbsp of minced or grated ginger**
-
-**3-4 green chilli chopped in rounds **
+**2 tbsp of minced or grated ginger**\
+3-4 green chilli chopped in rounds 
 
 <br />
 
 Next add 
 
-**the mashed vegetables,**
-
-**3 tsp of Bhaja masla,**
-
-**1/4-1/2 tsp of red Chili Powder,**
-
-**salt to taste**
-
+**the mashed vegetables,**\
+**3 tsp of Bhaja masla,**\
+**1/4-1/2 tsp of red Chili Powder,**\
+**salt to taste**\
 **sugar if needed**
 
 <br />
@@ -166,23 +153,15 @@ Sprinkle some **chat masala** or *beet noon* and serve with some **ketchup and a
 
 <br />
 
-1\. There is two kind of Bhaja Masla that Bongs make. The one in the recipe is how my Ma, her Ma, me etc. does it. The second kind is one where Cumin Seeds + Dry red Chili is roasted on stove top and then grind to a powder.
+There is two kind of Bhaja Masla that Bongs make. The one in the recipe is how my Ma, her Ma, me etc. does it. The second kind is one where Cumin Seeds + Dry red Chili is roasted on stove top and then grind to a powder.
 
-<br />
+The besan coating for the chop should be a VERY thin coating. It SHOULD NOT be thick as in a Alu Bonda/Vada.
 
-2.The besan coating for the chop should be a VERY thin coating. It SHOULD NOT be thick as in a Alu Bonda/Vada.
+If you do not like besan coating you can make a thin batter of white flour + water. You can also do dip in egg wash and then roll in breadcrumbs like here in [Maacher Chop](http://www.bongcookbook.com/2010/06/macher-chop-maacher-chop-or-fish.html)
 
-<br />
+My Ma-in-law grates the beet instead of boiling and mashing all veggies, that gives a nice texture to the chop.
 
-3. If you do not like besan coating you can make a thin batter of white flour + water. You can also do dip in egg wash and then roll in breadcrumbs like here in [Maacher Chop](http://www.bongcookbook.com/2010/06/macher-chop-maacher-chop-or-fish.html)
-
-<br />
-
-4.My Ma-in-law grates the beet instead of boiling and mashing all veggies, that gives a nice texture to the chop.
-
-<br />
-
-5.Many people say that drying the mashed vegetables takes considerable amount of time. To avoid this, drain the carrots, beet and potatoes well and only then mash it when they cool a little
+Many people say that drying the mashed vegetables takes considerable amount of time. To avoid this, drain the carrots, beet and potatoes well and only then mash it when they cool a little
 
 <br />
 
