@@ -5,6 +5,6 @@
 - ¾ ounce Campari
 - Twist of orange peel, for garnish
 
-1. Chill a cocktail glass by filling with ice or putting in freezer for about 5 minutes.
-2. <br />
-3. Pour the liquid ingredients into a mixing glass. Fill mixing glass 2/3 full of ice and stir until chilled, about 30 seconds. Strain into cocktail glass. Garnish with orange twist.
+Chill a cocktail glass by filling with ice or putting in freezer for about 5 minutes.
+
+Pour the liquid ingredients into a mixing glass. Fill mixing glass 2/3 full of ice and stir until chilled, about 30 seconds. Strain into cocktail glass. Garnish with orange twist.
