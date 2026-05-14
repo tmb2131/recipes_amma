@@ -1,9 +1,9 @@
 # Pie Crust - All Buttah Pie Dough
 
-- | 1 1/4 | cups all — purpose flour, sifted |
-- | | Pinch salt |
-- | 8 | tablespoons butter, cut into 1/2 — inch cubes |
-- | 1/4 | cup ice water, or more as needed |
+- | 1 1/4 | cups all — purpose flour, sifted
+- | | Pinch salt
+- | 8 | tablespoons butter, cut into 1/2 — inch cubes
+- | 1/4 | cup ice water, or more as needed
 
 In a large bowl, whisk together the flour and salt to combine.
 
