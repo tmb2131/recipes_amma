@@ -22,6 +22,4 @@ Melt the remaining tablespoon of butter in a medium skillet over medium heat. Ad
 
 * <br />
 
-  <br />
-
 * In a medium saucepan, combine the blueberries, sugar, vinegar, lemon juice, and salt. Cook over high heat, mashing the fruit with a potato masher or fork, until the berries have released their juices. Reduce the heat to medium-high and cook, stirring occasionally, for 15 to 20 minutes, until the mixture has thickened. Let cool and then transfer the jam to a clean glass jar. Store in the refrigerator for up to one month.
