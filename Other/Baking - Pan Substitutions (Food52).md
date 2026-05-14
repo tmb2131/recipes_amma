@@ -10,7 +10,7 @@ The [brownie recipe](https://food52.com/recipes/21007-alice-medrich-s-best-coco
 
 <br />
 
-**How do you adapt different cake pan sizes for different recipes? **\
+How do you adapt different cake pan sizes for different recipes?\
 The answers to these and similar questions (asked endlessly in cooking classes!) do not involve rocket science, but just enough elementary school math to calculate the area of a square, rectangle, or circle. I love the math (and I’ve included a little math review below if you want to brush up), but I’m sharing my chart in case you don’t have my thing for math.  
 
 The handy list below (or some basic math, also explained below) will tell you the surface area of your pan. Once you know the area of any pan, you can compare it to the area of another pan to see how much bigger or smaller it is. You can divide the area of a large pan by the area of a small pan to figure out how many times to multiply a recipe to fill the larger pan with the same depth of batter (more on that later).
