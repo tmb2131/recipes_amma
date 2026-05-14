@@ -15,25 +15,11 @@
 - Cilantro leaves and tender stems, for garnish
 - Sesame oil or chile oil, for drizzling
 
-Step 1
-
 Carefully pat the tofu dry with a clean kitchen towel, and cut each block into 8 slices.
-
-<br />
-
-Step 2
 
 Place half the corn kernels into a blender or food processor, and blitz until creamy but still chunky.
 
-<br />
-
-Step 3
-
 Heat a medium saucepan or deep skillet over medium-high. When hot, add 1 tablespoon oil. Add the ginger, garlic and scallions, and cook for 20 seconds until aromatic. (They shouldn't brown too much.) Add the remaining corn kernels, along with the blitzed corn and vegetable stock, season well with salt and white pepper, and cook for 2 to 3 minutes to bring the mixture to a boil. Stirring constantly, slowly add the cornstarch slurry, and cook for 2 to 3 minutes until the mixture is slightly thickened.
-
-<br />
-
-Step 4
 
 Divide rice among bowls. For each serving, lay 4 slices of silken tofu on top of the rice and top with a few spoonfuls of the creamed corn. Finish with scallions, cilantro and drizzle with sesame or chile oil.
 
