@@ -28,13 +28,9 @@
 
 Position the rack in the center of the oven and preheat to 400 degrees.
 
-<br />
-
 Make the dressing: In a small bowl, combine the olive oil, soy sauce, lime or lemon juice, honey, sesame oil, vinegar, ginger, garlic, salt and crushed red pepper flakes. Whisk, and set aside, giving the ginger and garlic time to mellow.
 Make the salad: On a large, rimmed baking sheet, add half the tomatoes and half the corn and toss with the olive and sesame oils. Roast for about 20 minutes, or until the corn is slightly charred and the tomatoes have softened and begin to shrivel.
 While the vegetables are roasting, bring a large pot of salted water to a boil and cook the soba noodles according to the package instructions, about 4 minutes. Do not overcook.
-
-<br />
 
 Drain and rinse thoroughly under cold running water to stop the cooking. Transfer the noodles a large serving bowl along with the roasted tomatoes and corn, and add the remaining fresh tomatoes and corn, the zucchini, arugula, avocado and scallion.
 Pour most of the dressing over the salad and toss, then taste and add more dressing as desired.
