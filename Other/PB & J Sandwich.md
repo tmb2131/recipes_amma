@@ -14,14 +14,10 @@ Melt the remaining tablespoon of butter in a medium skillet over medium heat. Ad
 
 ***Makes 2 cups***
 
-* **3 cups fresh blueberries**
-
-  **1/4 cup packed light brown sugar**
-
-  **1 tablespoon balsamic vinegar**
-
-  **1 teaspoon fresh lemon juice**
-
+* **3 cups fresh blueberries**\
+  **1/4 cup packed light brown sugar**\
+  **1 tablespoon balsamic vinegar**\
+  **1 teaspoon fresh lemon juice**\
   **Pinch of kosher salt**
 
 * <br />
