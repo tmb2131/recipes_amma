@@ -1,22 +1,22 @@
 # Dal with Coconut and Lime Kale
 
 - 4 to 6 servings
-- 1** pound red lentils
-- 3** green cardamom pods
-- 3** tablespoons coconut oil
-- 1** cinnamon stick
-- 3** whole cloves
-- 2** small white onions, thinly sliced
-- 4** cloves garlic, crushed
-- ¾** inch piece of ginger, peeled and grated (about 1 tablespoon)
-- 2** green finger chiles or Serrano chiles, stemmed and finely sliced
+- 1 pound red lentils
+- 3 green cardamom pods
+- 3 tablespoons coconut oil
+- 1 cinnamon stick
+- 3 whole cloves
+- 2 small white onions, thinly sliced
+- 4 cloves garlic, crushed
+- ¾ inch piece of ginger, peeled and grated (about 1 tablespoon)
+- 2 green finger chiles or Serrano chiles, stemmed and finely sliced
 - Scant 1/2 teaspoon ground turmeric
-- 1** large bunch kale (about 9 ounces)
-- ½** teaspoon mustard seeds
-- 2** tablespoons unsweetened shredded coconut
-- 2** teaspoons kosher salt
-- 1** lime, juiced
-- 7** ounces (3/4 cup plus 2 tablespoons) canned coconut milk
+- 1 large bunch kale (about 9 ounces)
+- ½ teaspoon mustard seeds
+- 2 tablespoons unsweetened shredded coconut
+- 2 teaspoons kosher salt
+- 1 lime, juiced
+- 7 ounces (3/4 cup plus 2 tablespoons) canned coconut milk
 - Yogurt, for serving
 - Rice, for serving
 
