@@ -15,20 +15,20 @@
 - 200g/7oz walnut halves, finely chopped
 - 16 chocolate — covered coffee beans
 
-1. Preheat the oven to 190C/170C(fan)/375F/Gas 5. Grease a 16-cup mini cake tin and line with baking parchment, or, alternatively, grease 16 chefs’ rings (5cm/2in diameter) and place them on a baking tray lined with baking parchment.
-2. <br />
-3. For the cakes, place the butter, sugar, eggs, flour, baking powder and coffee essence into a bowl and beat with a wooden spoon until thoroughly blended and smooth. Fold in the walnuts.
-4. <br />
-5. Divide or pipe the mixture equally between the mini cake tins. Bake for about 12-15 minutes, or until well-risen and the top of the cake springs back when lightly pressed with a finger.
-6. <br />
-7. Leave to cool in the tins for a few minutes. When cool enough to handle, turn the cakes out of the tins and remove the parchment. Leave to cool completely on a wire rack.
-8. <br />
-9. For the filling and decoration, beat together the butter, icing sugar, milk and coffee essence in a bowl until smooth.
-10. <br />
-11. When the cakes are completely cold, trim the tops if domed. Slice in half horizontally, then sandwich them together with about a quarter of the buttercream.
-12. <br />
-13. Spread a thin coating of buttercream around the sides of each cake and then roll the sides in chopped walnuts.
-14. <br />
-15. Spoon the remaining buttercream into a piping bag fitted with a small star (2D) nozzle and pipe a rose on the top of each cake. Place a chocolate-covered coffee bean over the joins.
-16. <br />
-17. Arrange the cupcakes on the nicest cake stand you have and serve.
+Preheat the oven to 190C/170C(fan)/375F/Gas 5. Grease a 16-cup mini cake tin and line with baking parchment, or, alternatively, grease 16 chefs’ rings (5cm/2in diameter) and place them on a baking tray lined with baking parchment.
+
+For the cakes, place the butter, sugar, eggs, flour, baking powder and coffee essence into a bowl and beat with a wooden spoon until thoroughly blended and smooth. Fold in the walnuts.
+
+Divide or pipe the mixture equally between the mini cake tins. Bake for about 12-15 minutes, or until well-risen and the top of the cake springs back when lightly pressed with a finger.
+
+Leave to cool in the tins for a few minutes. When cool enough to handle, turn the cakes out of the tins and remove the parchment. Leave to cool completely on a wire rack.
+
+For the filling and decoration, beat together the butter, icing sugar, milk and coffee essence in a bowl until smooth.
+
+When the cakes are completely cold, trim the tops if domed. Slice in half horizontally, then sandwich them together with about a quarter of the buttercream.
+
+Spread a thin coating of buttercream around the sides of each cake and then roll the sides in chopped walnuts.
+
+Spoon the remaining buttercream into a piping bag fitted with a small star (2D) nozzle and pipe a rose on the top of each cake. Place a chocolate-covered coffee bean over the joins.
+
+Arrange the cupcakes on the nicest cake stand you have and serve.
