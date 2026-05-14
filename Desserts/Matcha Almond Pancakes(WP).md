@@ -22,24 +22,18 @@ In another medium bowl, whisk together the milk, egg, oil and vanilla until comb
 
 Meanwhile, in a small, dry skillet over medium-high heat, toast the almonds, stirring frequently, until fragrant and lightly browned, 3 to 5 minutes. Transfer to a small bowl and let cool.
 Heat a large nonstick skillet or griddle over medium-high heat until hot. (To test, drop a dime-size amount of batter into the skillet and if it starts to bubble and brown right away, the pan is ready.)
-Working in batches as necessary, use a 1/4 cup (60 milliliters) measure to ladle the batter into the skillet. Cook until bubbles form on top and the underside is nicely browned, about 2 minutes, then flip and cook until browned on the other side, and cooked through, 2 minutes more. 
-
-<br />
+Working in batches as necessary, use a 1/4 cup (60 milliliters) measure to ladle the batter into the skillet. Cook until bubbles form on top and the underside is nicely browned, about 2 minutes, then flip and cook until browned on the other side, and cooked through, 2 minutes more.
 
 Adjust the heat as necessary to prevent the pancakes from browning too fast before they’re cooked through. Transfer the pancakes to a plate and repeat with the remaining batter.
 Serve topped with the sliced berries and toasted nuts, with maple syrup on the side.
 Total: 25 mins
 In a medium bowl, thoroughly whisk together the pastry flour, almond flour, baking powder and salt until combined. Sift the matcha into the mixture and whisk again to thoroughly combine.
-In another medium bowl, whisk together the milk, egg, oil and vanilla until combined. Add the milk mixture to the flour mixture and stir just to combine. 
-
-<br />
+In another medium bowl, whisk together the milk, egg, oil and vanilla until combined. Add the milk mixture to the flour mixture and stir just to combine.
 
 Do not overmix; it’s okay if there are some small lumps. Let the batter hydrate for 5 to 10 minutes.
 Meanwhile, in a small, dry skillet over medium-high heat, toast the almonds, stirring frequently, until fragrant and lightly browned, 3 to 5 minutes. Transfer to a small bowl and let cool.
 Heat a large nonstick skillet or griddle over medium-high heat until hot. (To test, drop a dime-size amount of batter into the skillet and if it starts to bubble and brown right away, the pan is ready.)
-Working in batches as necessary, use a 1/4 cup (60 milliliters) measure to ladle the batter into the skillet. Cook until bubbles form on top and the underside is nicely browned, about 2 minutes, then flip and cook until browned on the other side, and cooked through, 2 minutes more. 
-
-<br />
+Working in batches as necessary, use a 1/4 cup (60 milliliters) measure to ladle the batter into the skillet. Cook until bubbles form on top and the underside is nicely browned, about 2 minutes, then flip and cook until browned on the other side, and cooked through, 2 minutes more.
 
 Adjust the heat as necessary to prevent the pancakes from browning too fast before they’re cooked through. Transfer the pancakes to a plate and repeat with the remaining batter.
 Serve topped with the sliced berries and toasted nuts, with maple syrup on the side.
