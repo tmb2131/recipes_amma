@@ -14,6 +14,8 @@
 - 2 **ounces queso fresco or mild feta, crumbled
 - Pinch of crushed red pepper
 
-1. In a medium bowl, combine diced onion, lime juice and a generous pinch of salt and pepper. Let macerate for 5 minutes, then whisk in olive oil and toasted cumin. Add corn kernels and a pinch of salt, and toss to coat.
-2. Cut avocados in thick slices and divide among 4 plates, arranging them in a random pattern. Top with the cucumbers and cherry tomatoes. Sprinkle lightly with salt. Surround with sprigs of purslane.
-3. To serve, spoon a quarter of the corn and juices over each salad. Garnish with mint, queso fresco and red pepper.
+In a medium bowl, combine diced onion, lime juice and a generous pinch of salt and pepper. Let macerate for 5 minutes, then whisk in olive oil and toasted cumin. Add corn kernels and a pinch of salt, and toss to coat.
+
+Cut avocados in thick slices and divide among 4 plates, arranging them in a random pattern. Top with the cucumbers and cherry tomatoes. Sprinkle lightly with salt. Surround with sprigs of purslane.
+
+To serve, spoon a quarter of the corn and juices over each salad. Garnish with mint, queso fresco and red pepper.
