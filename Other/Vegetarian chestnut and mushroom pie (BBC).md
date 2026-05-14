@@ -1,11 +1,8 @@
 # Vegetarian chestnut and mushroom pie (BBC)
 
 - ## 30 mins to 1 hour
-- Cooking time
-- ## 1 to 2 hours
-- Serves
+- Cooking time: 1 to 2 hours
 - ## Serves 4
-- ## Ingredients
 - ## For the pastry
 - 350g/12oz plain flour
 - 200g/7oz butter, chilled
