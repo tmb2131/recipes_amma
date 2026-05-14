@@ -16,14 +16,14 @@
 - 2 tsp coffee essence
 - 8 walnut halves, to decorate
 
-1. For the cake, preheat the oven to 180C/350F/Gas 4. Grease and line the bases of two 18cm/7in diameter sandwich tins with baking parchment.
-2. <br />
-3. Beat together all the cake ingredients in a large bowl with an electric hand whisk until well combined and smooth.
-4. <br />
-5. Divide the mixture between the cake tins and gently spread out with a spatula. Bake for 20-25 minutes until an inserted skewer comes out clean. Allow to stand for five minutes before turning onto a wire rack to cool. Peel off the parchment paper.
-6. <br />
-7. For the filling and topping, beat the butter and gradually add the icing sugar. When all the icing sugar is added, add the milk and coffee essence and beat until smooth.
-8. <br />
-9. When the cakes have cooled, spread half the coffee icing on one cake and sandwich together with the other half.
-10. <br />
-11. Ice the top of the cake with the remaining coffee icing and decorate with walnut pieces.
+For the cake, preheat the oven to 180C/350F/Gas 4. Grease and line the bases of two 18cm/7in diameter sandwich tins with baking parchment.
+
+Beat together all the cake ingredients in a large bowl with an electric hand whisk until well combined and smooth.
+
+Divide the mixture between the cake tins and gently spread out with a spatula. Bake for 20-25 minutes until an inserted skewer comes out clean. Allow to stand for five minutes before turning onto a wire rack to cool. Peel off the parchment paper.
+
+For the filling and topping, beat the butter and gradually add the icing sugar. When all the icing sugar is added, add the milk and coffee essence and beat until smooth.
+
+When the cakes have cooled, spread half the coffee icing on one cake and sandwich together with the other half.
+
+Ice the top of the cake with the remaining coffee icing and decorate with walnut pieces.
