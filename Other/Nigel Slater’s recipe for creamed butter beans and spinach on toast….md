@@ -1,31 +1,25 @@
-Nigel Slater’s recipe for creamed butter beans and spinach on toast (G)
+# Nigel Slater’s recipe for creamed butter beans and spinach on toast…
 
-<br />
-
-\#
-
-Enough for 3\
-onions 2, medium\
-olive oil 2 tbsp\
-butter 30g\
-spinach 200g\
-milk 500ml\
-black peppercorns 6\
-bay leaves 2\
-plain flour 45g\
-blue cheese 100g, such as Shropshire blue, stichelton etc\
-butter beans 1 x 400g tin\
-toast 6 slices
-
-For the pickled onions\
-red onion ½\
-white wine vinegar 100ml\
-water 50ml\
-black peppercorns 8\
-salt 1 tsp\
-caster sugar 1 tsp
-
-<br />
+- Enough for 3
+- onions 2, medium
+- olive oil 2 tbsp
+- butter 30g
+- spinach 200g
+- milk 500ml
+- black peppercorns 6
+- bay leaves 2
+- plain flour 45g
+- blue cheese 100g, such as Shropshire blue, stichelton etc
+- butter beans 1 x 400g tin
+- toast 6 slices
+- ---
+- For the pickled onions
+- red onion ½
+- white wine vinegar 100ml
+- water 50ml
+- black peppercorns 8
+- salt 1 tsp
+- caster sugar 1 tsp
 
 Start with the pickled onion. Peel and thinly slice the red onion and put it in a non-reactive saucepan with the vinegar, water, whole peppercorns, salt and sugar. Bring to the boil, check that the sugar has dissolved, then remove from the heat and set aside. Over the next half hour or so, the onion will become softer and less pungent, but retain a little of its original crispness.
 
