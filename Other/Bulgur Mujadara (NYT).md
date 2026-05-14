@@ -11,18 +11,19 @@
 - 1 **large yellow onion
 - 1 **teaspoon cornstarch
 
-1. Make the mujadara: Bring lentils and 4 cups of water to a boil in a medium pot over high. Reduce heat to low and simmer until lentils are partly cooked, 12 to 18 minutes. Taste a lentil to see if it’s tender but still has a bite. The timing depends on the lentil variety: Black and le Puy need the most time; green needs the least. Remove from heat.
-2. <br />
-3. Meanwhile, heat the olive oil in a medium frying pan over medium-high. Add the onions and cook, stirring regularly, until deep golden brown and starting to crisp, 15 to 20 minutes. It is important to get them to this point because dark onions give mujadara its distinctive dark color and flavor. Onions go from deep brown to burned very quickly, so be sure to remove from the heat before they burn.
-4. <br />
-5. Pour the onions with the oil over the lentils, and stir in the salt and cumin. Add the bulgur, bring the mixture to a boil, then reduce heat to lowest setting and simmer, covered, until fully cooked, 10 to 15 minutes. Check on the mujadara periodically: If the bulgur and lentils are not fully cooked but the water has evaporated, add a few tablespoons of water and continue to cook until done. Place a tea towel or paper towels under the lid and let sit for 15 minutes.
-6. <br />
-7. If you are making the optional topping, prepare it while the mujadara rests: Heat about 1 inch vegetable oil in a small saucepan over medium to 350 degrees or until a small morsel of bread bubbles and immediately rises to the top. Cut the onion in half and slice through the core to create very thin crescents. Place onions in a medium bowl, sprinkle with the cornstarch and toss to combine. Working in small batches, carefully add to hot oil and fry, stirring occasionally for even browning, until crisp and golden brown, 1 to 2 minutes. Remove with a slotted spoon and drain on paper towels until dry and crispy, about 2 minutes.
-8. <br />
-9. To serve, transfer mujadara to a serving platter and top with crispy onions, if using.
-10. <br />
+Make the mujadara: Bring lentils and 4 cups of water to a boil in a medium pot over high. Reduce heat to low and simmer until lentils are partly cooked, 12 to 18 minutes. Taste a lentil to see if it’s tender but still has a bite. The timing depends on the lentil variety: Black and le Puy need the most time; green needs the least. Remove from heat.
 
-    ***
+Meanwhile, heat the olive oil in a medium frying pan over medium-high. Add the onions and cook, stirring regularly, until deep golden brown and starting to crisp, 15 to 20 minutes. It is important to get them to this point because dark onions give mujadara its distinctive dark color and flavor. Onions go from deep brown to burned very quickly, so be sure to remove from the heat before they burn.
+
+Pour the onions with the oil over the lentils, and stir in the salt and cumin. Add the bulgur, bring the mixture to a boil, then reduce heat to lowest setting and simmer, covered, until fully cooked, 10 to 15 minutes. Check on the mujadara periodically: If the bulgur and lentils are not fully cooked but the water has evaporated, add a few tablespoons of water and continue to cook until done. Place a tea towel or paper towels under the lid and let sit for 15 minutes.
+
+If you are making the optional topping, prepare it while the mujadara rests: Heat about 1 inch vegetable oil in a small saucepan over medium to 350 degrees or until a small morsel of bread bubbles and immediately rises to the top. Cut the onion in half and slice through the core to create very thin crescents. Place onions in a medium bowl, sprinkle with the cornstarch and toss to combine. Working in small batches, carefully add to hot oil and fry, stirring occasionally for even browning, until crisp and golden brown, 1 to 2 minutes. Remove with a slotted spoon and drain on paper towels until dry and crispy, about 2 minutes.
+
+To serve, transfer mujadara to a serving platter and top with crispy onions, if using.
+
+1. <br />
+
+   ***
 
 Mujadara With Palestinian Farmer Salad (WSJ)
 
@@ -33,42 +34,25 @@ SERVES: 4-6
 
 For the salad:
 
-* 2 large slicing tomatoes, diced into small cubes, or 1 pint of cherry tomatoes, halved
-
-* 3 small Persian cucumbers, diced into small cubes
-
-* 1 small red bell pepper, diced into small cubes (optional)
-
-* 3-4 scallions, thinly sliced
-
-* 1 small green chile, such as jalapeño, serrano or Anaheim, very finely diced
-
-* 1 tablespoon crushed dried mint
-
-* 3 tablespoons olive oil
-
-* 3 tablespoons lemon juice
-
-* ¾ teaspoon salt
-  For the mujadara:
-
-* 1 cup whole green lentils, picked over and rinsed
-
-* 1 cup long grain rice, such as jasmine or basmati, rinsed until water runs clear and drained
-
-* 2 teaspoons salt
-
-* 1 teaspoon ground cumin
-
-* ½ teaspoon black pepper
-
-* ½ cup olive oil
-
-* 3 onions, finely diced, plus 1 onion cut into thin half-moons
-
-* 1 teaspoon cornstarch
-
-* Vegetable oil, for frying
+2 large slicing tomatoes, diced into small cubes, or 1 pint of cherry tomatoes, halved\
+3 small Persian cucumbers, diced into small cubes\
+1 small red bell pepper, diced into small cubes (optional)\
+3-4 scallions, thinly sliced\
+1 small green chile, such as jalapeño, serrano or Anaheim, very finely diced\
+1 tablespoon crushed dried mint\
+3 tablespoons olive oil\
+3 tablespoons lemon juice\
+¾ teaspoon salt
+For the mujadara:\
+1 cup whole green lentils, picked over and rinsed\
+1 cup long grain rice, such as jasmine or basmati, rinsed until water runs clear and drained\
+2 teaspoons salt\
+1 teaspoon ground cumin\
+½ teaspoon black pepper\
+½ cup olive oil\
+3 onions, finely diced, plus 1 onion cut into thin half-moons\
+1 teaspoon cornstarch\
+Vegetable oil, for frying
 
 ##
 
