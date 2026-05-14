@@ -15,11 +15,7 @@
 - 1 large head romaine lettuce (about 1 pound), quartered through the center and chopped into bite — size pieces
 - ½ small red onion, halved and thinly sliced
 
-***
-
 Heat oven to 350 degrees and arrange a rack 8 inches from the top broiler.
-
-<br />
 
 Tear the bread into rough 1-inch chunks and add them to a large baking sheet. Sprinkle with 1 teaspoon garlic powder, season with salt and a good amount of pepper, and drizzle with the olive oil. Toss everything to coat, then spread bread evenly on the pan. Bake for 10 to 12 minutes, tossing halfway through, or until bread is golden brown on the outside but still slightly chewy in the center. Remove the croutons from the oven, dump them into a large bowl, and wipe the crumbs from the sheet pan.
 
