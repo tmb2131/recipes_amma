@@ -83,27 +83,3 @@
   1 small Green chilies finely chopped\
   4-5 Curry leaves\
   few sprigs Cilantro or coriander leaves finely chopped
-
-* <br />
-
-* Mix well and make dough kind mixture without adding any water.
-
-* Shape the small sized muthias and keep it aside.
-
-* Heat the oil in a pan on medium heat.
-
-* Once add mustard seeds, let them pop. Then add cumin seeds, let them sizzle.
-
-* Then saute in green chilies and ginger paste. After that add curry leaves.
-
-* Then add prepared yogurt mixture and bring it to a boil.
-
-* Make sure that heat is on medium-high. Once it starts boiling, add muthia one by one.
-
-* Let it boil and keep cooking, if it dries up then add more water. and keep boiling till muthias are cooked.
-
-* It took me 15 minutes, but depends on the size of the muthia.
-
-* Once cooked, turn off the stove
-
-* garnish with cilantro.
