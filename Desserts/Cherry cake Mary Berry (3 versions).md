@@ -8,28 +8,17 @@
 
 ### Ingredients
 
-* 200g/7oz glacé cherries
-
-  225g/8oz \[self — raising flour
-
-  175g/6oz softened butter, plus extra for greasing
-
-  175g/6oz caster sugar
-
-  1 lemon, finely grated zest only
-
-  50g/1¾oz ground almonds
-
-  3 large free — range eggs
-
-  For the decoration
-
-  175g/6oz icing sugar
-
-  1 lemon, juice only
-
-  15g/½oz flaked almonds, toasted
-
+* 200g/7oz glacé cherries\
+  225g/8oz \[self — raising flour\
+  175g/6oz softened butter, plus extra for greasing\
+  175g/6oz caster sugar\
+  1 lemon, finely grated zest only\
+  50g/1¾oz ground almonds\
+  3 large free — range eggs\
+  For the decoration\
+  175g/6oz icing sugar\
+  1 lemon, juice only\
+  15g/½oz flaked almonds, toasted\
   5 glacé cherries, quartered
 
 * <br />
