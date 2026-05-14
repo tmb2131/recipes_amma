@@ -17,8 +17,6 @@
 - Handful fresh basil leaves, torn, for serving
 - Freshly cracked black pepper, for serving
 
-##
-
 Bring a large pot of salted water to a rolling boil.
 
 Meanwhile, in a 10-inch skillet over medium-high heat, heat the olive oil until it shimmers. Add the mushrooms and a pinch of salt and saute, stirring occasionally, until pale brown, about 5 minutes. Add the spring onions or scallions and cook, stirring occasionally, until warmed through, about 1 minute. Stir in the crushed red pepper flakes, if using, and remove the pan from the heat.
