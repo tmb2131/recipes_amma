@@ -24,14 +24,14 @@
 - ¼ cup sweetened shredded coconut, toasted
 - 2 tablespoons whole pecans
 
-1. Heat oven to 350 degrees and place a rack in center position. Prepare a 9-inch cake pan by coating bottom and sides with softened butter and a dusting of flour. Or, spray no-stick baking spray with flour on bottom and sides of pan. Set pan aside.
-2. <br />
-3. Prepare the batter: In a large bowl, combine eggs, oil, buttermilk, sugar, vanilla and salt. Whisk until mixture is homogeneous. Batter should resemble a yellowish mayonnaise.
-4. <br />
-5. Add flour, baking soda, baking powder and cinnamon. Whisk well until combined and the texture of a loose muffin batter.
-6. <br />
-7. Add carrots, coconut and pecans. Stir to evenly distribute.
-8. <br />
-9. Add batter to prepared pan. Bake until springy to touch and a toothpick inserted in center comes out clean, 30-40 minutes. Remove from oven and let cake cool in its pan for 20 minutes. Remove cake from pan and cool completely on a wire rack.
-10. <br />
-11. Prepare the frosting: Beat or whisk cream cheese with powdered sugar and vanilla until creamy and smooth. Spread frosting over cake. Sprinkle with toasted coconut and pecans.
+Heat oven to 350 degrees and place a rack in center position. Prepare a 9-inch cake pan by coating bottom and sides with softened butter and a dusting of flour. Or, spray no-stick baking spray with flour on bottom and sides of pan. Set pan aside.
+
+Prepare the batter: In a large bowl, combine eggs, oil, buttermilk, sugar, vanilla and salt. Whisk until mixture is homogeneous. Batter should resemble a yellowish mayonnaise.
+
+Add flour, baking soda, baking powder and cinnamon. Whisk well until combined and the texture of a loose muffin batter.
+
+Add carrots, coconut and pecans. Stir to evenly distribute.
+
+Add batter to prepared pan. Bake until springy to touch and a toothpick inserted in center comes out clean, 30-40 minutes. Remove from oven and let cake cool in its pan for 20 minutes. Remove cake from pan and cool completely on a wire rack.
+
+Prepare the frosting: Beat or whisk cream cheese with powdered sugar and vanilla until creamy and smooth. Spread frosting over cake. Sprinkle with toasted coconut and pecans.
