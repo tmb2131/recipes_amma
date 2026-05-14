@@ -9,6 +9,3 @@
 - 1/2 teaspoon freshly cracked black pepper
 - 1/4 teaspoon sugar
 - Assorted raw vegetables, especially crunchy, bitter ones like radishes, radicchio, and endive, cleaned and trimmed
-
-```
-```
