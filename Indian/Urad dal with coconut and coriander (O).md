@@ -23,4 +23,8 @@ Yotam Ottolenghi's urad dal with coconut and coriander Serves 4 generously.
 
 <br />
 
-Drain the dal, rinse under cold water and set aside. Put the ghee in a large sauté pan on a medium-high heat. When it starts to sizzle, add the onion and fry for 15 minutes, stirring from time to time, until soft and golden-brown. Add the garlic, ginger, chilli and garam masala, fry for two minutes, stirring constantly, then add the tomatoes and cook for four minutes. Add the dahl, a litre of water and a teaspoon of salt, turn the heat to medium and simmer for 40 minutes, stirring every five minutes or so, until the sauce has the consistency of thick soup and the dal is cooked but still holding its shape. Towards the end of cooking, if the sauce is still very liquid, bring to a rapid boil for a few minutes, to reduce. Turn down the heat to low, stir in the coconut cream, lime juice and black mustard seeds, and remove from the heat. Serve with the toppings in separate bowls alongside, for your guests to sprinkle on as they like.
+Drain the dal, rinse under cold water and set aside. Put the ghee in a large sauté pan on a medium-high heat.
+
+When it starts to sizzle, add the onion and fry for 15 minutes, stirring from time to time, until soft and golden-brown. Add the garlic, ginger, chilli and garam masala, fry for two minutes, stirring constantly, then add the tomatoes and cook for four minutes. Add the dahl, a litre of water and a teaspoon of salt, turn the heat to medium and simmer for 40 minutes, stirring every five minutes or so, until the sauce has the consistency of thick soup and the dal is cooked but still holding its shape.
+
+Towards the end of cooking, if the sauce is still very liquid, bring to a rapid boil for a few minutes, to reduce. Turn down the heat to low, stir in the coconut cream, lime juice and black mustard seeds, and remove from the heat. Serve with the toppings in separate bowls alongside, for your guests to sprinkle on as they like.
