@@ -26,14 +26,12 @@
 - Curry leaves — 1 sprig
 - Asafoetida — 0.25 tsp
 
-<br />
+Pressure cook dal, mash and keep aside.Chop onion, vegetables, tomatoes and slit green chillies.
 
-1. Pressure cook dal, mash and keep aside.Chop onion, vegetables, tomatoes and slit green chillies.
+Heat kadai/pan with oil/ghee and temper with the items given under ‘To temper’ table in ord in er
 
-2. Heat kadai/pan with oil/ghee and temper with the items given under ‘To temper’ table in ord in er
+Add onion and fry till transparent. Add the vegetables and tomato together and fry in medium flame for 2 minutes.Add little salt while frying for easy cooking of the vegetables.
 
-3. Add onion and fry till transparent. Add the vegetables and tomato together and fry in medium flame for 2 minutes.Add little salt while frying for easy cooking of the vegetables.
+Add required water and the tamarind and boil till the vegetables get cooked.Add the curry leaves,coriander leaves,salt, asafoetida and jaggery. Lastly add the sambar powder and bring to boil.
 
-4. Add required water and the tamarind and boil till the vegetables get cooked.Add the curry leaves,coriander leaves,salt, asafoetida and jaggery. Lastly add the sambar powder and bring to boil.
-
-5. Add the cooked dal and mix well.Adjust water as needed to get a sambar consistency. Bring to boil and garnish with coriander leaves.
+Add the cooked dal and mix well.Adjust water as needed to get a sambar consistency. Bring to boil and garnish with coriander leaves.
