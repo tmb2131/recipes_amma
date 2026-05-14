@@ -15,12 +15,12 @@
 - 2 **tablespoons semisweet or vegan chocolate chips (optional)
 - Confectioners’ sugar, for dusting on top (optional)
 
-1. Heat oven to 325 degrees. Add the flour, sugar, cocoa powder, baking soda and salt to an 8-by-8-inch square glass or metal baking dish. Whisk the mixture together until uniform in color. Use your fingers to break apart any lumps.
-2. <br />
-3. Add 1 cup water along with the oil, vanilla extract and vinegar. Stir slowly with a fork or a whisk in small circles to blend. Mash, scrape and stir with a fork and spoon until the mixture becomes a smooth and uniform batter.
-4. <br />
-5. Scrape the sides of the baking dish with a rubber spatula and spread the batter in an even layer. Sprinkle with chocolate chips, if using.
-6. <br />
-7. Use a damp paper towel to wipe the edges of the baking dish clean. Carefully transfer the dish to the oven and bake until a toothpick inserted into the center of the batter comes out mostly clean, 28 to 33 minutes. (Instead of looking like you dipped the toothpick in chocolate frosting, it should look like it has some chocolate cake crumbs clinging to it.)
-8. <br />
-9. Remove from the oven, let cool, then cut the cake into squares. If you’re feeling fancy, this tastes good (and looks pretty) with some confectioners’ sugar dusted on top.
+Heat oven to 325 degrees. Add the flour, sugar, cocoa powder, baking soda and salt to an 8-by-8-inch square glass or metal baking dish. Whisk the mixture together until uniform in color. Use your fingers to break apart any lumps.
+
+Add 1 cup water along with the oil, vanilla extract and vinegar. Stir slowly with a fork or a whisk in small circles to blend. Mash, scrape and stir with a fork and spoon until the mixture becomes a smooth and uniform batter.
+
+Scrape the sides of the baking dish with a rubber spatula and spread the batter in an even layer. Sprinkle with chocolate chips, if using.
+
+Use a damp paper towel to wipe the edges of the baking dish clean. Carefully transfer the dish to the oven and bake until a toothpick inserted into the center of the batter comes out mostly clean, 28 to 33 minutes. (Instead of looking like you dipped the toothpick in chocolate frosting, it should look like it has some chocolate cake crumbs clinging to it.)
+
+Remove from the oven, let cool, then cut the cake into squares. If you’re feeling fancy, this tastes good (and looks pretty) with some confectioners’ sugar dusted on top.
