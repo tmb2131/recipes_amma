@@ -13,5 +13,6 @@
 - ¼ teaspoon table salt
 - ¼ teaspoon freshly ground black pepper
 
-2. In a small bowl whisk oil, vinegar, mustard, maple syrup, salt, and pepper until well combined.
-3. In a large bowl place greens, strawberries, cheese, and nuts. Pour as much dressing as you want over salad mixture and toss to combine Serve immediately.
+In a small bowl whisk oil, vinegar, mustard, maple syrup, salt, and pepper until well combined.
+
+In a large bowl place greens, strawberries, cheese, and nuts. Pour as much dressing as you want over salad mixture and toss to combine Serve immediately.
