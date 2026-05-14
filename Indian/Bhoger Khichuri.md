@@ -61,21 +61,3 @@ To cook in pressure cooker, after you have added the vegetables, do not add any 
 Once the pressure has released naturally, open the lid and check the consistency of  Khichuri. Add little more water if needed and adjust for salt and seasoning. Add Garam masala if needed.
 
 At the very end, heat **1 Tbsp ghee** in a small frying pan and roast some **cashews and raisins** until golden. Add them along with the ghee to the Khichuri. Serve hot.
-
-**1 medium potato in quarters**.
-
-**half of a small cauliflower** in about **6-8 large-ish florets**
-
-**1/4 cup of frozen peas (or use same amount of fresh green peas)**
-
-**1** **cup of rice**(short grained rice like gobindobhog, kalijeera etc. preferred, I used sona masoori) and soak in water
-
-**fry the potatoes and cauliflower** with **sprinkle of turmeric powder** till they are a shade of light gold and the cauliflower florets have some brown spots.Throw in the **green peas** and saute them too.
-
-**Vegetable Oil + 1 tsp Ghee** in a deep and heavy bottomed pot.
-
-**1 medium tomato**
-
- Saute for 2-3 minutes
-
-**1 tsp of sugar and a pinch of Garam Masala**. Mix gently. Drizzle **a tbsp or more of ghee** . Serve hot.
