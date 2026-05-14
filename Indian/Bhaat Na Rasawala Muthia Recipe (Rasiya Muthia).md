@@ -60,6 +60,3 @@
 * Once cooked, turn off the stove
 
 * garnish with cilantro.
-
-* \
-  Plain yogurt
