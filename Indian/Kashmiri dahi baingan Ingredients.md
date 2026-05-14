@@ -14,8 +14,11 @@
 
 Heat oil in a pan and deep fry the brinjal cubes on a medium heat, till golden in colour, stirring continuously.
 Drain them on a kitchen towel to remove excess oil.
+
 Mix all the dry spices with two tablespoons of water and keep aside.
 In another deep wok, add mustard oil and add green cardamoms and asafoetida. Once the cardamoms crackle, add the spice-water mixture.
 Give it a good stir and then add yoghurt and keep stirring to avoid curdling.
+
 Once it starts to boil, add the fried brinjal cubes and cook on a medium heat for about five to six minutes.
+
 When it starts to thicken and the brinjal pieces become soft, turn off the flame and serve hot with parathas and/or rice.
