@@ -15,8 +15,6 @@
 
 Make the pastry dough: In a large bowl, whisk together the flour, sugar, and salt. Add the butter and use your fingers to incorporate it until you get a texture that looks like peas and bread crumbs. Add the cream cheese and use your fingers to combine until it resembles gravel. Add the water, 1 tablespoon at a time until it just holds together when squeezed. (If you’d like, you can also make the dough in a food processor.)
 
-<br />
-
 Transfer the dough to a work surface. Knead the dough for a few seconds just to combine, then divide the dough in half. Flatten each piece of dough slightly, and shape into a rough rectangle. Wrap both in plastic wrap, and place in the refrigerator to chill for 1 hour to 2 days.
 Make the filling: In a food processor, pulse together the jaggery, cashews, and almonds until you get a coarse powder.
 
@@ -27,5 +25,3 @@ Place 4 rectangles on one of the prepared sheet pans. Leaving a 1-centimeter bor
 Prick the surface of the top rectangle a few times with a fork, then firmly press the fork tines around the edges to seal. Repeat with the remaining 3 pies on this sheet pan, then transfer to the refrigerator. Repeat the same with the other portion of the dough, then refrigerate for at least 15 minutes.
 
 While the pies are chilling, heat the oven to 355°F, with a rack in the upper and lower third. Bake both trays of pies for 30 to 40 minutes, rotating the pans halfway through cooking, until the pastries are lightly golden. After a few minutes, transfer to a wire rack, then let cool completely.
-
-<br />
