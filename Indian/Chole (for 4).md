@@ -11,7 +11,7 @@
 - Turmeric 1 teaspoon
 - Cayenne 1/4 teaspoon (for very mild, else to taste)
 - Corriander powder 1 tablespoon
-- Cumin powder** **2 teaspoons
+- Cumin powder 2 teaspoons
 
 Drain Chickpeas
 
