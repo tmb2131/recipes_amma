@@ -16,15 +16,11 @@
 
 In a large pan, heat a glug of neutral oil over medium heat until it shimmers. Briefly fry the thyme sprigs and caraway seeds until fragrant, about 30 seconds. Remove the thyme sprigs and save to garnish the Dutch baby after it is baked.
 
-<br />
-
 Add the onions to the pan with a big pinch of salt and stir to coat. Cook over medium heat, stirring infrequently and lowering the heat if needed, until they are deeply caramelized, about 30 minutes.
 Add the hard cider to deglaze the pan and use a wooden spoon to release any caramelized bits that have stuck to the bottom. Keep cooking until the cider has completely evaporated, about 2 minutes.
 Heat the oven to 425°F. Place a large cast-iron skillet in the oven to heat up for 7 to 10 minutes.
 Meanwhile, whisk or blend the eggs, flour, milk, sugar, and a pinch of salt until smooth.
 With the pan still in the oven, add the butter, close the oven, and let the butter melt, being careful not to let it burn.
-
-<br />
 
 When the butter is melted and foamy, pour in the batter.
 Bake until the pancake is puffed and the center is just cooked through, about 15 minutes.
