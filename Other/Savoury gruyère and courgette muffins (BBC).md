@@ -1,24 +1,17 @@
 # Savoury gruyère and courgette muffins (BBC)
 
-225g/8oz \[self — raising flour]\(https\://www\.bbc.co.uk/food/self — raising\_flour)
+- 225g/8oz self-raising flour
+- 1 tsp baking powder
+- 100g/3½oz courgette, grated
+- salt and freshly ground black pepper
+- 75g/2¾oz Gruyère, grated (or similar vegetarian cheese, such as emmental)
+- 175ml/6fl oz full fat milk
+- 1 free — range egg, beaten
+- 75ml/2¾fl oz olive oil, plus extra for greasing
+- 1 tbsp chopped fresh rosemary
+- butter, to serve
 
-1 tsp baking powder
-
-100g/3½oz courgette, grated
-
-salt and freshly ground black pepper
-
-75g/2¾oz Gruyère, grated (or similar vegetarian cheese, such as emmental)
-
-175ml/6fl oz full fat milk
-
-1 free — range egg, beaten
-
-75ml/2¾fl oz olive oil, plus extra for greasing
-
-1 tbsp chopped fresh rosemary
-
-butter, to serve
+<br />
 
 ***
 
