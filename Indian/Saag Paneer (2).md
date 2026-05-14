@@ -17,7 +17,6 @@
 - 1 — 2 tbsp heavy cream
 - 1 tsp garam masala (optional)
 - Kosher salt (To taste)
-- INSTRUCTIONS:
 
 To prepare the Sauce; Blanch baby spinach in 3 quarts boiling water for about 2mins or until the spinach wilts.  Drain the wilted spinach into a colander and run under ice cold water until cooled.
 
