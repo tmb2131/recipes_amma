@@ -1,6 +1,7 @@
 # Chocolate coffee mascarpone cake (Guardian)
 
-Serves 12\
+Serves 12
+
 A large chocolate cake that is less sweet than most, its filling tasting like creamy, iced coffee. Make it when you have a lot of people to feed as it is best eaten the same day (though it won’t come to too much harm in a tin overnight in a cool place). This is best made with an electric food mixer.
 
 For the cake
