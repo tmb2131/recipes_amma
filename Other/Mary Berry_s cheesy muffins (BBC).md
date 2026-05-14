@@ -1,15 +1,26 @@
 # Mary Berry's cheesy muffins (BBC)
 
-- 275g/9¾oz [self — raising flour](https://www.bbc.co.uk/food/self — raising_flour)
-- 1 tsp [baking powder](https://www.bbc.co.uk/food/baking_powder)
-- ½ tsp [salt](https://www.bbc.co.uk/food/salt)
-- 50g/1¾oz [butter](https://www.bbc.co.uk/food/butter), melted
-- 1 large free — range [egg](https://www.bbc.co.uk/food/egg), beaten
-- 250ml/9fl oz [milk](https://www.bbc.co.uk/food/milk)
-- 75g/2⅓oz [Gruyère](https://www.bbc.co.uk/food/gruyere_cheese) cheese, grated
-- bunch of [basil](https://www.bbc.co.uk/food/basil), leaves only, chopped
-- 75g/2⅓oz pitted black [olives](https://www.bbc.co.uk/food/olive), chopped
-- 2 tbsp sun — dried tomato paste
+275g/9¾oz \[self — raising flour]\(https\://www\.bbc.co.uk/food/self — raising\_flour)
+
+1 tsp baking powder
+
+½ tsp salt
+
+50g/1¾oz butter, melted
+
+1 large free — range egg, beaten
+
+250ml/9fl oz milk
+
+75g/2⅓oz Gruyère cheese, grated
+
+bunch of basil, leaves only, chopped
+
+75g/2⅓oz pitted black olives, chopped
+
+2 tbsp sun — dried tomato paste
+
+***
 
 Preheat the oven to 200C/180C Fan/Gas 6 and line a 12-hole muffin tin with muffin cases.
 
