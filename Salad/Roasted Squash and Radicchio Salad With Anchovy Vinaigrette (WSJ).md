@@ -14,10 +14,10 @@
 - ½ ball fresh burrata, torn into bite — size pieces
 - ¼ cup toasted and roughly chopped hazelnuts
 
-1. Preheat oven to 375 degrees. Place squash on a baking sheet and toss with 2 tablespoons olive oil, thyme, salt and pepper. Spread squash out evenly in a single layer and roast on center rack until tender and browned in spots, about 25 minutes.
-2. <br />
-3. Meanwhile, on another pan, toss torn bread with rosemary and 2 tablespoons olive oil, and season with salt. Bake until golden, about 15 minutes. Remove from oven and roughly pound croutons to break them up into coarse crumbs.
-4. <br />
-5. Make the dressing: In a small bowl, combine white and red wine vinegars. Stir in anchovies, a pinch of salt and a few grinds of black pepper. Whisk in a small splash of water and ¼ cup olive oil until well combined.
-6. <br />
-7. In a large bowl, toss radicchio with half the dressing and arrange salad on a large serving plate. Tuck roasted squash in and around leaves. Arrange burrata pieces all over the salad, tucking cheese in near squash pieces. Scatter breadcrumbs and hazelnuts all around. Drizzle with remaining dressing and sprinkle with salt. Serve immediately.
+Preheat oven to 375 degrees. Place squash on a baking sheet and toss with 2 tablespoons olive oil, thyme, salt and pepper. Spread squash out evenly in a single layer and roast on center rack until tender and browned in spots, about 25 minutes.
+
+Meanwhile, on another pan, toss torn bread with rosemary and 2 tablespoons olive oil, and season with salt. Bake until golden, about 15 minutes. Remove from oven and roughly pound croutons to break them up into coarse crumbs.
+
+Make the dressing: In a small bowl, combine white and red wine vinegars. Stir in anchovies, a pinch of salt and a few grinds of black pepper. Whisk in a small splash of water and ¼ cup olive oil until well combined.
+
+In a large bowl, toss radicchio with half the dressing and arrange salad on a large serving plate. Tuck roasted squash in and around leaves. Arrange burrata pieces all over the salad, tucking cheese in near squash pieces. Scatter breadcrumbs and hazelnuts all around. Drizzle with remaining dressing and sprinkle with salt. Serve immediately.
