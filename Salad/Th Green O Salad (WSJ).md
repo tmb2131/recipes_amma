@@ -33,10 +33,10 @@
 - 6 turnips, preferably Hakurei, thinly sliced
 - 1 tablespoon chopped parsley, dill and/or tarragon (optional)
 
-1. Make the tahini dressing: Combine ingredients in a blender and process until homogenous.
-2. <br />
-3. Make the bird seed: Warm a large skillet over medium heat. Add seeds, bagel seasoning and puffed rice. Toast, stirring, 2 minutes. Set aside to come to room temperature. Once cool, transfer to a food processor with fried shallots and salt and pulse 6-7 times to form a coarse mixture. Store in a glass jar at room temperature for up to 4 weeks.
-4. <br />
-5. Make the pistachio dukkah: Warm a large skillet over medium heat. Toast pistachios, stirring, 2 minutes, then remove from skillet and set aside. Add sunflower, coriander and cumin seeds to skillet, and toast, stirring, until their fragrance is released, 2 minutes. Set aside to come to room temperature. Once cool, transfer pistachios to a food processor and pulse until coarsely chopped. Add remaining ingredients to food processor and give it 10 short pulses. Store in a glass jar at room temperature for up to 4 weeks.
-6. <br />
-7. Assemble the salad: Toss lettuce and vegetables with enough dressing to lightly coat. Transfer to a platter and top generously with herbs, bird seed and pistachio dukkah.
+Make the tahini dressing: Combine ingredients in a blender and process until homogenous.
+
+Make the bird seed: Warm a large skillet over medium heat. Add seeds, bagel seasoning and puffed rice. Toast, stirring, 2 minutes. Set aside to come to room temperature. Once cool, transfer to a food processor with fried shallots and salt and pulse 6-7 times to form a coarse mixture. Store in a glass jar at room temperature for up to 4 weeks.
+
+Make the pistachio dukkah: Warm a large skillet over medium heat. Toast pistachios, stirring, 2 minutes, then remove from skillet and set aside. Add sunflower, coriander and cumin seeds to skillet, and toast, stirring, until their fragrance is released, 2 minutes. Set aside to come to room temperature. Once cool, transfer pistachios to a food processor and pulse until coarsely chopped. Add remaining ingredients to food processor and give it 10 short pulses. Store in a glass jar at room temperature for up to 4 weeks.
+
+Assemble the salad: Toss lettuce and vegetables with enough dressing to lightly coat. Transfer to a platter and top generously with herbs, bird seed and pistachio dukkah.
