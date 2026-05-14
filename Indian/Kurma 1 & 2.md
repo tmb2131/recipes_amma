@@ -80,8 +80,7 @@ MASALA  ITEMS TO TEMPER\
 1 bay leaf\
 3 cloves
 
-TO GRIND
-
+TO GRIND\
 5 cashews\
 2 inch long piece of ginger\
 5 cloves garlic\
