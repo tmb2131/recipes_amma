@@ -18,6 +18,6 @@ Peel the potato and cut into wedges. Cut flat beans into halves. Wash all the ve
 
 Rub salt and 1/2 tsp of turmeric powder on the freshly washed pieces of Gurjali fish. Heat ½ cup oil in a kadai/deep frying pan and shallow fry the fish pieces on medium heat until golden in color. Remove and keep aside.
 
-Now fry the potato wedges, flat beans pieces and cauliflower florets for 2-3 minutes, remove and keep aside.\\
+Now fry the potato wedges, flat beans pieces and cauliflower florets for 2-3 minutes, remove and keep aside.
 
 In the remaining oil (4 tbsp oil should be there in the kadai, otherwise add some more oil) temper with wild celery seeds. Next to add ginger paste, cumin powder, ½ tsp of turmeric powder, coriander powder and salt. Mix well and fry until the oil separates from masala (1-2 minutes max). Add 1½ cup of water. Mix and give this a quick boil on high heat. Reduce the heat; next to add the fish pieces and green chillies along with the veggies. Mix, cover and cook on low heat until the veggies are cooked thoroughly. Garnish with fresh coriander leaves. Remove from heat.
