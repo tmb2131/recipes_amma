@@ -16,8 +16,10 @@
 
 Lay the boiled potatoes in a single layer in an iron skillet with 1 tbsp oil and roast on low heat, stirring now and then.
 Grind the garlic, ginger and tomato to a smooth paste.
+
 Heat 2 tbsp oil in a heavy bottomed pot over medium heat. Add bay leaf followed by the chopped onions and a pinch of salt.
 Adjust heat and fry the mixture until the onions get to be reddish brown.  You may need to add more oil.
+
 Lower heat and add ginger, garlic tomato paste.  Stir until the whole mixture moves as a mass glistening with oil.
 Add turmeric, cayenne, cumin powder and salt. Mix well and add the potatoes.  Add water if you want a gravy.
 Garam masala optional.
