@@ -19,8 +19,11 @@
 - 2 tsp cilantro, chopped
 
 Blanch tomatoes in hot water, plunge in cold water and remove the skin and chop it roughly.
-Peel the plums, boil in hot water for 5 minutes. Remove seeds and let them cool.
+Peel the plums, boil in hot water for 5 minutes.
+
+Remove seeds and let them cool.
 Grind them both together into a smooth paste. Add grated ginger, green chillies, rasam powder, salt and water.
+
 Pour in a non-stick deep pan, simmer.
 Add oil, a pinch of asafoetida, curry leaves and mustard seeds on a heated pan and pour over the prepared plum rasam.
 Serve hot garnished with chopped cilantro.
