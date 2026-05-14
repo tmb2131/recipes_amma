@@ -11,18 +11,15 @@
 
 ***
 
-Step 1
-
+Step 1\
 In a small bowl or measuring cup, combine the mustard, vinegar, lemon juice, salt and pepper. Whisk in the oil.
 
 <br />
 
-Step 2
-
+Step 2\
 Peel the garlic clove and lightly crush, or cut down to the root end with a paring knife, keeping the garlic clove intact. Place in the dressing and allow to marinate for at least 30 minutes. Remove from the dressing before serving.
 
 <br />
 
-TIP
-
+TIP\
 Advance preparation: This dressing will keep well in the refrigerator for a few days. Remove the garlic clove before storing.
