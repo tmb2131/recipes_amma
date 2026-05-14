@@ -1,4 +1,4 @@
-# Crispy brussels sprouts with lentils, smoked chilli harissa and roasted peanuts (G)
+# Crispy brussels sprouts with lentils, smoked chilli harissa and roasted peanuts (Guardian)
 
 - Prep 20 min
 - Cook 30 min
@@ -19,9 +19,7 @@ To start, pop the lentils into a small saucepan and cover with cold water. Seaso
 
 Pop the tofu, sesame oil and a good pinch of salt into a small blender (or a beaker to use with a stick blender). Blitz until smooth. Mix the harissa paste with 1 tablespoon of the olive oil and 2 tablespoons of warm water. Put both mixtures to one side.
 
-Heat the remaining tablespoon of olive oil in a nonstick frying pan. When hot, add the sliced onions with a good pinch of salt. Cook over a medium heat until golden and sweet – approximately 20 minutes. 
-
-<br />
+Heat the remaining tablespoon of olive oil in a nonstick frying pan. When hot, add the sliced onions with a good pinch of salt. Cook over a medium heat until golden and sweet – approximately 20 minutes.
 
 Add the drained lentils and mix well. Keep warm.
 Halve the sprouts, or quarter if they’re bigger than a 50p piece. Take your largest pan that has a lid, add the vegetable oil and place over a high heat until almost smoking (note, windows might need to be open).
