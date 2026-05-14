@@ -22,26 +22,16 @@ You can ice these if not sweet enough.
 
 <br />
 
-1 cup all-purpose flour
-
-1/2 cup old-fashioned oats
-
-1/3 cup slivered almonds
-
-1/3 cup plus 2 tablespoons sugar, divided
-
-2 teaspoons baking powder
-
-1/2 teaspoon kosher salt
-
-6 tablespoons (3/4 stick) chilled unsalted butter, cut into 1/2-inch cubes
-
-1 cup chilled heavy cream, divided, plus more for brushing
-
-1 1/2 teaspoons vanilla extract, divided
-
-4 cups fresh strawberries, hulled, sliced
-
+1 cup all-purpose flour\
+1/2 cup old-fashioned oats\
+1/3 cup slivered almonds\
+1/3 cup plus 2 tablespoons sugar, divided\
+2 teaspoons baking powder\
+1/2 teaspoon kosher salt\
+6 tablespoons (3/4 stick) chilled unsalted butter, cut into 1/2-inch cubes\
+1 cup chilled heavy cream, divided, plus more for brushing\
+1 1/2 teaspoons vanilla extract, divided\
+4 cups fresh strawberries, hulled, sliced\
 1 tablespoon Grand Marnier or other orange liqueur (optional)
 
 * <br />
