@@ -10,7 +10,8 @@
 - ⅔ **cup toasted walnuts (with maple syrup, tamari & chilli oil?)
 - Dried cranberries??
 
-1. Heat the oven to 400 degrees. In a bowl, toss together the cauliflower, 2 tablespoons olive oil, 1 teaspoon salt and 1/4 teaspoon pepper. Spread the cauliflower on a baking sheet in a single layer. Roast, tossing occasionally, until tender and dark golden, 30 to 35 minutes. Let cool for 10 minutes.
-2. <br />
-3. In a small bowl, whisk together the vinegar with the remaining salt and pepper, and then whisk in the remaining oil.
-4. In a salad bowl, toss the watercress, cheese, nuts and warm cauliflower. Pour the vinaigrette over the salad and toss until well combined.
+Heat the oven to 400 degrees. In a bowl, toss together the cauliflower, 2 tablespoons olive oil, 1 teaspoon salt and 1/4 teaspoon pepper. Spread the cauliflower on a baking sheet in a single layer. Roast, tossing occasionally, until tender and dark golden, 30 to 35 minutes. Let cool for 10 minutes.
+
+In a small bowl, whisk together the vinegar with the remaining salt and pepper, and then whisk in the remaining oil.
+
+In a salad bowl, toss the watercress, cheese, nuts and warm cauliflower. Pour the vinaigrette over the salad and toss until well combined.
