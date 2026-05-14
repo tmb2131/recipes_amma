@@ -24,12 +24,8 @@ Sprinkle lemon juice and Serve piping hot.
 
 **Garnish**
 
-* 1 Lemon juice
-
-* 2 Green Chillies , finely chopped
-
-* 1 inch Ginger , thinly sliced
-
-* 3 sprig Coriander (Dhania) Leaves , finely chopped
-
-* Salt , to taste
+* 1 Lemon juice\
+  2 Green Chillies , finely chopped\
+  1 inch Ginger , thinly sliced\
+  3 sprig Coriander (Dhania) Leaves , finely chopped\
+  Salt , to taste
