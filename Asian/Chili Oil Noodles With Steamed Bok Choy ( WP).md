@@ -14,11 +14,7 @@
 - 1 scallion, thinly sliced, for serving (optional)
 - 1 red or green chile, seeded, pith removed and thinly sliced or minced, for serving (optional)
 
-***
-
-## Directions
-
-* Total: 20 mins
+Total: 20 mins
 
 <br />
 
