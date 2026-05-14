@@ -20,35 +20,21 @@ CALORIES: 35KCAL 
 
 INGREDIENTS
 
-* 20-25 Pieces papdi
-
-* 1 and 1/2 cup yogurt chilled
-
-* 2 teaspoon sugar
-
-* 1/2 cup boiled and cubed potato
-
-* 1/2 cup cooked black chickpeas
-
-* 2 tablespoon chopped onion
-
-* 2 tablespoon coriander mint chutney
-
-* 2 tablespoon tamarind chutney
-
-* salt to taste
-
-* 1/4 teaspoon red chili powder
-
-* 1/4 teaspoon roasted cumin powder
-
-* 1/2 teaspoon chaat masala powder
-
-* 2 tablespoon chopped coriander
-
-* 1/4 cup fine sev
-
-* 2 tablespoon pomegranate seeds
+* 20-25 Pieces papdi\
+  1 and 1/2 cup yogurt chilled\
+  2 teaspoon sugar\
+  1/2 cup boiled and cubed potato\
+  1/2 cup cooked black chickpeas\
+  2 tablespoon chopped onion\
+  2 tablespoon coriander mint chutney\
+  2 tablespoon tamarind chutney\
+  salt to taste\
+  1/4 teaspoon red chili powder\
+  1/4 teaspoon roasted cumin powder\
+  1/2 teaspoon chaat masala powder\
+  2 tablespoon chopped coriander\
+  1/4 cup fine sev\
+  2 tablespoon pomegranate seeds
 
 * <br />
 
@@ -86,29 +72,18 @@ Calories: 35kcal | Carbohydrates: 8g | Sodium: 9mg | Potassium: 132mg | Fiber: 1
 
 Servings 6-8
 
-* 5 large potatoes, boiled, peeled and chopped into tiny pieces
-
-* 6 - 8 Puris per person
-
-* 1 cup chickpeas, boiled and mashed coarsely (sprinkle with salt to taste)
-
-* 2 onions chopped very fine
-
-* 2 medium-sized tomatoes chopped very fine
-
-* 2 cups fine Sev (gram flour vermicelli)
-
-* 2 tsp red chili powder
-
-* 3 tsp powdered black rock salt
-
-* 2 tbsps cumin seeds, gently roasted and powdered
-
-* Fresh finely chopped coriander leaves for garnish
-
-* 1 cup Tamarind Chutney
-
-* 1 cup Mint-Coriander Chutney
+* 5 large potatoes, boiled, peeled and chopped into tiny pieces\
+  6 - 8 Puris per person\
+  1 cup chickpeas, boiled and mashed coarsely (sprinkle with salt to taste)\
+  2 onions chopped very fine\
+  2 medium-sized tomatoes chopped very fine\
+  2 cups fine Sev (gram flour vermicelli)\
+  2 tsp red chili powder\
+  3 tsp powdered black rock salt\
+  2 tbsps cumin seeds, gently roasted and powdered\
+  Fresh finely chopped coriander leaves for garnish\
+  1 cup Tamarind Chutney\
+  1 cup Mint-Coriander Chutney
 
 <br />
 
