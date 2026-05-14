@@ -13,10 +13,14 @@
 - Salt , to taste
 - Pinch of sugar
 
-1. Heat oil in a pan on low flame, add the mustard seeds and urad dal and let the seeds splutter and the dal turn golden brown.
-2. Add the asafoetida and curry leaves.
-3. Add and sauté onions until they turn translucent.  Add the coriander and sambar powders.
-4. Now tomatoes and salt. Stir and cook until the tomatoes are well cooked and mushy.  Now add water and allow mixture to simmer for 10 minutes.
-5. Garnish with cilantro.
+Heat oil in a pan on low flame, add the mustard seeds and urad dal and let the seeds splutter and the dal turn golden brown.
 
-   <br />
+Add the asafoetida and curry leaves.
+
+Add and sauté onions until they turn translucent.  Add the coriander and sambar powders.
+
+Now tomatoes and salt. Stir and cook until the tomatoes are well cooked and mushy.  Now add water and allow mixture to simmer for 10 minutes.
+
+Garnish with cilantro.
+
+1. <br />
