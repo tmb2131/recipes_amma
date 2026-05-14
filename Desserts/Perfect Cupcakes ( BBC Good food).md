@@ -16,17 +16,14 @@
 
 For the icing:
 
-* Your quantity of icing will depend on your method of icing.
-
-* Tip: I tend to use twice the amount of icing sugar as butter.
+* Your quantity of icing will depend on your method of icing.\
+  Tip: I tend to use twice the amount of icing sugar as butter.
 
 * <br />
 
-* *You will also need:*
-
-* A muffin tray
-
-* Muffin paper cases
+* *You will also need:*\
+  A muffin tray\
+  Muffin paper cases
 
 ## Instructions
 
