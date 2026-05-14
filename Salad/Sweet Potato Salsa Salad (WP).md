@@ -21,14 +21,14 @@
 - 2 red bell peppers, stemmed, cored and chopped
 - 1/2 cup toasted pumpkin seeds
 
-1. Position a rack in the middle of the oven and preheat to 350 degrees.
-2. <br />
-3. In a large roasting pan, toss together the sweet potatoes, garlic, 2 tablespoons of olive oil, the smoked paprika, 1/2 teaspoon of salt and 1/4 teaspoon of pepper. Roast for 30 to 40 minutes, or until the sweet potatoes and garlic are very soft. Let cool slightly or completely in the pan.
-4. <br />
-5. Meanwhile, in a medium bowl, toss together the avocado, onion, jalapeño, cilantro, lime zest and juice, 2 tablespoons of the olive oil, and the remaining 1/2 teaspoon of salt and 1/4 teaspoon of pepper until combined.
-6. <br />
-7. When the sweet potato mixture has cooled, pick out the garlic cloves, slip off their peels, chop them, add them to the avocado salsa and toss to combine.
-8. <br />
-9. To the roasting pan with the sweet potatoes, add the tomatoes, corn, beans and bell peppers, and toss to combine. Drizzle with the remaining 2 tablespoons of olive oil. Taste, and season with more salt and pepper, as needed.
-10. <br />
-11. Pile the sweet potato mixture on a large platter. Top with the salsa, pumpkin seeds and cilantro leaves, and serve
+Position a rack in the middle of the oven and preheat to 350 degrees.
+
+In a large roasting pan, toss together the sweet potatoes, garlic, 2 tablespoons of olive oil, the smoked paprika, 1/2 teaspoon of salt and 1/4 teaspoon of pepper. Roast for 30 to 40 minutes, or until the sweet potatoes and garlic are very soft. Let cool slightly or completely in the pan.
+
+Meanwhile, in a medium bowl, toss together the avocado, onion, jalapeño, cilantro, lime zest and juice, 2 tablespoons of the olive oil, and the remaining 1/2 teaspoon of salt and 1/4 teaspoon of pepper until combined.
+
+When the sweet potato mixture has cooled, pick out the garlic cloves, slip off their peels, chop them, add them to the avocado salsa and toss to combine.
+
+To the roasting pan with the sweet potatoes, add the tomatoes, corn, beans and bell peppers, and toss to combine. Drizzle with the remaining 2 tablespoons of olive oil. Taste, and season with more salt and pepper, as needed.
+
+Pile the sweet potato mixture on a large platter. Top with the salsa, pumpkin seeds and cilantro leaves, and serve
