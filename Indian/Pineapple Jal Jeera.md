@@ -33,21 +33,14 @@ In a measuring jar, add the pineapple juice and top the rest with water so that 
 
 **Ingredients** 
 
-* Cumin Seeds roasted 2 tablespoons
-
-* Amchur Powder 1 teaspoon
-
-* Lemon slices for garnish
-
-* Fresh mint leaves 2 tablespoons
-
-* Fresh coriander leaves 1/2 teaspoon
-
-* Lemon juice 2 tablespoons
-
-* Ice cubes as required
-
-* Soda 1/2 litre
+* Cumin Seeds roasted 2 tablespoons\
+  Amchur Powder 1 teaspoon\
+  Lemon slices for garnish\
+  Fresh mint leaves 2 tablespoons\
+  Fresh coriander leaves 1/2 teaspoon\
+  Lemon juice 2 tablespoons\
+  Ice cubes as required\
+  Soda 1/2 litre
 
 **Method**
 
