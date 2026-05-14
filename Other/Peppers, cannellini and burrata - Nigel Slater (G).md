@@ -1,5 +1,3 @@
-<br />
-
 ## The recipe
 
 Open a 400g can of cannellini beans, tip the contents into a sieve or colander and rinse under running water. Tip the beans into a pan with a dash of oil and let them fry for 8-10 minutes until they turn gold and start to crisp on the outside. Stir them occasionally but gently, so you avoid crushing them.\
