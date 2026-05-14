@@ -1,13 +1,31 @@
-Lentil and bulgur wheat cakes, tomato and olive sauce(G)  
-Lentil and bulgur wheat cakes, tomato and olive sauce(G)  
-Lentil and bulgur wheat cakes, tomato and olive sauce(G)  
-Lentil and bulgur wheat cakes, tomato and olive sauce(G)  
-Lentil and bulgur wheat cakes, tomato and olive sauce(G)  
-  
-Make sure you use fine bulgur for this. Don’t ignore the resting time in the fridge. It is important for the texture of the balls. Serves 4  
-  
-onions 2, medium olive oil 4 tbsp garlic 2 cloves yellow mustard seeds 1½ tsp cumin seeds 1½ tsp curry powder 2 tsp ground turmeric 1 tsp vegetable stock 1 litre lentils 250g, small and red bulgur wheat 150g, fine parsley 15g coriander leaves 10g mint leaves 10, large vegetable oil 3 tbsp for frying  For the sauce: tomatoes 600g olive oil 2 tbsp tomato purée 2 tsp green olives 100g, stoned pomegranate molasses 1 tbsp  
-Peel and finely chop the onions. Warm the olive oil in a deep pan with a lid, add the onions and let them cook for 15 minutes over a moderately high heat, until pale and translucent, stirring regularly. Peel and crush the garlic to a paste (I use a pestle and mortar) and stir into the onions. Add the yellow mustard seeds, cumin seeds, curry powder and ground turmeric and continue cooking for a further 3 or 4 minutes until toasty and sticking to the pan. Pour in the vegetable stock, stirring, then bring to the boil and add the lentils.  
-Lower the heat a little, partially cover with a lid and cook for 10 minutes (there will be very little water left), then stir in the bulgur wheat. Remove from the heat and season generously with salt and black pepper. Finely chop the herbs and stir into the lentils and bulgur wheat, then set aside, covered with the lid for 10 minutes.  
-Using your hands, roll the mixture into 12 large balls (you will get 12-14 balls at 75-80g a piece), placing them on a tray as you go. Set aside for at least a couple of hours in the fridge.  
-To make the sauce, roughly chop the tomatoes and put them in a saucepan with the olive oil. Cook over a moderate heat, partially covered with a lid, for 10 minutes until the tomatoes start to collapse and give out their juices. Stir in the tomato purée. Roughly chop the olives. Crush the tomatoes with a fork, then stir in the olives, salt and a little pepper and the molasses. Continue cooking for 5 minutes, then transfer to a large baking dish. Set the oven at 200C/gas mark 6. Warm a thin pool of vegetable oil (about 3 tbsp) in a shallow pan over a moderate heat, then fry the balls for about 4 minutes on each side, watching them carefully, until golden, then transfer them to the baking dish, cover and place in the oven for 30 minutes.  
+# Lentil and bulgur wheat cakes, tomato and olive sauce (Guardian)
+
+- Serves 4
+- onions 2, medium
+- olive oil 4 tbsp
+- garlic 2 cloves
+- yellow mustard seeds 1½ tsp
+- cumin seeds 1½ tsp
+- curry powder 2 tsp
+- ground turmeric 1 tsp
+- vegetable stock 1 litre
+- lentils 250g, small and red
+- bulgur wheat 150g, fine
+- parsley 15g
+- coriander leaves 10g
+- mint leaves 10, large
+- vegetable oil 3 tbsp for frying
+- ---
+- For the sauce:
+- tomatoes 600g
+- olive oil 2 tbsp
+- tomato purée 2 tsp
+- green olives 100g, stoned
+- pomegranate molasses 1 tbsp
+
+Peel and finely chop the onions. Warm the olive oil in a deep pan with a lid, add the onions and let them cook for 15 minutes over a moderately high heat, until pale and translucent, stirring regularly. Peel and crush the garlic to a paste (I use a pestle and mortar) and stir into the onions. Add the yellow mustard seeds, cumin seeds, curry powder and ground turmeric and continue cooking for a further 3 or 4 minutes until toasty and sticking to the pan. Pour in the vegetable stock, stirring, then bring to the boil and add the lentils.
+
+Lower the heat a little, partially cover with a lid and cook for 10 minutes (there will be very little water left), then stir in the bulgur wheat. Remove from the heat and season generously with salt and black pepper. Finely chop the herbs and stir into the lentils and bulgur wheat, then set aside, covered with the lid for 10 minutes.
+
+Using your hands, roll the mixture into 12 large balls (you will get 12-14 balls at 75-80g a piece), placing them on a tray as you go. Set aside for at least a couple of hours in the fridge.
+To make the sauce, roughly chop the tomatoes and put them in a saucepan with the olive oil. Cook over a moderate heat, partially covered with a lid, for 10 minutes until the tomatoes start to collapse and give out their juices. Stir in the tomato purée. Roughly chop the olives. Crush the tomatoes with a fork, then stir in the olives, salt and a little pepper and the molasses. Continue cooking for 5 minutes, then transfer to a large baking dish. Set the oven at 200C/gas mark 6. Warm a thin pool of vegetable oil (about 3 tbsp) in a shallow pan over a moderate heat, then fry the balls for about 4 minutes on each side, watching them carefully, until golden, then transfer them to the baking dish, cover and place in the oven for 30 minutes.
