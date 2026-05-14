@@ -2,15 +2,18 @@
 
 - See Method section
 
-• Mix together flour and a bit of salt and sometimes a bit of sugar\
-• Use your hands, a pastry cutter or a food processor to mash or cut the butter into the dry ingredients \
-• Stop cutting or mashin when you have butter-flour lumps the size of walnut halves, peas or oatmeal\
-• Stir in cold water\
-• Gently mash everything together until a dough forms\
-• Chill and rest (you, and the dough)\
-• Roll out the dough and fit it into a pan
+Mix together flour and a bit of salt and sometimes a bit of sugar\
+Use your hands, a pastry cutter or a food processor to mash or cut the butter into the dry ingredients\
+Stop cutting or mashin when you have butter — flour lumps the size of walnut halves, peas or oatmea
 
-<br />
+Stir in cold water
+
+Gently mash everything together until a dough form
+
+Chill and rest (you, and the dough)\
+Roll out the dough and fit it into a pan
+
+
 
 240g PLAIN FLOUR\
 125g BUTTER\
