@@ -11,7 +11,10 @@
 - 4 1/2 cups **grated sharp white cheddar cheese (about 18 ounces)
 - 2 cups **grated Gruyere cheese (about 8 ounces)
 - 1 pound **elbow macaroni (or other small pasta shape)
-- Heat oven to 375 degrees. Butter a 3 — quart casserole dish; set aside. Place bread in a medium bowl. In a small saucepan over medium heat, melt 2 tablespoons butter (alternately, melt butter in the microwave). Pour butter into bowl with bread, and toss. Set breadcrumbs aside. Pull out 1 1/2 cups of grated cheddar, and 1/2 cup Gruyere, and reserve.
+
+***
+
+Heat oven to 375 degrees. Butter a 3 — quart casserole dish; set aside. Place bread in a medium bowl. In a small saucepan over medium heat, melt 2 tablespoons butter (alternately, melt butter in the microwave). Pour butter into bowl with bread, and toss. Set breadcrumbs aside. Pull out 1 1/2 cups of grated cheddar, and 1/2 cup Gruyere, and reserve.
 
 Fill a large pot with water; bring to a boil. Add macaroni; cook 2 to 3 minutes less than manufacturer's directions, until the outside of pasta is cooked and the inside is underdone. (Different brands of macaroni cook at different rates; be sure to read the instructions.) Transfer macaroni to a colander, rinse under cold running water, and drain well. Set aside.
 
