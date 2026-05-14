@@ -14,26 +14,24 @@
 - 5 cups Water
 - 2 tsp Ghee / butter optional
 
-<br />
-
 Wash Quinoa a few times to remove any dirt and also it washes off a bitter flavour that is unique to the seed.
 Wash the masoor dal a few times and soak in in clean water for 30 mins to 1 hour
 Roughly chop the tomatoes, Soak the tamarind in warm water and keep it aside or if you are using tamarind paste you can skip this step.
 
-* Wash quinoa and red lentils separately and soak red lentils alone for about 30 mins and keep aside.
+Wash quinoa and red lentils separately and soak red lentils alone for about 30 mins and keep aside.
 
-* Heat a pressure cooker on medium flame. Add oil, once hot add mustard seeds.
+Heat a pressure cooker on medium flame. Add oil, once hot add mustard seeds.
 
-* Allow the mustard seeds to crackle, then add cumin seeds, finely chopped garlic, curry leaves and sauté for a few seconds.
+Allow the mustard seeds to crackle, then add cumin seeds, finely chopped garlic, curry leaves and sauté for a few seconds.
 
-* Add finely chopped tomatoes, asafoetida, turmeric powder and cook until the tomatoes are softened.
+Add finely chopped tomatoes, asafoetida, turmeric powder and cook until the tomatoes are softened.
 
-* Next add tamarind paste , cook for 2 mins until a bit of tamarind raw flavour is gone. Add Rasam powder or sambar powder (available in Indian stores).
+Next add tamarind paste , cook for 2 mins until a bit of tamarind raw flavour is gone. Add Rasam powder or sambar powder (available in Indian stores).
 
-* Add washed quinoa, soaked red lentils and salt and mix well.
+Add washed quinoa, soaked red lentils and salt and mix well.
 
-* Measure and add the water to the pressure pan and cover to pressure cook for 3- 4 whistles on medium flame.
+Measure and add the water to the pressure pan and cover to pressure cook for 3- 4 whistles on medium flame.
 
-* Once the pressure is released, remove from the lid and gently mix it in.
+Once the pressure is released, remove from the lid and gently mix it in.
 
-* Drizzle ghee and Corriander leaves , serve hot with your favourite side dish.
+Drizzle ghee and Corriander leaves , serve hot with your favourite side dish.
