@@ -154,7 +154,12 @@ export async function handleEditSave(
   repoRoot: string,
   bodyText: string,
 ): Promise<Response> {
-  let payload: { relativePath?: string; content?: string; newBaseName?: string };
+  let payload: {
+    relativePath?: string;
+    content?: string;
+    newBaseName?: string;
+    newSection?: string;
+  };
   try {
     payload = JSON.parse(bodyText) as typeof payload;
   } catch {
@@ -188,10 +193,17 @@ export async function handleEditSave(
     return text(404, 'file not found');
   }
 
-  let targetPath = sourcePath;
-  let renamed = false;
+  const currentSection = path.basename(path.dirname(sourcePath));
+  let targetSection: Section = isValidSection(currentSection) ? currentSection : 'Other';
+  if (payload.newSection !== undefined) {
+    if (!isValidSection(payload.newSection)) {
+      return text(400, 'invalid newSection');
+    }
+    targetSection = payload.newSection;
+  }
 
-  if (payload.newBaseName && payload.newBaseName !== path.basename(sourcePath)) {
+  let targetBaseName = path.basename(sourcePath);
+  if (payload.newBaseName !== undefined && payload.newBaseName !== path.basename(sourcePath)) {
     const candidate = payload.newBaseName;
     if (
       candidate.includes('/') ||
@@ -202,22 +214,29 @@ export async function handleEditSave(
     ) {
       return text(400, 'invalid newBaseName');
     }
-    const sectionDir = path.dirname(sourcePath);
-    const proposed = path.resolve(sectionDir, candidate);
-    if (path.dirname(proposed) !== sectionDir) {
-      return text(400, 'newBaseName escapes section dir');
-    }
+    targetBaseName = candidate;
+  }
+
+  const targetSectionDir = path.resolve(repoRoot, targetSection);
+  if (path.dirname(targetSectionDir) !== repoRoot) {
+    return text(400, 'invalid newSection');
+  }
+  const targetPath = path.resolve(targetSectionDir, targetBaseName);
+  if (path.dirname(targetPath) !== targetSectionDir) {
+    return text(400, 'newBaseName escapes section dir');
+  }
+  const renamed = targetPath !== sourcePath;
+
+  if (renamed) {
     if (shouldSkipLocalRecipeWrites()) {
       const gh = parseGitHubRepo()!;
-      const newRel = toGitHubPath(repoRoot, proposed);
+      const newRel = toGitHubPath(repoRoot, targetPath);
       if (await getFileShaOnMain(gh.owner, gh.repo, newRel)) {
         return text(409, 'a recipe with that filename already exists');
       }
-    } else if (fs.existsSync(proposed)) {
+    } else if (fs.existsSync(targetPath)) {
       return text(409, 'a recipe with that filename already exists');
     }
-    targetPath = proposed;
-    renamed = true;
   }
 
   if (shouldSkipLocalRecipeWrites()) {
@@ -237,12 +256,15 @@ export async function handleEditSave(
       renamed,
       relativePath: relativeRecipePath(repoRoot, targetPath),
       baseName: path.basename(targetPath),
+      section: targetSection,
+      sectionSlug: slugify(targetSection),
       githubBranch: await getGithubBranchRef(),
     });
   }
 
   try {
     if (renamed) {
+      fs.mkdirSync(targetSectionDir, { recursive: true });
       fs.renameSync(sourcePath, targetPath);
     }
     fs.writeFileSync(targetPath, payload.content, 'utf8');
@@ -279,6 +301,8 @@ export async function handleEditSave(
     renamed,
     relativePath: relativeRecipePath(repoRoot, targetPath),
     baseName: path.basename(targetPath),
+    section: targetSection,
+    sectionSlug: slugify(targetSection),
     ...(githubBranch !== undefined ? { githubBranch } : {}),
   });
 }

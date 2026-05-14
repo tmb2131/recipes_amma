@@ -518,16 +518,14 @@ const recipeEditEnabled =
         formMode = next;
         const sectionField = $('[data-rem-section-field]') as HTMLElement | null;
         const eyebrow = $('[data-rem-eyebrow]') as HTMLElement | null;
-        if (sectionField) sectionField.hidden = next !== 'create';
+        if (sectionField) sectionField.hidden = false;
         if (eyebrow) eyebrow.textContent = next === 'create' ? 'New recipe' : 'Edit recipe';
-        if (next === 'create') {
-          ensureSectionOptions();
-          const select = $('[data-rem-section]') as HTMLSelectElement | null;
-          if (select) {
-            const want = opts.defaultSection ?? 'Other';
-            const has = SECTION_LIST.includes(want as SectionName);
-            select.value = has ? want : 'Other';
-          }
+        ensureSectionOptions();
+        const select = $('[data-rem-section]') as HTMLSelectElement | null;
+        if (select) {
+          const want = opts.defaultSection ?? 'Other';
+          const has = SECTION_LIST.includes(want as SectionName);
+          select.value = has ? want : 'Other';
         }
       }
 
@@ -569,7 +567,8 @@ const recipeEditEnabled =
         const dlg = getDialog();
         if (!dlg) return;
         payload = p;
-        setFormMode('edit');
+        const currentSection = findSectionBySlug(p.sectionSlug) ?? undefined;
+        setFormMode('edit', { defaultSection: currentSection });
         setDirty(false);
         setStatus('Loading…');
 
@@ -707,12 +706,20 @@ const recipeEditEnabled =
         if (!payload) return;
         const titleInput = $('[data-rem-title]') as HTMLInputElement | null;
         const sourceInput = $('[data-rem-source]') as HTMLInputElement | null;
+        const sectionSelect = $('[data-rem-section]') as HTMLSelectElement | null;
         const title = titleInput?.value.trim() ?? '';
         const source = sourceInput?.value.trim() || undefined;
         if (!title) {
           setStatus('Title cannot be empty.', 'error');
           return;
         }
+
+        const selectedSection = sectionSelect?.value as SectionName | undefined;
+        if (!selectedSection || !(SECTION_LIST as readonly string[]).includes(selectedSection)) {
+          setStatus('Pick a section.', 'error');
+          return;
+        }
+        const sectionChanged = slugifyClient(selectedSection) !== payload.sectionSlug;
 
         const content = readEditorContent(title, source);
 
@@ -742,6 +749,7 @@ const recipeEditEnabled =
               relativePath: payload.relativePath,
               content,
               newBaseName,
+              ...(sectionChanged ? { newSection: selectedSection } : {}),
             }),
           });
           if (!res.ok) {
@@ -754,9 +762,14 @@ const recipeEditEnabled =
             renamed: boolean;
             relativePath: string;
             baseName: string;
+            section?: string;
+            sectionSlug?: string;
           };
           const newSlug = slugify(cleanTitle(result.baseName.replace(/\.md$/i, '')).title);
-          const newHref = result.renamed ? `/${payload.sectionSlug}/${newSlug}/` : payload.recipeHref;
+          const targetSectionSlug = result.sectionSlug ?? slugifyClient(selectedSection);
+          const newHref = result.renamed
+            ? `/${targetSectionSlug}/${newSlug}/`
+            : payload.recipeHref;
           const pendingSave: PendingRecipeSave = {
             relativePath: result.relativePath,
             oldRelativePath: payload.relativePath,
@@ -773,7 +786,12 @@ const recipeEditEnabled =
           setDirty(false);
           getDialog()?.close();
 
-          if (normalizeHref(location.pathname) === normalizeHref(payload.recipeHref)) {
+          if (sectionChanged) {
+            // The recipe lives at a new URL now. The old page may still render
+            // briefly from build output, but it's stale — navigate to the new
+            // section route.
+            location.href = newHref;
+          } else if (normalizeHref(location.pathname) === normalizeHref(payload.recipeHref)) {
             applyRecipeToCurrentPage(pendingSave);
           } else {
             location.reload();
