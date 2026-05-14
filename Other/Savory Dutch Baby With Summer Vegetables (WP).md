@@ -16,7 +16,10 @@
 - 1/4 cup (2/3 ounce/20 grams) grated parmesan cheese
 - 4 large fresh basil leaves, cut into ribbons
 
-1. In a 10-inch cast-iron or ovenproof nonstick skillet over medium heat, heat 1 tablespoon of the oil until shimmering. Add the onion and cook, stirring occasionally, until softened, about 3 minutes. Add the corn, zucchini and 1/4 teaspoon of each salt and pepper, and cook until the zucchini is firm-tender, about 2 minutes. Add the tomatoes and cook until they are just warmed through, about 1 minute. Transfer the vegetables to a bowl and cover to keep them warm as you prepare the pancake, or refrigerate until needed.
-2. Position a rack in the middle of the oven and preheat to 425 degrees.
-3. In a medium bowl, whisk together the flour, the remaining 1/8 teaspoon of salt and the remaining 1/4 teaspoon of black pepper. In a large bowl, whisk together the milk and eggs until well combined. Add the flour mixture to the egg mixture and whisk to combine, then stir in the parmesan cheese. Wipe the skillet out, then return it to medium-high heat. Once the pan is hot, add the remaining 1 tablespoon of oil, swirling to coat the skillet. Pour the batter into the skillet, then carefully transfer it to the oven. Bake for 12 to 15 minutes, or until the pancake is puffed and golden brown.
-4. Remove the skillet from the oven, top with the vegetable mixture, garnish with the basil and serve.
+In a 10-inch cast-iron or ovenproof nonstick skillet over medium heat, heat 1 tablespoon of the oil until shimmering. Add the onion and cook, stirring occasionally, until softened, about 3 minutes. Add the corn, zucchini and 1/4 teaspoon of each salt and pepper, and cook until the zucchini is firm-tender, about 2 minutes. Add the tomatoes and cook until they are just warmed through, about 1 minute. Transfer the vegetables to a bowl and cover to keep them warm as you prepare the pancake, or refrigerate until needed.
+
+Position a rack in the middle of the oven and preheat to 425 degrees.
+
+In a medium bowl, whisk together the flour, the remaining 1/8 teaspoon of salt and the remaining 1/4 teaspoon of black pepper. In a large bowl, whisk together the milk and eggs until well combined. Add the flour mixture to the egg mixture and whisk to combine, then stir in the parmesan cheese. Wipe the skillet out, then return it to medium-high heat. Once the pan is hot, add the remaining 1 tablespoon of oil, swirling to coat the skillet. Pour the batter into the skillet, then carefully transfer it to the oven. Bake for 12 to 15 minutes, or until the pancake is puffed and golden brown.
+
+Remove the skillet from the oven, top with the vegetable mixture, garnish with the basil and serve.
