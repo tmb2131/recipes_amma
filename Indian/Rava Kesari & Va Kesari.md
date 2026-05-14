@@ -8,21 +8,14 @@
 
 ***Ingredients***
 
-* 0.5 cup semolina
-
-* 0.25 cup nei
-
-* 0.33 cup sugar
-
-* 0.5 cup Milk
-
-* 1 cup Water
-
-* Small pinch cardamom Powder
-
-* 3 saffron strands 
-
-* 1 tsp nei to fry a few cashews and raisins
+* 0.5 cup semolina\
+  0.25 cup nei\
+  0.33 cup sugar\
+  0.5 cup Milk\
+  1 cup Water\
+  Small pinch cardamom Powder\
+  3 saffron strands \
+  1 tsp nei to fry a few cashews and raisins
 
 <br />
 
@@ -41,19 +34,13 @@
 **Va Kesari**\
 ***Ingredients***
 
-* 0.25 cup nei
-
-* 0.33 cup sugar
-
-* 0.5 cup Milk
-
-* 1 cup Water
-
-* Small pinch cardamom Powder
-
-* 3 saffron strands 
-
-* 1 tsp nei to fry a few cashews and raisins
+* 0.25 cup nei\
+  0.33 cup sugar\
+  0.5 cup Milk\
+  1 cup Water\
+  Small pinch cardamom Powder\
+  3 saffron strands \
+  1 tsp nei to fry a few cashews and raisins
 
 * <br />
 
