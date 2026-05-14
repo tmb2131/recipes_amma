@@ -12,22 +12,12 @@
 
 Slice the ciabatta in half lengthways through the middle. Place the slices, cut side up, on a flat baking sheet. Toast under the grill for about 3–4 minutes, until lightly brown and crisp on the outside.
 
-<br />
-
 Mix the sun-dried tomato paste with the cream cheese, garlic and basil in a bowl. Spread this mixture on the toasted side of the bread.
-
-<br />
 
 Neatly arrange piles of tomato and avocado slices on top of the cream cheese mixture, then scatter over the diced mozzarella. Season well with salt and freshly ground black pepper
 
-<br />
-
 Return them to the grill for about 5 minutes, or until the cheese has melted and is tinged brown.
 
-<br />
-
-Place the slices on a serving board, sprinkle with the extra basil and drizzle with the balsamic glaze. Cut each slice into three and serve at once with a green salad. 
-
-<br />
+Place the slices on a serving board, sprinkle with the extra basil and drizzle with the balsamic glaze. Cut each slice into three and serve at once with a green salad.
 
 Mary’s Tips: Can be assembled up to 2 hours ahead. Add the avocado slices just before grilling
