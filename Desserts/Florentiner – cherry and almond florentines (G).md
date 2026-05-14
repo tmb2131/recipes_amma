@@ -1,26 +1,16 @@
 # Florentiner – cherry and almond florentines (Guardian)
 
-Makes about 16
-
-unsalted butter 50g, at room temperature
-
-soft light brown sugar 80g
-
-plain flour 2 tbsp
-
-flaked almonds 80g
-
-glacé cherries 50g, roughly chopped
-
-mixed peel 30g
-
-fine sea salt a pinch
-
-For the base
-
-dark chocolate 100g
-
-coconut oil ¼ tsp
+- Makes about 16
+- unsalted butter 50g, at room temperature
+- soft light brown sugar 80g
+- plain flour 2 tbsp
+- flaked almonds 80g
+- glacé cherries 50g, roughly chopped
+- mixed peel 30g
+- fine sea salt a pinch
+- For the base
+- dark chocolate 100g
+- coconut oil ¼ tsp
 
 Heat the oven to 160C fan/gas mark 4 and line 3 large baking sheets with non-stick baking parchment.
 
