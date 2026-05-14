@@ -28,8 +28,8 @@
 - Fine salt
 - Freshly ground black pepper
 
-1. Make the croutons: Position a rack in the middle of the oven and preheat to 300 degrees. Place the bread cubes on a large, rimmed sheet pan and toss with the olive oil, smoked paprika, salt and a generous amount of the black pepper. Spread in a single layer and toast for 12 to 15 minutes, or until crisped and lightly browned.
-2. <br />
-3. Make the tofu ranch: In a blender, combine the tofu, oil, minced pickle, vinegar, dill, onion powder, garlic, salt and pepper and puree until smooth. You’ll get a smoother consistency from a high-speed blender or immersion blender, but a standard blender does the job, too. (If you don’t have a blender, whisk together the dressing in a bowl: just make sure to mince the dill pickle finely; expect a few chunks.) You should get about 1 cup of dressing. You'll use about 2/3 cup on the salad; refrigerate any remaining dressing and use it for salads or dipping carrot sticks.
-4. <br />
-5. When you're ready to assemble, peel the eggs and cut them into wedges. Arrange the lettuce, radish, red bell pepper, walnuts, cherry tomatoes and eggs on a large plate. Season lightly with salt and black pepper. Top with the croutons and drizzle with the tofu ranch.
+Make the croutons: Position a rack in the middle of the oven and preheat to 300 degrees. Place the bread cubes on a large, rimmed sheet pan and toss with the olive oil, smoked paprika, salt and a generous amount of the black pepper. Spread in a single layer and toast for 12 to 15 minutes, or until crisped and lightly browned.
+
+Make the tofu ranch: In a blender, combine the tofu, oil, minced pickle, vinegar, dill, onion powder, garlic, salt and pepper and puree until smooth. You’ll get a smoother consistency from a high-speed blender or immersion blender, but a standard blender does the job, too. (If you don’t have a blender, whisk together the dressing in a bowl: just make sure to mince the dill pickle finely; expect a few chunks.) You should get about 1 cup of dressing. You'll use about 2/3 cup on the salad; refrigerate any remaining dressing and use it for salads or dipping carrot sticks.
+
+When you're ready to assemble, peel the eggs and cut them into wedges. Arrange the lettuce, radish, red bell pepper, walnuts, cherry tomatoes and eggs on a large plate. Season lightly with salt and black pepper. Top with the croutons and drizzle with the tofu ranch.
