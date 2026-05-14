@@ -12,14 +12,8 @@
 - Lao Gan Ma to taste (2 or 3 tsp)
 - coriander leaves to serve
 
-***
-
 Bring the stock to the boil in a medium pan and rain in the lentils. As soon as the stock comes back to the boil, lower the heat slightly and let the lentils cook for 20 minutes or until they are just tender. They should still have a bit of bite to them.
 
-* <br />
+Peel and roughly chop the onions. Warm the oil in a large pan, add the onions and cook for a good 20 minutes over a moderate heat, until softened. Peel the garlic, slice thinly and add the onions.
 
-* Peel and roughly chop the onions. Warm the oil in a large pan, add the onions and cook for a good 20 minutes over a moderate heat, until softened. Peel the garlic, slice thinly and add the onions.
-
-* <br />
-
-* Roughly chop the tomatoes and stir into the onions with the tomato purée. Leave the tomatoes to simmer, partially covered, until soft and squashy. Stir in the lentils and any stock from the pan and season with salt. Continue cooking for 10 minutes, then stir in the coconut milk and crispy chilli. As soon as the soup is thoroughly hot, serve in deep bowls.
+Roughly chop the tomatoes and stir into the onions with the tomato purée. Leave the tomatoes to simmer, partially covered, until soft and squashy. Stir in the lentils and any stock from the pan and season with salt. Continue cooking for 10 minutes, then stir in the coconut milk and crispy chilli. As soon as the soup is thoroughly hot, serve in deep bowls.
