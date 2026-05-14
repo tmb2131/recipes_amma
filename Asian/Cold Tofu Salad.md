@@ -16,10 +16,8 @@
 - 1 tsp. minced ginger
 - 2 — 3 coriander stem , finely chopped
 
-***
+Carefully take your silken tofu out and cut into bite sized pieces. You can use it as a whole block too.
 
-## Instructions
+Mix all the seasonings well in the small bowl and set aside for 1-2 minutes.
 
-1. Carefully take your silken tofu out and cut into bite sized pieces. You can use it as a whole block too.
-2. Mix all the seasonings well in the small bowl and set aside for 1-2 minutes.
-3. Pour the sauce over the tofu and decorate with coriander leaves and chopped green onion. Serve immediately.
+Pour the sauce over the tofu and decorate with coriander leaves and chopped green onion. Serve immediately.
