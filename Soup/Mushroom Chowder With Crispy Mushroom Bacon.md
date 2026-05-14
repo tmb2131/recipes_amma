@@ -26,8 +26,6 @@
 
 &#x20; If using bacon, in a 4-quart dutch oven or pot, fry the bacon over medium-high heat, stirring occasionally, until crispy, about 10 minutes. Transfer the bacon to a paper towel-lined plate.
 
-<br />
-
 In a 4-quart dutch oven or pot (or the pot used to render the bacon), heat the butter (or bacon fat) on medium-low until melted and sizzling. Add onion and celery to the pot, cooking until the mixture has noticeably reduced in size and is no longer shedding water, about 5 to 7 minutes.
 
 Add the mushrooms to the pot, stir to combine, then press the mushrooms down flat with the back of your spoon or spatula to maximize browning—leave for at least five minutes untouched. Flip a few mushrooms over and add the soy sauce, confirming they have large spots of golden brown, press down again and cook for an additional 2 minutes. See headnote about using alternative mushrooms.
