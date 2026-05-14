@@ -1,7 +1,6 @@
 # Sesame Noodles (NY Times)
 
 - Serves 4
-- INGREDIENTS
 - 1 **pound noodles, frozen or (preferably) fresh
 - 2 **tablespoons sesame oil, plus a splash
 - 3 ½ **tablespoons soy sauce
@@ -18,6 +17,8 @@
 
 Bring a large pot of water to a boil. Add noodles and cook until barely tender, about 5 minutes; they should retain a hint of chewiness. Drain, rinse with cold water, drain again and toss with a splash of sesame oil.
 
-1. In a medium bowl, whisk together the remaining 2 tablespoons sesame oil, the soy sauce, rice vinegar, sesame paste, peanut butter, sugar, tea, ginger, garlic and chili-garlic paste.
-2. Pour the sauce over the noodles
-3. Serve with cucumber sticks and roasted peanuts
+In a medium bowl, whisk together the remaining 2 tablespoons sesame oil, the soy sauce, rice vinegar, sesame paste, peanut butter, sugar, tea, ginger, garlic and chili-garlic paste.
+
+Pour the sauce over the noodles
+
+Serve with cucumber sticks and roasted peanuts
