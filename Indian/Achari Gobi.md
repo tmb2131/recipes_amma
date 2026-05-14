@@ -1,6 +1,6 @@
 # Achari Gobi
 
-- (Serves 4 as an accompaniment)
+- Serves 4 as an accompaniment
 - 480gms cauliflower cut to medium size florets
 - 2 birds eye green chillies roughly chopped (add more if you prefer it spicy)
 - 3 tbsp mustard oil or vegetable oil
