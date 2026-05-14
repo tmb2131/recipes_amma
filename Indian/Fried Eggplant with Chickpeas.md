@@ -1,7 +1,6 @@
 # Fried Eggplant with Chickpeas
 
 - Serves 4 to 6 as side dish
-- INGREDIENTS
 - FOR THE EGGPLANT:
 - 2 pounds baby or small Italian eggplant, sliced into 1/4 — inch — thick rounds
 - Fine sea salt, as needed
@@ -24,14 +23,12 @@
 - ¼ teaspoon fine sea salt, more to taste
 - Plain yogurt, for serving (optional)
 
-***
+Season eggplant slices all over with salt. Heat a large skillet over medium-high heat, then add 1 tablespoon olive oil and heat until it thins out in the pan. Add enough eggplant slices to fit in one layer without overlapping. Cook until the bottoms are browned, then flip and continue to cook until well browned and soft, 3 to 5 minutes per side. Add more oil if needed. Transfer cooked eggplant to a plate lined with paper towels, and repeat with more oil and eggplant until all the eggplant is cooked. Taste eggplant and add more salt if necessary.
 
-1	Season eggplant slices all over with salt. Heat a large skillet over medium-high heat, then add 1 tablespoon olive oil and heat until it thins out in the pan. Add enough eggplant slices to fit in one layer without overlapping. Cook until the bottoms are browned, then flip and continue to cook until well browned and soft, 3 to 5 minutes per side. Add more oil if needed. Transfer cooked eggplant to a plate lined with paper towels, and repeat with more oil and eggplant until all the eggplant is cooked. Taste eggplant and add more salt if necessary.
+&#x9;Heat another tablespoon of oil in pan, then add the onions. Cook until softened and golden, about 4 minutes. Add garlic and cook until fragrant, 1 to 2 minutes longer. Add spices and cook for 1 minute, then add tomatoes, chickpeas and 2 tablespoons water.
 
-2	Heat another tablespoon of oil in pan, then add the onions. Cook until softened and golden, about 4 minutes. Add garlic and cook until fragrant, 1 to 2 minutes longer. Add spices and cook for 1 minute, then add tomatoes, chickpeas and 2 tablespoons water.
+&#x20;	Partly cover the pan and let the mixture simmer until tomatoes start to break down, 10 to 15 minutes. Add eggplant to the pan and cook for another 5 to 10 minutes, until sauce thickens.
 
-3 	Partly cover the pan and let the mixture simmer until tomatoes start to break down, 10 to 15 minutes. Add eggplant to the pan and cook for another 5 to 10 minutes, until sauce thickens.
+&#x20;While the eggplant cooks, combine all the ingredients for the chutney in a blender with 2 tablespoons water. Blend until puréed, about 1 minute. Taste and add more lemon juice or salt, or both, if needed.
 
-4 While the eggplant cooks, combine all the ingredients for the chutney in a blender with 2 tablespoons water. Blend until puréed, about 1 minute. Taste and add more lemon juice or salt, or both, if needed.
-
-5 Serve the eggplant topped with the chutney and yogurt if you like.
+&#x20;Serve the eggplant topped with the chutney and yogurt if you like.
