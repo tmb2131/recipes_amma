@@ -15,15 +15,9 @@
 
 Marinate the fish steaks with 1/2 tsp salt and 1/2 tsp turmeric powder and keep aside.
 
-<br />
-
 Heat 2 tbsp of mustard oil in a large pan and fry the fish lightly until golden brown. Drain and keep it aside.
 
-<br />
-
-Add the rest of the oil to the same pan and heat. Once hot add dried red ++chilli++ and nigella seeds.
-
-<br />
+Add the rest of the oil to the same pan and heat. Once hot add dried red chilli and nigella seeds.
 
 When the nigella seeds splatters add the chopped garlic and fry for 4-5 seconds.
 
