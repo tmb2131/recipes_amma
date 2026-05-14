@@ -7,6 +7,8 @@
 - 2 teaspoons honey
 - 3 tablespoons pistachio oil
 
-1. Place all ingredients except oil in a jar. Seal and shake thoroughly, 20 seconds.
-2. Add pistachio oil in 3 batches, sealing and shaking after each one.
-3. Shake vinaigrette for 10 seconds more, then taste and adjust seasoning as you like.
+Place all ingredients except oil in a jar. Seal and shake thoroughly, 20 seconds.
+
+Add pistachio oil in 3 batches, sealing and shaking after each one.
+
+Shake vinaigrette for 10 seconds more, then taste and adjust seasoning as you like.
