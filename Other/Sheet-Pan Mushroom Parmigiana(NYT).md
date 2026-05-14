@@ -6,7 +6,7 @@
 - Extra — virgin olive oil
 - Kosher salt and black pepper
 - 8 portobello mushrooms, stems removed
-- 3 cups store — bought or ++[homemade](<https://cooking.nytimes.com/recipes/1015987> — classic — marinara — sauce)++ marinara sauce
+- 3 cups store — bought or homemade marinara sauce
 - 3 cups (12 ounces) shredded low — moisture mozzarella
 - 1 cup panko bread crumbs
 - ½ cup (½ ounce) basil leaves, finely chopped, plus more leaves for topping
