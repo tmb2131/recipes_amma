@@ -10,12 +10,9 @@
 
 ***
 
-Spread butter on salmon
-
-Mix semolina, paprika, salt & pepper.
-
-Dip buttered salmon in mix and lay on parsley stalks.\`
-
+Spread butter on salmon\
+Mix semolina, paprika, salt & pepper.\
+Dip buttered salmon in mix and lay on parsley stalks.\`\
 180 C for \~ 15 minutes
 
 ***
