@@ -15,5 +15,7 @@
 - 1 tbsp ghee or clarified butter
 - ½ to 1 tsp salt (as required)
 
-Roast the mung dal on a low heat until aromatic. Pour into a bowl, add the rice and water and pour the whole thing into the pressure cooker, adding the wholepepper, ginger, asafoetida and salt. Pressure cook on a medium to high heat for 10 to 12 minutes until the texture of thick porridge. (If you do not have a pressure cooker, you can make the pongal in a pot or pan on the stove-top. Simply follow the recipe and cook the rice, lentils in 800-950ml cups water for 30-40 minutes. Do add more water if needed.)
+Roast the mung dal on a low heat until aromatic. Pour into a bowl, add the rice and water and pour the whole thing into the pressure cooker, adding the wholepepper, ginger, asafoetida and salt. Pressure cook on a medium to high heat for 10 to 12 minutes until the texture of thick porridge. (If you do not have a pressure cooker, you can make the pongal in a pot or pan on the stove-top.
+
+Simply follow the recipe and cook the rice, lentils in 800-950ml cups water for 30-40 minutes. Do add more water if needed.)
 Heat the ghee in a separate pan, add cumin seeds, crushed pepper and fry until they sputter, then add the cashews. Stir over a low heat until golden. Add a few curry leaves and black peppercorns, then pour this over the pongal. Mix well and serve hot with coconut chutney or sambar.
