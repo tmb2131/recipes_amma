@@ -18,18 +18,15 @@
 
 ***
 
-Step 1
-
+Step 1\
 Mix together the lemon juice, yogurt, mayonnaise, curry powder, cumin, and salt. Set aside.
 
 <br />
 
-Step 2
-
+Step 2\
 Cut the apple into 12 wedges. Cut away the core of each wedge and slice into thin crosswise slices. Toss in a large bowl with 2 teaspoons lemon juice. Add the remaining ingredients and toss together.
 
 <br />
 
-Step 3
-
+Step 3\
 Shortly before serving toss the salad with the dressing.
