@@ -14,30 +14,25 @@
 
 ***
 
-Step 1
-
-&#x20;Add about 1 inch of water to a medium pot and bring to a boil over high heat. Place the eggs in a steamer insert that fits in the pot and place the steamer in the pot. Decrease the heat to medium-low and cover. Steam the eggs for exactly 13 minutes.
+Step 1\
+Add about 1 inch of water to a medium pot and bring to a boil over high heat. Place the eggs in a steamer insert that fits in the pot and place the steamer in the pot. Decrease the heat to medium-low and cover. Steam the eggs for exactly 13 minutes.
 
 <br />
 
-Step 2
-
+Step 2\
 Fill a medium bowl with ice and cold water. When the eggs are finished steaming, transfer them to the ice bath for 5 minutes.
 
 <br />
 
-Step 3
-
+Step 3\
 While eggs are steaming, in a medium bowl, stir together the celery, herbs, mayonnaise, mustard, lemon juice, pepper, Worcestershire sauce, hot sauce and salt.
 
 <br />
 
-Step 4
-
+Step 4\
 Peel and coarsely chop the eggs. Or, if you prefer the eggs more finely chopped, run them through sieve or ricer.
 
 <br />
 
-Step 5
-
+Step 5\
 Transfer the chopped eggs to the bowl with the celery mixture. Stir to combine well. Taste, and adjust the seasoning as desired. Chill or serve warm on sandwich bread or lettuce leaves.
