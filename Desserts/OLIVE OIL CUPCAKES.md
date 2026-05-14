@@ -11,12 +11,12 @@
 - ½ cup plain yogurt
 - Vanilla buttercream frosting
 
-1. Preheat oven to 325 degrees.
-2. <br />
-3. Combine flour, baking powder, baking soda, and salt in a large bowl.
-4. <br />
-5. In a separate bowl, whisk together eggs, sugar, vanilla, olive oil, and yogurt. Slowly combine wet and dry ingredients in a stand mixer.
-6. <br />
-7. Divide into greased cupcake pan and bake for 13 minutes.
-8. <br />
-9. Allow to cool before frosting.
+Preheat oven to 325 degrees.
+
+Combine flour, baking powder, baking soda, and salt in a large bowl.
+
+In a separate bowl, whisk together eggs, sugar, vanilla, olive oil, and yogurt. Slowly combine wet and dry ingredients in a stand mixer.
+
+Divide into greased cupcake pan and bake for 13 minutes.
+
+Allow to cool before frosting.
