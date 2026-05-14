@@ -15,11 +15,7 @@
 
 Combine the butter, onion, garlic, and red pepper flakes in a large soup pot over medium heat, stirring regularly for a couple of minutes until the onions soften.
 
-<br />
-
 Pour in the vegetable broth and the lentils and simmer, covered, until the lentils are tender; start checking after 20 minutes, but keep it mind that it may take as long as 50 minutes.
-
-<br />
 
 While the lentils cook, heat the 3 tablespoons of butter in a small saucepan over low heat. Stir it constantly with a rubber spatula until it starts to foam and brown, about 5 minutes. Stir in the curry powder and sauté until the mixture is very fragrant, just 30 seconds to 1 minute. Set aside.
 When the lentils have finished cooking, take the pot off the heat and stir in the coconut milk and 1/4 teaspoon of sea salt.
