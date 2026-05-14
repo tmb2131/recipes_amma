@@ -21,7 +21,10 @@
 - 4 **(7 — minute) boiled eggs
 - 1 **cup toasted walnut halves
 
-1. Make the vinaigrette: Put shallots in a small bowl. Add mustard, vinegar, 3 tablespoons lemon juice and the garlic. Stir together, and add a pinch of salt and pepper. Whisk in the walnut oil. Set aside for a few minutes, then taste and adjust lemon juice and salt.
-2. Wash and dry the salad greens. Tear large leaves into smaller pieces, if desired. Wrap in a clean towel and refrigerate if not serving immediately.
-3. Just before serving salad, put beet wedges in the bottom of a wide salad bowl. Add the radish, turnip and celery. Season with salt and pepper. Add dill, tarragon and half of the vinaigrette. Toss gently to coat.
-4. Add the salad greens and combine to distribute sliced vegetables evenly. Cut eggs in halves or quarters, and arrange over salad. Scatter walnuts over the top. Drizzle with the remaining vinaigrette.
+Make the vinaigrette: Put shallots in a small bowl. Add mustard, vinegar, 3 tablespoons lemon juice and the garlic. Stir together, and add a pinch of salt and pepper. Whisk in the walnut oil. Set aside for a few minutes, then taste and adjust lemon juice and salt.
+
+Wash and dry the salad greens. Tear large leaves into smaller pieces, if desired. Wrap in a clean towel and refrigerate if not serving immediately.
+
+Just before serving salad, put beet wedges in the bottom of a wide salad bowl. Add the radish, turnip and celery. Season with salt and pepper. Add dill, tarragon and half of the vinaigrette. Toss gently to coat.
+
+Add the salad greens and combine to distribute sliced vegetables evenly. Cut eggs in halves or quarters, and arrange over salad. Scatter walnuts over the top. Drizzle with the remaining vinaigrette.
