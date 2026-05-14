@@ -8,50 +8,34 @@ Veg kurma
 
 **Prepare vegetables – Chop the following:**
 
-2 medium onions (1 cup finely chopped)
-
-1 tbsp ginger garlic paste
-
-2 medium tomatoes (¾ cup fine chopped)
-
-1 medium carrot (¾ cup, half inch pieces)
-
-2 medium potatoes (1 cup, half inch pieces)
-
-¾ cup green peas
-
-8 to 10 French beans (¾ cup, half inch pieces)
-
+2 medium onions (1 cup finely chopped)\
+1 tbsp ginger garlic paste\
+2 medium tomatoes (¾ cup fine chopped)\
+1 medium carrot (¾ cup, half inch pieces)\
+2 medium potatoes (1 cup, half inch pieces)\
+¾ cup green peas\
+8 to 10 French beans (¾ cup, half inch pieces)\
 ¾ to 1 cup cauliflower florets
 
 <br />
 
 **Kurma paste: To a grinder jar, add**
 
-¼ cup grated coconut (or ¼ cup coconut milk)
-
-1 teaspoon fennel seeds (skip if you don’t like)
-
-1 tablespoon roasted gram (optional)
-
-12 cashew nuts (or 12 soaked almonds or 2 tbsps poppy seeds)
-
+¼ cup grated coconut (or ¼ cup coconut milk)\
+1 teaspoon fennel seeds (skip if you don’t like)\
+1 tablespoon roasted gram (optional)\
+12 cashew nuts (or 12 soaked almonds or 2 tbsps poppy seeds)\
 Pour 6 tablespoons water and make a fine paste. We don’t want a coarse paste.
 
 <br />
 
 **Heat 2 tablespoons oil in a pot. Add**
 
-1 bay leaf
-
-2 green cardamoms
-
-½ teaspoon cumin seeds (jeera)
-
-3 cloves
-
-1 inch cinnamon piece
-
+1 bay leaf\
+2 green cardamoms\
+½ teaspoon cumin seeds (jeera)\
+3 cloves\
+1 inch cinnamon piece\
 1 star anise. You can also add a single strand of mace If you like the fragrance.
 
 <br />
@@ -80,42 +64,27 @@ Add 1.5 cups of water and salt.  Bring to a simmer. Cover and cook until vegeta
 
 **Ingredients**
 
-4 turnips ( chopped)
-
-1 onion (chopped)
-
-1 tomato (chopped)
-
-1 &  1/2  cups of coconut milk
-
-2  tsp chilli powder
-
-1/2 tsp turmeric powder
-
-1 tbsp oil
-
+4 turnips ( chopped)\
+1 onion (chopped)\
+1 tomato (chopped)\
+1 &  1/2  cups of coconut milk\
+2  tsp chilli powder\
+1/2 tsp turmeric powder\
+1 tbsp oil\
 Salt to taste
 
-MASALA  ITEMS TO TEMPER
-
-1/2 tsp saunf
-
-2 star anise
-
-2 small cinnamon stick
-
-1 bay leaf
-
+MASALA  ITEMS TO TEMPER\
+1/2 tsp saunf\
+2 star anise\
+2 small cinnamon stick\
+1 bay leaf\
 3 cloves
 
 TO GRIND
 
-5 cashews
-
-2 inch long piece of ginger
-
-5 cloves garlic
-
+5 cashews\
+2 inch long piece of ginger\
+5 cloves garlic\
 1/2 tsp saunf
 
 <br />
