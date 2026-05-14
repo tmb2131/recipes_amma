@@ -17,16 +17,10 @@
 
 If working with FIRM TOFU: Remove the firm tofu from the packaging and drain well. Place tofu in a sealed container or on a tray wrapped with plastic and freeze for at least 3 hours and up to 6 months. When fully frozen, the tofu will turn a darker shade of yellow/brown and become slightly translucent.
 
-<br />
-
 When ready to cook, fully thaw the tofu, at least 3 hours at room temperature or 8 hours in the fridge. Gently squeeze the tofu between your palms to express as much water as possible without damaging it. Cut tofu into 10 equally sized pieces.
-
-<br />
 
 If working with SILKEN TOFU: Remove the silken tofu from the packaging and drain well. Cut tofu into 10 equally sized pieces and lay the pieces flat side down on a tray. Season the tofu with ½ teaspoon salt and let sit for at least 15 minutes to extract some of the water.
 \*
-
-<br />
 
 When ready to cook, drain well.
 
