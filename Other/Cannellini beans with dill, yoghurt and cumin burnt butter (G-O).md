@@ -23,9 +23,7 @@
 - 2 lemons, zested, to get 1 tsp, then juiced, to get 2½ tbsp
 
 Put the olive oil, butter, onions, demerara sugar, and a teaspoon of salt in a large saute pan for which you have a lid and turn on the heat to medium-high. Cook, stirring frequently, for 15 minutes, until soft and lightly caramelised, then stir in the garlic, herbs and turmeric, and cook for two to three minutes more, until softened. Pour in the stock, bring to a simmer, then stir in the cannellini beans, cover and cook for 10 minutes, until the mix has thickened and the liquid reduced by half.
-Take off the heat and, using a spoon, make eight wells in the bean mixture. Crack an egg into each one, sprinkle over an eighth of a teaspoon of salt and crack some black pepper on top. 
-
-<br />
+Take off the heat and, using a spoon, make eight wells in the bean mixture. Crack an egg into each one, sprinkle over an eighth of a teaspoon of salt and crack some black pepper on top.
 
 Cover the pan, return it to a medium-high heat and leave to cook for three to four minutes, until the egg whites are just set and the yolks are runny (if you prefer fudgy yolks, give them a minute or two longer). Take the pan off the heat and remove the lid.
 To make the cumin burnt butter, put the butter in a small saucepan on a medium heat and cook for three to four minutes, until browned and nutty, then stir in the cumin seeds and take off the heat.
