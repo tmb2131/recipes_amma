@@ -1,24 +1,15 @@
 # Mary Berry's cheesy muffins (BBC)
 
-275g/9¾oz \[self — raising flour]\(https\://www\.bbc.co.uk/food/self — raising\_flour)
-
-1 tsp baking powder
-
-½ tsp salt
-
-50g/1¾oz butter, melted
-
-1 large free — range egg, beaten
-
-250ml/9fl oz milk
-
-75g/2⅓oz Gruyère cheese, grated
-
-bunch of basil, leaves only, chopped
-
-75g/2⅓oz pitted black olives, chopped
-
-2 tbsp sun — dried tomato paste
+- 275g/9¾oz self-raising flour
+- 1 tsp baking powder
+- ½ tsp salt
+- 50g/1¾oz butter, melted
+- 1 large free — range egg, beaten
+- 250ml/9fl oz milk
+- 75g/2⅓oz Gruyère cheese, grated
+- bunch of basil, leaves only, chopped
+- 75g/2⅓oz pitted black olives, chopped
+- 2 tbsp sun — dried tomato paste
 
 ***
 
