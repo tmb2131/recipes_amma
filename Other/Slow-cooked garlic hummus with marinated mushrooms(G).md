@@ -1,44 +1,32 @@
 # Slow-cooked garlic hummus with marinated mushrooms (Guardian)
 
-* For the hummus
-
-* 2 whole heads garlic\*\*, the top fifth cut off to expose the bulbs
-
-* 1½ tbsp olive oil
-
-* Flaked sea salt and black pepper
-
-* 300g freshly cooked chickpeas\*\* (see introduction to first recipe)
-
-* 2 tbsp lemon juice
-
-* <br />
-
-* For the mushrooms
-
-* 1 garlic clove\*\*, peeled and crushed
-
-* 40ml olive oil
-
-* 1 lemon\*\* — zest finely grated, to get 2 tsp, then and juiced, to get 2 tbsp
-
-* 5g thyme sprigs
-
-* ½ tsp maple syrup
-
-* 140g chestnut mushrooms\*\*, quartered
-
-* 120g shiitake mushrooms\*\*, roughly torn in half
-
-* 1 dried cascabel chilli
-
-* 1 tbsp dill\*\*, roughly chopped
-
-* ½ tbsp parsley\*\*, finely chopped
+- For the hummus
+- 2 whole heads garlic**, the top fifth cut off to expose the bulbs
+- 1½ tbsp olive oil
+- Flaked sea salt and black pepper
+- 300g freshly cooked chickpeas** (see introduction to first recipe)
+- 2 tbsp lemon juice
+- ---
+- For the mushrooms
+- 1 garlic clove**, peeled and crushed
+- 40ml olive oil
+- 1 lemon** — zest finely grated, to get 2 tsp, then and juiced, to get 2 tbsp
+- 5g thyme sprigs
+- ½ tsp maple syrup
+- 140g chestnut mushrooms**, quartered
+- 120g shiitake mushrooms**, roughly torn in half
+- 1 dried cascabel chilli
+- 1 tbsp dill**, roughly chopped
+- ½ tbsp parsley**, finely chopped
 
 Heat the oven to 200C/390F/gas 6. Drizzle the garlic heads with a teaspoon of oil and sprinkle with a little salt and pepper. Wrap tightly in foil and roast for 40 minutes, until the cloves are soft and golden brown. Discard the foil and, when cool enough to handle, squeeze out the cloves; discard the papery skin.
 
-While the garlic is roasting, prepare the mushrooms. Put the garlic, oil, lemon zest and juice, thyme and maple syrup into a large bowl with a teaspoon of flaked salt and a generous grind of black pepper. Heat a large griddle pan on a high heat, then lay in the mushrooms, well spread out (depending on the size of your grill, you may need to cook them in batches), and grill, turning often, for about eight minutes, until the mushrooms have dark char-marks on all sides. Add the griddled mushrooms to the bowl with the oil mixture and stir to combine.
+While the garlic is roasting, prepare the mushrooms. Put the garlic, oil, lemon zest and juice, thyme and maple syrup into a large bowl with a teaspoon of flaked salt and a generous grind of black pepper.
+
+Heat a large griddle pan on a high heat, then lay in the mushrooms, well spread out (depending on the size of your grill, you may need to cook them in batches), and grill, turning often, for about eight minutes, until the mushrooms have dark char-marks on all sides. Add the griddled mushrooms to the bowl with the oil mixture and stir to combine.
+
 Grill the chilli in the same pan for four minutes, until fragrant, then roughly chop and add to the bowl. Leave to marinate for an hour or two.
+
 For the hummus, put the chickpeas, cooked garlic, remaining tablespoon of oil and the lemon juice in the small bowl of a food processor with a tablespoon of water and an eighth of a teaspoon of salt, then blitz to a smooth paste – about two minutes (you may need to scrape down the sides a couple of times).
+
 Spread the chickpeas in the base of a shallow bowl, and make a large well in the centre with the back of a spoon. Stir the dill and parsley into the mushrooms, then spoon into the well, with all the oil and aromatics.
