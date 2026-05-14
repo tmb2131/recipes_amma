@@ -8,14 +8,14 @@
 - Curry leaves
 - Salt to taste
 - Oil 4 tea spoons
-- ---
+- —  —  —
 - For tempering:
 - Oil 2 tea spoons
 - Mustard seeds 1/2 tea spoon
 - Urad dal 1 tea spoon
 - Curry leaves
 - Finely chopped shallots / baby onions 5
-- ---
+- —  —  —
 - For grinding:
 - Grated coconut 2 tb spoons
 - Shallots / baby onions 4
@@ -26,6 +26,7 @@ Heat a pan with oil and fry onions and green chillies for 2 minutes. Then add th
 Add the tomato pieces and required salt.
 Let the brinjal get cooked with the moisture in the tomatoes with stirs for few minutes.
 Pour three cups of water.
+
 Wait till the veggies are well cooked to soft.
 Mash the stuff well with the laddle.
 Check out for salt and hotness.
