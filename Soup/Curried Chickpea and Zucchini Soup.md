@@ -2,7 +2,6 @@
 
 - SERVINGS: 8
 - Yield: Makes 6 cups
-- INGREDIENTS
 - 2 tablespoons olive oil
 - 1 small (2 — ounce) onion, cut into 1/4 — inch dice (1/2 cup)
 - Salt
@@ -19,9 +18,7 @@
 
 Heat the oil in a large saucepan over medium heat. Add the onion and salt to taste; cook, stirring, for 3 to 4 minutes, until the onion starts to soften. Stir in the ginger and garlic; cook for 1 minute, then add the zucchini and stir to combine. Cook for 4 to 5 minutes, stirring occasionally, until the zucchini starts to soften; reduce the heat as needed so the vegetables cook but do not brown.
 
-Sprinkle in the curry powder and cook, stirring, for 1 minute. Add the chickpeas, potatoes and broth; stir to combine well. Cover, and bring the broth to a boil. Adjust the heat so the liquid maintains a steady but not vigorous boil. Cook for 15 to 18 minutes or until the potatoes are tender. 
-
-<br />
+Sprinkle in the curry powder and cook, stirring, for 1 minute. Add the chickpeas, potatoes and broth; stir to combine well. Cover, and bring the broth to a boil. Adjust the heat so the liquid maintains a steady but not vigorous boil. Cook for 15 to 18 minutes or until the potatoes are tender.
 
 Remove from the heat.
 Stir in the lemon juice and dill. Taste, and adjust the seasonings as needed. Divide among individual bowls; serve with a teaspoon of yogurt on top of each portion. Garnish with additional dill, if desired.
