@@ -24,11 +24,9 @@ Divide between ramekins and pass a blowtorch over the top if you're pernickety a
 
 ## Ingredients
 
-* 600ml double cream
-
-* 140g caster sugar
-
-* 3 lemons
+* 600ml double cream\
+  140g caster sugar\
+  3 lemons
 
 ## Method
 
@@ -68,6 +66,5 @@ Put the glasses on a tray (one that will fit in the fridge), to be filled as soo
 Place the cream, saffron, sugar and zest in a small saucepan on a medium-low heat and bring to the boil, stirring occasionally. Once the cream has just started boiling, reduce the heat to very low and stir around while counting to 20 really slowly.
 \
 Remove from the heat and pour in the lemon juice in a steady stream, stirring all the time. Quickly pour the posset into the glasses. Carefully lift the tray into the fridge and leave to set firm (it will need at least 2 hours to chill fully).
-
 
 While you are waiting, pour the boiling water over the sugar in a bowl. Mix to dissolve entirely, then add the rose water (if using). Allow to cool a little, then add the raspberries and gently swirl the bowl so that the fruit is coated.
