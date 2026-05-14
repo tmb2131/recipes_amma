@@ -18,6 +18,7 @@ Wash the rice and dal well.
 Add 7 cups of water to the rice moong dal.
 Add jeera, black pepper, ginger tiny pieces, milk, and curry leaves and cook on high pressure in InstantPotot for 30 minutes.
 Allow the InstantPot to cool slowly.
+
 Meanwhile, fry the cashew nuts in 1 tsp of ghee until they turn golden.
 Open the InstantPot add salt, 5 tbsps of ghee, a pinch of asaofedita and the roasted cashew nuts and mix well.
 Serve immediately.
