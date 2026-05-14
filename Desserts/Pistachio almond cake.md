@@ -14,8 +14,6 @@
 
 Preheat the oven to 350°F. Line a 9" cake pan with parchment paper, lightly grease the pan, and dust it with sugar, tapping out the excess sugar.
 
-<br />
-
 In a food processor, pulse together the pistachios until they're fairly finely ground, but make sure not to pulse too much or they'll become a paste.
 
 Add the almond flour, all-purpose flour, baking powder, and cardamom to the ground pistachios and pulse until everything is combined.
