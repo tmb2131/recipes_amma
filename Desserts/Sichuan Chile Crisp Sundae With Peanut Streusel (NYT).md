@@ -15,12 +15,12 @@
 - 4 **tablespoons [Sichuan Chile Oil](https://cooking.nytimes.com/recipes/1021202 — sichuan — chile — oil), with its debris
 - ½ **cup Sichuan Peanut Streusel
 
-1. Prepare the peanut streusel: Adjust oven rack to center position and heat to 350 degrees. (If your oven has a convection setting, make sure it is off.)
-2. <br />
-3. Using a spice grinder or mortar and pestle, grind Sichuan peppercorns, chile flakes, star anise, cumin and fennel together into a fine powder.
-4. <br />
-5. Combine all ingredients in the bowl of a food processor fitted with the blade attachment. Pulse until peanuts are roughly chopped and a coarse meal-like texture is formed. (Alternatively, mix together with your fingers, lithely crushing the peanuts in a mortar and pestle or under a skillet before adding to other ingredients.)
-6. <br />
-7. Spread mixture over a parchment-lined sheet tray in little crumbles. Bake until deep golden brown, rotating the pan halfway through cooking, about 16 to 20 minutes. (The mixture will spread and flatten as it bakes.) As soon as the streusel is cool enough to handle, break it up into small chunks — it’s OK if they are a little uneven — then cool completely. Do not let the streusel cool completely before trying to break it! Once cooled, streusel can be stored at room temperature in a sealed container for up to two weeks. This recipe makes about 3 cups.
-8. <br />
-9. To serve, scoop ice cream into 2 bowls. Top with chile oil and streusel.
+Prepare the peanut streusel: Adjust oven rack to center position and heat to 350 degrees. (If your oven has a convection setting, make sure it is off.)
+
+Using a spice grinder or mortar and pestle, grind Sichuan peppercorns, chile flakes, star anise, cumin and fennel together into a fine powder.
+
+Combine all ingredients in the bowl of a food processor fitted with the blade attachment. Pulse until peanuts are roughly chopped and a coarse meal-like texture is formed. (Alternatively, mix together with your fingers, lithely crushing the peanuts in a mortar and pestle or under a skillet before adding to other ingredients.)
+
+Spread mixture over a parchment-lined sheet tray in little crumbles. Bake until deep golden brown, rotating the pan halfway through cooking, about 16 to 20 minutes. (The mixture will spread and flatten as it bakes.) As soon as the streusel is cool enough to handle, break it up into small chunks — it’s OK if they are a little uneven — then cool completely. Do not let the streusel cool completely before trying to break it! Once cooled, streusel can be stored at room temperature in a sealed container for up to two weeks. This recipe makes about 3 cups.
+
+To serve, scoop ice cream into 2 bowls. Top with chile oil and streusel.
