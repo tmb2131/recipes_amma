@@ -61,25 +61,5 @@
 
 * garnish with cilantro.
 
-* 2 tablespoons besan\
-  2 tablespoons atta\
-  1 teaspoon Ginger paste or freshly grated or crushed\
-  ¼ teaspoon Turmeric powder\
-  ½ teaspoon Red chili powder\
-  ½ teaspoon Coriander powder\
-  Salt to tasteinch Sugar\
-  [Plain yogurt](https://www.spiceupthecurry.com/homemade-yogurt/)
-
-* 1 tsp besan\
-  ½ teaspoon Red chili powder\
-  ¼ teaspoon Turmeric powder\
-  ½ teaspoon Cumin powder\
-  ½ teaspoon Coriander powder\
-  Salt to taste\
-  1 tablespoon Oil\
-  ⅛ teaspoon Mustard seeds\
-  ¼ teaspoon Cumin seeds\
-  ½ teaspoon Ginger paste or freshly grated or crushed\
-  1 small Green chilies finely chopped\
-  4-5 Curry leaves\
-  few sprigs Cilantro or coriander leaves finely chopped
+* \
+  Plain yogurt
