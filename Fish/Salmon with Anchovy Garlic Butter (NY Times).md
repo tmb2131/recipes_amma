@@ -1,7 +1,6 @@
 # Salmon with Anchovy Garlic Butter (NY Times)
 
 - Serves 4
-- INGREDIENTS
 - 3 **tablespoons unsalted butter, softened
 - 4 **anchovy fillets, minced
 - 1 **fat garlic clove, minced (or 2 small ones)
@@ -12,8 +11,8 @@
 - ½ **lemon
 - Fresh chopped parsley, for serving
 
-1. Heat oven to 400 degrees. In a small bowl, mash together butter, anchovies, garlic, salt and pepper.
-2. <br />
-3. In a large ovenproof skillet, melt about half the anchovy butter. Add fish, skin side down. Cook for 3 minutes over high heat to brown the skin, spooning some pan drippings over the top of the fish as it cooks. Add capers to bottom of pan and transfer to oven. Roast until fish is just cooked through, 8 to 10 minutes.
-4. <br />
-5. Remove pan from oven and add remaining anchovy butter to pan to melt. Place salmon on plates and spoon buttery pan sauce over the top. Squeeze the lemon half over the salmon and garnish with chopped parsley. Serve.
+Heat oven to 400 degrees. In a small bowl, mash together butter, anchovies, garlic, salt and pepper.
+
+In a large ovenproof skillet, melt about half the anchovy butter. Add fish, skin side down. Cook for 3 minutes over high heat to brown the skin, spooning some pan drippings over the top of the fish as it cooks. Add capers to bottom of pan and transfer to oven. Roast until fish is just cooked through, 8 to 10 minutes.
+
+Remove pan from oven and add remaining anchovy butter to pan to melt. Place salmon on plates and spoon buttery pan sauce over the top. Squeeze the lemon half over the salmon and garnish with chopped parsley. Serve.
