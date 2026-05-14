@@ -12,14 +12,12 @@
 - 2 **cups herbs (tender leaves and stems), such as cilantro, mint, chives, parsley or a mix, for serving
 - Sesame seeds, sesame oil or both, for serving (optional)
 
-***
-
 Heat oil in a large, heavy-bottomed pot or Dutch oven over medium heat. Add garlic and shallots, and season with salt and pepper. Cook, stirring occasionally, until shallots start to turn a nice golden brown, 3 to 4 minutes. Add mushrooms and half the chile, and season with salt and pepper.
 
-* Cook, stirring occasionally, until the mushrooms have softened, released much of their water and turned a deep golden brown, 10 to 15 minutes. (A browned mushroom will have infinitely more flavor than an unbrowned mushroom, because the water inside it evaporates and the flavor concentrates. So do not skip this step.)
+Cook, stirring occasionally, until the mushrooms have softened, released much of their water and turned a deep golden brown, 10 to 15 minutes. (A browned mushroom will have infinitely more flavor than an unbrowned mushroom, because the water inside it evaporates and the flavor concentrates. So do not skip this step.)
 
-* Add 1/2 cup soy sauce, 1/4 cup vinegar and 8 cups of water. Bring to a gentle simmer and season with salt and pepper. Continue to simmer until the flavors have melded and the broth tastes good enough to drink (you will be drinking it), 15 to 20 minutes. Season with more soy sauce and vinegar as you like. 
+Add 1/2 cup soy sauce, 1/4 cup vinegar and 8 cups of water. Bring to a gentle simmer and season with salt and pepper. Continue to simmer until the flavors have melded and the broth tastes good enough to drink (you will be drinking it), 15 to 20 minutes. Season with more soy sauce and vinegar as you like. 
 
-* Meanwhile, cook the noodles in a large pot of salted boiling water until just al dente. (The timing will depend on the type and brand of noodles, so consult the package.) Add the noodles to the pot with the broth, and let them hang out in there for a minute or two to finish cooking and soak up all that flavor.
+Meanwhile, cook the noodles in a large pot of salted boiling water until just al dente. (The timing will depend on the type and brand of noodles, so consult the package.) Add the noodles to the pot with the broth, and let them hang out in there for a minute or two to finish cooking and soak up all that flavor.
 
-* To serve, use tongs to divide the noodles and mushrooms among bowls, then ladle the hot broth over the top. Serve with the remaining chile, the herbs and the sesame seeds and oil (if using) for people to dress their own bowls to their liking.
+To serve, use tongs to divide the noodles and mushrooms among bowls, then ladle the hot broth over the top. Serve with the remaining chile, the herbs and the sesame seeds and oil (if using) for people to dress their own bowls to their liking.
