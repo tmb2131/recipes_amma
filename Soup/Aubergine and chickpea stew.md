@@ -12,12 +12,8 @@
 - 2 tbsp fresh oregano, chopped
 - Salt and black pepper
 
-***
+If cooking your own chickpeas, cover them with fresh water, bring to the boil and cook for around 45 minutes, or until very soft. Take off the heat and add a drizzle of oil, season with salt and leave to one side.
 
-1\. If cooking your own chickpeas, cover them with fresh water, bring to the boil and cook for around 45 minutes, or until very soft. Take off the heat and add a drizzle of oil, season with salt and leave to one side.
+Set the oven to 160C/325F/gas 3. Heat a glug of olive oil in a pan and fry the aubergine until browned, then set aside. Add another drizzle of oil to the pan, and fry the red onions and garlic. Cook gently for 4-5 minutes, or until the onions have softened.
 
-2\. Set the oven to 160C/325F/gas 3. Heat a glug of olive oil in a pan and fry the aubergine until browned, then set aside. Add another drizzle of oil to the pan, and fry the red onions and garlic. Cook gently for 4-5 minutes, or until the onions have softened.
-
-<br />
-
-3\. Add the wine and reduce a little, then add the tomatoes, bay leaves and vinegar and reduce a little more. Add the aubergines and drained chickpeas, season and pour into an ovenproof baking dish. Bake for 40 minutes.
+Add the wine and reduce a little, then add the tomatoes, bay leaves and vinegar and reduce a little more. Add the aubergines and drained chickpeas, season and pour into an ovenproof baking dish. Bake for 40 minutes.
