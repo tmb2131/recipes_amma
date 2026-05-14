@@ -24,20 +24,17 @@
 
 <br />
 
-**2 Toast the nuts**
-
+**2 Toast the nuts**\
 Toast the walnut halves in a dry pan until they smell nutty, then set aside a quarter of the most handsome-looking ones to use as decoration later. Roughly chop the rest. Heat the oven to 180C (160C fan)/350F/gas 4, and grease and base line two 20cm sandwich tins. Crack the eggs into a bowl and beat.
 
 <br />
 
-**3 Cream the butter and sugar**
-
+**3 Cream the butter and sugar**\
 Put the butter in a food mixer or a large bowl anchored with a damp cloth to steady it, then beat it briefly to soften. Crumble in the sugar to break up any lumps, then carry on beating for several minutes, until the butter is really light and fluffy; scrape down the bowl as required.
 
 ##
 
-**4 Add the eggs and flour**
-
+**4 Add the eggs and flour**\
 With the mixer (or your wooden spoon) still going, gradually pour in the eggs and beat to incorporate, again scraping the sides as necessary.
 
 <br />
@@ -46,14 +43,12 @@ Tip the flour and baking powder into a bowl, whisk to knock out any lumps, then 
 
 <br />
 
-**5 Add the coffee and chopped nuts**
-
+**5 Add the coffee and chopped nuts**\
 Add the salt, half the coffee (keep the rest for the icing) and the chopped walnuts, then slowly fold in, just until the flour and coffee are completely incorporated – bear in mind that the more more vigorously you fold, the more air you will knock out of the batter, so it’s important not to overdo it.
 
 <br />
 
-**6 Finish the batter, then bake**
-
+**6 Finish the batter, then bake**\
 The batter should by now fall from the spoon, slightly reluctantly but without the need for violent agitation; if it doesn’t, loosen with a little milk. Divide evenly between the two tins (weigh them for perfection).
 
 <br />
@@ -62,14 +57,12 @@ Put in the oven, on the middle shelf if using a conventional setting, and bake f
 
 * <br />
 
-**7 Start the icing**
-
+**7 Start the icing**\
 Meanwhile, make the icing. Beat the butter until soft; my mixer is not good with smaller amounts so I tend to use a mixing bowl, again anchored to the work surface with a damp cloth, and electric beaters or a wooden spoon. Sift in the icing sugar to get rid of any lumps, then add the salt.
 
 <br />
 
-**8 Finish the icing**
-
+**8 Finish the icing**\
 Beat to combine, then add the reserved cooled coffee and the cream – though optional, the latter does make the icing easier to spread; for a less rich result; use a splash of milk instead. Put the less perfect looking of the two cakes (there’s always one) on a platter.
 
 <br />
