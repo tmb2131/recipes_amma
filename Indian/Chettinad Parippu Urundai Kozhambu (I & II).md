@@ -38,27 +38,40 @@
 
 ***
 
-2. I
-3. To begin making Chettinad Paruppu Urundai Kuzhambu, first prepare making the lentil balls. Soak the channa and toor dal along with dry red chilli and fennel seeds for an hour.
-4. Grind the soaked dals along with the fennel seeds, cumin seeds and asafoetida to a smooth mix. Now take the ground lentil mix in a bowl and add the finely chopped onion, ground coconut, coriander and curry leaves, season with salt and mix it well.
-5. Make small lemon sized balls of this mix and steam it for 10 minutes. Once done let it cool and keep it aside.
-6. The next step is to is to make the coconut paste. 
-7. In a small pan, roast the fenugreek seeds, urad dal and the red chilies until browned and crisp over medium heat. You will find the aromas coming through. Once you can smell the aromas, add the coconut and roast for about a minute and turn off the heat and allow it to cool for a few minutes.
-8. Blend the coconut mixture into a smooth paste in a blender by adding very little warm water and keep aside.
-9. Now heat oil in big [wok](http://www.amazon.in/gp/product/B00EVQZH02/ref=as_li_qf_sp_asin_il_tl?ie=UTF8\&camp=3626\&creative=24790\&creativeASIN=B00EVQZH02\&linkCode=as2\&tag=archskitc-21) on medium heat.  Add the mustard seeds and allow it to crackle. Add the fennel seeds, curry leaves, and let it splutter. Add the asafoetida and stir for a few seconds.
-10. Add the finely chopped onions and chopped garlic and sauté till the onions turn transparent.
-11. Now add the finely chopped tomatoes and cook until its mashed.
-12. Add the tamarind water, coriander powder and turmeric powder and let it simmer until the raw smell of the tamarind water goes away.
-13. At this stage add the coconut paste and bring it to a rolling boil.
-14. Add the steamed lentil balls to this gravy and simmer for another 10 minutes and switch it off. Check the salt and spices and adjust to suit your taste. Adjust the consistency of the Kuzhambu by adding water if required.
-15. Your Chettinad Paruppu Urundai Kuzhambu is ready to be served. Transfer the Kuzhambu to a serving bowl and garnish with coriander leaves on top. 
-16. Serve the Chettinad Paruppu Urundai Kuzhambu (Steamed Lentil Balls Cooked in a Tangy Curry) with Steamed Rice, Kootu, [Poriyal](https://www.archanaskitchen.com/beetroot-poriyal-a-delicious-preparation-in-south-indian-style) and Appalam. 
+**I**\
+To begin making Chettinad Paruppu Urundai Kuzhambu, first prepare making the lentil balls. Soak the channa and toor dal along with dry red chilli and fennel seeds for an hour.
+
+Grind the soaked dals along with the fennel seeds, cumin seeds and asafoetida to a smooth mix. Now take the ground lentil mix in a bowl and add the finely chopped onion, ground coconut, coriander and curry leaves, season with salt and mix it well.
+
+Make small lemon sized balls of this mix and steam it for 10 minutes. Once done let it cool and keep it aside.
+
+The next step is to is to make the coconut paste. 
+
+In a small pan, roast the fenugreek seeds, urad dal and the red chilies until browned and crisp over medium heat. You will find the aromas coming through. Once you can smell the aromas, add the coconut and roast for about a minute and turn off the heat and allow it to cool for a few minutes.
+
+Blend the coconut mixture into a smooth paste in a blender by adding very little warm water and keep aside.
+
+Now heat oil in big [wok](http://www.amazon.in/gp/product/B00EVQZH02/ref=as_li_qf_sp_asin_il_tl?ie=UTF8\&camp=3626\&creative=24790\&creativeASIN=B00EVQZH02\&linkCode=as2\&tag=archskitc-21) on medium heat.  Add the mustard seeds and allow it to crackle. Add the fennel seeds, curry leaves, and let it splutter. Add the asafoetida and stir for a few seconds.
+
+Add the finely chopped onions and chopped garlic and sauté till the onions turn transparent.
+
+Now add the finely chopped tomatoes and cook until its mashed.
+
+Add the tamarind water, coriander powder and turmeric powder and let it simmer until the raw smell of the tamarind water goes away.
+
+At this stage add the coconut paste and bring it to a rolling boil.
+
+Add the steamed lentil balls to this gravy and simmer for another 10 minutes and switch it off. Check the salt and spices and adjust to suit your taste. Adjust the consistency of the Kuzhambu by adding water if required.
+
+Your Chettinad Paruppu Urundai Kuzhambu is ready to be served. Transfer the Kuzhambu to a serving bowl and garnish with coriander leaves on top. 
+
+Serve the Chettinad Paruppu Urundai Kuzhambu (Steamed Lentil Balls Cooked in a Tangy Curry) with Steamed Rice, Kootu, [Poriyal](https://www.archanaskitchen.com/beetroot-poriyal-a-delicious-preparation-in-south-indian-style) and Appalam. 
 
 <br />
 
 <br />
 
-II
+**II**
 
 <br />
 
@@ -114,12 +127,20 @@ II
 
 <br />
 
-1. Soak half a cup of chana dal (kadalai paruppu) with 2 cups of water for 2 hours. Strain the water and grind the lentils to a coarse paste. Do not add water while grinding. There might be one or two lentil grains that might be left whole while grinding. That is perfectly fine.
-2. Add the following to the ground lentil. Fennel seeds, finely minced garlic, finely chopped onions, turmeric, finely minced green chilli, finely chopped coriander leaves, fresh shredded coconut and salt. Mix everything well to combine. Make little dumpling balls from the mixture and steam the dumplings in an idli vessel for 5 minutes. Set aside.
-3. We will need to use a flat pan for this recipe. Kadai may not work as this may make the dumpling to break when added to the curry. So a flat pan is recommended. Heat 2 tablespoon of oil in a pan and add in the cloves, cinnamon, fennel seeds, 1 sprig curry leaf and crushed Garlic. Saute until the garlic starts to brown and the curry leaves turn crisp. Add in the chopped onions. Saute until the onions are soft.
-4. Now puree 2-3 very ripe tomatoes in a mixie. Add it to the pan.
-5. Add in the salt, turmeric and the sambar powder. Fry until the tomatoes are cooked well and streaks of oil appear on top. About 4-5 minutes on medium flame.
-6. Grind half a cup of fresh shredded coconut with half a cup of water to a smooth paste. Add it to the pan.
-7. Add in 2 cups of water and let it simmer to a full boil. Check for seasoning at this stage. Add in more salt if necessary. Once the curry comes to a full boil, add the dumplings one by one carefully. DO NOT stir for the first 5 minutes as the dumplings might break. Let the flame be at medium when the dumplings are boiling.
-8. After 5 minutes, turn the dumplings if necessary. Let it simmer for 10-12 more minutes. Remove off heat.
-9. Serve with rice.
+Soak half a cup of chana dal (kadalai paruppu) with 2 cups of water for 2 hours. Strain the water and grind the lentils to a coarse paste. Do not add water while grinding. There might be one or two lentil grains that might be left whole while grinding. That is perfectly fine.
+
+Add the following to the ground lentil. Fennel seeds, finely minced garlic, finely chopped onions, turmeric, finely minced green chilli, finely chopped coriander leaves, fresh shredded coconut and salt. Mix everything well to combine. Make little dumpling balls from the mixture and steam the dumplings in an idli vessel for 5 minutes. Set aside.
+
+We will need to use a flat pan for this recipe. Kadai may not work as this may make the dumpling to break when added to the curry. So a flat pan is recommended. Heat 2 tablespoon of oil in a pan and add in the cloves, cinnamon, fennel seeds, 1 sprig curry leaf and crushed Garlic. Saute until the garlic starts to brown and the curry leaves turn crisp. Add in the chopped onions. Saute until the onions are soft.
+
+Now puree 2-3 very ripe tomatoes in a mixie. Add it to the pan.
+
+Add in the salt, turmeric and the sambar powder. Fry until the tomatoes are cooked well and streaks of oil appear on top. About 4-5 minutes on medium flame.
+
+Grind half a cup of fresh shredded coconut with half a cup of water to a smooth paste. Add it to the pan.
+
+Add in 2 cups of water and let it simmer to a full boil. Check for seasoning at this stage. Add in more salt if necessary. Once the curry comes to a full boil, add the dumplings one by one carefully. DO NOT stir for the first 5 minutes as the dumplings might break. Let the flame be at medium when the dumplings are boiling.
+
+After 5 minutes, turn the dumplings if necessary. Let it simmer for 10-12 more minutes. Remove off heat.
+
+Serve with rice.
