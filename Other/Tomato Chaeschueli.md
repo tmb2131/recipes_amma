@@ -5,7 +5,7 @@
 - 50g grated Gruyère
 - For the filling
 - 500g smallish vine tomatoes, halved
-- 1 tbsp [olive oil ](https\://www.bbcgoodfood.com/glossary/olive — oil)
+- 1 tbsp olive oil
 - handful basil leaves, torn
 - 3 tbsp pesto
 - 2 eggs
