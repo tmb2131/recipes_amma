@@ -19,25 +19,18 @@ This is the recipe for a traditional sprouted Fenugreek seeds pickle. This Methi
 
 **Ingredients**
 
-* 1/4 Cup Methi Dana, Fenugreek Seeds (\~50 gms)
-
-* 1 tbsp Tamarind Extract
-
-* 1 tbsp Grated Jaggery
-
-* 2 tsbp Red Chilli Powder (Adjust to taste)
-
-* 1/2 tsp Turmeric
-
-* 1 tsp Salt (Adjust to taste)
+* 1/4 Cup Methi Dana, Fenugreek Seeds (\~50 gms)\
+  1 tbsp Tamarind Extract\
+  1 tbsp Grated Jaggery\
+  2 tsbp Red Chilli Powder (Adjust to taste)\
+  1/2 tsp Turmeric\
+  1 tsp Salt (Adjust to taste)
 
 **For Tempering**
 
-* 1 tsp Mustard Seeds
-
-* 1 Large Pinch Asafoetida
-
-* 2 tbsp Oil (Sesame Oil preferred)
+* 1 tsp Mustard Seeds\
+  1 Large Pinch Asafoetida\
+  2 tbsp Oil (Sesame Oil preferred)
 
 <br />
 
@@ -87,19 +80,13 @@ This is the recipe for a traditional sprouted Fenugreek seeds pickle. This Methi
 
 **Ingredients**
 
-* 1 tbsp Tamarind Extract
-
-* 1 tbsp Grated Jaggery
-
-* 2 tsbp Red Chilli Powder (Adjust to taste)
-
-* 1/2 tsp Turmeric
-
-* 1 tsp Salt (Adjust to taste)
-
-* 1 Large Pinch Asafoetida
-
-* 2 tbsp Oil (Sesame Oil preferred)
+* 1 tbsp Tamarind Extract\
+  1 tbsp Grated Jaggery\
+  2 tsbp Red Chilli Powder (Adjust to taste)\
+  1/2 tsp Turmeric\
+  1 tsp Salt (Adjust to taste)\
+  1 Large Pinch Asafoetida\
+  2 tbsp Oil (Sesame Oil preferred)
 
 **Prepping the Sprouts**
 
