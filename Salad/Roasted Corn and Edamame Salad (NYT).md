@@ -22,10 +22,10 @@
 - 2 **teaspoons kosher salt, more to taste
 - 2 **teaspoons freshly ground black pepper
 
-1. Heat oven to 450 degrees. In a bowl, toss corn kernels and garlic cloves with the tablespoon of oil, chile powder, cumin and 2 teaspoons of salt. Spread in a sheet pan and roast 10 to 12 minutes, until fragrant and golden. Set aside to cool.
-2. <br />
-3. In a pot of salted boiling water, cook the beans just until crisp-tender. Drain and set aside to cool.
-4. <br />
-5. Make the dressing: Squeeze the roasted garlic flesh out of the papery skins into a blender. Add the honey, lime juice and zest, 1/2 cup oil, the cilantro roots and leaves, and salt and pepper. Blend until smooth. Taste and add more oil if the dressing is too tart.
-6. <br />
-7. In a serving bowl, combine the corn, beans, bell peppers, jicama or cucumbers, scallions and cheese. Pour most of the dressing over this and toss well. Taste and add more dressing, and salt and pepper to taste. Sprinkle 1/4 cup cilantro leaves on top and serve.
+Heat oven to 450 degrees. In a bowl, toss corn kernels and garlic cloves with the tablespoon of oil, chile powder, cumin and 2 teaspoons of salt. Spread in a sheet pan and roast 10 to 12 minutes, until fragrant and golden. Set aside to cool.
+
+In a pot of salted boiling water, cook the beans just until crisp-tender. Drain and set aside to cool.
+
+Make the dressing: Squeeze the roasted garlic flesh out of the papery skins into a blender. Add the honey, lime juice and zest, 1/2 cup oil, the cilantro roots and leaves, and salt and pepper. Blend until smooth. Taste and add more oil if the dressing is too tart.
+
+In a serving bowl, combine the corn, beans, bell peppers, jicama or cucumbers, scallions and cheese. Pour most of the dressing over this and toss well. Taste and add more dressing, and salt and pepper to taste. Sprinkle 1/4 cup cilantro leaves on top and serve.
