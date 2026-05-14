@@ -14,6 +14,8 @@
 - Cilantro garnish
 
 Heat oil.  Add 1 through 5. When the dals are slightly browned and fragrant, add curry leaves and the crumbled idlis.
-Mix well.  Turn off the heat, sprinkle gun powder and mix lightly but well.
+Mix well.
+
+Turn off the heat, sprinkle gun powder and mix lightly but well.
 Make a depression, add coconut and cover with up upma.  Leave for a few minutes. Mix and garnish with cilantro.
 Serve with yogurt.
