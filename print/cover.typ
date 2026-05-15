@@ -12,7 +12,7 @@
 //  Lulu's spine calculator and the README for the exact formula.
 // =============================================================================
 
-#import "template.typ": palette, fonts, floral, small-caps
+#import "template.typ": palette, fonts
 
 // ---- Inputs ----------------------------------------------------------------
 //
@@ -20,18 +20,16 @@
 //
 //   --input page-count=600
 //   --input paper-thickness=0.0025   // inches per page; Lulu 80lb uncoated ≈ 0.0025"
-//
-// Defaults below assume a ~600-page book on 80lb uncoated stock.
 
 #let page-count = int(sys.inputs.at("page-count", default: "600"))
 #let paper-thickness = float(sys.inputs.at("paper-thickness", default: "0.0025"))
 #let spine = page-count * paper-thickness * 1in
-#let wrap = 0.75in  // Lulu wrap-around allowance (cover folds inside boards)
+#let wrap = 0.75in   // Lulu wrap-around allowance (cover folds inside boards)
 #let bleed = 0.125in
 #let trim-side = 8.5in
 #let trim-height = 8.5in
 
-// Total cover sheet dimensions including bleed on outside edges only.
+// Total cover sheet dimensions including bleed + wrap on outside edges.
 #let cover-width = (trim-side * 2) + spine + (wrap * 2) + (bleed * 2)
 #let cover-height = trim-height + (wrap * 2) + (bleed * 2)
 
@@ -46,39 +44,7 @@
 
 #set text(font: fonts.serif, fill: palette.ink, lang: "en")
 
-// ---- Photograph fills entire cover ----------------------------------------
-
-#place(
-  top + left,
-  image("/Image.jpeg", width: 100%, height: 100%, fit: "cover"),
-)
-
-// ---- Subtle dark gradient overlay so type reads on any photo --------------
-
-#place(
-  top + left,
-  rect(
-    width: 100%,
-    height: 100%,
-    fill: gradient.linear(
-      angle: 90deg,
-      (rgb(20, 14, 10, 100), 0%),
-      (rgb(20, 14, 10, 30), 40%),
-      (rgb(20, 14, 10, 30), 60%),
-      (rgb(20, 14, 10, 110), 100%),
-    ),
-  ),
-)
-
-// ---- Layout zones ----------------------------------------------------------
-//
-// Coordinate system origin is top-left; everything is placed absolutely.
-
-#let zone(x, y, w, h, body) = place(
-  top + left,
-  dx: x, dy: y,
-  block(width: w, height: h, body),
-)
+// ---- Layout coordinates ----------------------------------------------------
 
 #let back-x  = bleed + wrap
 #let spine-x = back-x + trim-side
@@ -86,76 +52,104 @@
 #let inner-y = bleed + wrap
 #let inner-h = trim-height
 
-// ---- Front cover (right) --------------------------------------------------
+// Back photo fills everything left of the spine (back cover + outer wrap + bleed).
+#let back-w = spine-x
+// Front photo fills everything right of the spine (front cover + outer wrap + bleed).
+#let front-w = cover-width - front-x
 
-#zone(front-x, inner-y, trim-side, inner-h)[
-  #set align(center + horizon)
-  #block(
-    width: 5.6in,
-    fill: rgb(250, 246, 238, 235),
-    inset: (x: 0.5in, y: 0.55in),
-    radius: 2pt,
-  )[
-    #floral("marigold", color: palette.gold, size: 0.7in)
-    #v(10pt)
-    #text(font: fonts.display, size: 48pt, fill: palette.terracotta-deep)[Amma's Kitchen]
-    #v(8pt)
-    #small-caps("A family book of recipes", color: palette.ink-soft, size: 10pt, tracking: 0.3em)
-  ]
-]
+// ---- Back-cover photo (left half, full-bleed to spine) --------------------
 
-// ---- Spine ----------------------------------------------------------------
+#place(
+  top + left,
+  dx: 0pt, dy: 0pt,
+  image("/BackCover.jpeg", width: back-w, height: cover-height, fit: "cover"),
+)
+
+// ---- Spine: solid cream (so the spine title reads cleanly) ----------------
+
+#place(
+  top + left,
+  dx: spine-x, dy: 0pt,
+  rect(width: spine, height: cover-height, fill: palette.paper-deep, stroke: none),
+)
+
+// ---- Front-cover photo (right half, full-bleed to spine) ------------------
+
+#place(
+  top + left,
+  dx: front-x, dy: 0pt,
+  image("/Image.jpeg", width: front-w, height: cover-height, fit: "cover"),
+)
+
+// ---- Subtle bottom-gradient on the front so the title reads --------------
 //
-// Rotated 90° — set on a tall block matching the spine width.
+// Darkens only the lower third of the front cover, leaving the photograph
+// itself untouched in the upper portion.
 
-#if spine > 0.25in {
-  zone(spine-x, inner-y, spine, inner-h)[
-    #set align(center + horizon)
-    #rotate(90deg, origin: center + horizon, reflow: false)[
-      #box(width: inner-h)[
-        #set align(center + horizon)
-        #text(font: fonts.display, size: 22pt, fill: palette.terracotta-deep)[
-          Amma's Kitchen
-        ]
-        #h(0.6in)
-        #small-caps("A family book of recipes", color: palette.ink-soft, size: 8pt, tracking: 0.3em)
+#place(
+  top + left,
+  dx: front-x, dy: 0pt,
+  rect(
+    width: front-w,
+    height: cover-height,
+    fill: gradient.linear(
+      angle: 0deg,
+      (rgb(20, 14, 10, 0), 0%),
+      (rgb(20, 14, 10, 0), 55%),
+      (rgb(20, 14, 10, 170), 100%),
+    ),
+    stroke: none,
+  ),
+)
+
+// ---- Front-cover title ----------------------------------------------------
+//
+// Positioned over the darkened lower portion of the photo, centred within
+// the trimmed front-cover area (so wrap-around and bleed never clip it).
+
+#place(
+  top + left,
+  dx: front-x, dy: inner-y,
+  block(width: trim-side, height: inner-h)[
+    #set align(center + bottom)
+    #block(inset: (bottom: 0.75in))[
+      #text(font: fonts.display, size: 60pt, fill: rgb("#faf6ee"))[
+        Amma's Kitchen
       ]
     ]
-  ]
+  ],
+)
+
+// ---- Spine title ----------------------------------------------------------
+//
+// Only renders if the spine is wide enough to hold readable type
+// (~0.25" minimum for Lulu).
+
+#if spine > 0.25in {
+  place(
+    top + left,
+    dx: spine-x, dy: inner-y,
+    block(width: spine, height: inner-h)[
+      #set align(center + horizon)
+      #rotate(90deg, origin: center + horizon, reflow: false)[
+        #box(width: inner-h)[
+          #set align(center + horizon)
+          #text(font: fonts.display, size: 24pt, fill: palette.terracotta-deep)[
+            Amma's Kitchen
+          ]
+        ]
+      ]
+    ],
+  )
 }
 
-// ---- Back cover (left) ----------------------------------------------------
-
-#zone(back-x, inner-y, trim-side, inner-h)[
-  #set align(left + horizon)
-  #block(
-    width: 5.6in,
-    fill: rgb(250, 246, 238, 235),
-    inset: (x: 0.5in, y: 0.5in),
-    radius: 2pt,
-  )[
-    #set text(font: fonts.serif, size: 11pt, fill: palette.ink)
-    #set par(leading: 0.7em, justify: true)
-    #text(font: fonts.display, size: 20pt, fill: palette.terracotta-deep)[
-      A family book.
-    ]
-    #v(10pt)
-    The kitchen as a place — a record of the dals and curries from Amma's
-    table, the weeknight soups and salads, and a long roll of recipes we've
-    collected over the years from the people whose cooking we love.
-
-    Printed to lie flat on the counter, to be spattered with coriander, and
-    to outlive any phone screen.
-    #v(18pt)
-    #align(center, floral("divider", color: palette.gold-soft, size: 1.4in))
-  ]
-]
-
-// ---- Trim & spine guides (printed lightly — Lulu's preflight reads these) -
+// ---- Trim & spine guides --------------------------------------------------
+//
+// Hair-line guides for our own preflight review; printers ignore these but
+// they help when checking the PDF against Lulu's template.
 
 #let guide-color = rgb(0, 0, 0, 25)
 
-// Vertical guides at spine edges and trim edges.
 #place(top + left, dx: bleed, line(angle: 90deg, length: cover-height, stroke: 0.1pt + guide-color))
 #place(top + left, dx: bleed + wrap, line(angle: 90deg, length: cover-height, stroke: 0.1pt + guide-color))
 #place(top + left, dx: spine-x, line(angle: 90deg, length: cover-height, stroke: 0.1pt + guide-color))

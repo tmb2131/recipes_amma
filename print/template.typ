@@ -215,34 +215,10 @@
   align(center + horizon)[
     #block(width: 3.6in)[
       #set text(font: fonts.serif, size: 14pt, style: "italic", fill: palette.ink-soft)
-      For my wife —
+      For Sriya —
       #v(0.6em)
-      so that the recipes you cook from, \
-      and the recipes you carry from your mother, \
-      live on the same shelf.
+      a piece of Amma to always remember.
     ]
-  ]
-
-  // --- Foreword letter -----------------------------------------------------
-  pagebreak(to: "odd")
-  align(center, floral("divider", color: palette.gold, size: 1.8in))
-  v(4pt)
-  text(font: fonts.display, size: 26pt, fill: palette.terracotta-deep)[A note on this book]
-  v(14pt)
-  [
-    #set par(first-line-indent: 1.2em, leading: 0.72em, justify: true)
-    What follows is the kitchen as a place — a record of the dals and curries
-    your mother made, the salads and soups we cook on weeknights, and the
-    long roll of recipes we've collected over the years from the people whose
-    cooking we love.
-
-    The digital version of this book lives at amma-s-kitchen, where it stays
-    current as new recipes are added and old ones revised. This printed copy
-    is its sibling: a snapshot, with the recipes set in type, the photographs
-    that mean the most to us, and a binding that lies flat on the counter.
-
-    Cook from it. Spatter coriander on it. Pencil notes in the margins.
-    Pass it on.
   ]
 
   // --- Table of contents ---------------------------------------------------
@@ -256,16 +232,12 @@
     for ch in chapters {
       let info = ch.value
       let pn = counter(page).at(ch.location()).first()
-      block(below: 0.3em)[
+      block(below: 1.1em)[
         #text(font: fonts.display, size: 18pt, fill: palette.terracotta-deep)[#info.name]
         #h(0.6em)
         #text(font: fonts.sans, size: 8pt, fill: palette.ink-faint)[· #info.count recipes]
         #box(width: 1fr, repeat(text(fill: palette.paper-edge)[ . ]))
         #text(font: fonts.sans, size: 10pt, weight: "medium", fill: palette.ink-soft)[#pn]
-      ]
-      block(below: 1.1em)[
-        #set text(font: fonts.serif, size: 10pt, style: "italic", fill: palette.ink-soft)
-        #info.tagline
       ]
     }
   }
@@ -273,14 +245,14 @@
 
 // ---- Chapter opener --------------------------------------------------------
 
-#let chapter(name: "", tagline: "", motif: "marigold", count: 0) = {
+#let chapter(name: "", motif: "marigold", count: 0) = {
   pagebreak(to: "odd")
   chapter-state.update(name)
   recipe-state.update("")
   suppress-chrome.update(true)
 
   // Metadata for the TOC.
-  [#metadata((name: name, tagline: tagline, motif: motif, count: count)) <chapter-toc>]
+  [#metadata((name: name, motif: motif, count: count)) <chapter-toc>]
 
   // Disable header/footer for the opener only.
   set page(header: none, footer: none)
@@ -288,13 +260,7 @@
     #floral(motif, color: palette.gold, size: 2.6in)
     #v(28pt)
     #text(font: fonts.display, size: 56pt, fill: palette.terracotta-deep)[#name]
-    #v(14pt)
-    #block(width: 4.6in)[
-      #set text(font: fonts.serif, size: 13pt, style: "italic", fill: palette.ink-soft)
-      #set par(leading: 0.7em, justify: false, first-line-indent: 0pt)
-      #tagline
-    ]
-    #v(22pt)
+    #v(36pt)
     #small-caps(str(count) + " recipes", color: palette.ink-faint, size: 8.5pt, tracking: 0.32em)
   ]
 

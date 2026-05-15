@@ -248,7 +248,7 @@ function build() {
     if (group.count === 0) continue;
     const meta = SECTION_META[group.section as Section];
     lines.push(
-      `#chapter(name: "${escapeTypstString(group.section)}", tagline: "${escapeTypstString(meta.tagline)}", motif: "${meta.motif}", count: ${group.count})`
+      `#chapter(name: "${escapeTypstString(group.section)}", motif: "${meta.motif}", count: ${group.count})`
     );
     lines.push('');
     for (const r of group.recipes) {
