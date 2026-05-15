@@ -19,8 +19,13 @@ const total = getRecipes().length;
 
       <p class="cover-meta">{total} recipes · with love</p>
 
+      <div class="cover-dedication">
+        <p>For Sriya —</p>
+        <p>a piece of Amma to always remember.</p>
+      </div>
+
       <div class="cover-actions">
-        <a href="/dedication/" class="cover-cta">
+        <a href="/contents/" class="cover-cta">
           <span>Open the book</span>
           <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
             <path d="M8 4l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -95,7 +100,19 @@ const total = getRecipes().length;
     color: rgba(250, 246, 238, 0.72);
     margin: 1.5rem 0 0;
   }
-  .cover-actions { margin-top: 5rem; }
+  .cover-dedication {
+    margin: 2.5rem auto 0;
+    max-width: 22rem;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: clamp(1rem, 2.6vw, 1.2rem);
+    line-height: 1.5;
+    color: rgba(250, 246, 238, 0.82);
+    text-shadow: 0 2px 14px rgba(0, 0, 0, 0.55);
+  }
+  .cover-dedication p { margin: 0; }
+  .cover-dedication p + p { margin-top: 0.35rem; }
+  .cover-actions { margin-top: 2.8rem; }
   .cover-cta {
     display: inline-flex;
     align-items: center;
