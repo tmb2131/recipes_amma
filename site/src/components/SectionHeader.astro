@@ -14,7 +14,6 @@ const meta = SECTION_META[section];
 <header class:list={['section-header', small && 'section-header--small']}>
   <Floral variant={meta.motif as any} class="section-motif" width={small ? 44 : 72} height={small ? 44 : 72} />
   <h1 class="section-title">{section}</h1>
-  {!small && <p class="section-tagline">{meta.tagline}</p>}
   {typeof count === 'number' && (
     <p class="section-count">{count} {count === 1 ? 'recipe' : 'recipes'}</p>
   )}
@@ -44,13 +43,6 @@ const meta = SECTION_META[section];
     margin: 0;
   }
   .section-header--small .section-title { font-size: 1.6rem; }
-  .section-tagline {
-    font-family: var(--script);
-    color: var(--sage-deep);
-    font-size: 1.35rem;
-    margin: 0.6rem auto 0;
-    max-width: 32rem;
-  }
   .section-count {
     font-family: var(--sans);
     font-size: 0.72rem;
