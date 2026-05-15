@@ -10,37 +10,15 @@
 - 6 tablespoons (3/4 stick) very cold unsalted butter, cut into small chunks
 - 2 tablespoons to 3 tablespoons minced fresh tender herbs, such as dill, basil, chives, parsley, cilantro or a combination
 
-Step 1\
-Position a rack in middle of the oven and preheat to 425 degrees. Line a large sheet pan with parchment paper or a silicone liner.
-
-<br />
-
-Step 2\
-Whisk together the flour, baking powder, salt (to taste) and baking soda in a large mixing bowl. Whisk together the cottage cheese and milk in a separate bowl.
-
-<br />
-
-Step 3\
+Position a rack in middle of the oven and preheat to 425 degrees. Line a large sheet pan with parchment paper or a silicone liner.\
+Whisk together the flour, baking powder, salt (to taste) and baking soda in a large mixing bowl. Whisk together the cottage cheese and milk in a separate bowl.\
 Scatter the butter and herbs over the flour mixture; toss to coat the butter with flour. Use your fingertips or a metal pastry blender to rub, squeeze and/or cut the butter into the dry ingredients. You’re aiming for a lumpy mix with pieces of every size and shape, from pea-size to flake. It will look rough, and that’s just what you want.
 
-<br />
-
-Step 4\
 Pour the cottage cheese mixture over the dry ingredients and use a fork to gently stir everything around until you have a soft dough. Squeeze a piece; it should hold together. You might have a few dry spots here and there, but you’re about to take care of them. Reach into the bowl and turn, fold and knead the dough -- go easy, it’s not bread -- just enough to bring everything together into a ball.
 
-<br />
-
-Step 5\
-Lightly dust a work surface with flour and turn out the dough. Dust the top of the dough very lightly, and either pat the dough out with your hands or roll it with a pin until it is between 1/2-inch and 3/4-inch high. Don’t worry if the dough isn’t rolled out evenly: A quick, light touch is more important than accuracy here.
-
-<br />
-
-Step 6\
+Lightly dust a work surface with flour and turn out the dough. Dust the top of the dough very lightly, and either pat the dough out with your hands or roll it with a pin until it is between 1/2-inch and 3/4-inch high. Don’t worry if the dough isn’t rolled out evenly: A quick, light touch is more important than accuracy here.\
 Use the cutter; your goal is to cut the biscuits as close to one another as possible, so you get the most you can out of this first round. Transfer the biscuits to the baking sheet as you work, spacing them at least 1 inch apart. Gather together the scraps; lightly pat the dough out again, working it as little as possible, and cut additional biscuits, again as close together as possible; transfer those to the sheet. You can go for one more pat-and-cut; just know that third-round biscuits won’t rise as dramatically as the others; they will, however, be delicious. You're aiming for a total of 10 biscuits. (At this point, the biscuits can be frozen until firm, then wrapped airtight and kept in the freezer for up to 2 months.)
 
-<br />
-
-Step 7\
 Bake for 14 to 18 minutes, rotating the baking sheet from front to back halfway through, until the biscuits are tall, puffed and golden brown. Remove them from the sheet pan and serve right away.
 Notes
 You can make more-traditional biscuits by replacing the cottage cheese and whole milk with 3/4 cup of buttermilk. (Or omit the cottage cheese and baking soda and increase the whole milk to 3/4 cup.) If you like sweet biscuits, omit the herbs, use 1/2 teaspoon of salt and add 2 teaspoons of sugar to the dough.
