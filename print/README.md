@@ -59,28 +59,25 @@ Each volume has its own front matter, table of contents, and cover. Volume I end
 
 The trim is a single constant in `template.typ` (`#let trim = (width: 8.5in, height: 8.5in)`) — flip it to 6×9", A5, or Crown Quarto in one place and rebuild.
 
-## Spine-width formula
+## Spine width (Lulu hardcover table)
 
-Lulu's exact formula for hardcover spine width is:
+Lulu does **not** use `page_count × paper_thickness` for casewrap hardcovers. They use a [fixed lookup table by page count](https://help.api.lulu.com/en/support/solutions/articles/64000254616) (e.g. 583–610 pages → **1.625″** spine). A linear estimate (601 × 0.0025 = 1.503″) produces a cover **0.125″ too narrow** and fails preflight.
+
+`cover.ts` reads each volume's page count from `dist/book-vol{N}.pdf`, looks up the spine in `luluSpine.ts`, and passes `--input spine-inches=…` to Typst.
+
+Total cover width (8.5″ square trim, 0.75″ wrap, 0.125″ bleed):
 
 ```
-spine_in = (page_count × paper_thickness_in) + (2 × board_thickness_in)
+cover_width = (8.5 × 2) + spine + (0.75 × 2) + (0.125 × 2) = 18.75″ + spine
 ```
 
-For Premium Hardcover Layflat on 80 lb uncoated cream with standard greyboard:
+For 601 pages (spine 1.625″): **20.375″ × 10.25″** — matches Lulu's template.
 
-| Component                | Value (inches) |
-| ------------------------ | -------------- |
-| Paper thickness per page | 0.0025         |
-| Board thickness          | 0.080 each     |
-
-`cover.ts` reads each volume's page count from `dist/book-vol{N}.pdf` and compiles `dist/cover-vol{N}.pdf`. The board allowance is **not** added — Lulu's preflight expects only the page-stack spine; their bindery adds the board allowance internally.
-
-To override paper thickness for a different stock:
+Manual compile (after checking Lulu's table for your page count):
 
 ```bash
 typst compile cover.typ dist/cover-vol1.pdf --root .. --font-path assets/fonts \
-  --input page-count=650 --input volume=1 --input paper-thickness=0.0030
+  --input page-count=601 --input spine-inches=1.625 --input volume=1
 ```
 
 ## Print-ready post-processing

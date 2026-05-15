@@ -11,6 +11,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { luluHardcoverSpineInches } from './luluSpine.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const COVER_TYP = path.join(__dirname, 'cover.typ');
@@ -32,7 +33,8 @@ function build() {
     const bookPdf = path.join(__dirname, 'dist', `book-vol${vol}.pdf`);
     const coverPdf = path.join(__dirname, 'dist', `cover-vol${vol}.pdf`);
     const pages = getPageCount(bookPdf);
-    console.log(`Volume ${vol} page count: ${pages}`);
+    const spineInches = luluHardcoverSpineInches(pages);
+    console.log(`Volume ${vol} page count: ${pages} (Lulu spine: ${spineInches}")`);
     if (pages > 800) {
       console.warn(
         `  WARNING: Volume ${vol} exceeds Lulu's 800-page interior limit (${pages} pages).`
@@ -48,6 +50,7 @@ function build() {
         '--root', '..',
         '--font-path', 'assets/fonts',
         '--input', `page-count=${pages}`,
+        '--input', `spine-inches=${spineInches}`,
         '--input', `volume=${vol}`,
       ],
       { cwd: __dirname, stdio: 'inherit' }

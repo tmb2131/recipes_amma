@@ -8,8 +8,8 @@
 //      --root .. --font-path assets/fonts \
 //      --input page-count=600
 //
-//  The spine width is computed from `page-count` × paper-thickness. See
-//  Lulu's spine calculator and the README for the exact formula.
+//  Spine width comes from Lulu's hardcover lookup table via `--input spine-inches`.
+//  `npm run cover` sets this from the interior PDF page count (see luluSpine.ts).
 // =============================================================================
 
 #import "template.typ": palette, fonts
@@ -18,14 +18,14 @@
 //
 // Override these via Typst CLI `--input` flags before each print run.
 //
-//   --input page-count=600
-//   --input paper-thickness=0.0025   // inches per page; Lulu 80lb uncoated ≈ 0.0025"
+//   --input page-count=601
+//   --input spine-inches=1.625        // from Lulu's hardcover table (see luluSpine.ts)
 
 #let page-count = int(sys.inputs.at("page-count", default: "600"))
 #let volume = int(sys.inputs.at("volume", default: "1"))
 #let vol-label = if volume == 1 { "Volume I" } else { "Volume II" }
-#let paper-thickness = float(sys.inputs.at("paper-thickness", default: "0.0025"))
-#let spine = page-count * paper-thickness * 1in
+#let spine-inches = float(sys.inputs.at("spine-inches", default: "1.5"))
+#let spine = spine-inches * 1in
 #let wrap = 0.75in   // Lulu wrap-around allowance (cover folds inside boards)
 #let bleed = 0.125in
 #let trim-side = 8.5in
