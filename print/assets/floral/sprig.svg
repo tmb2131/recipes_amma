@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M32 56 L 32 8" stroke="currentColor" stroke-width="1" fill="none"/>
+  <path d="M32 46 q-10 -2 -14 -10 q8 0 14 6" fill="currentColor" opacity="0.7"/>
+  <path d="M32 38 q10 -2 14 -10 q-8 0 -14 6" fill="currentColor" opacity="0.7"/>
+  <path d="M32 30 q-8 -2 -12 -10 q8 0 12 6" fill="currentColor" opacity="0.7"/>
+  <path d="M32 22 q8 -2 12 -10 q-8 0 -12 6" fill="currentColor" opacity="0.7"/>
+</svg>

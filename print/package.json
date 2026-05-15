@@ -1,0 +1,22 @@
+{
+  "name": "ammas-kitchen-print",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Print pipeline for Amma's Kitchen — emits a Typst document from the existing recipe loaders and compiles it to a press-ready PDF.",
+  "scripts": {
+    "emit": "tsx build.ts",
+    "compile": "typst compile out/book.typ dist/book.pdf --root .. --font-path assets/fonts",
+    "cover": "tsx cover.ts",
+    "build": "npm run emit && npm run compile && npm run cover",
+    "watch": "tsx build.ts && typst watch out/book.typ dist/book.pdf --root .. --font-path assets/fonts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "marked": "^18.0.3"
+  }
+}
