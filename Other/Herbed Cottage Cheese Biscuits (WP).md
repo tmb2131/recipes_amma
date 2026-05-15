@@ -10,7 +10,8 @@
 - 6 tablespoons (3/4 stick) very cold unsalted butter, cut into small chunks
 - 2 tablespoons to 3 tablespoons minced fresh tender herbs, such as dill, basil, chives, parsley, cilantro or a combination
 
-Position a rack in middle of the oven and preheat to 425 degrees. Line a large sheet pan with parchment paper or a silicone liner.\
+Position a rack in middle of the oven and preheat to 425 degrees. Line a large sheet pan with parchment paper or a silicone liner.
+
 Whisk together the flour, baking powder, salt (to taste) and baking soda in a large mixing bowl. Whisk together the cottage cheese and milk in a separate bowl.\
 Scatter the butter and herbs over the flour mixture; toss to coat the butter with flour. Use your fingertips or a metal pastry blender to rub, squeeze and/or cut the butter into the dry ingredients. You’re aiming for a lumpy mix with pieces of every size and shape, from pea-size to flake. It will look rough, and that’s just what you want.
 
