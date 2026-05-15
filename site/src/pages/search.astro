@@ -159,7 +159,7 @@ const recipeLookup = Object.fromEntries(
   try {
     recipeLookup = lookupEl?.textContent ? JSON.parse(lookupEl.textContent) : {};
   } catch (err) {
-    console.warn('Failed to parse recipe lookup', err);
+    if (import.meta.env.DEV) console.warn('Failed to parse recipe lookup', err);
   }
 
   let pagefindPromise: Promise<any> | null = null;
@@ -172,7 +172,7 @@ const recipeLookup = Object.fromEntries(
         await pf.options({ excerptLength: 24 });
         return pf;
       })().catch((err) => {
-        console.warn('Pagefind not available yet', err);
+        if (import.meta.env.DEV) console.warn('Pagefind not available yet', err);
         pagefindPromise = null;
         throw err;
       });
