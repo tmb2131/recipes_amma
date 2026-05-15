@@ -40,8 +40,6 @@
 
 // ---- Running-head state ----------------------------------------------------
 
-#let chapter-state   = state("chapter", "")
-#let recipe-state    = state("recipe", "")
 #let suppress-chrome = state("suppress-chrome", false)
 
 // ---- Floral helper ---------------------------------------------------------
@@ -72,13 +70,35 @@
 
 // ---- Running head & folio --------------------------------------------------
 
+// Running-head marker for page `pn`: first recipe/chapter that *starts* on this
+// page, else the last one that started on an earlier page (not global state, and
+// not a recipe that only begins at the foot of the page).
+#let running-head-marker(label, pn) = {
+  let all = query(label)
+  let on-page = all.filter(el => counter(page).at(el.location()).first() == pn)
+  if on-page.len() > 0 {
+    on-page.first()
+  } else {
+    let before = all.filter(el => counter(page).at(el.location()).first() < pn)
+    if before.len() == 0 {
+      none
+    } else {
+      before.sorted(key: el => counter(page).at(el.location()).first()).last()
+    }
+  }
+}
+
 #let running-head() = context {
   if suppress-chrome.get() { return }
   let pn = counter(page).at(here()).first()
   if pn <= 2 { return }
-  let chap = chapter-state.get()
-  let rec  = recipe-state.get()
-  if chap == "" { return }
+
+  let chap-el = running-head-marker(<chapter-toc>, pn)
+  if chap-el == none { return }
+  let chap = chap-el.value.name
+
+  let rec-el = running-head-marker(<recipe-index>, pn)
+  let rec = if rec-el != none { rec-el.value.title } else { "" }
   set text(font: fonts.sans, size: 7.5pt, tracking: 0.15em, fill: palette.ink-faint)
   set par(leading: 0pt, first-line-indent: 0pt)
   // Cookbook convention: chapter on the left, current recipe on the right,
@@ -274,8 +294,6 @@
 
 #let chapter(name: "", motif: "marigold", count: 0) = {
   pagebreak(to: "odd")
-  chapter-state.update(name)
-  recipe-state.update("")
   suppress-chrome.update(true)
 
   // Metadata for the TOC.
@@ -347,10 +365,7 @@
   ingredients: (),
   method: [],
 ) = {
-  // Track current recipe for the running head.
-  recipe-state.update(title)
-
-  // Metadata for the alphabetical and source indexes.
+  // Metadata for running heads, TOC, and back-matter indexes.
   [#metadata((
     title: title,
     section: section,
@@ -404,8 +419,7 @@
 #let back-matter(volume: 2) = {
   // --- Alphabetical recipe index (this volume) ----------------------------
   pagebreak(to: "odd")
-  chapter-state.update("Index")
-  recipe-state.update("")
+  [#metadata((name: "Index", motif: "", count: 0)) <chapter-toc>]
 
   text(font: fonts.display, size: 32pt, fill: palette.terracotta-deep)[Index of recipes]
   v(14pt)
@@ -449,7 +463,7 @@
 
   // --- Source index --------------------------------------------------------
   pagebreak(to: "odd")
-  chapter-state.update("Sources")
+  [#metadata((name: "Sources", motif: "", count: 0)) <chapter-toc>]
 
   text(font: fonts.display, size: 32pt, fill: palette.terracotta-deep)[Sources]
   v(14pt)
@@ -500,7 +514,6 @@
 
   // --- Closing page --------------------------------------------------------
   pagebreak(to: "odd")
-  chapter-state.update("")
   suppress-chrome.update(true)
   set page(header: none, footer: none)
   align(center + horizon)[
