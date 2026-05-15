@@ -22,6 +22,8 @@
 //   --input paper-thickness=0.0025   // inches per page; Lulu 80lb uncoated ≈ 0.0025"
 
 #let page-count = int(sys.inputs.at("page-count", default: "600"))
+#let volume = int(sys.inputs.at("volume", default: "1"))
+#let vol-label = if volume == 1 { "Volume I" } else { "Volume II" }
 #let paper-thickness = float(sys.inputs.at("paper-thickness", default: "0.0025"))
 #let spine = page-count * paper-thickness * 1in
 #let wrap = 0.75in   // Lulu wrap-around allowance (cover folds inside boards)
@@ -113,8 +115,13 @@
   block(width: trim-side, height: inner-h)[
     #set align(center + bottom)
     #block(inset: (bottom: 0.75in))[
-      #text(font: fonts.display, size: 60pt, fill: rgb("#faf6ee"))[
+      #set align(center)
+      #text(font: fonts.display, size: 54pt, fill: rgb("#faf6ee"))[
         Amma's Kitchen
+      ]
+      #v(6pt)
+      #text(font: fonts.display, size: 28pt, fill: rgb("#faf6ee"))[
+        #vol-label
       ]
     ]
   ],
@@ -134,8 +141,8 @@
       #rotate(90deg, origin: center + horizon, reflow: false)[
         #box(width: inner-h)[
           #set align(center + horizon)
-          #text(font: fonts.display, size: 24pt, fill: palette.terracotta-deep)[
-            Amma's Kitchen
+          #text(font: fonts.display, size: 22pt, fill: palette.terracotta-deep)[
+            Amma's Kitchen — #vol-label
           ]
         ]
       ]

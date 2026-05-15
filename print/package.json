@@ -3,13 +3,13 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "description": "Print pipeline for Amma's Kitchen — emits a Typst document from the existing recipe loaders and compiles it to a press-ready PDF.",
+  "description": "Print pipeline for Amma's Kitchen — emits Typst documents from the existing recipe loaders and compiles two press-ready PDFs (Volume I & II).",
   "scripts": {
     "emit": "tsx build.ts",
-    "compile": "typst compile out/book.typ dist/book.pdf --root .. --font-path assets/fonts",
+    "compile": "typst compile out/book-vol1.typ dist/book-vol1.pdf --root .. --font-path assets/fonts && typst compile out/book-vol2.typ dist/book-vol2.pdf --root .. --font-path assets/fonts",
     "cover": "tsx cover.ts",
     "build": "npm run emit && npm run compile && npm run cover",
-    "watch": "tsx build.ts && typst watch out/book.typ dist/book.pdf --root .. --font-path assets/fonts"
+    "watch": "tsx build.ts && typst watch out/book-vol1.typ dist/book-vol1.pdf --root .. --font-path assets/fonts"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

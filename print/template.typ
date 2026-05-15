@@ -98,9 +98,12 @@
 
 // ---- Book show rule (applied once via `#show: book`) -----------------------
 
-#let book(doc) = {
+#let volume-label(vol) = if vol == 1 { "Volume I" } else { "Volume II" }
+
+#let book(doc, volume: 1) = {
+  let vol-name = volume-label(volume)
   set document(
-    title: "Amma's Kitchen",
+    title: "Amma's Kitchen — " + vol-name,
     author: "Tom & family",
   )
   set page(
@@ -142,31 +145,35 @@
 
 // ---- Front matter ----------------------------------------------------------
 
-#let front-matter() = {
-  // --- Cover (full-bleed image) -------------------------------------------
-  suppress-chrome.update(true)
-  set page(
-    margin: 0pt,
-    header: none,
-    footer: none,
-    background: image("/Image.jpeg", width: 100%, height: 100%, fit: "cover"),
-  )
-  pagebreak(weak: true)
-  place(
-    bottom + center,
-    dy: -1.2in,
-    block(
-      width: 5.6in,
-      fill: rgb(250, 246, 238, 230),
-      inset: (x: 0.5in, y: 0.4in),
-      radius: 2pt,
-    )[
-      #set align(center)
-      #text(font: fonts.display, size: 44pt, fill: palette.terracotta-deep)[Amma's Kitchen]
-      #v(8pt)
-      #small-caps("A family book of recipes", color: palette.ink-soft, size: 9.5pt, tracking: 0.3em)
-    ],
-  )
+#let front-matter(volume: 1) = {
+  let vol-name = volume-label(volume)
+
+  // --- Cover (full-bleed image) — Volume I only ----------------------------
+  if volume == 1 {
+    suppress-chrome.update(true)
+    set page(
+      margin: 0pt,
+      header: none,
+      footer: none,
+      background: image("/Image.jpeg", width: 100%, height: 100%, fit: "cover"),
+    )
+    pagebreak(weak: true)
+    place(
+      bottom + center,
+      dy: -1.2in,
+      block(
+        width: 5.6in,
+        fill: rgb(250, 246, 238, 230),
+        inset: (x: 0.5in, y: 0.4in),
+        radius: 2pt,
+      )[
+        #set align(center)
+        #text(font: fonts.display, size: 44pt, fill: palette.terracotta-deep)[Amma's Kitchen]
+        #v(6pt)
+        #text(font: fonts.display, size: 22pt, fill: palette.terracotta-deep)[Volume I]
+      ],
+    )
+  }
 
   // --- Restore page chrome for prelims ------------------------------------
   set page(
@@ -180,7 +187,9 @@
   // --- Half title ----------------------------------------------------------
   pagebreak(to: "odd")
   align(center + horizon)[
-    #text(font: fonts.display, size: 28pt, fill: palette.terracotta-deep)[Amma's Kitchen]
+    #text(font: fonts.display, size: 28pt, fill: palette.terracotta-deep)[
+      Amma's Kitchen — #vol-name
+    ]
   ]
 
   // --- Title page ----------------------------------------------------------
@@ -188,10 +197,18 @@
   align(center + horizon)[
     #floral("marigold", color: palette.gold, size: 72pt)
     #v(18pt)
-    #text(font: fonts.display, size: 52pt, fill: palette.terracotta-deep)[Amma's Kitchen]
+    #text(font: fonts.display, size: 48pt, fill: palette.terracotta-deep)[Amma's Kitchen]
+    #v(8pt)
+    #text(font: fonts.display, size: 26pt, fill: palette.terracotta-deep)[#vol-name]
     #v(10pt)
     #text(font: fonts.serif, size: 14pt, style: "italic", fill: palette.ink-soft)[A family book of recipes]
-    #v(60pt)
+    #if volume == 2 [
+      #v(8pt)
+      #text(font: fonts.serif, size: 12pt, style: "italic", fill: palette.ink-soft)[
+        Dressing · Desserts · Sylvestre · Other
+      ]
+    ]
+    #v(48pt)
     #small-caps("Printed for the kitchen counter", color: palette.ink-faint, size: 9pt, tracking: 0.25em)
   ]
 
@@ -200,7 +217,10 @@
   place(bottom + left, block(width: 100%)[
     #set text(font: fonts.sans, size: 8.5pt, fill: palette.ink-soft)
     #set par(leading: 0.55em, justify: false, first-line-indent: 0pt)
-    Amma's Kitchen. \
+    Amma's Kitchen — #vol-name. \
+    #if volume == 2 [
+      Continues from Volume I (Indian, Asian, Fish, Soup, Salad). \
+    ]
     Recipes collected and adapted over many years. \
     External recipes belong to their original authors and are reproduced \
     here only for private family use.
@@ -210,21 +230,25 @@
     Printed by short-run hardcover binding.
   ])
 
-  // --- Dedication ----------------------------------------------------------
-  pagebreak(to: "odd")
-  align(center + horizon)[
-    #block(width: 3.6in)[
-      #set text(font: fonts.serif, size: 14pt, style: "italic", fill: palette.ink-soft)
-      For Sriya —
-      #v(0.6em)
-      a piece of Amma to always remember.
+  // --- Dedication (Volume I only) ------------------------------------------
+  if volume == 1 [
+    pagebreak(to: "odd")
+    align(center + horizon)[
+      #block(width: 3.6in)[
+        #set text(font: fonts.serif, size: 14pt, style: "italic", fill: palette.ink-soft)
+        For Sriya —
+        #v(0.6em)
+        a piece of Amma to always remember.
+      ]
     ]
   ]
 
   // --- Table of contents ---------------------------------------------------
   pagebreak(to: "odd")
   text(font: fonts.display, size: 32pt, fill: palette.terracotta-deep)[Contents]
-  v(18pt)
+  v(6pt)
+  text(font: fonts.serif, size: 11pt, style: "italic", fill: palette.ink-soft)[#vol-name]
+  v(12pt)
   context {
     let chapters = query(<chapter-toc>)
     set text(font: fonts.serif, size: 11pt, fill: palette.ink)
@@ -266,6 +290,25 @@
 
   pagebreak(weak: true)
   suppress-chrome.update(false)
+}
+
+// ---- End of Volume I -------------------------------------------------------
+
+#let volume-one-continuity() = {
+  pagebreak(to: "odd")
+  align(center + horizon)[
+    #block(width: 4.2in)[
+      #set align(center)
+      #floral("divider", color: palette.gold, size: 1.6in)
+      #v(20pt)
+      #text(font: fonts.display, size: 22pt, fill: palette.terracotta-deep)[Continued in Volume II]
+      #v(14pt)
+      #set text(font: fonts.serif, size: 13pt, style: "italic", fill: palette.ink-soft)
+      #set par(leading: 0.65em, justify: false, first-line-indent: 0pt)
+      Dressing, Desserts, Sylvestre, and Other — \
+      with a full recipe index and sources list.
+    ]
+  ]
 }
 
 // ---- Recipe ----------------------------------------------------------------
@@ -355,8 +398,8 @@
 
 // ---- Back matter -----------------------------------------------------------
 
-#let back-matter() = {
-  // --- Alphabetical recipe index ------------------------------------------
+#let back-matter(volume: 2) = {
+  // --- Alphabetical recipe index (this volume) ----------------------------
   pagebreak(to: "odd")
   chapter-state.update("Index")
   recipe-state.update("")
@@ -364,7 +407,7 @@
   text(font: fonts.display, size: 32pt, fill: palette.terracotta-deep)[Index of recipes]
   v(14pt)
   text(font: fonts.serif, size: 10pt, style: "italic", fill: palette.ink-soft)[
-    Every recipe, alphabetised. Section names follow each entry.
+    Recipes in Volume II, alphabetised. For Indian through Salad, see Volume I.
   ]
   v(18pt)
 
@@ -462,6 +505,6 @@
     #v(16pt)
     #text(font: fonts.display, size: 22pt, fill: palette.terracotta-deep)[Amma's Kitchen]
     #v(6pt)
-    #text(font: fonts.serif, size: 12pt, style: "italic", fill: palette.ink-soft)[a family book]
+    #text(font: fonts.serif, size: 12pt, style: "italic", fill: palette.ink-soft)[Volume II]
   ]
 }

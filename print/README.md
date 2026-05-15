@@ -8,7 +8,9 @@ A tiny pipeline that:
 
 1. Reads every recipe via the existing site loaders (`../site/src/lib/loadRecipes.ts`) — no duplication, no re-parsing.
 2. Emits a single Typst document (`out/book.typ`) with structured calls into the typesetting template.
-3. Compiles to a press-ready PDF at `dist/book.pdf`, plus a separate `dist/cover.pdf` for the wraparound cover whose spine width is computed from the body's page count.
+3. Compiles to **two** press-ready PDFs (Lulu's hardcover limit is 800 pages per volume):
+   - **Volume I** — Indian, Asian, Fish, Soup, Salad → `dist/book-vol1.pdf` + `dist/cover-vol1.pdf`
+   - **Volume II** — Dressing, Desserts, Sylvestre, Other (+ index) → `dist/book-vol2.pdf` + `dist/cover-vol2.pdf`
 
 ## Prerequisites
 
@@ -27,11 +29,20 @@ npm run build
 
 This runs three steps in order:
 
-1. `npm run emit` — `tsx build.ts` walks recipes via the site loaders and writes `out/book.typ` + `out/recipes.json`.
-2. `npm run compile` — `typst compile out/book.typ dist/book.pdf …` produces the body PDF.
-3. `npm run cover` — `tsx cover.ts` reads the body's page count and compiles `dist/cover.pdf` with the matching spine width.
+1. `npm run emit` — writes `out/book-vol1.typ` and `out/book-vol2.typ` + `out/recipes.json`.
+2. `npm run compile` — produces `dist/book-vol1.pdf` and `dist/book-vol2.pdf`.
+3. `npm run cover` — produces `dist/cover-vol1.pdf` and `dist/cover-vol2.pdf` (spine width from each volume's page count).
 
-For tight iteration on `template.typ`, `npm run watch` re-runs Typst on every save.
+For tight iteration on `template.typ`, `npm run watch` re-runs Typst on Volume I.
+
+### Volume split
+
+| Volume | Sections | Recipes (approx.) |
+| ------ | -------- | ----------------- |
+| **I**  | Indian, Asian, Fish, Soup, Salad | ~560 |
+| **II** | Dressing, Desserts, Sylvestre, Other | ~390 |
+
+Each volume has its own front matter, table of contents, and cover. Volume I ends with a “Continued in Volume II” page; Volume II includes the recipe index and sources list (for recipes in that volume only).
 
 ## Physical spec
 
@@ -44,7 +55,7 @@ For tight iteration on `template.typ`, `npm run watch` re-runs Typst on every sa
 | Bleed (cover)  | 0.125 inch on all sides                                   |
 | Bleed (body)   | None — content sits inside trim                           |
 | Output profile | PDF/X-1a (after post-processing, see below)               |
-| Page count     | ~1,000 (set after first compile; see `pdfinfo`)           |
+| Page count     | Vol I ~600–650, Vol II ~400–450 (see `pdfinfo`; each must be ≤800) |
 
 The trim is a single constant in `template.typ` (`#let trim = (width: 8.5in, height: 8.5in)`) — flip it to 6×9", A5, or Crown Quarto in one place and rebuild.
 
@@ -63,13 +74,13 @@ For Premium Hardcover Layflat on 80 lb uncoated cream with standard greyboard:
 | Paper thickness per page | 0.0025         |
 | Board thickness          | 0.080 each     |
 
-`cover.ts` reads `page_count` from `dist/book.pdf` and passes it to Typst as `--input page-count=N`. The board allowance is **not** added — Lulu's preflight expects only the page-stack spine; their bindery adds the board allowance internally.
+`cover.ts` reads each volume's page count from `dist/book-vol{N}.pdf` and compiles `dist/cover-vol{N}.pdf`. The board allowance is **not** added — Lulu's preflight expects only the page-stack spine; their bindery adds the board allowance internally.
 
 To override paper thickness for a different stock:
 
 ```bash
-typst compile cover.typ dist/cover.pdf --root .. --font-path assets/fonts \
-  --input page-count=1047 --input paper-thickness=0.0030
+typst compile cover.typ dist/cover-vol1.pdf --root .. --font-path assets/fonts \
+  --input page-count=650 --input volume=1 --input paper-thickness=0.0030
 ```
 
 ## Print-ready post-processing
@@ -123,7 +134,7 @@ Then point `cover.typ` at `Image.cmyk.jpg` for the press-final cover.
 3. **Binding**: Hardcover, Premium, Layflat.
 4. **Interior**: Black & White on Cream or Full Colour on Cream (we use full colour because the chapter motifs are gold).
 5. **Cover**: Matte Laminate.
-6. **Upload** `dist/book.pdfx.pdf` as the interior and `dist/cover.pdfx.pdf` as the cover.
+6. **Upload** each volume separately: `dist/book-vol1.pdf` + `dist/cover-vol1.pdf`, then `book-vol2` + `cover-vol2` (create two Lulu projects, or two copies in a set).
 7. **Preflight**: Lulu's preflight will flag any low-resolution images, RGB elements, or trim mismatches. Fix and re-upload until clean.
 8. **Proof**: order **one proof copy** before doing a final run.
 
@@ -186,8 +197,8 @@ print/
   assets/
     floral/           SVG motifs lifted from site/src/components/Floral.astro
     fonts/            Self-hosted display + body fonts (Italiana, Cormorant, Inter)
-  out/                Generated Typst source (gitignored)
-  dist/               Final PDFs (gitignored)
+  out/                book-vol1.typ, book-vol2.typ (gitignored)
+  dist/               book-vol1.pdf, cover-vol1.pdf, book-vol2.pdf, cover-vol2.pdf (gitignored)
 ```
 
 ## Stretch ideas (after the first proof)
