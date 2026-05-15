@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel';
 
 export default defineConfig({
-  site: 'https://ammas-kitchen.local',
+  site: 'https://recipes-amma.vercel.app',
   // Astro 5 `static` output supports per-route opt-out via
   // `export const prerender = false` — used for the API routes under
   // `src/pages/api/` so they run as Vercel serverless functions while
