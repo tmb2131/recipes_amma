@@ -18,18 +18,10 @@
 
 To make the filling, cut onions in half, peel them, and if they are strong, put them in a bowl of cold water. It doesn’t take long for that to reduce their sting. Finely dice them.
 
-<br />
-
 If you’re using bacon, fry until browned and nearly crisp, then scoop out and drain on a paper towel. Throw out bacon grease, wipe out pan and add 2 tablespoons butter. When melted, add onions, thyme and 3/4 teaspoon salt. Cook over medium heat, stirring occasionally, about 25 minutes. The onions needn’t be caramelized, but should just take on a faint golden hue. When done, let them cool slightly. Taste for salt (they’ll be very sweet, you might want to add more) and season well with pepper.
-
-<br />
 
 While onions cook, whisk eggs with crème fraîche and milk. Stir in cooled onions and cheese.
 
-<br />
-
 To make the crust, put flour and 1/4 teaspoon salt in the bowl of a stand mixer fitted with a paddle attachment. Add 6 tablespoons butter and turn mixer to low speed until butter has broken into small, pebble-size pieces. Drizzle in ice water until dough looks clumpy and damp. (You’ll use about 3 tablespoons, fewer if butter was soft.) Form dough into a disk or a rectangle to correspond to the shape pan you’re using. You have a few choices: a 9-inch tart pan, a square tart pan or a rectangular one (11 by 81/2 inches), all with removable bottoms. Wrap dough in plastic and refrigerate.
-
-<br />
 
 Heat oven to 400 degrees. Roll dough to fit tart pan, then drape dough in pan. Neatly press dough into pan and shape it. Set it on a sheet pan. Pour onion mixture into tart pan, and bake until surface is golden and browned in places, 45 to 50 minutes. Let cool to warm before cutting into slices and serving.
