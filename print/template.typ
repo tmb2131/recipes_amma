@@ -81,11 +81,14 @@
   if chap == "" { return }
   set text(font: fonts.sans, size: 7.5pt, tracking: 0.15em, fill: palette.ink-faint)
   set par(leading: 0pt, first-line-indent: 0pt)
-  if calc.even(pn) {
-    upper(chap)
-  } else {
-    align(right, emph(rec))
-  }
+  // Cookbook convention: chapter on the left, current recipe on the right,
+  // every body page (so verso isn't blank when a recipe continues).
+  grid(
+    columns: (1fr, 1fr),
+    column-gutter: 0.7em,
+    align(left, upper(chap)),
+    align(right, if rec != "" { emph(rec) }),
+  )
 }
 
 #let folio() = context {
@@ -231,7 +234,7 @@
   ])
 
   // --- Dedication (Volume I only) ------------------------------------------
-  if volume == 1 [
+  if volume == 1 {
     pagebreak(to: "odd")
     align(center + horizon)[
       #block(width: 3.6in)[
@@ -241,7 +244,7 @@
         a piece of Amma to always remember.
       ]
     ]
-  ]
+  }
 
   // --- Table of contents ---------------------------------------------------
   pagebreak(to: "odd")
