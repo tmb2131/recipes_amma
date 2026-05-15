@@ -14,8 +14,6 @@
 
 Add 0.5 cups of red lentils, 1.25 cups of water, turmeric and a chopped tomato to crock pot. Pressure cook for 1 minute
 
-<br />
-
 Heat oil. Add jeera, dry chilli and onions and fry until the onion colours a bit. Add the dal and salt and bring to a vigorous boil.
 Add whole, slit,fresh chillies for flavour.  Then the coconut, stir well and remove from heat.
 Lemon juice and ghee.
