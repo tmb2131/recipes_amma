@@ -2,44 +2,8 @@
 import BookLayout from '../layouts/BookLayout.astro';
 import SearchBox from '../components/SearchBox.astro';
 import Floral from '../components/Floral.astro';
-import { getRecipes } from '../lib/loadRecipes';
 
 export const prerender = true;
-
-const normalizeHref = (url: string) => {
-  const clean = url.startsWith('/') ? url : `/${url}`;
-  return clean.endsWith('/') ? clean.slice(0, -1) : clean;
-};
-
-const isDev = import.meta.env.DEV;
-
-const recipeLookup = Object.fromEntries(
-  getRecipes().map((recipe) => {
-    const cleanedBody = recipe.body
-      .replace(/[#*`>_\[\]\\]/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
-    const preview = cleanedBody.slice(0, 130);
-    const ingredientsText = (recipe.ingredients ?? []).join(' ');
-    const text = isDev
-      ? `${recipe.title} ${ingredientsText} ${cleanedBody.slice(0, 600)}`
-          .toLowerCase()
-      : undefined;
-
-    return [
-      normalizeHref(recipe.href),
-      {
-        title: recipe.title,
-        section: recipe.section,
-        source: recipe.source ?? '',
-        family: recipe.family,
-        ingredientsCount: recipe.ingredients?.length ?? 0,
-        preview,
-        ...(text ? { text } : {}),
-      },
-    ];
-  })
-);
 ---
 <BookLayout title="Search — Amma's Kitchen">
   <section class="search-head">
@@ -52,10 +16,8 @@ const recipeLookup = Object.fromEntries(
   </section>
 
   <section id="search-results" class="search-results" aria-live="polite" data-pagefind-ignore>
-    <p class="search-hint">Try <em>aubergine</em>, <em>amma</em>, <em>sambar</em>, or <em>chocolate</em>.</p>
+    <p class="search-hint">Try <em>aubergine</em>, <em>sambar</em>, or <em>"black beans"</em> for an exact phrase.</p>
   </section>
-
-  <script type="application/json" id="recipe-lookup-data" set:html={JSON.stringify(recipeLookup)} />
 </BookLayout>
 
 <style>
@@ -127,9 +89,11 @@ const recipeLookup = Object.fromEntries(
   :global(.result-card__excerpt) {
     margin: 0.5rem 0 0; font-size: 0.92rem; color: var(--ink-soft); line-height: 1.4;
   }
-  :global(.result-card__excerpt mark) {
+  :global(.result-card__excerpt mark),
+  :global(.result-card__title mark) {
     background: rgba(232, 176, 74, 0.4); color: inherit; padding: 0 0.1em; border-radius: 2px;
   }
+  :global(.result-card__title mark) { font-weight: inherit; }
   .empty {
     text-align: center; color: var(--ink-faint); font-style: italic; margin: 2rem 0;
   }
@@ -138,191 +102,316 @@ const recipeLookup = Object.fromEntries(
 <script>
   const SECTIONS = ['Indian', 'Asian', 'Fish', 'Soup', 'Salad', 'Dressing', 'Desserts', 'Sylvestre', 'Other'];
 
-  type SearchResult = {
-    url: string;
-    sub_results?: { url: string; title: string; excerpt: string }[];
-    excerpt: string;
-    meta?: { title?: string };
-  };
-  type RecipeLookupItem = {
+  type IndexedRecipe = {
+    href: string;
     title: string;
     section: string;
     source: string;
     family: boolean;
-    ingredientsCount: number;
+    ingredients: string[];
+    excerpt: string;
     preview: string;
-    text?: string;
   };
 
-  const lookupEl = document.getElementById('recipe-lookup-data');
-  let recipeLookup: Record<string, RecipeLookupItem> = {};
-  try {
-    recipeLookup = lookupEl?.textContent ? JSON.parse(lookupEl.textContent) : {};
-  } catch (err) {
-    if (import.meta.env.DEV) console.warn('Failed to parse recipe lookup', err);
+  type SearchHit = {
+    recipe: IndexedRecipe;
+    score: number;
+    matchedExcerpt: string;
+  };
+
+  type ParsedQuery = {
+    requiredPhrases: string[];
+    tokens: string[];
+    phraseCandidate: string;
+  };
+
+  // ---------- Index load (lazy, cached) ----------
+
+  let indexPromise: Promise<IndexedRecipe[]> | null = null;
+  type IndexCacheEntry = IndexedRecipe & {
+    _titleLower: string;
+    _ingredientsLower: string[];
+    _excerptLower: string;
+    _haystack: string;
+  };
+  let indexCache: IndexCacheEntry[] | null = null;
+
+  function loadIndex(): Promise<IndexedRecipe[]> {
+    if (!indexPromise) {
+      indexPromise = fetch('/search-index.json', { cache: 'force-cache' })
+        .then((r) => {
+          if (!r.ok) throw new Error(`search-index ${r.status}`);
+          return r.json() as Promise<IndexedRecipe[]>;
+        })
+        .then((data) => {
+          indexCache = data.map((r) => {
+            const ingredientsLower = r.ingredients.map((i) => i.toLowerCase());
+            const titleLower = r.title.toLowerCase();
+            const excerptLower = r.excerpt.toLowerCase();
+            return {
+              ...r,
+              _titleLower: titleLower,
+              _ingredientsLower: ingredientsLower,
+              _excerptLower: excerptLower,
+              _haystack: `${titleLower} ${ingredientsLower.join(' ')} ${excerptLower}`,
+            };
+          });
+          return data;
+        });
+    }
+    return indexPromise;
   }
 
-  let pagefindPromise: Promise<any> | null = null;
-  function loadPagefind() {
-    if (!pagefindPromise) {
-      // Build the URL at runtime so Rollup doesn't try to resolve it.
-      const url = new URL('/pagefind/pagefind.js', window.location.href).href;
-      pagefindPromise = (async () => {
-        const pf = await import(/* @vite-ignore */ /* webpackIgnore: true */ url);
-        await pf.options({ excerptLength: 24 });
-        return pf;
-      })().catch((err) => {
-        if (import.meta.env.DEV) console.warn('Pagefind not available yet', err);
-        pagefindPromise = null;
-        throw err;
-      });
+  // ---------- Query parser ----------
+
+  function parseQuery(raw: string): ParsedQuery {
+    const phrases: string[] = [];
+    let stripped = '';
+    const re = /"([^"]+)"/g;
+    let last = 0;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(raw)) !== null) {
+      stripped += raw.slice(last, m.index) + ' ';
+      const phrase = m[1].trim().toLowerCase();
+      if (phrase.length >= 2) phrases.push(phrase);
+      last = m.index + m[0].length;
     }
-    return pagefindPromise;
+    stripped += raw.slice(last);
+    stripped = stripped.replace(/\s+/g, ' ').trim().toLowerCase();
+    const tokens = Array.from(
+      new Set(stripped.split(/\s+/).filter((t) => t.length >= 2)),
+    );
+    // Only use the unquoted text as a "phrase candidate" if there were no quoted
+    // phrases — otherwise the user has already told us which phrase matters.
+    const phraseCandidate =
+      phrases.length === 0 && tokens.length >= 2 ? stripped : '';
+    return { requiredPhrases: phrases, tokens, phraseCandidate };
   }
+
+  // ---------- Scoring ----------
+
+  const PHRASE_INGREDIENT_CAP = 3;
+
+  function scoreRecipe(rec: IndexCacheEntry, q: ParsedQuery): number {
+    // Gates: every required phrase and every token must appear somewhere.
+    for (const p of q.requiredPhrases) {
+      if (!rec._haystack.includes(p)) return -1;
+    }
+    for (const t of q.tokens) {
+      if (!rec._haystack.includes(t)) return -1;
+    }
+
+    let score = 0;
+
+    if (q.phraseCandidate.length >= 2) {
+      const phrase = q.phraseCandidate;
+      if (rec._titleLower.includes(phrase)) score += 50;
+      if (rec._titleLower.startsWith(phrase)) score += 30;
+      let ingHits = 0;
+      for (const ing of rec._ingredientsLower) {
+        if (ing.includes(phrase)) ingHits++;
+      }
+      score += Math.min(ingHits, PHRASE_INGREDIENT_CAP) * 20;
+      if (rec._excerptLower.includes(phrase)) score += 5;
+    }
+
+    for (const phrase of q.requiredPhrases) {
+      if (rec._titleLower.includes(phrase)) score += 40;
+      let ingHits = 0;
+      for (const ing of rec._ingredientsLower) {
+        if (ing.includes(phrase)) ingHits++;
+      }
+      score += Math.min(ingHits, PHRASE_INGREDIENT_CAP) * 15;
+      if (rec._excerptLower.includes(phrase)) score += 3;
+    }
+
+    for (const t of q.tokens) {
+      if (rec._titleLower.includes(t)) score += 8;
+      const inIngredient = rec._ingredientsLower.some((ing) => ing.includes(t));
+      if (inIngredient) score += 4;
+      if (rec._excerptLower.includes(t)) score += 1;
+    }
+
+    return score;
+  }
+
+  function searchRecipes(q: ParsedQuery): SearchHit[] {
+    if (!indexCache) return [];
+    if (
+      q.requiredPhrases.length === 0 &&
+      q.tokens.length === 0 &&
+      q.phraseCandidate.length === 0
+    ) {
+      return [];
+    }
+    const hits: SearchHit[] = [];
+    for (const rec of indexCache) {
+      const score = scoreRecipe(rec, q);
+      if (score <= 0) continue;
+      const matchedExcerpt = buildExcerpt(rec, q);
+      hits.push({ recipe: rec, score, matchedExcerpt });
+    }
+    hits.sort(
+      (a, b) => b.score - a.score || a.recipe.title.localeCompare(b.recipe.title),
+    );
+    return hits.slice(0, 60);
+  }
+
+  // ---------- Excerpt + highlight ----------
+
+  function buildExcerpt(rec: IndexCacheEntry, q: ParsedQuery): string {
+    // Prefer a matched ingredient line — it's the most informative snippet
+    // for an ingredient search.
+    const targets = [
+      ...q.requiredPhrases,
+      ...(q.phraseCandidate ? [q.phraseCandidate] : []),
+      ...q.tokens,
+    ];
+    for (const t of targets) {
+      const idx = rec._ingredientsLower.findIndex((ing) => ing.includes(t));
+      if (idx >= 0) return rec.ingredients[idx];
+    }
+    // Otherwise show a body window around the first match.
+    for (const t of targets) {
+      const at = rec._excerptLower.indexOf(t);
+      if (at >= 0) {
+        const start = Math.max(0, at - 30);
+        const end = Math.min(rec.excerpt.length, at + 100);
+        const prefix = start > 0 ? '…' : '';
+        const suffix = end < rec.excerpt.length ? '…' : '';
+        return prefix + rec.excerpt.slice(start, end) + suffix;
+      }
+    }
+    return rec.preview;
+  }
+
+  function escapeHtml(s: string) {
+    return s.replace(/[&<>"']/g, (c) => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+    }[c] as string));
+  }
+
+  function escapeRegex(s: string) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function highlight(text: string, q: ParsedQuery): string {
+    if (!text) return '';
+    const terms = [
+      ...q.requiredPhrases,
+      ...(q.phraseCandidate ? [q.phraseCandidate] : []),
+      ...q.tokens,
+    ]
+      .filter(Boolean)
+      // Longer terms first so phrase highlights aren't shadowed by token highlights.
+      .sort((a, b) => b.length - a.length);
+    if (terms.length === 0) return escapeHtml(text);
+    const pattern = new RegExp(`(${terms.map(escapeRegex).join('|')})`, 'gi');
+    // Split on the pattern so capture groups are interleaved with non-match
+    // segments — escape non-matches, wrap matches in <mark>.
+    const parts = text.split(pattern);
+    return parts
+      .map((part, i) =>
+        i % 2 === 1 ? `<mark>${escapeHtml(part)}</mark>` : escapeHtml(part),
+      )
+      .join('');
+  }
+
+  // ---------- Rendering ----------
 
   const resultsEl = document.getElementById('search-results') as HTMLElement;
   const input = document.querySelector(
-    '[data-search-box] input[name="q"]'
+    '[data-search-box] input[name="q"]',
   ) as HTMLInputElement | null;
 
-  function getSection(url: string): string {
-    const m = url.match(/^\/?([^/]+)\//);
-    if (!m) return 'Other';
-    const slug = m[1].toLowerCase();
-    const found = SECTIONS.find((s) => s.toLowerCase() === slug);
-    return found ?? 'Other';
+  function renderCard(hit: SearchHit, q: ParsedQuery) {
+    const r = hit.recipe;
+    const title = highlight(r.title, q);
+    const section = escapeHtml(r.section);
+    const source = r.source
+      ? `<span class="badge badge-source">${escapeHtml(r.source)}</span>`
+      : '';
+    const ingredients = r.ingredients.length
+      ? `<span class="result-card__ingredients">${r.ingredients.length} ingredients</span>`
+      : '';
+    const excerpt = hit.matchedExcerpt
+      ? `<p class="result-card__excerpt">${highlight(hit.matchedExcerpt, q)}</p>`
+      : '';
+    return `
+      <a class="result-card" href="${r.href}/">
+        <div class="result-card__head">
+          <div class="result-card__title">${title}</div>
+          <span class="result-card__section">${section}</span>
+        </div>
+        <div class="result-card__meta">
+          ${source}
+          ${ingredients}
+        </div>
+        ${excerpt}
+      </a>
+    `;
   }
 
-  let lastQuery = '';
-  let debounceId: number | null = null;
-
-  async function runSearch(q: string) {
-    if (q.trim().length < 2) {
-      resultsEl.innerHTML = '<p class="search-hint">Type at least two letters.</p>';
+  function renderResults(hits: SearchHit[], q: ParsedQuery, rawQuery: string) {
+    if (hits.length === 0) {
+      resultsEl.innerHTML = `<p class="empty">No recipes match "${escapeHtml(rawQuery)}". Try a simpler word.</p>`;
       return;
     }
-    if (q === lastQuery) return;
-    lastQuery = q;
-
-    resultsEl.setAttribute('aria-busy', 'true');
-
-    let data: SearchResult[] | null = null;
-    try {
-      const pf = await loadPagefind();
-      const search = await pf.search(q);
-      if (search && search.results && search.results.length > 0) {
-        const slice = search.results.slice(0, 60);
-        data = await Promise.all(slice.map((r: any) => r.data()));
-      } else {
-        data = [];
-      }
-    } catch {
-      data = localSearch(q);
+    const groups = new Map<string, SearchHit[]>();
+    for (const h of hits) {
+      const list = groups.get(h.recipe.section) ?? [];
+      list.push(h);
+      groups.set(h.recipe.section, list);
     }
-
-    if (!data || data.length === 0) {
-      resultsEl.setAttribute('aria-busy', 'false');
-      resultsEl.innerHTML = `<p class="empty">No recipes match "${escapeHtml(q)}". Try a simpler word.</p>`;
-      return;
-    }
-
-    const groups = new Map<string, SearchResult[]>();
-    for (const d of data) {
-      const section = getSection(d.url);
-      if (!groups.has(section)) groups.set(section, []);
-      groups.get(section)!.push(d);
-    }
-
     const ordered = SECTIONS
       .map((s) => [s, groups.get(s) ?? []] as const)
       .filter(([, items]) => items.length > 0);
 
-    const html = ordered.map(([section, items]) => `
+    const html = ordered
+      .map(
+        ([section, items]) => `
       <section class="result-group">
         <h2 class="result-group__title">
           <span>${section}</span>
           <span class="result-group__count">${items.length} ${items.length === 1 ? 'match' : 'matches'}</span>
         </h2>
-        ${items.map((r) => `
-          <a class="result-card" href="${r.url}">
-            ${renderCard(r)}
-          </a>
-        `).join('')}
+        ${items.map((h) => renderCard(h, q)).join('')}
       </section>
-    `).join('');
-
+    `,
+      )
+      .join('');
     resultsEl.innerHTML = html;
-    resultsEl.setAttribute('aria-busy', 'false');
   }
 
-  function localSearch(q: string): SearchResult[] {
-    const needle = q.trim().toLowerCase();
-    if (!needle) return [];
-    const tokens = needle.split(/\s+/).filter(Boolean);
-    const matches: { result: SearchResult; score: number }[] = [];
+  // ---------- Run + debounce ----------
 
-    for (const [href, recipe] of Object.entries(recipeLookup)) {
-      const haystack = (recipe.text ?? `${recipe.title} ${recipe.preview}`).toLowerCase();
-      const titleLower = recipe.title.toLowerCase();
-      let score = 0;
-      let allMatch = true;
-      for (const t of tokens) {
-        if (titleLower.includes(t)) score += 5;
-        else if (haystack.includes(t)) score += 1;
-        else { allMatch = false; break; }
-      }
-      if (!allMatch) continue;
-      if (titleLower.startsWith(needle)) score += 10;
-      matches.push({
-        result: {
-          url: `${href}/`,
-          excerpt: recipe.preview,
-          meta: { title: recipe.title },
-        },
-        score,
-      });
+  let lastQuery = '';
+  let debounceId: number | null = null;
+
+  async function runSearch(rawQuery: string) {
+    const trimmed = rawQuery.trim();
+    if (trimmed.length < 2) {
+      resultsEl.innerHTML = '<p class="search-hint">Type at least two letters.</p>';
+      lastQuery = '';
+      return;
+    }
+    if (trimmed === lastQuery) return;
+    lastQuery = trimmed;
+    resultsEl.setAttribute('aria-busy', 'true');
+
+    try {
+      await loadIndex();
+    } catch (err) {
+      resultsEl.innerHTML = '<p class="empty">Search index failed to load. Please refresh.</p>';
+      resultsEl.setAttribute('aria-busy', 'false');
+      if (import.meta.env.DEV) console.warn('search-index load failed', err);
+      return;
     }
 
-    matches.sort((a, b) =>
-      b.score - a.score ||
-      a.result.meta!.title!.localeCompare(b.result.meta!.title!)
-    );
-    return matches.slice(0, 60).map((m) => m.result);
-  }
-
-  function escapeHtml(s: string) {
-    return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] as string));
-  }
-
-  function renderCard(result: SearchResult) {
-    const key = normalizeHref(result.url);
-    const recipe = recipeLookup[key];
-    const title = escapeHtml(recipe?.title ?? result.meta?.title ?? result.url);
-    const section = escapeHtml(recipe?.section ?? getSection(result.url));
-    const source = recipe?.source ? `<span class="badge badge-source">${escapeHtml(recipe.source)}</span>` : '';
-    const ingredients = recipe?.ingredientsCount
-      ? `<span class="result-card__ingredients">${recipe.ingredientsCount} ingredients</span>`
-      : '';
-    const excerpt = result.excerpt || recipe?.preview
-      ? `<p class="result-card__excerpt">${result.excerpt || escapeHtml(recipe?.preview ?? '')}</p>`
-      : '';
-
-    return `
-      <div class="result-card__head">
-        <div class="result-card__title">${title}</div>
-        <span class="result-card__section">${section}</span>
-      </div>
-      <div class="result-card__meta">
-        ${source}
-        ${ingredients}
-      </div>
-      ${excerpt}
-    `;
-  }
-
-  function normalizeHref(url: string) {
-    const clean = url.startsWith('/') ? url : `/${url}`;
-    return clean.endsWith('/') ? clean.slice(0, -1) : clean;
+    const parsed = parseQuery(rawQuery);
+    const hits = searchRecipes(parsed);
+    renderResults(hits, parsed, rawQuery);
+    resultsEl.setAttribute('aria-busy', 'false');
   }
 
   function onInput(e: Event) {
@@ -339,7 +428,6 @@ const recipeLookup = Object.fromEntries(
       input.value = initial;
       runSearch(initial);
     }
-    // Submitting the form just keeps query in URL.
     input.form?.addEventListener('submit', (e) => {
       e.preventDefault();
       const u = new URL(window.location.href);
