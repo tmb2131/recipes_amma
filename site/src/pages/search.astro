@@ -138,7 +138,9 @@ export const prerender = true;
 
   function loadIndex(): Promise<IndexedRecipe[]> {
     if (!indexPromise) {
-      indexPromise = fetch('/search-index.json', { cache: 'force-cache' })
+      // Revalidate against the server instead of force-caching: a stale copy
+      // would hide recipes added in a newer deployment.
+      indexPromise = fetch('/search-index.json', { cache: 'no-cache' })
         .then((r) => {
           if (!r.ok) throw new Error(`search-index ${r.status}`);
           return r.json() as Promise<IndexedRecipe[]>;
@@ -319,10 +321,9 @@ export const prerender = true;
 
   // ---------- Rendering ----------
 
-  const resultsEl = document.getElementById('search-results') as HTMLElement;
-  const input = document.querySelector(
-    '[data-search-box] input[name="q"]',
-  ) as HTMLInputElement | null;
+  // Re-resolved on every astro:page-load — view transitions swap the DOM, so a
+  // node captured once would go stale after the first client-side navigation.
+  let resultsEl = document.getElementById('search-results') as HTMLElement;
 
   function renderCard(hit: SearchHit, q: ParsedQuery) {
     const r = hit.recipe;
@@ -431,19 +432,35 @@ export const prerender = true;
     debounceId = window.setTimeout(() => runSearch(q), 140) as unknown as number;
   }
 
-  if (input) {
-    input.addEventListener('input', onInput);
-    const url = new URL(window.location.href);
-    const initial = url.searchParams.get('q') ?? '';
-    if (initial) {
-      input.value = initial;
-      runSearch(initial);
+  function init() {
+    resultsEl = document.getElementById('search-results') as HTMLElement;
+    if (!resultsEl) return; // not on the search page
+
+    // Wire every search box on the page (header + in-page), not just the first.
+    const inputs = Array.from(
+      document.querySelectorAll('[data-search-box] input[name="q"]'),
+    ) as HTMLInputElement[];
+
+    const initial = new URL(window.location.href).searchParams.get('q') ?? '';
+
+    for (const el of inputs) {
+      el.addEventListener('input', onInput);
+      el.form?.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const u = new URL(window.location.href);
+        u.searchParams.set('q', el.value);
+        window.history.replaceState(null, '', u);
+        runSearch(el.value);
+      });
+      if (initial && !el.value) el.value = initial;
     }
-    input.form?.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const u = new URL(window.location.href);
-      u.searchParams.set('q', input.value);
-      window.history.replaceState(null, '', u);
-    });
+
+    // Module state persists across view transitions; clear the de-dupe guard so
+    // re-entering /search with the same query still renders results.
+    lastQuery = '';
+    if (initial) runSearch(initial);
   }
+
+  // Fires on the initial load and after every view-transition navigation.
+  document.addEventListener('astro:page-load', init);
 </script>
