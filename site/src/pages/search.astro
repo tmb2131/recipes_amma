@@ -387,26 +387,37 @@ export const prerender = true;
 
   let lastQuery = '';
   let debounceId: number | null = null;
+  // Monotonic token so a slow earlier search (e.g. the first one, which awaits
+  // the index load) can't overwrite the results of a newer query.
+  let searchSeq = 0;
 
   async function runSearch(rawQuery: string) {
     const trimmed = rawQuery.trim();
     if (trimmed.length < 2) {
-      resultsEl.innerHTML = '<p class="search-hint">Type at least two letters.</p>';
+      searchSeq++;
       lastQuery = '';
+      resultsEl.setAttribute('aria-busy', 'false');
+      resultsEl.innerHTML = '<p class="search-hint">Type at least two letters.</p>';
       return;
     }
     if (trimmed === lastQuery) return;
     lastQuery = trimmed;
+
+    const seq = ++searchSeq;
     resultsEl.setAttribute('aria-busy', 'true');
 
     try {
       await loadIndex();
     } catch (err) {
+      if (seq !== searchSeq) return;
       resultsEl.innerHTML = '<p class="empty">Search index failed to load. Please refresh.</p>';
       resultsEl.setAttribute('aria-busy', 'false');
       if (import.meta.env.DEV) console.warn('search-index load failed', err);
       return;
     }
+
+    // A newer search started while the index was loading: discard this result.
+    if (seq !== searchSeq) return;
 
     const parsed = parseQuery(rawQuery);
     const hits = searchRecipes(parsed);
