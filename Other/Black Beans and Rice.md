@@ -1,8 +1,8 @@
 # Black Beans and Rice
 
-- 1 cup uncooked medium-grain white rice
-- 1 14-1/2-ounce can diced tomatoes (preferably “petite-cut”)
-- 2 Tbs. extra-virgin olive oil
+- 1 cup uncooked medium — grain white rice
+- 1 14.5-ounce can diced tomatoes (preferably “petite — cut”)
+- 2 Tbs. extra — virgin olive oil
 - 6 medium cloves garlic, finely chopped
 - 1 medium fresh jalapeño, cored and finely chopped (if you like spicy foods, leave in the ribs and seeds; if not, remove them)
 - 1 15-oz. can black beans, drained and rinsed
