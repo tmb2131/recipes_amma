@@ -25,7 +25,7 @@ Preparation for masoor dal
 
 1. Add dal to a pressure cooker (wash it a few times until the water runs clear)
 2. Add chopped tomatoes, water and green chili
-3. Pressure cook for 1 whistle on medium heat
+3. Pressure cook for 1 whistle on medium heat or for 7 minutes on high pressure in an instant pot
 4. Once the pressure goes down, open the cooker
 5. Mash the dal to your liking
 
